@@ -1,0 +1,212 @@
+[
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Show that the geometric path difference between two rays reflected from a parallel thin film is Δ=2d cos θ (Cosine law), where d is the thickness of the film and θ is the angle of refraction.",
+        "question_latex": "\\text{Show that the geometric path difference between two rays reflected from a parallel thin film is } \\Delta=2d \\cos \\theta \\text{ (Cosine law), where } d \\text{ is the thickness of the film and } \\theta \\text{ is the angle of refraction.}",
+        "question_type": "derivation",
+        "tags": [
+            "Physical Optics",
+            "Interference"
+        ]
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 3,
+        "question_text": "Develop the condition for maxima and minima due to interference in thin parallel film. (Oblique incidence)",
+        "question_latex": "\\text{Develop the condition for maxima and minima due to interference in thin parallel film. (Oblique incidence)}",
+        "question_type": "derivation",
+        "tags": [
+            "Physical Optics",
+            "Interference"
+        ]
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Show that the diameters of Newton's dark rings are proportional to the square roots of natural numbers.",
+        "question_latex": "\\text{Show that the diameters of Newton's dark rings are proportional to the square roots of natural numbers.}",
+        "question_type": "derivation",
+        "tags": [
+            "Physical Optics",
+            "Newton's Rings"
+        ]
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Show that the separation between two consecutive dark fringes in wedge shaped film is independent of thickness t.",
+        "question_latex": "\\text{Show that the separation between two consecutive dark fringes in wedge shaped film is independent of thickness t.}",
+        "question_type": "derivation",
+        "tags": [
+            "Physical Optics",
+            "Wedge Film"
+        ]
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Develop the intensity distribution formula due to single slit Fraunhofer diffraction.",
+        "question_latex": "\\text{Develop the intensity distribution formula due to single slit Fraunhofer diffraction.}",
+        "question_type": "derivation",
+        "tags": [
+            "Physical Optics",
+            "Diffraction"
+        ]
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 3,
+        "question_text": "Formulate the expression for intensity distribution due to double slit Fraunhofer diffraction pattern.",
+        "question_latex": "\\text{Formulate the expression for intensity distribution due to double slit Fraunhofer diffraction pattern.}",
+        "question_type": "derivation",
+        "tags": [
+            "Physical Optics",
+            "Diffraction"
+        ]
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 2,
+        "question_text": "Define Gauss's law. Develop the differential form of Gauss's law from its integral form.",
+        "question_latex": "\\text{Define Gauss's law. Develop the differential form of Gauss's law from its integral form.}",
+        "question_type": "derivation",
+        "tags": [
+            "Electromagnetic Theory",
+            "Maxwell's Equations"
+        ]
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 3,
+        "question_text": "Formulate the relation between E and V in differential form. Show that electrostatic field is conservative in nature.",
+        "question_latex": "\\text{Formulate the relation between E and V in differential form. Show that electrostatic field is conservative in nature.}",
+        "question_type": "derivation",
+        "tags": [
+            "Electromagnetic Theory",
+            "Electrostatics"
+        ]
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Develop boundary conditions for E and D separated by two dielectric media of different permittivity.",
+        "question_latex": "\\text{Develop boundary conditions for } \\vec{E} \\text{ and } \\vec{D} \\text{ separated by two dielectric media of different permittivity.}",
+        "question_type": "derivation",
+        "tags": [
+            "Electromagnetic Theory",
+            "Boundary Conditions"
+        ]
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Write down the basic postulates of special theory of relativity and derive the Lorentz transformation equations.",
+        "question_latex": "\\text{Write down the basic postulates of special theory of relativity and derive the Lorentz transformation equations.}",
+        "question_type": "derivation",
+        "tags": [
+            "Special Theory of Relativity",
+            "Lorentz Transformations"
+        ]
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Show that relativistic length squared, ds²=c²t²-x²-y²-z², remains conserved under Lorentz transformations.",
+        "question_latex": "\\text{Show that relativistic length squared, } ds^2=c^2t^2-x^2-y^2-z^2, \\text{ remains conserved under Lorentz transformations.}",
+        "question_type": "derivation",
+        "tags": [
+            "Special Theory of Relativity",
+            "Invariance"
+        ]
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Find the relativistic formula for addition of velocities.",
+        "question_latex": "\\text{Find the relativistic formula for addition of velocities.}",
+        "question_type": "derivation",
+        "tags": [
+            "Special Theory of Relativity",
+            "Velocity Addition"
+        ]
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Find an expression for Compton shift when X-rays being scattered by a free electron.",
+        "question_latex": "\\text{Find an expression for Compton shift when X-rays being scattered by a free electron.}",
+        "question_type": "derivation",
+        "tags": [
+            "Quantum Mechanics",
+            "Compton Effect"
+        ]
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Develop the time independent form of Schrödinger's wave equation.",
+        "question_latex": "\\text{Develop the time independent form of Schrödinger's wave equation.}",
+        "question_type": "derivation",
+        "tags": [
+            "Quantum Mechanics",
+            "Schrödinger Equation"
+        ]
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 6,
+        "question_text": "Write down the time independent Schrodinger equation for a quantum particle in a one-dimensional box and obtain possible energies.",
+        "question_latex": "\\text{Write down the time independent Schrodinger equation for a quantum particle in a one-dimensional box and obtain possible energies.}",
+        "question_type": "derivation",
+        "tags": [
+            "Quantum Mechanics",
+            "Particle in a Box"
+        ]
+    }
+]

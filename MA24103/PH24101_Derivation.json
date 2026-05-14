@@ -1,0 +1,287 @@
+[
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Show that the geometric path difference between two rays reflected from a parallel thin film is Δ=2d cos θ (Cosine law), where d is the thickness of the film and θ is the angle of refraction.",
+        "question_latex": "\\text{Show that the geometric path difference between two rays reflected from a parallel thin film is } \\Delta=2d \\cos \\theta \\text{ (Cosine law), where } d \\text{ is the thickness of the film and } \\theta \\text{ is the angle of refraction.}",
+        "question_type": "derivation",
+        "question_uid": "3f8d38e2b8a4f5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0",
+        "tags": [
+            "Physical Optics",
+            "Interference"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "For a film of thickness $d$ and refractive index $n$, a ray incident at $i$ refracts at $\\theta$. The geometric path difference is $\\Delta = n(AB+BC) - AD$. From geometry, $AB=BC=d/\\cos\\theta$ and $AD = (2d\\tan\\theta)\\sin i$. Using Snell's Law ($\\sin i = n\\sin\\theta$), $\\Delta = \\frac{2nd}{\\cos\\theta} - 2nd\\frac{\\sin^2\\theta}{\\cos\\theta} = \\frac{2nd}{\\cos\\theta}(1-\\sin^2\\theta) = 2nd\\cos\\theta$. For a geometric path in air ($n=1$), $\\Delta = 2d\\cos\\theta$."
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 3,
+        "question_text": "Develop the condition for maxima and minima due to interference in thin parallel film. (Oblique incidence)",
+        "question_latex": "\\text{Develop the condition for maxima and minima due to interference in thin parallel film. (Oblique incidence)}",
+        "question_type": "derivation",
+        "question_uid": "d9e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f67a8b9c0d1e2f3a4b5c6d7e",
+        "tags": [
+            "Physical Optics",
+            "Interference"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "The effective path difference considering Stokes' phase change is $\\Delta = 2\\mu d\\cos r \\pm \\lambda/2$. For Maxima (Constructive): $2\\mu d\\cos r \\pm \\lambda/2 = n\\lambda \\Rightarrow 2\\mu d\\cos r = (2n \\mp 1)\\lambda/2$. For Minima (Destructive): $2\\mu d\\cos r \\pm \\lambda/2 = (2n+1)\\lambda/2 \\Rightarrow 2\\mu d\\cos r = n\\lambda$."
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Show that the diameters of Newton's dark rings are proportional to the square roots of natural numbers.",
+        "question_latex": "\\text{Show that the diameters of Newton's dark rings are proportional to the square roots of natural numbers.}",
+        "question_type": "derivation",
+        "question_uid": "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2",
+        "tags": [
+            "Physical Optics",
+            "Newton's Rings"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "For dark rings, $2t = n\\lambda$. From lens geometry, $t = r^2/2R$. Substituting: $2(r^2/2R) = n\\lambda \\Rightarrow r^2 = n\\lambda R$. Since $D=2r$, $D^2 = 4n\\lambda R$. Thus $D = \\sqrt{4\\lambda R} \\cdot \\sqrt{n}$, proving $D \\propto \\sqrt{n}$."
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Show that the separation between two consecutive dark fringes in wedge shaped film is independent of thickness t.",
+        "question_latex": "\\text{Show that the separation between two consecutive dark fringes in wedge shaped film is independent of thickness t.}",
+        "question_type": "derivation",
+        "question_uid": "w3d9e2f1a0b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2",
+        "tags": [
+            "Physical Optics",
+            "Wedge Film"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "For a wedge of angle $\\theta$, the condition for the $n^{th}$ dark fringe is $2\\mu t_n = n\\lambda$. If the fringe is at distance $x_n$ from the apex, $t_n = x_n \\tan\\theta \\approx x_n \\theta$. Thus $2\\mu x_n \\theta = n\\lambda$. For the $(n+1)^{th}$ fringe, $2\\mu x_{n+1} \\theta = (n+1)\\lambda$. Fringe width $\\beta = x_{n+1} - x_n = \\frac{\\lambda}{2\\mu\\theta}$. This expression does not contain $t$, hence it is independent of thickness."
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Develop the intensity distribution formula due to single slit Fraunhofer diffraction.",
+        "question_latex": "\\text{Develop the intensity distribution formula due to single slit Fraunhofer diffraction.}",
+        "question_type": "derivation",
+        "question_uid": "a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3",
+        "tags": [
+            "Physical Optics",
+            "Diffraction"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "Resultant amplitude $R = \\int_{-a/2}^{a/2} (A/a) e^{i\\phi} dy$ where $\\phi = (2\\pi/\\lambda)y\\sin\\theta$. Integrating gives $R = A \\frac{\\sin\\alpha}{\\alpha}$ where $\\alpha = \\frac{\\pi a \\sin\\theta}{\\lambda}$. Intensity $I = R^2 = I_0 (\\frac{\\sin\\alpha}{\\alpha})^2$."
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 3,
+        "question_text": "Formulate the expression for intensity distribution due to double slit Fraunhofer diffraction pattern.",
+        "question_latex": "\\text{Formulate the expression for intensity distribution due to double slit Fraunhofer diffraction pattern.}",
+        "question_type": "derivation",
+        "question_uid": "f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Physical Optics",
+            "Diffraction"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "The double slit pattern combines single-slit diffraction and two-source interference. $I = I_{diff} \\times I_{int} = I_0 (\\frac{\\sin\\alpha}{\\alpha})^2 \\cos^2\\beta$, where $\\alpha = \\frac{\\pi a \\sin\\theta}{\\lambda}$ and $\\beta = \\frac{\\pi (a+b) \\sin\\theta}{\\lambda}$."
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 2,
+        "question_text": "Define Gauss's law. Develop the differential form of Gauss's law from its integral form.",
+        "question_latex": "\\text{Define Gauss's law. Develop the differential form of Gauss's law from its integral form.}",
+        "question_type": "derivation",
+        "question_uid": "9b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1",
+        "tags": [
+            "Electromagnetic Theory",
+            "Maxwell's Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "Integral form: $\\oint \\vec{E} \\cdot d\\vec{A} = Q/\\epsilon_0$. Substituting $Q = \\int \\rho dV$ and using Divergence Theorem $\\oint \\vec{E} \\cdot d\\vec{A} = \\int (\\nabla \\cdot \\vec{E}) dV$, we get $\\int (\\nabla \\cdot \\vec{E}) dV = \\int (\\rho/\\epsilon_0) dV$. Thus $\\nabla \\cdot \\vec{E} = \\rho/\\epsilon_0$."
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 3,
+        "question_text": "Formulate the relation between E and V in differential form. Show that electrostatic field is conservative in nature.",
+        "question_latex": "\\text{Formulate the relation between E and V in differential form. Show that electrostatic field is conservative in nature.}",
+        "question_type": "derivation",
+        "question_uid": "c7d8e9f0a1b2c3d4e5f67a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8",
+        "tags": [
+            "Electromagnetic Theory",
+            "Electrostatics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "Relation: $\\vec{E} = -\\nabla V$. To show it is conservative, calculate $\\nabla \\times \\vec{E} = \\nabla \\times (-\\nabla V)$. Since the curl of any gradient is zero, $\\nabla \\times \\vec{E} = 0$, which is the condition for a conservative field."
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Develop boundary conditions for E and D separated by two dielectric media of different permittivity.",
+        "question_latex": "\\text{Develop boundary conditions for } \\vec{E} \\text{ and } \\vec{D} \\text{ separated by two dielectric media of different permittivity.}",
+        "question_type": "derivation",
+        "question_uid": "k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3",
+        "tags": [
+            "Electromagnetic Theory",
+            "Boundary Conditions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "1. Tangential component: $\\oint \\vec{E} \\cdot d\\vec{l} = 0$ for a loop across the boundary $\\Rightarrow E_{t1} = E_{t2}$. 2. Normal component: $\\oint \\vec{D} \\cdot d\\vec{A} = q_f$ for a pillbox $\\Rightarrow D_{n1} - D_{n2} = \\sigma_f$. If $\\sigma_f = 0$, then $D_{n1} = D_{n2}$."
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Write down the basic postulates of special theory of relativity and derive the Lorentz transformation equations.",
+        "question_latex": "\\text{Write down the basic postulates of special theory of relativity and derive the Lorentz transformation equations.}",
+        "question_type": "derivation",
+        "question_uid": "a1b2c3d4e5f67e8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f67a8b9c0d1e2f",
+        "tags": [
+            "Special Theory of Relativity",
+            "Lorentz Transformations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "Postulates: 1. Laws of physics are invariant in all inertial frames. 2. Speed of light $c$ is constant. Derivation: Assume $x' = \\gamma(x-vt)$ and $x = \\gamma(x'+vt')$. For light $x=ct$ and $x'=ct'$. Substituting gives $ct' = \\gamma t(c-v)$ and $ct = \\gamma t'(c+v)$. Multiplying: $c^2tt' = \\gamma^2 tt'(c^2-v^2) \\Rightarrow \\gamma = 1/\\sqrt{1-v^2/c^2}$. Solving for $t'$ yields $t' = \\gamma(t-vx/c^2)$."
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Show that relativistic length squared, ds²=c²t²-x²-y²-z², remains conserved under Lorentz transformations.",
+        "question_latex": "\\text{Show that relativistic length squared, } ds^2=c^2t^2-x^2-y^2-z^2, \\text{ remains conserved under Lorentz transformations.}",
+        "question_type": "derivation",
+        "question_uid": "7e2a4b8c1d9e0f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+        "tags": [
+            "Special Theory of Relativity",
+            "Invariance"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "$ds'^2 = c^2t'^2 - x'^2 - y'^2 - z'^2$. Using $x'=\\gamma(x-vt)$, $t'=\\gamma(t-vx/c^2)$, $y'=y$, $z'=z$. $c^2t'^2 - x'^2 = \\gamma^2 [c^2(t-vx/c^2)^2 - (x-vt)^2] = \\gamma^2 [c^2t^2 - 2tvx + v^2x^2/c^2 - x^2 + 2xvt - v^2t^2] = \\gamma^2 [c^2t^2(1-v^2/c^2) - x^2(1-v^2/c^2)] = c^2t^2 - x^2$. Thus $ds'^2 = ds^2$."
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Find the relativistic formula for addition of velocities.",
+        "question_latex": "\\text{Find the relativistic formula for addition of velocities.}",
+        "question_type": "derivation",
+        "question_uid": "v1a2l3o4c5i6t7y8a9d0d1i2t3i4o5n6r7e8l9a0t1i2v3i4s5t6i7c8n9u0m1",
+        "tags": [
+            "Special Theory of Relativity",
+            "Velocity Addition"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "$u_x' = dx'/dt'$. Using $dx' = \\gamma(dx - vdt)$ and $dt' = \\gamma(dt - vdx/c^2)$, we get $u_x' = \\frac{\\gamma(dx-vdt)}{\\gamma(dt-vdx/c^2)}$. Dividing numerator and denominator by $dt$: $u_x' = \\frac{u_x - v}{1 - u_x v/c^2}$. This is the relativistic velocity addition (transformation) formula."
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Find an expression for Compton shift when X-rays being scattered by a free electron.",
+        "question_latex": "\\text{Find an expression for Compton shift when X-rays being scattered by a free electron.}",
+        "question_type": "derivation",
+        "question_uid": "c1o2m3p4t5o6n7s8h9i0f1t2d3e4r5i6v7a8t9i0o1n2z3x4c5v6b7n8m9l0p1",
+        "tags": [
+            "Quantum Mechanics",
+            "Compton Effect"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "Using conservation of energy and momentum for a photon-electron collision: $E + m_0c^2 = E' + E_e$ and $\\vec{p} = \\vec{p}' + \\vec{p}_e$. Solving these equations together with $E^2 = p^2c^2 + m_0^2c^4$ yields the shift $\\Delta\\lambda = \\lambda' - \\lambda = \\frac{h}{m_0c}(1-\\cos\\phi)$."
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Develop the time independent form of Schrödinger's wave equation.",
+        "question_latex": "\\text{Develop the time independent form of Schrödinger's wave equation.}",
+        "question_type": "derivation",
+        "question_uid": "e9f0a1b2c3d4e5f67a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0",
+        "tags": [
+            "Quantum Mechanics",
+            "Schrödinger Equation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "From $i\\hbar \\frac{\\partial \\Psi}{\\partial t} = \\hat{H}\\Psi$, let $\\Psi(x,t) = \\psi(x)e^{-iEt/\\hbar}$. Substituting: $i\\hbar (\\frac{-iE}{\\hbar})\\psi e^{-iEt/\\hbar} = [-\\frac{\\hbar^2}{2m}\\frac{d^2}{dx^2} + V]\\psi e^{-iEt/\\hbar}$. Canceling the time term: $E\\psi = -\\frac{\\hbar^2}{2m}\\frac{d^2\\psi}{dx^2} + V\\psi$."
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 6,
+        "question_text": "Write down the time independent Schrodinger equation for a quantum particle in a one-dimensional box and obtain possible energies.",
+        "question_latex": "\\text{Write down the time independent Schrodinger equation for a quantum particle in a one-dimensional box and obtain possible energies.}",
+        "question_type": "derivation",
+        "question_uid": "p1a2r3t4i5c6l7e8i9n0b1o2x3e4n5e6r7g8y9l0e1v2e3l4s5z6x7c8v9b0n1",
+        "tags": [
+            "Quantum Mechanics",
+            "Particle in a Box"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "answer": "Equation: $-\\frac{\\hbar^2}{2m}\\frac{d^2\\psi}{dx^2} = E\\psi$. General solution: $\\psi(x) = A\\sin(kx) + B\\cos(kx)$ where $k=\\sqrt{2mE}/\\hbar$. Boundary conditions $\\psi(0)=0 \\Rightarrow B=0$; $\\psi(L)=0 \\Rightarrow kL=n\\pi$. Thus $k=n\\pi/L$. Squaring gives $2mE/\\hbar^2 = n^2\\pi^2/L^2 \\Rightarrow E_n = \\frac{n^2h^2}{8mL^2}$."
+    }
+]

@@ -1,0 +1,452 @@
+[
+{
+"question_number": "Q.1(a)",
+"module_number": 1,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Can Sin(ln x^2) Cos(ln x^2) (where x>0) be two linearly independent solutions of an ordinary differential equation? If so, determine the equation.",
+"question_latex": "\text{Can } \sin(\ln x^{2}) \cos(\ln x^{2}) \text{ (where } x>0 \text{) be two linearly independent solutions of an ordinary differential equation? If so, determine the equation.}",
+"question_type": "analytical"
+},
+{
+"question_number": "Q.1(b)",
+"module_number": 1,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Find the general solution of the differential equation y'' - 4y' + 13y = 18e^x Sin3x",
+"question_latex": "\text{Find the general solution of the differential equation } y^{\prime\prime}-4y^{\prime}+13y=18e^{x}\sin 3x",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.2(a)",
+"module_number": 2,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Prove the recurrence relation xJ'*n(x) = xJ*{n-1}(x) - nJ_n(x)",
+"question_latex": "\text{Prove the recurrence relation } xJ_{n}^{\prime}(x)=xJ_{n-1}(x)-nJ_{n}(x)",
+"question_type": "proof"
+},
+{
+"question_number": "Q.2(b)",
+"module_number": 2,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Find the series solution of the differential equation 2x^2y'' - xy' + (x-5)y = 0 about x=0.",
+"question_latex": "\text{Find the series solution of the differential equation } 2x^{2}y^{\prime\prime}-xy^{\prime}+(x-5)y=0 \text{ about } x=0.",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.3(a)",
+"module_number": 3,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Find Fourier series expansion of the function f(x)=|x|, -\pi<x<\pi and hence prove that \pi^2/8 = 1 + 1/3^2 + 1/5^2 + 1/7^2 + ...",
+"question_latex": "\text{Find Fourier series expansion of the function } f(x)=|x|, \quad -\pi<x<\pi \text{ and hence prove that } \frac{\pi^{2}}{8}=1+\frac{1}{3^{2}}+\frac{1}{5^{2}}+\frac{1}{7^{2}}+\dots",
+"question_type": "proof"
+},
+{
+"question_number": "Q.3(b)",
+"module_number": 3,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Solve p Cos(x+y) + q Sin(x+y) = z",
+"question_latex": "\text{Solve } p \cos(x+y)+q\sin(x+y)=z",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.4(a)",
+"module_number": 4,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Show that the function f(z)=|z|^2 is differentiable at z=0 but nowhere analytic.",
+"question_latex": "\text{Show that the function } f(z)=|z|^{2} \text{ is differentiable at } z=0 \text{ but nowhere analytic.}",
+"question_type": "proof"
+},
+{
+"question_number": "Q.4(b)",
+"module_number": 4,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Evaluate the integral of e^z / ((z-1)Sinz) dz where C is the positively oriented circle |z|=2",
+"question_latex": "\text{Evaluate } \oint_{C}\frac{e^{z}}{(z-1)\sin z}dz \text{ where } C \text{ is the positively oriented circle } |z|=2",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.5(a)",
+"module_number": 5,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Let X has pdf f_x(x) = cx^3 for 0<x<2 and 0 elsewhere. Find the value of c and P[1/4 < X < 1].",
+"question_latex": "\text{Let } X \text{ has pdf } f_{x}(x)=\begin{cases}cx^{3},&0<x<2\\ 0,&\text{elsewhere}\end{cases} \text{. Find the value of } c \text{ and } P\left[\frac{1}{4}<X<1\right].",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.5(b)",
+"module_number": 5,
+"source_exam": "End Semester",
+"source_year": 2022,
+"marks": 5,
+"question_text": "Let X be a random variable having binomial distribution with parameter n=25; p=0.2. Find P[X < \mu_x - 2\sigma_x]",
+"question_latex": "\text{Let } X \text{ be a random variable having binomial distribution with parameter } n=25; p=0.2. \text{ Find } P[X<\mu_{x}-2\sigma_{x}]",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.1(a)",
+"module_number": 1,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Solve the differential equation d^2y/dx^2 - 3 dy/dx + 2y = e^x + x + 1",
+"question_latex": "\text{Solve the differential equation } \frac{d^{2}y}{dx^{2}}-3\frac{dy}{dx}+2y=e^{x}+x+1",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.1(b)",
+"module_number": 1,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Solve Legendre's linear equation given as (x+a)^2 d^2y/dx^2 - 4(x+a) dy/dx + 6y = x",
+"question_latex": "\text{Solve Legendre's linear equation given as } (x+a)^{2}\frac{d^{2}y}{dx^{2}}-4(x+a)\frac{dy}{dx}+6y=x",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.2(a)",
+"module_number": 2,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Prove that integral of j_3(x)dx + j_2(x) + (2/x)J_1(x) = 0",
+"question_latex": "\text{Prove that } \int J_{3}(x)dx+J_{2}(x)+\frac{2}{x}J_{1}(x)=0",
+"question_type": "proof"
+},
+{
+"question_number": "Q.2(b)",
+"module_number": 2,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Express in terms of Legendre polynomials: x^3 + 2x^2 - x - 3.",
+"question_latex": "\text{Express in terms of Legendre polynomials: } x^{3}+2x^{2}-x-3.",
+"question_type": "analytical"
+},
+{
+"question_number": "Q.3(a)",
+"module_number": 3,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Obtain the half range sine series for f(x)=2-x for 0<x<2",
+"question_latex": "\text{Obtain the half range sine series for } f(x)=2-x \text{ for } 0<x<2",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.3(b)",
+"module_number": 3,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Solve the wave equation \partial^2y/\partial t^2 = c^2 \partial^2y/\partial x^2, representing the vibration of a string of length l, fixed at both ends, given that y(0,t)=0, y(l,t)=0, y(x,0)=f(x) and (\partial y/\partial t)*{t=0}=0, 0<x<l.",
+"question_latex": "\text{Solve the wave equation } \frac{\partial^{2}y}{\partial t^{2}}=c^{2}\frac{\partial^{2}y}{\partial x^{2}} \text{, representing the vibration of a string of length } l \text{, fixed at both ends, given that } y(0,t)=0, y(l,t)=0, y(x,0)=f(x) \text{ and } \left(\frac{\partial y}{\partial t}\right)*{t=0}=0, 0<x<l.",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.4(a)",
+"module_number": 4,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Prove that u=y^3-3x^2y is a harmonic function. Find its harmonic conjugate and corresponding analytic function f(z)=u+iv.",
+"question_latex": "\text{Prove that } u=y^{3}-3x^{2}y \text{ is a harmonic function. Find its harmonic conjugate and corresponding analytic function } f(z)=u+iv.",
+"question_type": "proof"
+},
+{
+"question_number": "Q.4(b)",
+"module_number": 4,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Evaluate integral of (5z-2)/(z^2-z) dz where C: |z|=2",
+"question_latex": "\text{Evaluate } \oint_{C}\frac{5z-2}{z^{2}-z}dz \text{ where } C: |z|=2",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.5(a)",
+"module_number": 5,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "A random variable X has the following probability distribution: X={0, 1, 2, 3, 4}, P(x)={k, 2k, 2k, k^2, 5k^2}. Find the value of k, mean and variance of X.",
+"question_latex": "\text{A random variable } X \text{ has the following probability distribution:}\\ \begin{array}{|c|c|c|c|c|c|}\hline X & 0 & 1 & 2 & 3 & 4 \\ \hline P(x) & k & 2k & 2k & k^{2} & 5k^{2} \\ \hline \end{array}\\ \text{Find the value of } k \text{, mean and variance of } X.",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.5(b)",
+"module_number": 5,
+"source_exam": "End Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "The distribution of the number of road accidents per day in a city is Poisson with mean 4. Find the number of days out of 100 when there will be (i) no accidents (ii) between 2 and 5 accidents.",
+"question_latex": "\text{The distribution of the number of road accidents per day in a city is Poisson with mean 4. Find the number of days out of 100 when there will be (i) no accidents (ii) between 2 and 5 accidents.}",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.1(a)",
+"module_number": 1,
+"source_exam": "Mid Semester",
+"source_year": 2023,
+"marks": 2,
+"question_text": "Find only the complementary function of the differential equation 3 d^2y/dx^2 + 8 dy/dx + 4y = 0",
+"question_latex": "\text{Find only the complementary function of the differential equation } 3\frac{d^{2}y}{dx^{2}}+8\frac{dy}{dx}+4y=0",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.1(b)",
+"module_number": 1,
+"source_exam": "Mid Semester",
+"source_year": 2023,
+"marks": 3,
+"question_text": "Find only the particular integral of the differential equation d^2y/dx^2 + 2 dy/dx + y = 2sinx + 3cosx",
+"question_latex": "\text{Find only the particular integral of the differential equation } \frac{d^{2}y}{dx^{2}}+2\frac{dy}{dx}+y=2\sin x+3\cos x",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.2",
+"module_number": 1,
+"source_exam": "Mid Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Solve the Cauchy Euler's linear differential equation: x^3 d^3y/dx^3 + 3x^2 d^2y/dx^2 + x dy/dx = 24x^2",
+"question_latex": "\text{Solve the Cauchy Euler's linear differential equation- } x^{3}\frac{d^{3}y}{dx^{3}}+3x^{2}\frac{d^{2}y}{dx^{2}}+x\frac{dy}{dx}=24x^{2}",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.3",
+"module_number": 2,
+"source_exam": "Mid Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Find the power series solution of the differential equation d^2y/dx^2 - 3x dy/dx + 2y = 0 about an ordinary point x=0 only.",
+"question_latex": "\text{Find the power series solution of the differential equation } \frac{d^{2}y}{dx^{2}}-3x\frac{dy}{dx}+2y=0 \text{ about an ordinary point } x=0 \text{ only.}",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.4(a)",
+"module_number": 2,
+"source_exam": "Mid Semester",
+"source_year": 2023,
+"marks": 2,
+"question_text": "Find the values of m and n if 3x^2 = mP_2(x) + nP_0(x) where P_0(x) and P_2(x) are Legendre's polynomials.",
+"question_latex": "\text{Find the values of } m \text{ and } n \text{ if } 3x^{2}=mP_{2}(x)+nP_{0}(x) \text{ where } P_{0}(x) \text{ and } P_{2}(x) \text{ are Legendre's polynomials.}",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.4(b)",
+"module_number": 2,
+"source_exam": "Mid Semester",
+"source_year": 2023,
+"marks": 3,
+"question_text": "Show that J_{1/2}(x) = \sqrt{2/(\pi x)} sinx",
+"question_latex": "\text{Show that } J_{1/2}(x)=\sqrt{\frac{2}{\pi x}}\sin x",
+"question_type": "proof"
+},
+{
+"question_number": "Q.5",
+"module_number": 3,
+"source_exam": "Mid Semester",
+"source_year": 2023,
+"marks": 5,
+"question_text": "Find the Fourier series to represent the function defined as f(x) = {\pi+x, -\pi<x<0; 0, 0\le x<\pi}",
+"question_latex": "\text{Find the Fourier series to represent the function defined as } f(x)=\begin{cases}\pi+x,&-\pi<x<0\\ 0,&0\le x<\pi\end{cases}",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.1(a)",
+"module_number": 1,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Find a particular integral of the second order non-homogeneous differential equation y'' + y = 3x + 7 tan x",
+"question_latex": "\text{Find a particular integral of the second order non-homogeneous differential equation } y^{\prime\prime}+y=3x+7\tan x",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.1(b)",
+"module_number": 1,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Solve by variation of Parameter d^2y/dx^2 + 9y = tan3x.",
+"question_latex": "\text{Solve by variation of Parameter } \frac{d^{2}y}{dx^{2}}+9y=\tan 3x.",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.2(a)",
+"module_number": 2,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Find a series solution near x=0 for 3x^2y'' - xy' + y = 0",
+"question_latex": "\text{Find a series solution near } x=0 \text{ for } 3x^{2}y^{\prime\prime}-xy^{\prime}+y=0",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.2(b)",
+"module_number": 2,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Express f(x)=x^4+2x^3+2x^2-x in terms of legendre polynomials. Given P_n(x) = (1 / (n! 2^n)) d^n/dx^n (x^2-1)^n",
+"question_latex": "\text{Express } f(x)=x^{4}+2x^{3}+2x^{2}-x \text{ in terms of legendre polynomials. Given } P_{n}(x)=\frac{1}{n!2^{n}}\frac{d^{n}}{dx^{n}}(x^{2}-1)^{n}",
+"question_type": "analytical"
+},
+{
+"question_number": "Q.3(a)",
+"module_number": 3,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Find the Fourier cosine series of the function f(x) = x^2, 0\le x\le 2 and 4, 2\le x\le 4",
+"question_latex": "\text{Find the Fourier cosine series of the function } f(x)=\begin{cases}x^{2},&0\le x\le2\\ 4,&2\le x\le4\end{cases}",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.3(b)",
+"module_number": 3,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Find the solution of the given wave equation by the separation of variable method: \partial^2u/\partial t^2 = c^2 \partial^2u/\partial x^2, 0<x<\pi, t>0. u(0,t)=u(\pi,t)=0, u(x,0)=0, du/dx(x,0)=sin x.",
+"question_latex": "\text{Find the solution of the given wave equation by the separation of variable method: } \frac{\partial^{2}u}{\partial t^{2}}=c^{2}\frac{\partial^{2}u}{\partial x^{2}}, \quad 0<x<\pi, t>0. \quad u(0,t)=u(\pi,t)=0, \quad u(x,0)=0, \quad \frac{\partial u}{\partial x}(x,0)=\sin x.",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.4(a)",
+"module_number": 4,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Find the value of the integral \oint_{|z|=3} e^z / (z-2)^3 dz",
+"question_latex": "\text{Find the value of the integral } \oint_{|z|=3}\frac{e^{z}}{(z-2)^{3}}dz",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.4(b)",
+"module_number": 4,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Evaluate \oint_C 1/(z^2+4) dz, where C is the contour C: |z-i|=2.",
+"question_latex": "\text{Evaluate } \oint_{C} \frac{1}{z^{2}+4}dz \text{, where } C \text{ is the contour } C: |z-i|=2.",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.5(a)",
+"module_number": 5,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "A random Variable x has the following probability distribution Values of x: -2, -1, 0, 1, 2, 3 Probability P(x): 0.1, k, 0.2, 2k, 0.3, k Find the value of k, E(x) and \sigma^2(x).",
+"question_latex": "\text{A random Variable } X \text{ has the following probability distribution}\\ \begin{array}{|c|c|c|c|c|c|c|}\hline \text{Values of } x & -2 & -1 & 0 & 1 & 2 & 3 \\ \hline \text{Probability } P(x) & 0.1 & k & 0.2 & 2k & 0.3 & k \\ \hline \end{array}\\ \text{Find the value of } k, E(X) \text{ and } \sigma^{2}(X).",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.5(b)",
+"module_number": 5,
+"source_exam": "End Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "On average, every one out of 10 telephones is found busy. Six telephone numbers are selected at random. I. Find the probability that four of them will be busy. II. Find the probability that at least two of them will be busy.",
+"question_latex": "\text{On average, every one out of 10 telephones is found busy. Six telephone numbers are selected at random. I. Find the probability that four of them will be busy. II. Find the probability that at least two of them will be busy.}",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.1(a)",
+"module_number": 1,
+"source_exam": "Mid Semester",
+"source_year": 2024,
+"marks": 2,
+"question_text": "Find the Wronskian of xe^x and x. Check whether they are linearly independent or not.",
+"question_latex": "\text{Find the Wronskian of } xe^{x} \text{ and } x. \text{ Check whether they are linearly independent or not.}",
+"question_type": "analytical"
+},
+{
+"question_number": "Q.1(b)",
+"module_number": 1,
+"source_exam": "Mid Semester",
+"source_year": 2024,
+"marks": 3,
+"question_text": "Solve the following differential equation: y^{iv} - 3y'' - 4y = 0.",
+"question_latex": "\text{Solve the following differential equation: } y^{iv}-3y^{\prime\prime}-4y=0.",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.2(a)",
+"module_number": 1,
+"source_exam": "Mid Semester",
+"source_year": 2024,
+"marks": 2,
+"question_text": "Find the particular solution of: (D^2-1)y = cos 2x + a^x",
+"question_latex": "\text{Find the particular solution of: } (D^{2}-1)y=\cos 2x+a^{x}",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.2(b)",
+"module_number": 1,
+"source_exam": "Mid Semester",
+"source_year": 2024,
+"marks": 3,
+"question_text": "Solve the following differential equation: [D-1]^2 y(x) = e^x sin2x",
+"question_latex": "\text{Solve the following differential equation: } [D-1]^{2}y(x)=e^{x}\sin 2x",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.3",
+"module_number": 2,
+"source_exam": "Mid Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Find the power series solution about x=0 of the differential equation: y'' - xy' - y = 0",
+"question_latex": "\text{Find the power series solution about } x=0 \text{ of the differential equation: } y^{\prime\prime}-xy^{\prime}-y=0",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.4(a)",
+"module_number": 2,
+"source_exam": "Mid Semester",
+"source_year": 2024,
+"marks": 2,
+"question_text": "Show that when n is an integer, J_{-n}(x) = (-1)^n J_n(x)",
+"question_latex": "\text{Show that when } n \text{ is an integer, } J_{-n}(x)=(-1)^{n}J_{n}(x)",
+"question_type": "proof"
+},
+{
+"question_number": "Q.4(b)",
+"module_number": 2,
+"source_exam": "Mid Semester",
+"source_year": 2024,
+"marks": 3,
+"question_text": "Express x^3 in terms of Legendre polynomials and hence using orthogonality condition evaluate: \int_{-1}^1 x^3 P_3(x) dx",
+"question_latex": "\text{Express } x^{3} \text{ in terms of Legendre polynomials and hence using orthogonality condition evaluate: } \int_{-1}^{1}x^{3}P_{3}(x)dx",
+"question_type": "numerical"
+},
+{
+"question_number": "Q.5",
+"module_number": 3,
+"source_exam": "Mid Semester",
+"source_year": 2024,
+"marks": 5,
+"question_text": "Find the Fourier series representation of a periodic function given by: 1-x^2, -\pi < x < \pi.",
+"question_latex": "\text{Find the Fourier series representation of a periodic function given by: } 1-x^{2}, \quad -\pi < x < \pi.",
+"question_type": "numerical"
+}
+]
