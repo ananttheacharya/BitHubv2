@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaTeX Integrity & Inspector — BitHub V2</title>
+    <meta name="description"
+        content="Advanced prototyping interface for testing LaTeX rendering integrity and usability for the BitHub V2 frontend.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- KaTeX CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-dark: #190b18;
+            --card-bg: #291427;
+            --border-color: #362245;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent-color: #ff00bf;
+            --accent-gradient: linear-gradient(135deg, #f760fa 0%, #570fff 50%, #2563eb 100%);
+            --accent-light: #dbeafe;
+            --success-color: #10b981;
+            --shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Standard Reset & Global Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            padding-bottom: 80px;
+        }
+
+        header {
+            background: rgba(20, 26, 41, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-logo {
+            width: 40px;
+            height: 40px;
+            background: var(--accent-gradient);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        }
+
+        .brand-title h1 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            background: linear-gradient(to right, #ffffff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .brand-title p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-family: 'Outfit', sans-serif;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--accent-gradient);
+            color: white;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
+        }
+
+        .btn-secondary {
+            background: #1e293b;
+            color: var(--text-main);
+            border: 1px solid #334155;
+        }
+
+        .btn-secondary:hover {
+            background: #334155;
+            transform: translateY(-2px);
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .intro h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, #ffffff, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .badge {
+            background: #1e293b;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent-color);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Testing Board */
+        .q-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .q-card:hover {
+            border-color: rgba(59, 130, 246, 0.4);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .q-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .q-number {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .q-label {
+            font-size: 0.75rem;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--success-color);
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .q-origin {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .q-marks {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            color: var(--accent-color);
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+            font-weight: 800;
+            font-size: 1.1rem;
+        }
+
+        .inspector-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        @media (min-width: 992px) {
+            .inspector-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .section-title {
+            font-size: 0.85rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .panel {
+            background: rgba(11, 15, 25, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            height: 100%;
+        }
+
+        .panel-text {
+            font-size: 1rem;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+        }
+
+        .panel-code {
+            font-family: 'JetBrains Mono', monospace;
+            background: #070b14;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.85rem;
+            color: #60a5fa;
+            border: 1px solid #172033;
+            word-break: break-all;
+            white-space: pre-wrap;
+        }
+
+        .renderer-panel {
+            grid-column: 1 / -1;
+            background: rgba(59, 130, 246, 0.03);
+            border: 1px solid rgba(59, 130, 246, 0.15);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-top: 1rem;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .latex-output {
+            font-size: 1.2rem;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 1rem 0;
+            line-height: 2;
+            color: white;
+        }
+
+        .sol-accordion {
+            grid-column: 1 / -1;
+            margin-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+        }
+
+        .accordion-toggle {
+            width: 100%;
+            background: #1a2438;
+            border: 1px solid #2d3a57;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+            color: white;
+            font-weight: 700;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .accordion-toggle:hover {
+            background: #24324d;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+        }
+
+        .accordion-content.active {
+            max-height: 2000px;
+            transition: max-height 0.5s ease-in-out;
+            padding-top: 1.5rem;
+        }
+
+        .solution-meta {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .sol-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .final-answer-box {
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px dashed var(--success-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-top: 1.5rem;
+            font-weight: 600;
+            color: var(--success-color);
+        }
+
+        .final-answer-box span {
+            color: white;
+            margin-left: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 4rem;
+        }
+
+        /* Custom scrollbars */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0b0f19;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #222d45;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #334155;
+        }
+
+        /* KaTeX Custom Tweaks for Dark Mode */
+        .katex {
+            color: inherit;
+            text-rendering: auto;
+        }
+
+        .katex-display {
+            margin: 1em 0;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        /* PRINT STYLING — ACADEMIC EXAM OPTIMIZATION */
+        @media print {
+            @page {
+                size: A4;
+                margin: 20mm;
+            }
+
+            body {
+                background-color: white !important;
+                color: black !important;
+                font-family: 'Times New Roman', serif !important;
+                padding-bottom: 0 !important;
+            }
+
+            header,
+            .intro,
+            footer,
+            .actions,
+            .brand-logo,
+            .btn,
+            .section-title i,
+            .accordion-toggle i {
+                display: none !important;
+            }
+
+            main {
+                margin: 0 !important;
+                padding: 0 !important;
+                max-width: 100% !important;
+            }
+
+            .q-card {
+                background: transparent !important;
+                border: none !important;
+                box-shadow: none !important;
+                padding: 0 !important;
+                margin-bottom: 35px !important;
+                page-break-inside: avoid !important;
+                border-bottom: 1px solid #ccc !important;
+                border-radius: 0 !important;
+            }
+
+            .card-header {
+                border-bottom: 2px solid black !important;
+                margin-bottom: 15px !important;
+                padding-bottom: 5px !important;
+            }
+
+            .q-number {
+                color: black !important;
+                font-size: 1.3rem !important;
+                font-family: Arial, sans-serif !important;
+            }
+
+            .q-marks {
+                border: none !important;
+                color: black !important;
+                font-weight: bold !important;
+                background: transparent !important;
+                font-size: 1rem !important;
+            }
+
+            .q-origin,
+            .q-label {
+                display: none !important;
+            }
+
+            .inspector-grid {
+                display: block !important;
+            }
+
+            /* Hide metadata panels in the clean print version */
+            .inspector-grid>div:not(.renderer-panel) {
+                display: none !important;
+            }
+
+            .renderer-panel {
+                background: transparent !important;
+                border: none !important;
+                padding: 0 !important;
+                margin: 10px 0 !important;
+            }
+
+            .section-title {
+                font-family: Arial, sans-serif !important;
+                color: black !important;
+                font-size: 1rem !important;
+                margin-bottom: 5px !important;
+                text-decoration: underline;
+            }
+
+            .latex-output {
+                color: black !important;
+                font-size: 1.1rem !important;
+            }
+
+            /* Handle solutions in print */
+            .sol-accordion {
+                border-top: 1px dashed black !important;
+                padding-top: 15px !important;
+                margin-top: 15px !important;
+            }
+
+            .accordion-toggle {
+                display: block !important;
+                background: transparent !important;
+                border: none !important;
+                padding: 0 !important;
+                color: black !important;
+                font-family: Arial, sans-serif !important;
+                text-decoration: underline;
+                margin-bottom: 10px !important;
+            }
+
+            .accordion-content {
+                max-height: none !important;
+                display: block !important;
+                padding-top: 0 !important;
+            }
+
+            .solution-meta {
+                display: none !important;
+            }
+
+            .final-answer-box {
+                border: 1px solid black !important;
+                background: transparent !important;
+                color: black !important;
+                page-break-inside: avoid;
+            }
+
+            .final-answer-box span {
+                color: black !important;
+            }
+
+            /* Insert "EXAM PAPER" Title for Print */
+            main::before {
+                content: "BITHUB V2 — MATHEMATICS 2 DATA INTEGRITY EXAM";
+                display: block;
+                text-align: center;
+                font-size: 1.6rem;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                margin-bottom: 5px;
+            }
+
+            main::after {
+                content: "Generated for Test Environment Integrity Verification";
+                display: block;
+                text-align: center;
+                font-size: 0.9rem;
+                font-family: Arial, sans-serif;
+                margin-top: 30px;
+                font-style: italic;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <div class="brand-logo"><i class="fa-solid fa-square-root-variable"></i></div>
+            <div class="brand-title">
+                <h1>BitHuB V2</h1>
+                <p>LaTeX Integrity Inspector</p>
+            </div>
+        </div>
+        <div class="actions">
+            <button class="btn btn-secondary" onclick="toggleAllSolutions()">
+                <i class="fa-solid fa-eye"></i> Toggle All Solutions
+            </button>
+            <button class="btn btn-primary" onclick="window.print()">
+                <i class="fa-solid fa-file-pdf"></i> Export to PDF
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="intro">
+            <h2>LaTeX Integrity Testing Board</h2>
+            <p>This prototype validates the rendering fidelity and structural integrity of LaTeX content extracted from
+                original course examinations. Utilize the side-by-side panels to cross-examine raw OCR strings,
+                formatted text, and dynamic KaTeX output.</p>
+
+            <div class="badge-container">
+                <div class="badge"><i class="fa-solid fa-check-circle"></i> KaTeX v0.16.8 Ready</div>
+                <div class="badge"><i class="fa-solid fa-code"></i> Live Dynamic JSON</div>
+                <div class="badge"><i class="fa-solid fa-print"></i> A4 @media print Optimised</div>
+            </div>
+        </div>
+
+        <div id="container">
+            <!-- Injected dynamic content cards -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BitHub V2 Development Pipeline &bull; Test Environment Verification System</p>
+    </footer>
+
+    <!-- KaTeX JS Libraries -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+
+    <script>
+        // EMBEDDED PROTOTYPE DATA FOR PORTABILITY & INSTANT TESTING
+        const data = [
+            {
+                "question_number": "Q.1(a)",
+                "source_exam": "End Semester",
+                "source_year": 2022,
+                "marks": 5,
+                "question_text": "Can sin(ln x²) cos(ln x²) (where x>0) be two linearly independent solutions of an ordinary differential equation? If so, determine the equation.",
+                "question_latex": "\\text{Can } \\sin(\\ln x^{2}) \\cos(\\ln x^{2}) \\text{ (where } x>0 \\text{) be two linearly independent solutions of an ordinary differential equation? If so, determine the equation.}",
+                "question_type": "analytical",
+                "question_uid": "824a6df30de8c1853291185c46b142520e7414831f2aeb00d4d852b3a0188bf7",
+                "solution_text": "Let y1 = sin(ln x^2) = sin(2 ln x) and y2 = cos(ln x^2) = cos(2 ln x). The Wronskian W(y1, y2) = y1 y2' - y2 y1'... Rearranging gives x^2 y'' + x y' + 4y = 0.",
+                "solution_latex": "Let $y_1 = \\sin(\\ln x^2) = \\sin(2 \\ln x)$ and $y_2 = \\cos(\\ln x^2) = \\cos(2 \\ln x)$. The Wronskian is $W = y_1 y_2' - y_2 y_1' = \\sin(2 \\ln x) \\cdot (-\\frac{2}{x} \\sin(2 \\ln x)) - \\cos(2 \\ln x) \\cdot (\\frac{2}{x} \\cos(2 \\ln x)) = -\\frac{2}{x}(\\sin^2(2 \\ln x) + \\cos^2(2 \\ln x)) = -\\frac{2}{x}$. Since $W \\neq 0$ for $x > 0$, they are linearly independent. Letting $u = \\ln x$, the functions satisfy $\\frac{d^2y}{du^2} + 4y = 0$. Since $\\frac{dy}{dx} = \\frac{1}{x} \\frac{dy}{du}$ and $\\frac{d^2y}{dx^2} = \\frac{1}{x^2} \\frac{d^2y}{du^2} - \\frac{1}{x^2} \\frac{dy}{du}$, we have $x^2 \\frac{d^2y}{dx^2} = \\frac{d^2y}{du^2} - \\frac{dy}{du} = -4y - x\\frac{dy}{dx}$. Thus, the differential equation is $x^2 y'' + x y' + 4y = 0$.",
+                "final_answer": "x^2 y'' + x y' + 4y = 0",
+                "confidence_score": 1.0
+            },
+            {
+                "question_number": "Q.1(b)",
+                "source_exam": "End Semester",
+                "source_year": 2022,
+                "marks": 5,
+                "question_text": "Find the general solution of the differential equation y'' - 4y' + 13y = 18e^x Sin3x",
+                "question_latex": "\\text{Find the general solution of the differential equation } y^{\\prime\\prime}-4y^{\\prime}+13y=18e^{x}\\sin 3x",
+                "question_type": "numerical",
+                "question_uid": "1b517adeaa1ee3527839e0f4d42363d61dd537eebc16904f027550dd4a691281",
+                "solution_text": "Step 1: Solve the homogeneous equation y'' - 4y' + 13y = 0... Step 3: Combine yc and yp for the general solution y = yc + yp.",
+                "solution_latex": "1. \\text{Characteristic equation: } r^2 - 4r + 13 = 0 \\implies r = 2 \\pm 3i. \\text{ Complementary solution: } y_c = e^{2x}(c_1 \\cos 3x + c_2 \\sin 3x). \\\\ 2. \\text{Particular solution: Assume } y_p = e^x(A \\cos 3x + B \\sin 3x). \\\\ y_p' = e^x((A+3B)\\cos 3x + (B-3A)\\sin 3x) \\\\ y_p'' = e^x((-2A+12B)\\cos 3x + (-6A-8B)\\sin 3x) \\\\ \\text{Substitute into ODE: } e^x[(-2A+12B - 4A - 12B + 13A)\\cos 3x + (-6A-8B - 4B + 12A + 13B)\\sin 3x] = 18e^x\\sin 3x \\\\ 7A \\cos 3x + (6A+B) \\sin 3x = 18 \\sin 3x \\\\ \\text{Solving gives } A=0, B=18. \\\\ 3. \\text{General solution: } y = e^{2x}(c_1 \\cos 3x + c_2 \\sin 3x) + 18e^x \\sin 3x.",
+                "final_answer": "y = e^{2x}(c_1 \\cos 3x + c_2 \\sin 3x) + 18e^x \\sin 3x",
+                "confidence_score": 1.0
+            },
+            {
+                "question_number": "Q.3(a)",
+                "source_exam": "End Semester",
+                "source_year": 2022,
+                "marks": 5,
+                "question_text": "Find Fourier series expansion of the function f(x)=|x|, -π<x<π and hence prove that π²/8 = 1 + 1/3² + 1/5² + 1/7² + ...",
+                "question_latex": "\\text{Find Fourier series expansion of the function } f(x)=|x|, \\quad -\\pi<x<\\pi \\text{ and hence prove that } \\frac{\\pi^{2}}{8}=1+\\frac{1}{3^{2}}+\\frac{1}{5^{2}}+\\frac{1}{7^{2}}+\\dots",
+                "question_type": "proof",
+                "question_uid": "8ba495ed66fffa49e86e80999e8d68ab7b2b6998d678390a6b1d9efaebe327a6",
+                "solution_text": "Step 1: Identify that f(x) = |x| is an even function on the interval (-π, π)... Rearranging gives 1 + 1/3^2 + 1/5^2 + ... = π^2/8.",
+                "solution_latex": "f(x) = |x| \\text{ is even, so } b_n = 0. \\text{ } a_0 = \\frac{2}{\\pi} \\int_0^\\pi x dx = \\pi. \\text{ } a_n = \\frac{2}{\\pi} \\int_0^\\pi x \\cos(nx) dx = \\frac{2}{n^2\\pi} ((-1)^n - 1). \\text{ The series is } |x| = \\frac{\\pi}{2} - \\frac{4}{\\pi} \\sum_{n=1,3,5...}^\\infty \\frac{\\cos(nx)}{n^2}. \\text{ Setting } x=0: 0 = \\frac{\\pi}{2} - \\frac{4}{\\pi} \\sum_{k=0}^\\infty \\frac{1}{(2k+1)^2} \\implies \\frac{\\pi^2}{8} = \\sum_{k=0}^\\infty \\frac{1}{(2k+1)^2} = 1 + \\frac{1}{3^2} + \\frac{1}{5^2} + \\dots",
+                "final_answer": "\\frac{\\pi^2}{8} = 1 + \\frac{1}{3^2} + \\frac{1}{5^2} + \\dots",
+                "confidence_score": 1.0
+            },
+            {
+                "question_number": "Q.4(b)",
+                "source_exam": "End Semester",
+                "source_year": 2022,
+                "marks": 5,
+                "question_text": "Evaluate the integral of e^z / ((z-1)Sinz) dz where C is the positively oriented circle |z|=2",
+                "question_latex": "\\text{Evaluate } \\oint_{C}\\frac{e^{z}}{(z-1)\\sin z}dz \\text{ where } C \\text{ is the positively oriented circle } |z|=2",
+                "question_type": "numerical",
+                "question_uid": "1db102da51cf9cd9ad0a75da58485e76441dfdc901d97f0f2007f90e7e1f29cb",
+                "solution_text": "Identify singularities at z=0 and z=1 inside circle |z|=2... By the Residue Theorem, the integral is 2*pi*i * (Res(f, 0) + Res(f, 1)).",
+                "solution_latex": "The integrand is f(z) = \\frac{e^z}{(z-1)\\sin z}. The singularities inside the circle |z|=2 occur at z=0 (from \\sin z = 0) and z=1. The residue at z=0 is \\text{Res}(f, 0) = \\lim_{z \\to 0} \\frac{z e^z}{(z-1)\\sin z} = \\lim_{z \\to 0} \\frac{z e^z}{(z-1)z} = \\frac{1}{-1} = -1. The residue at z=1 is \\text{Res}(f, 1) = \\lim_{z \\to 1} \\frac{(z-1)e^z}{(z-1)\\sin z} = \\frac{e}{\\sin 1}. By the Residue Theorem, \\oint_C f(z) dz = 2\\pi i \\left( \\text{Res}(f, 0) + \\text{Res}(f, 1) \\right) = 2\\pi i \\left( \\frac{e}{\\sin 1} - 1 \\right).",
+                "final_answer": "2\\pi i (\\frac{e}{\\sin 1} - 1)",
+                "confidence_score": 1.0
+            },
+            {
+                "question_number": "Q.5(a)",
+                "source_exam": "End Semester",
+                "source_year": 2022,
+                "marks": 5,
+                "question_text": "Let X has pdf f_x(x) = cx³ for 0<x<2 and 0 elsewhere. Find the value of c and P[1/4 < X < 1].",
+                "question_latex": "\\text{Let } X \\text{ has pdf } f_{x}(x)=\\begin{cases}cx^{3},&0<x<2\\\\ 0,&\\text{elsewhere}\\end{cases} \\text{. Find the value of } c \\text{ and } P\\left[\\frac{1}{4}<X<1\\right].",
+                "question_type": "numerical",
+                "question_uid": "f16f10e3b9aead8dfa46c68169bf8ba15da7ace3aa3b9cac5225f97d19359ab5",
+                "solution_text": "To find c, set the integral of the PDF over the interval (0, 2) equal to 1... P(1/4 < X < 1) = 255/4096.",
+                "solution_latex": "1. \\int_{0}^{2} cx^3 dx = 1 \\implies c \\left[ \\frac{x^4}{4} \\right]_{0}^{2} = c \\left( \\frac{16}{4} \\right) = 4c = 1 \\implies c = \\frac{1}{4}. \\\\ 2. P\\left(\\frac{1}{4} < X < 1\\right) = \\int_{1/4}^{1} \\frac{1}{4}x^3 dx = \\frac{1}{4} \\left[ \\frac{x^4}{4} \\right]_{1/4}^{1} = \\frac{1}{16} \\left( 1^4 - \\left( \\frac{1}{4} \\right)^4 \\right) = \\frac{1}{16} \\left( 1 - \\frac{1}{256} \\right) = \\frac{1}{16} \\left( \\frac{255}{256} \\right) = \\frac{255}{4096}.",
+                "final_answer": "c = 1/4, P(1/4 < X < 1) = 255/4096",
+                "confidence_score": 1.0
+            },
+            {
+                "question_number": "Q.5(a)",
+                "source_exam": "End Semester",
+                "source_year": 2023,
+                "marks": 5,
+                "question_text": "A random variable X has the following probability distribution: X=(0, 1, 2, 3, 4), P(x)=(k, 2k, 2k, k², 5k²). Find the value of k, mean and variance of X.",
+                "question_latex": "\\text{A random variable } X \\text{ has the following probability distribution:}\\\\ \\begin{array}{|c|c|c|c|c|c|}\\hline X & 0 & 1 & 2 & 3 & 4 \\\\ \\hline P(x) & k & 2k & 2k & k^{2} & 5k^{2} \\\\ \\hline \\end{array}\\\\ \\text{Find the value of } k \\text{, mean and variance of } X.",
+                "question_type": "numerical",
+                "question_uid": "31cbb8326607d85e91632b1b8fb6479d6f1d918688e7bb9a34f0d655526422d7",
+                "solution_text": "Find k: The sum of probabilities must equal 1. So, k + 2k + 2k + k^2 + 5k^2 = 1, which simplifies to 6k^2 + 5k - 1 = 0. Factoring gives k = 1/6... Var(X) = 1019/1296.",
+                "solution_latex": "The sum of probabilities is $\\sum P(x) = k + 2k + 2k + k^2 + 5k^2 = 6k^2 + 5k = 1$. Solving $6k^2 + 5k - 1 = 0$ yields $(6k-1)(k+1)=0$. Since $P(x) \\ge 0$, $k=1/6$. The mean $E[X] = \\sum xP(x) = 0(\\frac{1}{6}) + 1(\\frac{2}{6}) + 2(\\frac{2}{6}) + 3(\\frac{1}{36}) + 4(\\frac{5}{36}) = \\frac{12+24+3+20}{36} = \\frac{59}{36}$. The second moment $E[X^2] = \\sum x^2 P(x) = 0(\\frac{1}{6}) + 1(\\frac{2}{6}) + 4(\\frac{2}{6}) + 9(\\frac{1}{36}) + 16(\\frac{5}{36}) = \\frac{12+24+9+80}{36} = \\frac{125}{36}$. The variance $Var(X) = E[X^2] - (E[X])^2 = \\frac{125}{36} - (\\frac{59}{36})^2 = \\frac{4500 - 3481}{1296} = \\frac{1019}{1296}$.",
+                "final_answer": "k = 1/6, E[X] = 59/36, Var(X) = 1019/1296",
+                "confidence_score": 1.0
+            }
+        ];
+
+        // Helper: Formats LaTeX based on heuristic
+        function getLatexBlock(rawStr) {
+            if (!rawStr) return "";
+            // Heuristic: if it contains delimiter $, assume auto-renderer will handle it.
+            // If not, wrap the entire block in display math delimiters $$...$$
+            if (rawStr.includes("$")) {
+                return rawStr;
+            } else {
+                return `$$\n${rawStr}\n$$`;
+            }
+        }
+
+        const container = document.getElementById("container");
+
+        // Dynamic Generation Loop
+        data.forEach((q, idx) => {
+            const card = document.createElement("div");
+            card.className = "q-card";
+
+            const qLatexBlock = getLatexBlock(q.question_latex);
+            const solLatexBlock = getLatexBlock(q.solution_latex);
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <div class="q-meta">
+                        <div class="q-number">
+                            ${q.question_number} 
+                            <span class="q-label">${q.question_type}</span>
+                        </div>
+                        <div class="q-origin">${q.source_exam} ${q.source_year} &bull; UID: ${q.question_uid.substring(0, 8)}...</div>
+                    </div>
+                    <div class="q-marks">${q.marks} Marks</div>
+                </div>
+
+                <div class="inspector-grid">
+                    <div class="inspector-panel">
+                        <h3 class="section-title"><i class="fa-solid fa-font"></i> Normalized Text</h3>
+                        <div class="panel panel-text">${q.question_text}</div>
+                    </div>
+
+                    <div class="inspector-panel">
+                        <h3 class="section-title"><i class="fa-solid fa-code"></i> Raw LaTeX String</h3>
+                        <pre class="panel panel-code"><code>${q.question_latex}</code></pre>
+                    </div>
+
+                    <div class="renderer-panel">
+                        <h3 class="section-title"><i class="fa-solid fa-square-root-variable"></i> High-Fidelity Renderer Output</h3>
+                        <div class="latex-output">${qLatexBlock}</div>
+                    </div>
+
+                    <div class="sol-accordion">
+                        <button class="accordion-toggle" onclick="toggleAccordion(${idx})">
+                            <span><i class="fa-solid fa-lightbulb"></i> AI Suggested Solution</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content" id="accordion-${idx}">
+                            <div class="solution-meta">
+                                <span class="sol-badge"><i class="fa-solid fa-robot"></i> Model: Gemini 3.1 Flash-Lite</span>
+                                <span class="sol-badge"><i class="fa-solid fa-gauge-high"></i> Confidence: ${(q.confidence_score * 100).toFixed(0)}%</span>
+                            </div>
+                            <div class="panel panel-text" style="margin-bottom: 1.5rem;">
+                                <strong>Plain Explanation:</strong> ${q.solution_text}
+                            </div>
+                            <div class="renderer-panel" style="background: rgba(16, 185, 129, 0.02); border-color: rgba(16, 185, 129, 0.15);">
+                                <h3 class="section-title" style="color: var(--success-color)"><i class="fa-solid fa-square-root-variable"></i> Solution Mathematical Derivation</h3>
+                                <div class="latex-output" style="font-size: 1.1rem;">${solLatexBlock}</div>
+                            </div>
+                            
+                            <div class="final-answer-box">
+                                <i class="fa-solid fa-box-archive"></i> Final Verified Answer: 
+                                <span>${q.final_answer}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+
+        // Accordion logic
+        function toggleAccordion(index) {
+            const content = document.getElementById(`accordion-${index}`);
+            const toggle = content.previousElementSibling;
+            const icon = toggle.querySelector("i.fa-chevron-down, i.fa-chevron-up");
+
+            content.classList.toggle("active");
+
+            if (content.classList.contains("active")) {
+                icon.className = "fa-solid fa-chevron-up";
+            } else {
+                icon.className = "fa-solid fa-chevron-down";
+            }
+        }
+
+        function toggleAllSolutions() {
+            const accordions = document.querySelectorAll(".accordion-content");
+            const areAnyClosed = Array.from(accordions).some(a => !a.classList.contains("active"));
+
+            accordions.forEach((a, index) => {
+                const toggle = a.previousElementSibling;
+                const icon = toggle.querySelector("i");
+
+                if (areAnyClosed) {
+                    a.classList.add("active");
+                    icon.className = "fa-solid fa-chevron-up";
+                } else {
+                    a.classList.remove("active");
+                    icon.className = "fa-solid fa-chevron-down";
+                }
+            });
+        }
+
+        // Run Auto-Renderer after page loads and KaTeX script processes
+        window.addEventListener('DOMContentLoaded', () => {
+            if (typeof renderMathInElement === 'function') {
+                renderMathInElement(document.body, {
+                    delimiters: [
+                        { left: '$$', right: '$$', display: true },
+                        { left: '$', right: '$', display: false },
+                        { left: '\\(', right: '\\)', display: false },
+                        { left: '\\[', right: '\\]', display: true }
+                    ],
+                    throwOnError: false
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

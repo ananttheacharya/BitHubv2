@@ -1,0 +1,862 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Can sin(ln x²) cos(ln x²) (where x>0) be two linearly independent solutions of an ordinary differential equation? If so, determine the equation.",
+        "question_latex": "\\text{Can } \\sin(\\ln x^{2}) \\cos(\\ln x^{2}) \\text{ (where } x>0 \\text{) be two linearly independent solutions of an ordinary differential equation? If so, determine the equation.}",
+        "question_type": "analytical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "8f6769d4cde07029f19225de0439beb89680c8424e3e005a564a3976779ad3f0",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Find the general solution of the differential equation y'' - 4y' + 13y = 18e^x Sin3x",
+        "question_latex": "\\text{Find the general solution of the differential equation } y^{\\prime\\prime}-4y^{\\prime}+13y=18e^{x}\\sin 3x",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "2e70c7f66c89fdc52834a23cd0857c847d9dc6264fca7f37871e4d43e0cd150e",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Prove the recurrence relation xJ_n'(x) = xJ_(n-1)(x) - nJ_n(x)",
+        "question_latex": "\\text{Prove the recurrence relation } xJ_{n}^{\\prime}(x)=xJ_{n-1}(x)-nJ_{n}(x)",
+        "question_type": "proof",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "fd5ec688267028f2ae507c1435ce8466927595e8b0f6ae710ce54e508802d901",
+        "tags": [
+            "Bessel Functions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Find the series solution of the differential equation 2x²y'' - xy' + (x-5)y = 0 about x=0.",
+        "question_latex": "\\text{Find the series solution of the differential equation } 2x^{2}y^{\\prime\\prime}-xy^{\\prime}+(x-5)y=0 \\text{ about } x=0.",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "bb1fbe929f0015e2e24af007f43c4c8100b860fce0c5232b033e6d3a7c076513",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Find Fourier series expansion of the function f(x)=|x|, -π<x<π and hence prove that π²/8 = 1 + 1/3² + 1/5² + 1/7² + ...",
+        "question_latex": "\\text{Find Fourier series expansion of the function } f(x)=|x|, \\quad -\\pi<x<\\pi \\text{ and hence prove that } \\frac{\\pi^{2}}{8}=1+\\frac{1}{3^{2}}+\\frac{1}{5^{2}}+\\frac{1}{7^{2}}+\\dots",
+        "question_type": "proof",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "fc99d71802ab3029982f50148c6f64465bb316009d54288322a16852cd30bb40",
+        "tags": [
+            "Fourier Series",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Solve p cos(x+y) + q sin(x+y) = z",
+        "question_latex": "\\text{Solve } p \\cos(x+y)+q\\sin(x+y)=z",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "1e8ae65b5afff172836ec0fe461e620b7576ab4cae30079bbb066123bbb60593",
+        "tags": [],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Show that the function f(z)=|z|² is differentiable at z=0 but nowhere analytic.",
+        "question_latex": "\\text{Show that the function } f(z)=|z|^{2} \\text{ is differentiable at } z=0 \\text{ but nowhere analytic.}",
+        "question_type": "proof",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "8fad2e298425cbfc8131d5f5d3970a079baa09554c396eff279eef3a68350b41",
+        "tags": [
+            "Complex Analysis",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Evaluate the integral of e^z / ((z-1)Sinz) dz where C is the positively oriented circle |z|=2",
+        "question_latex": "\\text{Evaluate } \\oint_{C}\\frac{e^{z}}{(z-1)\\sin z}dz \\text{ where } C \\text{ is the positively oriented circle } |z|=2",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "cf4df76908afc6892fd5a45c210b6492a1593652855bc47fc0392020b76efdb4",
+        "tags": [
+            "Complex Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Let X has pdf f_x(x) = cx³ for 0<x<2 and 0 elsewhere. Find the value of c and P[1/4 < X < 1].",
+        "question_latex": "\\text{Let } X \\text{ has pdf } f_{x}(x)=\\begin{cases}cx^{3},&0<x<2\\\\ 0,&\\text{elsewhere}\\end{cases} \\text{. Find the value of } c \\text{ and } P\\left[\\frac{1}{4}<X<1\\right].",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "0254b9cd23f206f8db59e66abf221eb87d6d396095fb972b3eadf6b0496ad4e4",
+        "tags": [
+            "Probability"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Let X be a random variable having binomial distribution with parameter n=25; p=0.2. Find P[X < μ_x - 2σ_x]",
+        "question_latex": "\\text{Let } X \\text{ be a random variable having binomial distribution with parameter } n=25; p=0.2. \\text{ Find } P[X<\\mu_{x}-2\\sigma_{x}]",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "692cb872f39355ed9278d620196aadd21d283f8cbf8708599db934c22d26b1f6",
+        "tags": [
+            "Probability"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Solve the differential equation d²y/dx² - 3 dy/dx + 2y = e^x + x + 1",
+        "question_latex": "\\text{Solve the differential equation } \\frac{d^{2}y}{dx^{2}}-3\\frac{dy}{dx}+2y=e^{x}+x+1",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "b3562efefae567f034b7281fbd0c78d003c217c8c5c36536e92b65dfc63d185d",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Solve Legendre's linear equation given as (x+a)² d²y/dx² - 4(x+a) dy/dx + 6y = x",
+        "question_latex": "\\text{Solve Legendre's linear equation given as } (x+a)^{2}\\frac{d^{2}y}{dx^{2}}-4(x+a)\\frac{dy}{dx}+6y=x",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "4ff53f49e17d6438e21e0c1248c534177ca757b74e23df9bc4dd98326bea81f4",
+        "tags": [
+            "Differential Equations",
+            "Legendre Polynomials"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Prove that integral of J_3(x)dx + J_2(x) + (2/x)J_1(x) = 0",
+        "question_latex": "\\text{Prove that } \\int J_{3}(x)dx+J_{2}(x)+\\frac{2}{x}J_{1}(x)=0",
+        "question_type": "proof",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "f6d9441ce281696517fa0de50f5b237d171e8b9092ee4d8bf012d2298acaf9ac",
+        "tags": [
+            "Bessel Functions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Express in terms of Legendre polynomials: x³ + 2x² - x - 3.",
+        "question_latex": "\\text{Express in terms of Legendre polynomials: } x^{3}+2x^{2}-x-3.",
+        "question_type": "analytical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "f52e118545354ccfcb6e025b838931402b508a869e64c21ae5a56ca764ae3639",
+        "tags": [
+            "Legendre Polynomials"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Obtain the half range sine series for f(x)=2-x for 0<x<2",
+        "question_latex": "\\text{Obtain the half range sine series for } f(x)=2-x \\text{ for } 0<x<2",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "c4cbe69e4552cfd1a4789b51361dc3febaeea6171bf14c051b547ce5968f3af0",
+        "tags": [],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Solve the wave equation ∂²y/∂ t² = c² ∂²y/∂ x², representing the vibration of a string of length l, fixed at both ends, given that y(0,t)=0, y(l,t)=0, y(x,0)=f(x) and (∂ y/∂ t)*(t=0)=0, 0<x<l.",
+        "question_latex": "\\text{Solve the wave equation } \\frac{\\partial^{2}y}{\\partial t^{2}}=c^{2}\\frac{\\partial^{2}y}{\\partial x^{2}} \\text{, representing the vibration of a string of length } l \\text{, fixed at both ends, given that } y(0,t)=0, y(l,t)=0, y(x,0)=f(x) \\text{ and } \\left.\\frac{\\partial y}{\\partial t}\\right|_{t=0}=0, 0<x<l.",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "b8afdf3d172e1fe875256e23f162fe94a368c43e2d1d9e440b244e57219a84e4",
+        "tags": [
+            "Wave Equation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Prove that u=y³-3x²y is a harmonic function. Find its harmonic conjugate and corresponding analytic function f(z)=u+iv.",
+        "question_latex": "\\text{Prove that } u=y^{3}-3x^{2}y \\text{ is a harmonic function. Find its harmonic conjugate and corresponding analytic function } f(z)=u+iv.",
+        "question_type": "proof",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "3b83d46c7d4590518746e208babcdb31f4057d851a54491bad292baec12fd3b7",
+        "tags": [
+            "Complex Analysis",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Evaluate integral of (5z-2)/(z²-z) dz where C: |z|=2",
+        "question_latex": "\\text{Evaluate } \\oint_{C}\\frac{5z-2}{z^{2}-z}dz \\text{ where } C: |z|=2",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "da4395945f51f7cb9118763888a85a35557103d2dc5a02a243d05a296c2936c0",
+        "tags": [
+            "Complex Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "A random variable X has the following probability distribution: X=(0, 1, 2, 3, 4), P(x)=(k, 2k, 2k, k², 5k²). Find the value of k, mean and variance of X.",
+        "question_latex": "\\text{A random variable } X \\text{ has the following probability distribution:}\\\\ \\begin{array}{|c|c|c|c|c|c|}\\hline X & 0 & 1 & 2 & 3 & 4 \\\\ \\hline P(x) & k & 2k & 2k & k^{2} & 5k^{2} \\\\ \\hline \\end{array}\\\\ \\text{Find the value of } k \\text{, mean and variance of } X.",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "884e5a54c327f6e119a61aca232a14c927a04d4d5732904b2b62343eacde9a44",
+        "tags": [
+            "Probability",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "The distribution of the number of road accidents per day in a city is Poisson with mean 4. Find the number of days out of 100 when there will be (i) no accidents (ii) between 2 and 5 accidents.",
+        "question_latex": "\\text{The distribution of the number of road accidents per day in a city is Poisson with mean 4. Find the number of days out of 100 when there will be (i) no accidents (ii) between 2 and 5 accidents.}",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "a631bcce4c5e72764fdb89153467432535514eb0ef57fd0febd2ee8f5a0576c6",
+        "tags": [
+            "Probability"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Find only the complementary function of the differential equation 3 d²y/dx² + 8 dy/dx + 4y = 0",
+        "question_latex": "\\text{Find only the complementary function of the differential equation } 3\\frac{d^{2}y}{dx^{2}}+8\\frac{dy}{dx}+4y=0",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "f5962192110d72201317399a9a328d3eba307d7f55b523e0abefa2b2f572a32b",
+        "tags": [
+            "Differential Equations",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Find only the particular integral of the differential equation d²y/dx² + 2 dy/dx + y = 2sinx + 3cosx",
+        "question_latex": "\\text{Find only the particular integral of the differential equation } \\frac{d^{2}y}{dx^{2}}+2\\frac{dy}{dx}+y=2\\sin x+3\\cos x",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "f0899d7f9d1a396158bde305ac7921e28bf94d58394b17d9416b579e7a4405ba",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Solve the Cauchy Euler's linear differential equation: x³ d³y/dx³ + 3x² d²y/dx² + x dy/dx = 24x²",
+        "question_latex": "\\text{Solve the Cauchy Euler's linear differential equation- } x^{3}\\frac{d^{3}y}{dx^{3}}+3x^{2}\\frac{d^{2}y}{dx^{2}}+x\\frac{dy}{dx}=24x^{2}",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "65807d07d6551181569101ecf865467a2a256d3a21321d44dee521dac61a55ff",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Find the power series solution of the differential equation d²y/dx² - 3x dy/dx + 2y = 0 about an ordinary point x=0 only.",
+        "question_latex": "\\text{Find the power series solution of the differential equation } \\frac{d^{2}y}{dx^{2}}-3x\\frac{dy}{dx}+2y=0 \\text{ about an ordinary point } x=0 \\text{ only.}",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "8e16537e4a441f950128511f58426bd19305e5acde9f0d043b2ffdf897ad752a",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Find the values of m and n if 3x² = mP_2(x) + nP_0(x) where P_0(x) and P_2(x) are Legendre's polynomials.",
+        "question_latex": "\\text{Find the values of } m \\text{ and } n \\text{ if } 3x^{2}=mP_{2}(x)+nP_{0}(x) \\text{ where } P_{0}(x) \\text{ and } P_{2}(x) \\text{ are Legendre's polynomials.}",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "229b6edcbc83e4d4feb2faa63a5b453c5591cb8221d8f8844b724bd8b251366f",
+        "tags": [
+            "Legendre Polynomials"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Show that J_(1/2)(x) = √(2/(π x)) sinx",
+        "question_latex": "\\text{Show that } J_{1/2}(x)=\\sqrt{\\frac{2}{\\pi x}}\\sin x",
+        "question_type": "proof",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "b16e1d797ed44c3f97c3ce0e3ff36538d64bb12ebaf088c7c23b7c004b0a5d2f",
+        "tags": [
+            "Bessel Functions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Find the Fourier series to represent the function defined as f(x) = (π+x, -π<x<0; 0, 0≤ x<π)",
+        "question_latex": "\\text{Find the Fourier series to represent the function defined as } f(x)=\\begin{cases}\\pi+x,&-\\pi<x<0\\\\ 0,&0\\le x<\\pi\\end{cases}",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "f06526fcebb585e97e9c04821def0937e100367c559478fb32ac4529616039fa",
+        "tags": [
+            "Fourier Series",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Find a particular integral of the second order non-homogeneous differential equation y'' + y = 3x + 7 tan x",
+        "question_latex": "\\text{Find a particular integral of the second order non-homogeneous differential equation } y^{\\prime\\prime}+y=3x+7\\tan x",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "e51332ee58f011082c178c06d09e867c47e2f1020b45a33e2eb7246cfb002844",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Solve by variation of Parameter d²y/dx² + 9y = tan3x.",
+        "question_latex": "\\text{Solve by variation of Parameter } \\frac{d^{2}y}{dx^{2}}+9y=\\tan 3x.",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "df77dc91c3c16ea67d0a3a5ad83432257605170493f6100c4daabbadc321262c",
+        "tags": [
+            "Differential Equations",
+            "Variation of Parameters"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Find a series solution near x=0 for 3x²y'' - xy' + y = 0",
+        "question_latex": "\\text{Find a series solution near } x=0 \\text{ for } 3x^{2}y^{\\prime\\prime}-xy^{\\prime}+y=0",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "49b7b250a3021699a581706c81bbbaf1eaededb7b5dfc0b77a3b1e633b31820c",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Express f(x)=x^4+2x³+2x²-x in terms of legendre polynomials. Given P_n(x) = (1 / (n! 2^n)) d^n/dx^n (x²-1)^n",
+        "question_latex": "\\text{Express } f(x)=x^{4}+2x^{3}+2x^{2}-x \\text{ in terms of legendre polynomials. Given } P_{n}(x)=\\frac{1}{n!2^{n}}\\frac{d^{n}}{dx^{n}}(x^{2}-1)^{n}",
+        "question_type": "analytical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "0cdbb28127e5e3cd25cadc190a4ab856467118ffdfc77288ec93b429a2cd07c5",
+        "tags": [
+            "Legendre Polynomials"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Find the Fourier cosine series of the function f(x) = x², 0≤ x≤ 2 and 4, 2≤ x≤ 4",
+        "question_latex": "\\text{Find the Fourier cosine series of the function } f(x)=\\begin{cases}x^{2},&0\\le x\\le2\\\\ 4,&2\\le x\\le4\\end{cases}",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "b568f5240a0a1c16bb9e507546014ae7bf6f3b8eeb8b60da1e641e0e4e7717e9",
+        "tags": [
+            "Fourier Series",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Find the solution of the given wave equation by the separation of variable method: ∂²u/∂ t² = c² ∂²u/∂ x², 0<x<π, t>0. u(0,t)=u(π,t)=0, u(x,0)=0, du/dx(x,0)=sin x.",
+        "question_latex": "\\text{Find the solution of the given wave equation by the separation of variable method: } \\frac{\\partial^{2}u}{\\partial t^{2}}=c^{2}\\frac{\\partial^{2}u}{\\partial x^{2}}, \\quad 0<x<\\pi, t>0. \\quad u(0,t)=u(\\pi,t)=0, \\quad u(x,0)=0, \\quad \\frac{\\partial u}{\\partial x}(x,0)=\\sin x.",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "75355f172027262f6656b2b4b9fba77551849c48917dbf4f764c22c2a1bc7ddb",
+        "tags": [
+            "Wave Equation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Find the value of the integral ∮_(|z|=3) e^z / (z-2)³ dz",
+        "question_latex": "\\text{Find the value of the integral } \\oint_{|z|=3}\\frac{e^{z}}{(z-2)^{3}}dz",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "24c7db0a16b4fb549e6ba1faebc07390c6d8b16982297829753bf5688c551bd3",
+        "tags": [
+            "Complex Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Evaluate ∮_C 1/(z²+4) dz, where C is the contour C: |z-i|=2.",
+        "question_latex": "\\text{Evaluate } \\oint_{C} \\frac{1}{z^{2}+4}dz \\text{, where } C \\text{ is the contour } C: |z-i|=2.",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "d91f778ce7c7ae6fa538ee02238a0dedddf717433949364c940a4a398c391e1a",
+        "tags": [
+            "Complex Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "A random Variable x has the following probability distribution Values of x: -2, -1, 0, 1, 2, 3 Probability P(x): 0.1, k, 0.2, 2k, 0.3, k Find the value of k, E(x) and σ²(x).",
+        "question_latex": "\\text{A random Variable } X \\text{ has the following probability distribution}\\\\ \\begin{array}{|c|c|c|c|c|c|c|}\\hline \\text{Values of } x & -2 & -1 & 0 & 1 & 2 & 3 \\\\ \\hline \\text{Probability } P(x) & 0.1 & k & 0.2 & 2k & 0.3 & k \\\\ \\hline \\end{array}\\\\ \\text{Find the value of } k, E(X) \\text{ and } \\sigma^{2}(X).",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "acfa9286837de42e5056dd2da919c3ce60e94456ce846bee375f5cddd4de9ba2",
+        "tags": [
+            "Probability",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "On average, every one out of 10 telephones is found busy. Six telephone numbers are selected at random. I. Find the probability that four of them will be busy. II. Find the probability that at least two of them will be busy.",
+        "question_latex": "\\text{On average, every one out of 10 telephones is found busy. Six telephone numbers are selected at random. I. Find the probability that four of them will be busy. II. Find the probability that at least two of them will be busy.}",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "4ad6ee4f085fb16dff6c3fc230ba2d2da92163a6c2bf199431652858386cfac1",
+        "tags": [
+            "Probability"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Find the Wronskian of xe^x and x. Check whether they are linearly independent or not.",
+        "question_latex": "\\text{Find the Wronskian of } xe^{x} \\text{ and } x. \\text{ Check whether they are linearly independent or not.}",
+        "question_type": "analytical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "a4ad10bc1c3aa879f3e1b10c85e2fd7c56e799f97b4969f9f4bad728dd99f836",
+        "tags": [
+            "Wronskian"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Solve the following differential equation: y^(iv) - 3y'' - 4y = 0.",
+        "question_latex": "\\text{Solve the following differential equation: } y^{iv}-3y^{\\prime\\prime}-4y=0.",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "05dea801c140a37b5851f885fafd89fa04902b5784af34db1b05178d726a72e3",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Find the particular solution of: (D²-1)y = cos 2x + a^x",
+        "question_latex": "\\text{Find the particular solution of: } (D^{2}-1)y=\\cos 2x+a^{x}",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "0b79f301d141ffceeeb4051933c60783dc2c751ef4efb0a2f8d28f4d607ecbbd",
+        "tags": [],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Solve the following differential equation: [D-1]² y(x) = e^x sin2x",
+        "question_latex": "\\text{Solve the following differential equation: } [D-1]^{2}y(x)=e^{x}\\sin 2x",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "07c020ef52138c9a7d2a5ff9ee6a9deb800233a5d034c3039637eb716897d4fd",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Find the power series solution about x=0 of the differential equation: y'' - xy' - y = 0",
+        "question_latex": "\\text{Find the power series solution about } x=0 \\text{ of the differential equation: } y^{\\prime\\prime}-xy^{\\prime}-y=0",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "68dbd96b79d58ab23c6b2ab217bba114b46501c02ada47018934f0419f717e66",
+        "tags": [
+            "Differential Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Show that when n is an integer, J_(-n)(x) = (-1)^n J_n(x)",
+        "question_latex": "\\text{Show that when } n \\text{ is an integer, } J_{-n}(x)=(-1)^{n}J_{n}(x)",
+        "question_type": "proof",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "4f1f83e55b411a8ae858bf38bf1a9a0d8a528c869b70e866c88cdf15dd2c0a15",
+        "tags": [
+            "Bessel Functions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Express x³ in terms of Legendre polynomials and hence using orthogonality condition evaluate: ∫_(-1)^1 x³ P_3(x) dx",
+        "question_latex": "\\text{Express } x^{3} \\text{ in terms of Legendre polynomials and hence using orthogonality condition evaluate: } \\int_{-1}^{1}x^{3}P_{3}(x)dx",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "efd0d913bbddc3a026db3ac463a5947f1df9391821cbb79006a77dc6867f6931",
+        "tags": [
+            "Legendre Polynomials"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Find the Fourier series representation of a periodic function given by: 1-x², -π < x < π.",
+        "question_latex": "\\text{Find the Fourier series representation of a periodic function given by: } 1-x^{2}, \\quad -\\pi < x < \\pi.",
+        "question_type": "numerical",
+        "subject": "Mathematics 2",
+        "subject_code": "MA24103",
+        "question_uid": "e69e2f54910b4b03a7176555541ba972af6ad2802f2abad5fefcf279ee27b95a",
+        "tags": [
+            "Fourier Series",
+            "Programming Concepts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    }
+]
