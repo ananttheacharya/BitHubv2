@@ -21,15 +21,17 @@ from google.generativeai.types import generation_types
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-BASE_DIR          = Path(__file__).parent
-NORMALIZED_DIR    = BASE_DIR / "normalized_questions"
-ANSWERS_DIR       = BASE_DIR / "answers"
+BASE_DIR = Path(__file__).resolve().parent
+ROOT_DIR = BASE_DIR.parent
+
+NORMALIZED_DIR = BASE_DIR / "normalized_questions"
+ANSWERS_DIR    = BASE_DIR / "answers"
 ANSWERS_DIR.mkdir(exist_ok=True)
 
 MODEL_NAME  = "gemini-3.1-flash-lite"
 MAX_RETRIES = 3
 
-load_dotenv(BASE_DIR / ".env")
+load_dotenv(ROOT_DIR / ".env")
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not API_KEY:
