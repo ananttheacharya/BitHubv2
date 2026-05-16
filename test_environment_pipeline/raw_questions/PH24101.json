@@ -1,0 +1,864 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Define Malus's law. Explain all the terms.",
+        "question_latex": "\\text{Define Malus's law. Explain all the terms.}",
+        "question_type": "conceptual",
+        "question_uid": "7be998e3b0da68181745cd12bc2467d1b32d20b6088ef39da798bf132c3bb54d",
+        "tags": [
+            "Polarization",
+            "Malus Law"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "An unpolarized incident light of intensity I_0 = 204 W/m^2 passes through a sequence of two polarizers placed along the x-axis. The axis of the first polarizer is 30 degrees from the z-axis and the second polarizer is at a relative angle of 45 degrees from the first one. Obtain the final intensity. What will be the final intensity if the first polarizer is removed?",
+        "question_latex": "\\text{An unpolarized incident light of intensity } I_{0}=204~\\text{W/m}^{2} \\text{ passes through a sequence of two polarizers placed along the x-axis. The axis of the first polarizer is } 30^{\\circ} \\text{ from the z-axis and the second polarizer is at a relative angle of } 45^{\\circ} \\text{ from the first one. Obtain the final intensity. What will be the final intensity if the first polarizer is removed?}",
+        "question_type": "numerical",
+        "question_uid": "496f8a8bb23bcf4bfd0aef2459b139e80a0de248b6b1070fc1dc2bbd12975bb4",
+        "tags": [
+            "Polarization",
+            "Intensity Calculation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "What is the minimum non-zero thickness of a (parallel) film so that light of wavelength 400 nm leads to constructive interference when incident normally.",
+        "question_latex": "\\text{What is the minimum non-zero thickness of a (parallel) film so that light of wavelength } 400~\\text{nm} \\text{ leads to constructive interference when incident normally.}",
+        "question_type": "numerical",
+        "question_uid": "ea58a36c64bc25e1dfc1b3f9479b3dfcd20165b441f7b88ed528fb99b7dfb38e",
+        "tags": [
+            "Interference",
+            "Thin Films"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "What is Gauss's law? Determine the electric field outside a solid sphere of radius R and charge density \u03c1.",
+        "question_latex": "\\text{What is Gauss's law? Determine the electric field outside a solid sphere of radius } R \\text{ and charge density } \\rho.",
+        "question_type": "analytical",
+        "question_uid": "91a82b9ce34b9d5c80ff67d32bb582cb6cb1ff40a4df6e85e54d3eebe239a518",
+        "tags": [
+            "Electrostatics",
+            "Gauss Law",
+            "Electric Field"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Determine whether E = 2xi + 5yj + 6zk is conservative.",
+        "question_latex": "\\text{Determine whether } \\vec{E}=2x\\hat{i}+5y\\hat{j}+6z\\hat{k} \\text{ is conservative.}",
+        "question_type": "analytical",
+        "question_uid": "7c0fb70b805ccfbc4ee298df36cd5cf8890250df023fb2764bbf63be188df179",
+        "tags": [
+            "Vector Calculus",
+            "Conservative Field"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "What is the charge continuity equation? Explain all the terms.",
+        "question_latex": "\\text{What is the charge continuity equation? Explain all the terms.}",
+        "question_type": "conceptual",
+        "question_uid": "be1efbf7ec2a0487b3b4f620f4b36021577771de9cfbb3251a3765fb4817a220",
+        "tags": [
+            "Electromagnetism",
+            "Continuity Equation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "What is displacement current? Briefly discuss its significance.",
+        "question_latex": "\\text{What is displacement current? Briefly discuss its significance.}",
+        "question_type": "conceptual",
+        "question_uid": "473dfd72a9df5dfcbbbe9954b9d0dc07b3260be3476d97fcdbce326b47db5d96",
+        "tags": [
+            "Electromagnetism",
+            "Displacement Current",
+            "Maxwell Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Write down the Lorentz transformation equation (no derivation required) and show that, in the limit of v/c << 1, they lead to Galilean transformation equations. Explain all the terms. Write down a fundamental difference between Galilean and special theory of relativity.",
+        "question_latex": "\\text{Write down the Lorentz transformation equation (no derivation required) and show that, in the limit of } v/c \\ll 1, \\text{ they lead to Galilean transformation equations. Explain all the terms. Write down a fundamental difference between Galilean and special theory of relativity.}",
+        "question_type": "analytical",
+        "question_uid": "d99b26b3ca66d0ef0628e46950ee071d24c0ef78c2e68ddc03561a00a187efb7",
+        "tags": [
+            "Relativity",
+            "Lorentz Transformations",
+            "Galilean Transformations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "What is interference?",
+        "question_latex": "\\text{What is interference?}",
+        "question_type": "conceptual",
+        "question_uid": "0172bfdf69b0fa67f082e6bb45b8fb03b8ccf618a804791ffb39679de9ff99a9",
+        "tags": [
+            "Interference"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Light of wavelength \\lambda = 630 nanometer (nm) falls normally on a thin wedge-shaped film formed by a material with refractive index n = 1.8. There are ten bright and nine dark fringes over the length of the film. By how much does the film thickness change over this length?",
+        "question_latex": "\\text{Light of wavelength } \\lambda=630 \\text{ nanometer (nm) falls normally on a thin wedge-shaped film formed by a material with refractive index } n=1.8 \\text{. There are ten bright and nine dark fringes over the length of the film. By how much does the film thickness change over this length?}",
+        "question_type": "numerical",
+        "question_uid": "8fb3a4d36015ca167735391e9b28a2a7ccce6279f53e34b8c9d09121a8bf628a",
+        "tags": [
+            "Interference",
+            "Wedge Shaped Film"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(c)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Briefly outline (few sentences only) the phenomena of single slit diffraction. Draw the intensity pattern with suitable labels.",
+        "question_latex": "\\text{Briefly outline (few sentences only) the phenomena of single slit diffraction. Draw the intensity pattern with suitable labels.}",
+        "question_type": "conceptual",
+        "question_uid": "5fa23d1da92fa1f75f921da8409395f1d8f7cf54291c9535303c7344fa0eef3e",
+        "tags": [
+            "Diffraction",
+            "Single Slit"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 4,
+        "question_text": "Discuss any two Maxwell's equations in free space (charges and currents may be present).",
+        "question_latex": "\\text{Discuss any two Maxwell's equations in free space (charges and currents may be present).}",
+        "question_type": "conceptual",
+        "question_uid": "4ab2e4b3da59437ff86e746a6fbb22ff6109ce4aef36b1070df16ec33cbe25a4",
+        "tags": [
+            "Electromagnetism",
+            "Maxwell Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Two spaceships approach each other, each moving with the same speed as measured by a stationary observer on the Earth. Their relative speed is 0.50c, Determine the velocities of each spaceship as measured by the stationary observer on Earth.",
+        "question_latex": "\\text{Two spaceships approach each other, each moving with the same speed as measured by a stationary observer on the Earth. Their relative speed is } 0.50c \\text{, Determine the velocities of each spaceship as measured by the stationary observer on Earth.}",
+        "question_type": "numerical",
+        "question_uid": "012e840aefbb98de3df284b3e6fe99eeffbdcde82b4a3f124be3bf1dcb1f4cb8",
+        "tags": [
+            "Relativity",
+            "Velocity Addition"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 4,
+        "question_text": "Write down the expression for change in wavelength of the x-ray incident on a metal target (Compton effect). Determine the wavelength of the outgoing x-ray when scattered at an angle of 10 degrees. The wavelength of the incident x-ray was 10 pm.",
+        "question_latex": "\\text{Write down the expression for change in wavelength of the x-ray incident on a metal target (Compton effect). Determine the wavelength of the outgoing x-ray when scattered at an angle of } 10^{\\circ} \\text{. The wavelength of the incident x-ray was } 10~\\text{pm}.",
+        "question_type": "numerical",
+        "question_uid": "cb5a109da3efbc07dbfe35889fe1298feeeffcd32db890faeef7612efdcbe231",
+        "tags": [
+            "Quantum Mechanics",
+            "Compton Effect"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 6,
+        "question_text": "What will be the energies of the first and second excited states if the ground state energy is given to be 11.6 eV (electronvolts)?",
+        "question_latex": "\\text{What will be the energies of the first and second excited states if the ground state energy is given to be } 11.6~\\text{eV (electronvolts)?}",
+        "question_type": "numerical",
+        "question_uid": "7ef2a10be6ffec30daee8ef459bdcaeef62bb71efdb2cfbe09f3de764e5ca2df",
+        "tags": [
+            "Quantum Mechanics",
+            "Particle in a Box",
+            "Energy Levels"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "What are nuclear magic numbers? Classify the following nuclei as magic, non-magic or doubly magic: He (Helium-4), Co (Cobalt-59), 12C (Carbon-12).",
+        "question_latex": "\\text{What are nuclear magic numbers? Classify the following nuclei as magic, non-magic or doubly magic: He (Helium-4), Co (Cobalt-59), }^{12}\\text{C (Carbon-12).}",
+        "question_type": "conceptual",
+        "question_uid": "fb21da3beec89efbd3eefc2efb983ef1d234ea7cfbe09fbcddeef23eefdbf9e2",
+        "tags": [
+            "Nuclear Physics",
+            "Magic Numbers"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Discuss the basic working principle of a laser using the example of He-Ne laser. Mention any two applications of lasers.",
+        "question_latex": "\\text{Discuss the basic working principle of a laser using the example of He-Ne laser. Mention any two applications of lasers.}",
+        "question_type": "conceptual",
+        "question_uid": "ad3e82cbef01fcabdf326ebdf7892b3efbd92cbf3dfba2bfef45be702e86faee",
+        "tags": [
+            "Lasers",
+            "He-Ne Laser"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester (SP)",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Calculated the thickness of a doubly refracting crystal required to introduce a path difference of \\lambda / 4 between the e-ray and the o-ray when \\lambda = 6000 A, \\mu_o = 1.65 and \\mu_e = 1.54.",
+        "question_latex": "\\text{Calculated the thickness of a doubly refracting crystal required to introduce a path difference of } \\frac{\\lambda}{4} \\text{ between the e-ray and the o-ray when } \\lambda=6000~\\text{\\AA}, \\mu_{o}=1.65 \\text{ and } \\mu_{e}=1.54.",
+        "question_type": "numerical",
+        "question_uid": "8fbcd23efb01fcbdf87fae326bcef0129bc3de458feb320afbcde89fcdab213e",
+        "tags": [
+            "Polarization",
+            "Birefringence",
+            "Quarter Wave Plate"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2",
+        "module_number": 1,
+        "source_exam": "Mid Semester (SP)",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Consider white light reflected normally from a thin uniform glass slab of refractive index 1.65. Consecutive interference maximum and minimum are observed for \\lambda = 6000 \u00c5 and \\lambda = 4500 \u00c5, respectively (no other minima in between). Calculate the thickness of the glass slab.",
+        "question_latex": "\\text{Consider white light reflected normally from a thin uniform glass slab of refractive index 1.65. Consecutive interference maximum and minimum are observed for } \\lambda=6000~\\text{\\AA} \\text{ and } \\lambda=4500~\\text{\\AA}, \\text{ respectively (no other minima in between). Calculate the thickness of the glass slab.}",
+        "question_type": "numerical",
+        "question_uid": "32abefbc0129dcfa76dbfe012cdbf897fae623bcdeef890aefcbde345fbcde8e",
+        "tags": [
+            "Interference",
+            "Thin Films"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4",
+        "module_number": 2,
+        "source_exam": "Mid Semester (SP)",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Obtain the boundary condition(s) for parallel/tangential and perpendicular/normal components of D?",
+        "question_latex": "\\text{Obtain the boundary condition(s) for parallel/tangential and perpendicular/normal components of } \\vec{D}?",
+        "question_type": "analytical",
+        "question_uid": "98aefcd329bcdef874aefbde2398bcde76faefbc0129bcdef789abcef01234ea",
+        "tags": [
+            "Electrostatics",
+            "Boundary Conditions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 4,
+        "question_text": "What is polarization of light? Consider a geometry of sequence of two polarizers rotated at a relative angle of 45 degrees from each other. Determine the resulting intensity, amplitude, and polarization direction if the incident unpolarized (light) beam had the intensity I_0 = 100 W/m^2.",
+        "question_latex": "\\text{What is polarization of light? Consider a geometry of sequence of two polarizers rotated at a relative angle of } 45^{\\circ} \\text_ from each other. Determine the resulting intensity, amplitude, and polarization direction if the incident unpolarized (light) beam had the intensity } I_{0}=100~\\text{W/m}^{2}.",
+        "question_type": "analytical",
+        "question_uid": "34fbcde789abcef01234ea7cfb2349efbcd78923bcdeef890123498bcfde78ea",
+        "tags": [
+            "Polarization",
+            "Malus Law"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "A parallel beam of light is incident on a thin film of refractive index 1.5 such that the angle of refraction is 60 degrees. Determine the smallest possible thickness of the film which will appear dark by reflection.",
+        "question_latex": "\\text{A parallel beam of light is incident on a thin film of refractive index } 1.5 \\text{ such that the angle of refraction is } 60^{\\circ}. \\text{ Determine the smallest possible thickness of the film which will appear dark by reflection.}",
+        "question_type": "numerical",
+        "question_uid": "89abcef01234ea7cfb2349efbcd78923bcdeef890123498bcfde78ea32bcdef7",
+        "tags": [
+            "Interference",
+            "Thin Films"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(c)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Draw the intensity patterns for single and double slit diffraction with suitable axis labels.",
+        "question_latex": "\\text{Draw the intensity patterns for single and double slit diffraction with suitable axis labels.}",
+        "question_type": "conceptual",
+        "question_uid": "abcef01234ea7cfb2349efbcd78923bcdeef890123498bcfde78ea32bcdef789",
+        "tags": [
+            "Diffraction",
+            "Intensity Pattern"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Calculate (i) gradient of U = 2r^2, (ii) curl of a = -yi + xj, (iii) divergence of the position vector r.",
+        "question_latex": "\\text{Calculate (i) gradient of } U=2r^{2}, \\text{ (ii) curl of } \\vec{a}=-y\\hat{i}+x\\hat{j}, \\text{ (iii) divergence of the position vector } \\vec{r}.",
+        "question_type": "numerical",
+        "question_uid": "cef01234ea7cfb2349efbcd78923bcdeef890123498bcfde78ea32bcdef789ab",
+        "tags": [
+            "Vector Calculus",
+            "Gradient",
+            "Curl",
+            "Divergence"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "An elementary particle called a pi-meson (or pion for short) has an average proper lifetime of 2.6 x 10^-8 s. (i) If it moves with a speed of 0.98c relative to Earth, find the average lifetime of the pion as measured by an observer on Earth. (ii) Find the ratio of the average distance travelled by the pion as measured by the same observer with and without relativistic considerations.",
+        "question_latex": "\\text{An elementary particle called a pi-meson (or pion for short) has an average proper lifetime of } 2.6\\times10^{-8}~\\text{s.} \\text{ (i) If it moves with a speed of } 0.98c \\text{ relative to Earth, find the average lifetime of the pion as measured by an observer on Earth. (ii) Find the ratio of the average distance travelled by the pion as measured by the same observer with and without relativistic considerations.}",
+        "question_type": "numerical",
+        "question_uid": "01234ea7cfb2349efbcd78923bcdeef890123498bcfde78ea32bcdef789abcef",
+        "tags": [
+            "Relativity",
+            "Time Dilation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(c)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Find the energy equivalent of 1 amu. (Note, 1 amu = 1.66 x 10^-27 kg.)",
+        "question_latex": "\\text{Find the energy equivalent of 1 amu. (Note, 1 amu} = 1.66\\times10^{-27}~\\text{kg.)}",
+        "question_type": "numerical",
+        "question_uid": "ea7cfb2349efbcd78923bcdeef890123498bcfde78ea32bcdef789abcef01234",
+        "tags": [
+            "Relativity",
+            "Mass-Energy Equivalence"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Obtain the de Broglie wavelength of a 100 eV electron.",
+        "question_latex": "\\text{Obtain the de Broglie wavelength of a } 100~\\text{eV electron.}",
+        "question_type": "numerical",
+        "question_uid": "fb2349efbcd78923bcdeef890123498bcfde78ea32bcdef789abcef01234ea7c",
+        "tags": [
+            "Quantum Mechanics",
+            "de Broglie Wavelength"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Very briefly describe the Davisson Germer experiment and its findings.",
+        "question_latex": "\\text{Very briefly describe the Davisson Germer experiment and its findings.}",
+        "question_type": "conceptual",
+        "question_uid": "49efbcd78923bcdeef890123498bcfde78ea32bcdef789abcef01234ea7cfb23",
+        "tags": [
+            "Quantum Mechanics",
+            "Davisson Germer Experiment"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(c)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 6,
+        "question_text": "What is the ground state energy of an electron confined in box of 1 \u00c5 width.",
+        "question_latex": "\\text{What is the ground state energy of an electron confined in box of } 1~\\text{\\AA} \\text{ width.}",
+        "question_type": "numerical",
+        "question_uid": "bcd78923bcdeef890123498bcfde78ea32bcdef789abcef01234ea7cfb2349ef",
+        "tags": [
+            "Quantum Mechanics",
+            "Particle in a Box"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Define nucleon binding energy. Draw the binding energy per nucleon curve and answer the following: (i) Which nuclei is the most stable? (ii) What is the possible nuclear process involving light elements.",
+        "question_latex": "\\text{Define nucleon binding energy. Draw the binding energy per nucleon curve and answer the following: (i) Which nuclei is the most stable? (ii) What is the possible nuclear process involving light elements.}",
+        "question_type": "analytical",
+        "question_uid": "78923bcdeef890123498bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd",
+        "tags": [
+            "Nuclear Physics",
+            "Binding Energy"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Calculate the population ratio for the two states in a ruby laser at temperatures of 227 degrees C considering the emitted wavelength to be 700 nm.",
+        "question_latex": "\\text{Calculate the population ratio for the two states in a ruby laser at temperatures of } 227^{\\circ}\\text{C considering the emitted wavelength to be } 700~\\text{nm.}",
+        "question_type": "numerical",
+        "question_uid": "23bcdeef890123498bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd789",
+        "tags": [
+            "Lasers",
+            "Population Inversion"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Distinguish between interference and diffraction.",
+        "question_latex": "\\text{Distinguish between interference and diffraction.}",
+        "question_type": "conceptual",
+        "question_uid": "cdeef890123498bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd78923b",
+        "tags": [
+            "Interference",
+            "Diffraction"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Show how polarization relates the electric field E and electric displacement D.",
+        "question_latex": "\\text{Show how polarization relates the electric field } \\vec{E} \\text{ and electric displacement } \\vec{D}.",
+        "question_type": "analytical",
+        "question_uid": "ef890123498bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd78923bcde",
+        "tags": [
+            "Electrostatics",
+            "Dielectrics",
+            "Polarization"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Distinguish between inertial and non-inertial frame of reference with suitable example.",
+        "question_latex": "\\text{Distinguish between inertial and non-inertial frame of reference with suitable example.}",
+        "question_type": "conceptual",
+        "question_uid": "890123498bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd78923bcdeef",
+        "tags": [
+            "Relativity",
+            "Frames of Reference"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M1_Q1",
+        "module_number": 1,
+        "source_exam": "Module 1 Tutorial",
+        "source_year": 2026,
+        "marks": 5,
+        "question_text": "In lab, a Newton's rings set up uses Sodium lamp that contains two closely spaced wavelengths: D1 with a wavelength of 5890 A and D2 with a wavelength of 5896 A. At around what order would the fringe system completely disappear?",
+        "question_latex": "\\text{In lab, a Newton's rings set up uses Sodium lamp that contains two closely spaced wavelengths: } D_{1} \\text{ with a wavelength of } 5890~\\text{\\AA} \\text{ and } D_{2} \\text{ with a wavelength of } 5896~\\text{\\AA}. \\text{ At around what order would the fringe system completely disappear?}",
+        "question_type": "numerical",
+        "question_uid": "a24b11f3ce098a8342416baee012bc2467d1b32d20b6088ef39da798bf132c3b",
+        "tags": [
+            "Interference",
+            "Newton Rings",
+            "Coherence Length"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M1_Q2",
+        "module_number": 1,
+        "source_exam": "Module 1 Tutorial",
+        "source_year": 2026,
+        "marks": 3,
+        "question_text": "Sound wave has a speed of 330 m/s and suppose its frequency is 100 Hz. What would be the typical aperture size to experience appreciable diffraction?",
+        "question_latex": "\\text{Sound wave has a speed of } 330~\\text{m/s} \\text{ and suppose its frequency is 100 Hz. What would be the typical aperture size to experience appreciable diffraction?}",
+        "question_type": "numerical",
+        "question_uid": "f29db8e3b0da68181745cd12bc2467d1b32d20b6088ef39da798bf132c3bb54a",
+        "tags": [
+            "Diffraction",
+            "Aperture Scaling"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M2_Q1",
+        "module_number": 2,
+        "source_exam": "Module 2 Tutorial",
+        "source_year": 2026,
+        "marks": 5,
+        "question_text": "An electric field is defined as E = 100/r^2 a_r V/m in spherical coordinates. Calculate the total charge enclosed within a sphere of radius r = 5m.",
+        "question_latex": "\\text{An electric field is defined as } \\vec{E} = \\frac{100}{r^2}\\hat{a}_r~\\text{V/m} \\text{ in spherical coordinates. Calculate the total charge enclosed within a sphere of radius } r = 5\\text{m}.",
+        "question_type": "numerical",
+        "question_uid": "3cfbb24ea89fbde0124caef875bcde76aefbc0129bcdef789abcef01234ea723",
+        "tags": [
+            "Electrostatics",
+            "Gauss Law",
+            "Spherical Symmetry"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M3_Q1",
+        "module_number": 3,
+        "source_exam": "Module 3 Tutorial",
+        "source_year": 2026,
+        "marks": 5,
+        "question_text": "As seen from Earth, two spaceships A and B are approaching along perpendicular directions. If A is observed by a stationary Earth observer to have velocity u_y^A = -0.90c and B to have velocity u_x^B = +0.90c, determine the speed of ship A as measured by the pilot of ship B.",
+        "question_latex": "\\text{As seen from Earth, two spaceships A and B are approaching along perpendicular directions. If A is observed by a stationary Earth observer to have velocity } u_{y}^{A}=-0.90c \\text{ and B to have velocity } u_{x}^{B}=+0.90c, \\text{ determine the speed of ship A as measured by the pilot of ship B.}",
+        "question_type": "numerical",
+        "question_uid": "12eb4a3f124be3bf1dcb1f4cb8012e840aefbb98de3df284b3e6fe99eeffbdcde",
+        "tags": [
+            "Relativity",
+            "Velocity Transformation",
+            "2D Velocity Addition"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M3_Q2",
+        "module_number": 3,
+        "source_exam": "Module 3 Tutorial",
+        "source_year": 2026,
+        "marks": 3,
+        "question_text": "A man has a mass of 100 kg on the ground. When he is in a spacecraft in flight, his mass is 101 kg as determined by an observer on the ground. What is the speed of the spacecraft?",
+        "question_latex": "\\text{A man has a mass of 100 kg on the ground. When he is in a spacecraft in flight, his mass is 101 kg as determined by an observer on the ground. What is the speed of the spacecraft?}",
+        "question_type": "numerical",
+        "question_uid": "bcde78ea32bcdef789abcef01234ea7cfb2349efbcd78923bcdeef890123498b",
+        "tags": [
+            "Relativity",
+            "Relativistic Mass"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M3_Q3",
+        "module_number": 3,
+        "source_exam": "Module 3 Tutorial",
+        "source_year": 2026,
+        "marks": 4,
+        "question_text": "A stationary body explodes into two fragments of rest mass 1 kg that move apart at speeds of 0.6c. Find the rest mass of the original body.",
+        "question_latex": "\\text{A stationary body explodes into two fragments of rest mass 1 kg that move apart at speeds of 0.6c. Find the rest mass of the original body.}",
+        "question_type": "numerical",
+        "question_uid": "fde78ea32bcdef789abcef01234ea7cfb2349efbcd78923bcdeef890123498bc",
+        "tags": [
+            "Relativity",
+            "Relativistic Momentum",
+            "Mass-Energy Conservation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M4_Q1",
+        "module_number": 4,
+        "source_exam": "Module 4 Tutorial",
+        "source_year": 2026,
+        "marks": 5,
+        "question_text": "Find the expression for the energy levels (in MeV) of a neutron confined to a one-dimensional box 10^-14 m wide. What is the neutron's minimum energy?",
+        "question_latex": "\\text{Find the expression for the energy levels (in MeV) of a neutron confined to a one-dimensional box } 10^{-14}~\\text{m wide. What is the neutron's minimum energy?}",
+        "question_type": "analytical",
+        "question_uid": "23bcdeef890123498bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd789a",
+        "tags": [
+            "Quantum Mechanics",
+            "Particle in a Box",
+            "Neutron Energy"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M4_Q2",
+        "module_number": 4,
+        "source_exam": "Module 4 Tutorial",
+        "source_year": 2026,
+        "marks": 5,
+        "question_text": "A measurement establishes the position of a proton with an accuracy of \\pm 10^-11 m. Find the uncertainty in the proton's position 1 s later. Assume v << c.",
+        "question_latex": "\\text{A measurement establishes the position of a proton with an accuracy of } \\pm 10^{-11}~\\text{m. Find the uncertainty in the proton's position 1 s later. Assume } v \\ll c.",
+        "question_type": "numerical",
+        "question_uid": "890123498bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd78923bcdeef",
+        "tags": [
+            "Quantum Mechanics",
+            "Heisenberg Uncertainty Principle",
+            "Wavepacket Spreading"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M4_Q3",
+        "module_number": 4,
+        "source_exam": "Module 4 Tutorial",
+        "source_year": 2026,
+        "marks": 4,
+        "question_text": "A typical nucleus is about 5 x 10^-15 m in radius. Use the uncertainty principle to place a lower bound on the energy an electron must have if it is to be part of a nucleus.",
+        "question_latex": "\\text{A typical nucleus is about } 5\\times10^{-15}~\\text{m in radius. Use the uncertainty principle to place a lower bound on the energy an electron must have if it is to be part of a nucleus.}",
+        "question_type": "numerical",
+        "question_uid": "bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd78923bcdeef890123498",
+        "tags": [
+            "Quantum Mechanics",
+            "Heisenberg Uncertainty Principle",
+            "Nuclear Confinement"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M5_Q1",
+        "module_number": 5,
+        "source_exam": "Module 5 Tutorial",
+        "source_year": 2026,
+        "marks": 4,
+        "question_text": "A ruby laser emits pulses of light with a wavelength of 694.3 nm. Calculate the frequency of the laser light and the energy of one photon emitted by the laser.",
+        "question_latex": "\\text{A ruby laser emits pulses of light with a wavelength of } 694.3~\\text{nm. Calculate the frequency of the laser light and the energy of one photon emitted by the laser.}",
+        "question_type": "numerical",
+        "question_uid": "789abcef01234ea7cfb2349efbcd78923bcdeef890123498bcfde78ea32bcdef7",
+        "tags": [
+            "Lasers",
+            "Photon Energy"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M5_Q2",
+        "module_number": 5,
+        "source_exam": "Module 5 Tutorial",
+        "source_year": 2026,
+        "marks": 4,
+        "question_text": "A ruby laser emits light of wavelength 694.4 nm. If a laser pulse is emitted for 1.2 x 10^-11 s and energy released per pulse is 0.15 J. How many photons are there in each pulse?",
+        "question_latex": "\\text{A ruby laser emits light of wavelength } 694.4~\\text{nm. If a laser pulse is emitted for } 1.2\\times10^{-11}~\\text{s and energy released per pulse is } 0.15~\\text{J. How many photons are there in each pulse?}",
+        "question_type": "numerical",
+        "question_uid": "4ea7cfb2349efbcd78923bcdeef890123498bcfde78ea32bcdef789abcef0123",
+        "tags": [
+            "Lasers",
+            "Photon Counting",
+            "Pulse Energy"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M5_Q3",
+        "module_number": 5,
+        "source_exam": "Module 5 Tutorial",
+        "source_year": 2026,
+        "marks": 3,
+        "question_text": "Find the density of a 12/6 C nucleus assuming its radius to be 2.7 fm.",
+        "question_latex": "\\text{Find the density of a }_{6}^{12}\\text{C nucleus assuming its radius to be } 2.7~\\text{fm.}",
+        "question_type": "numerical",
+        "question_uid": "bcd78923bcdeef890123498bcfde78ea32bcdef789abcef01234ea7cfb2349ef",
+        "tags": [
+            "Nuclear Physics",
+            "Nuclear Density"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Tutorial_M5_Q4",
+        "module_number": 5,
+        "source_exam": "Module 5 Tutorial",
+        "source_year": 2026,
+        "marks": 5,
+        "question_text": "Calculate the binding energy of 56/26 Fe given that m(56/26 Fe) = 55.934939 u, m_p = 1.007825 u, and m_n = 1.008665 u.",
+        "question_latex": "\\text{Calculate the binding energy of }_{26}^{56}\\text{Fe given that } m(_{26}^{56}\\text{Fe})=55.934939~\\text{u}, m_{p}=1.007825~\\text{u, and } m_{n}=1.008665~\\text{u.}",
+        "question_type": "numerical",
+        "question_uid": "923bcdeef890123498bcfde78ea32bcdef789abcef01234ea7cfb2349efbcd78",
+        "tags": [
+            "Nuclear Physics",
+            "Binding Energy Calculation",
+            "Mass Defect"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    }
+]

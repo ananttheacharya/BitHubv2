@@ -1,0 +1,874 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "List various responsibilities of an operating system.",
+        "question_latex": "\\text{List various responsibilities of an operating system.}",
+        "question_type": "conceptual",
+        "question_uid": "4a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b",
+        "tags": [
+            "Operating System",
+            "Computer Components"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Draw a block diagram of the computer system and explain its various components with special emphasis on storage.",
+        "question_latex": "\\text{Draw a block diagram of the computer system and explain its various components with special emphasis on storage.}",
+        "question_type": "conceptual",
+        "question_uid": "5b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+        "tags": [
+            "Computer Systems",
+            "Hardware Architecture"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Define the term algorithm and explain the characteristics of a good algorithm.",
+        "question_latex": "\\text{Define the term algorithm and explain the characteristics of a good algorithm.}",
+        "question_type": "conceptual",
+        "question_uid": "6c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
+        "tags": [
+            "Algorithms",
+            "Problem Solving"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Write a pseudocode and draw the corresponding flow chart where multiple conditions are checked to categorize a person based on specified age as either child (<12 years), teenager (>=12 years but <19 years) or adult (>19 years).",
+        "question_latex": "\\text{Write a pseudocode and draw the corresponding flow chart where multiple conditions are checked to categorize a person based on specified age as either child } (<12 \\text{ years}), \\text{ teenager } (\\ge 12 \\text{ years but } <19 \\text{ years}) \\text{ or adult } (>19 \\text{ years}).",
+        "question_type": "analytical",
+        "question_uid": "7d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+        "tags": [
+            "Pseudocode",
+            "Flowcharts",
+            "Conditionals"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Compute the value of x and y for the following expressions with their evaluation tree: (i) x = !0 || 4.0 + 2.0 >= 3.0 - 2.0 (ii) y = 75 - 20 - 48 / 8 * 5 + 9 % 2 + 10 >> 2.",
+        "question_latex": "\\text{Compute the value of } x \\text{ and } y \\text{ for the following expressions with their evaluation tree: (i) } x = !0 \\parallel 4.0 + 2.0 \\ge 3.0 - 2.0 \\text{ (ii) } y = 75 - 20 - 48 / 8 * 5 + 9 \\% 2 + 10 \\gg 2.",
+        "question_type": "analytical",
+        "question_uid": "8e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+        "tags": [
+            "Operators",
+            "Expressions",
+            "Precedence"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Illustrate various programming errors in C with examples.",
+        "question_latex": "\\text{Illustrate various programming errors in C with examples.}",
+        "question_type": "conceptual",
+        "question_uid": "9f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a",
+        "tags": [
+            "Syntax Errors",
+            "Logical Errors",
+            "Compilation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Illustrate the difference between prefix and postfix increment operator with examples.",
+        "question_latex": "\\text{Illustrate the difference between prefix and postfix increment operator with examples.}",
+        "question_type": "conceptual",
+        "question_uid": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+        "tags": [
+            "Operators",
+            "Increment Operator"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Differentiate between nested if-else and switch-case statement with examples.",
+        "question_latex": "\\text{Differentiate between nested if-else and switch-case statement with examples.}",
+        "question_type": "conceptual",
+        "question_uid": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+        "tags": [
+            "Conditional Branching",
+            "Switch Case"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Explain any two examples of each of the following operators. a) Arithmetic operators b) Logical operators.",
+        "question_latex": "\\text{Explain any two examples of each of the following operators. a) Arithmetic operators b) Logical operators.}",
+        "question_type": "conceptual",
+        "question_uid": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+        "tags": [
+            "Operators",
+            "Arithmetic Operators",
+            "Logical Operators"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Explain briefly about each line of code in the following program:\n#include<stdio.h>\nvoid main()\n{\nint a=10;\nfloat b=23.56;\nchar c='A';\nprintf(\"%d %f %c\\n\", a,b,c);\n}",
+        "question_latex": "\\begin{array}{l} \\text{Explain briefly about each line of code in the following program:} \\\\ \\texttt{\\#include<stdio.h>} \\\\ \\texttt{void main()} \\\\ \\texttt{\\{} \\\\ \\texttt{\\ \\ int a=10;} \\\\ \\texttt{\\ \\ float b=23.56;} \\\\ \\texttt{\\ \\ char c='A';} \\\\ \\texttt{\\ \\ printf(\"\\%d \\%f \\%c\\\\n\", a,b,c);} \\\\ \\texttt{\\}} \\end{array}",
+        "question_type": "analytical",
+        "question_uid": "d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+        "tags": [
+            "Structure of C Program",
+            "Data Types",
+            "Basic I/O"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Make a flow chart to find out whether a number is an odd number or even number, if any integer number is input through keyboard.",
+        "question_latex": "\\text{Make a flow chart to find out whether a number is an odd number or even number, if any integer number is input through keyboard.}",
+        "question_type": "analytical",
+        "question_uid": "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2",
+        "tags": [
+            "Flowcharts",
+            "Conditionals"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Write all steps to solve expression involving integer values only which is based on precedence and associativity concept. 5*(10/5+ (7*6-3)% (6+5-2)).",
+        "question_latex": "\\text{Write all steps to solve expression involving integer values only which is based on precedence and associativity concept. } 5*(10/5+ (7*6-3)\\% (6+5-2)).",
+        "question_type": "analytical",
+        "question_uid": "f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+        "tags": [
+            "Operators",
+            "Expressions",
+            "Precedence"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Write any four common flowchart symbols along with their meaning.",
+        "question_latex": "\\text{Write any four common flowchart symbols along with their meaning.}",
+        "question_type": "conceptual",
+        "question_uid": "a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+        "tags": [
+            "Flowcharts",
+            "Algorithms"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Write a program to calculate the sum of the digits of a 3-digit input number.",
+        "question_latex": "\\text{Write a program to calculate the sum of the digits of a 3-digit input number.}",
+        "question_type": "programming",
+        "question_uid": "b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+        "tags": [
+            "Basic I/O",
+            "Arithmetic Operators"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Find the output of the following program:\n#include <stdio.h>\nvoid main()\n{\nint i=0, x=0;\nfor (i=1;i<5;++i)\n{\nif (i%2==1)\nx+=i;\nelse\nx--;\n}\nprintf(\"%d\",x);\n}",
+        "question_latex": "\\begin{array}{l} \\text{Find the output of the following program:} \\\\ \\texttt{\\#include <stdio.h>} \\\\ \\texttt{void main()} \\\\ \\texttt{\\{} \\\\ \\texttt{\\ \\ int i=0, x=0;} \\\\ \\texttt{\\ \\ for (i=1;i<5;++i)} \\\\ \\texttt{\\ \\ \\{} \\\\ \\texttt{\\ \\ \\ \\ if (i\\%2==1)} \\\\ \\texttt{\\ \\ \\ \\ \\ \\ x+=i;} \\\\ \\texttt{\\ \\ \\ \\ else} \\\\ \\texttt{\\ \\ \\ \\ \\ \\ x--;} \\\\ \\texttt{\\ \\ \\ \\}} \\\\ \\texttt{\\ \\ printf(\"\\%d\",x);} \\\\ \\texttt{\\}} \\end{array}",
+        "question_type": "analytical",
+        "question_uid": "c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+        "tags": [
+            "Loops",
+            "Conditionals",
+            "Output Tracing"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Solve the following equation using a flowchart and algorithm: AX^2+BX+C=0.",
+        "question_latex": "\\text{Solve the following equation using a flowchart and algorithm: } AX^{2}+BX+C=0.",
+        "question_type": "analytical",
+        "question_uid": "d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+        "tags": [
+            "Algorithms",
+            "Flowcharts"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "What do you mean by algorithm? Explain briefly about properties of the algorithm.",
+        "question_latex": "\\text{What do you mean by algorithm? Explain briefly about properties of the algorithm.}",
+        "question_type": "conceptual",
+        "question_uid": "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+        "tags": [
+            "Algorithms"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Find the output of the following fragment of code given in C language: a) for (int x=2; x<=6; x++) { if (x>4) break; printf(\"%d\", x); } b) int num = 10; int a; a = num++; printf(\"num is %d, a is %d\", num, a);",
+        "question_latex": "\\begin{array}{l} \\text{Find the output of the following fragment of code given in C language:} \\\\ \\text{a) } \\texttt{for (int x=2; x<=6; x++) \\{ if (x>4) break; printf(\"\\%d\", x); \\}} \\\\ \\text{b) } \\texttt{int num = 10; int a; a = num++; printf(\"num is \\%d, a is \\%d\", num, a);} \\end{array}",
+        "question_type": "analytical",
+        "question_uid": "f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9",
+        "tags": [
+            "Loops",
+            "Operators",
+            "Output Tracing"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Explain the following with the help of an example: a) Implicit and explicit type conversion b) Comparison between while and do while loop.",
+        "question_latex": "\\text{Explain the following with the help of an example: a) Implicit and explicit type conversion b) Comparison between while and do while loop.}",
+        "question_type": "conceptual",
+        "question_uid": "a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0",
+        "tags": [
+            "Type Conversion",
+            "Loops"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Explain the following with the help of an example: 1) Array (Single and Multiple Dimension) 2) strings related built-in functions (any two).",
+        "question_latex": "\\text{Explain the following with the help of an example: 1) Array (Single and Multiple Dimension) 2) strings related built-in functions (any two).}",
+        "question_type": "conceptual",
+        "question_uid": "b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1",
+        "tags": [
+            "Arrays",
+            "Strings"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Store and display the following numbers in a matrix of order 3 X 4 using a 2D array:\n10 30 20 40\n15 25 35 45\n15 5 25 35\nFind the row sum and column sum of the matrix.",
+        "question_latex": "\\text{Store and display the following numbers in a matrix of order } 3 \\times 4 \\text{ using a 2D array:} \\\\ \\begin{matrix} 10 & 30 & 20 & 40 \\\\ 15 & 25 & 35 & 45 \\\\ 15 & 5 & 25 & 35 \\end{matrix} \\\\ \\text{Find the row sum and column sum of the matrix.}",
+        "question_type": "programming",
+        "question_uid": "c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2",
+        "tags": [
+            "2D Arrays",
+            "Matrix"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Explain briefly about the bubble sort algorithm or program. Sort the following numbers using the bubble sort algorithm: 15, 10, 5, 3, 20, 16, 12, 9.",
+        "question_latex": "\\text{Explain briefly about the bubble sort algorithm or program. Sort the following numbers using the bubble sort algorithm: } 15, 10, 5, 3, 20, 16, 12, 9.",
+        "question_type": "analytical",
+        "question_uid": "d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3",
+        "tags": [
+            "Sorting Algorithms",
+            "Bubble Sort"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Write a program in C language to solve the factorial of a number using recursive and non-recursive functions.",
+        "question_latex": "\\text{Write a program in C language to solve the factorial of a number using recursive and non-recursive functions.}",
+        "question_type": "programming",
+        "question_uid": "e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4",
+        "tags": [
+            "Functions",
+            "Recursion"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program to print HELLO WORLD on screen.",
+        "question_latex": "\\text{Write a program to print HELLO WORLD on screen.}",
+        "question_type": "programming",
+        "question_uid": "f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5",
+        "tags": [
+            "Basic I/O",
+            "Programs"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program which accept two numbers and print their sum.",
+        "question_latex": "\\text{Write a program which accept two numbers and print their sum.}",
+        "question_type": "programming",
+        "question_uid": "a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6",
+        "tags": [
+            "Basic I/O",
+            "Arithmetic Operators"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program which accept temperature in Farenheit and print it in centigrade.",
+        "question_latex": "\\text{Write a program which accept temperature in Farenheit and print it in centigrade.}",
+        "question_type": "programming",
+        "question_uid": "b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7",
+        "tags": [
+            "Arithmetic Programs",
+            "Expressions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program which accept principle, rate and time from user and print the simple interest.",
+        "question_latex": "\\text{Write a program which accept principle, rate and time from user and print the simple interest.}",
+        "question_type": "programming",
+        "question_uid": "c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8",
+        "tags": [
+            "Arithmetic Programs",
+            "Expressions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.6",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program which accepts a character and display its ASCII value.",
+        "question_latex": "\\text{Write a program which accepts a character and display its ASCII value.}",
+        "question_type": "programming",
+        "question_uid": "d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9",
+        "tags": [
+            "Data Types",
+            "Basic I/O"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.7",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program to swap the values of two variables.",
+        "question_latex": "\\text{Write a program to swap the values of two variables.}",
+        "question_type": "programming",
+        "question_uid": "e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0",
+        "tags": [
+            "Variables",
+            "Basic Logic"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.8",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program to calculate area of circle.",
+        "question_latex": "\\text{Write a program to calculate area of circle.}",
+        "question_type": "programming",
+        "question_uid": "f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1",
+        "tags": [
+            "Arithmetic Programs",
+            "Expressions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.9",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program to check whether the given number is positive or negative (using ? : ternary operator ).",
+        "question_latex": "\\text{Write a program to check whether the given number is positive or negative (using ? : ternary operator ).}",
+        "question_type": "programming",
+        "question_uid": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+        "tags": [
+            "Operators",
+            "Conditional Branching"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.10",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program to check whether the given number is even or odd (using ? : ternary operator ).",
+        "question_latex": "\\text{Write a program to check whether the given number is even or odd (using ? : ternary operator ).}",
+        "question_type": "programming",
+        "question_uid": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+        "tags": [
+            "Operators",
+            "Conditional Branching"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.11",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program to swap value of two variables without using third variable.",
+        "question_latex": "\\text{Write a program to swap value of two variables without using third variable.}",
+        "question_type": "programming",
+        "question_uid": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+        "tags": [
+            "Variables",
+            "Arithmetic Operators"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.12",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program which input three numbers and display the largest number using ternary operator.",
+        "question_latex": "\\text{Write a program which input three numbers and display the largest number using ternary operator.}",
+        "question_type": "programming",
+        "question_uid": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+        "tags": [
+            "Operators",
+            "Conditional Branching"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.13",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program which accepts amount as integer and display total number of Notes of Rs. 500, 100, 50, 20, 10, 5 and 1.",
+        "question_latex": "\\text{Write a program which accepts amount as integer and display total number of Notes of Rs. 500, 100, 50, 20, 10, 5 and 1.}",
+        "question_type": "programming",
+        "question_uid": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+        "tags": [
+            "Arithmetic Programs",
+            "Basic Logic"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.14",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program which accepts a character and display its next character.",
+        "question_latex": "\\text{Write a program which accepts a character and display its next character.}",
+        "question_type": "programming",
+        "question_uid": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+        "tags": [
+            "Data Types",
+            "Arithmetic Operators"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.15",
+        "module_number": 2,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Write a program which accepts days as integer and display total number of years, months and days in it. for example : If user input as 856 days the output should be 2 years 4 months 6 days.",
+        "question_latex": "\\text{Write a program which accepts days as integer and display total number of years, months and days in it. for example : If user input as 856 days the output should be 2 years 4 months 6 days.}",
+        "question_type": "programming",
+        "question_uid": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+        "tags": [
+            "Arithmetic Programs",
+            "Basic Logic"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.80",
+        "module_number": 4,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 3,
+        "question_text": "Write a function in C which accepts a 2D array of integers and its size as arguments and displays the elements of middle row and the elements of middle column. [Assuming the 2D Array to be a square matrix with odd dimension i.e. 3x3, 5x5, 7x7 etc...]",
+        "question_latex": "\\text{Write a function in C which accepts a 2D array of integers and its size as arguments and displays the elements of middle row and the elements of middle column. [Assuming the 2D Array to be a square matrix with odd dimension i.e. 3x3, 5x5, 7x7 etc...]}",
+        "question_type": "programming",
+        "question_uid": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+        "tags": [
+            "Functions",
+            "2D Arrays"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.81",
+        "module_number": 3,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Write a program to add two array A and B of size m x n.",
+        "question_latex": "\\text{Write a program to add two array A and B of size m x n.}",
+        "question_type": "programming",
+        "question_uid": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+        "tags": [
+            "2D Arrays",
+            "Matrix Operations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.82",
+        "module_number": 3,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 3,
+        "question_text": "Write a program to multiply array A and B of order NxL and LxM.",
+        "question_latex": "\\text{Write a program to multiply array A and B of order NxL and LxM.}",
+        "question_type": "programming",
+        "question_uid": "d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+        "tags": [
+            "2D Arrays",
+            "Matrix Operations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.83",
+        "module_number": 5,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 4,
+        "question_text": "Declare a structure to represent a complex number (a number having a real part and imaginary part). Write functions to add, subtract, multiply and divide two complex numbers.",
+        "question_latex": "\\text{Declare a structure to represent a complex number (a number having a real part and imaginary part). Write functions to add, subtract, multiply and divide two complex numbers.}",
+        "question_type": "programming",
+        "question_uid": "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2",
+        "tags": [
+            "Structures",
+            "Functions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.84",
+        "module_number": 5,
+        "source_exam": "Lab Assignment",
+        "source_year": 2026,
+        "marks": 3,
+        "question_text": "An array stores details of 25 students (rollno, name, marks in three subject). Write a program to create such an array and print out a list of students who have failed in more than one subject.",
+        "question_latex": "\\text{An array stores details of 25 students (rollno, name, marks in three subject). Write a program to create such an array and print out a list of students who have failed in more than one subject.}",
+        "question_type": "programming",
+        "question_uid": "f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+        "tags": [
+            "Arrays of Structures",
+            "Structures"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1",
+        "module_number": 3,
+        "source_exam": "Objective Question Bank",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Which of the following correctly declares an array?\nA. int an array[10];\nB. int an array;\nC. an array{10};\nD. array an array[10];",
+        "question_latex": "\\text{Which of the following correctly declares an array?} \\\\ \\text{A. int an array[10];} \\\\ \\text{B. int an array;} \\\\ \\text{C. an array\\{10\\};} \\\\ \\text{D. array an array[10];}",
+        "question_type": "conceptual",
+        "question_uid": "a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+        "tags": [
+            "Arrays",
+            "Syntax"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2",
+        "module_number": 3,
+        "source_exam": "Objective Question Bank",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "What is the index number of the last element of an array with 29 elements?\nA. 29\nB. 28\nC. 0\nD. Programmer-defined",
+        "question_latex": "\\text{What is the index number of the last element of an array with 29 elements?} \\\\ \\text{A. 29} \\\\ \\text{B. 28} \\\\ \\text{C. 0} \\\\ \\text{D. Programmer-defined}",
+        "question_type": "conceptual",
+        "question_uid": "b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+        "tags": [
+            "Arrays",
+            "Indexing"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3",
+        "module_number": 3,
+        "source_exam": "Objective Question Bank",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "Which of the following is a two-dimensional array?\nA. array anarray[20][20];\nB. int anarray[20][20];\nC. int array[20, 20];\nD. char array[20];",
+        "question_latex": "\\text{Which of the following is a two-dimensional array?} \\\\ \\text{A. array anarray[20][20];} \\\\ \\text{B. int anarray[20][20];} \\\\ \\text{C. int array[20, 20];} \\\\ \\text{D. char array[20];}",
+        "question_type": "conceptual",
+        "question_uid": "c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+        "tags": [
+            "2D Arrays",
+            "Syntax"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4",
+        "module_number": 5,
+        "source_exam": "Objective Question Bank",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What will be output if you will compile and execute the following c code?\n#include<stdio.h>\nint main(){\nint i=320;\nchar *ptr=(char *)&i;\nprintf(\"%d\",*ptr);\nreturn 0;\n}",
+        "question_latex": "\\begin{array}{l} \\text{What will be output if you will compile and execute the following c code?} \\\\ \\texttt{\\#include<stdio.h>} \\\\ \\texttt{int main()\\{} \\\\ \\texttt{\\ \\ int i=320;} \\\\ \\texttt{\\ \\ char *ptr=(char *)\\&i;} \\\\ \\texttt{\\ \\ printf(\"\\%d\",*ptr);} \\\\ \\texttt{\\ \\ return 0;} \\\\ \\texttt{\\}} \\end{array}",
+        "question_type": "analytical",
+        "question_uid": "d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+        "tags": [
+            "Pointers",
+            "Typecasting",
+            "Output Tracing"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.219",
+        "module_number": 2,
+        "source_exam": "Objective Question Bank",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "How do printf()'s format specifiers %e and %f differ in their treatment of floating-point numbers?\nA. %e displays an argument of type double with trailing zeros; %f never displays trailing zeros.\nB. %e displays a double in engineering notation if the number is very small or very large. Otherwise, it behaves like %f and displays the number in decimal notation.\nC. %e always displays an argument of type double in engineering notation; %f always displays an argument of type double in decimal notation.\nD. %e expects a corresponding argument of type double; %f expects a corresponding argument of type float.\nE. %e and %f both expect a corresponding argument of type double and format it identically.",
+        "question_latex": "\\text{How do printf()'s format specifiers \\%e and \\%f differ in their treatment of floating-point numbers?} \\\\ \\text{A. \\%e displays an argument of type double with trailing zeros; \\%f never displays trailing zeros.} \\\\ \\text{B. \\%e displays a double in engineering notation if the number is very small or very large. Otherwise, it behaves like \\%f...}",
+        "question_type": "conceptual",
+        "question_uid": "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+        "tags": [
+            "Basic I/O",
+            "Format Specifiers"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.220",
+        "module_number": 2,
+        "source_exam": "Objective Question Bank",
+        "source_year": 2026,
+        "marks": 1,
+        "question_text": "c = getchar(); What is the proper declaration for the variable c in the code above?\nA. char *c;\nB. char c;\nC. int c;\nD. float c;",
+        "question_latex": "\\text{c = getchar(); What is the proper declaration for the variable c in the code above?} \\\\ \\text{A. char *c; B. char c; C. int c; D. float c;}",
+        "question_type": "conceptual",
+        "question_uid": "f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9",
+        "tags": [
+            "Basic I/O",
+            "Data Types"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    }
+]

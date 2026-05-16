@@ -1,0 +1,406 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Define (i) Dependent source (ii) linear element (iii) reluctance (iv) mesh (v) inductance.",
+        "question_latex": "\\text{Define: (i) Dependent source, (ii) Linear element, (iii) Reluctance } (\\mathcal{R}), \\text{ (iv) Mesh, and (v) Inductance } (L).",
+        "question_type": "theoretical",
+        "question_uid": "9a7b98d2ef8c1356a4b123d45efef5521a221b22e193fc0c5e75ab41d23456ab",
+        "tags": [
+            "Circuit Elements",
+            "Dependent Sources",
+            "Linear Elements",
+            "Mesh Analysis",
+            "Magnetic Circuits"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "For the circuit shown below, use mesh analysis to find the voltage V0. [Circuit details: 12V source, 1kΩ, 2kΩ, 1kΩ resistors, and a dependent voltage source V_o/2]",
+        "question_latex": "\\text{For the circuit provided, apply mesh analysis to determine the output voltage } V_0. \\text{ The network includes a dependent source controlled by } \\frac{V_0}{2}.",
+        "question_type": "numerical",
+        "question_uid": "c101a8ef342bcde567812ab34cd56eff71a1b123d19bc234cde561bcf76a2134",
+        "tags": [
+            "Mesh Analysis",
+            "Dependent Sources"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Determine (i) the average value and (ii) r.m.s. value of the current waveform given below [Symmetric saw-tooth periodic waveform with peak current Im over period T].",
+        "question_latex": "\\text{Determine (i) the average value and (ii) the R.M.S. value of a periodic current waveform } i(t) \\text{ having a peak amplitude } I_m \\text{ and period } T.",
+        "question_type": "numerical",
+        "question_uid": "d5e6f7a812bc34de56ef789012ab34cd56ef78a912bc34de56ef789012ab34cd",
+        "tags": [
+            "AC Circuits",
+            "RMS Value",
+            "Average Value",
+            "Waveform Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Two elements based series circuit consumes 700 W and has power factor of 0.707.",
+        "question_latex": "\\text{A two-element series AC circuit consumes a real power } P = 700\\text{ W} \\text{ with a lagging power factor of } \\cos\\phi = 0.707.",
+        "question_type": "numerical",
+        "question_uid": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+        "tags": [
+            "AC Circuits",
+            "Power Factor",
+            "Series RLC Circuits"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "A 400V, 3-phase star connected alternator supplies a delta-connected load, each phase of which has a resistance of 30 ohms and inductive reactance 40 ohms. Calculate (a) the current supplied by the alternator and (b) the output power and the kVA of the alternator, neglecting losses in the line between the alternator and load.",
+        "question_latex": "\\text{A } 400\\text{ V, 3-phase star-connected alternator supplies a delta-connected load with phase impedance } Z_p = 30 + j40 \\; \\Omega. \\text{ Calculate: (a) line current } I_L, \\text{ (b) total active power } P, \\text{ and total apparent power } S.",
+        "question_type": "numerical",
+        "question_uid": "8c7b6a5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b",
+        "tags": [
+            "Three-Phase AC Circuits",
+            "Star-Delta Systems",
+            "Line and Phase Quantities"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Consider the following circuit shown below. Compute RL for maximum power transfer and compute the maximum power PLmax? [Circuit parameters: 136V source, 300Ω, 400Ω network resistors, 0.12A controlled tracking]",
+        "question_latex": "\\text{Determine the optimum load resistance } R_L \\text{ required across the designated terminals to guarantee maximum power transfer, and evaluate } P_{L\\text{max}}.",
+        "question_type": "numerical",
+        "question_uid": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e",
+        "tags": [
+            "Network Theorems",
+            "Maximum Power Transfer Theorem",
+            "Thevenin's Theorem"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "A steel ring has a mean diameter of 20cm, a cross section of 25cm² and a radial air gap of 0.5mm cut in it. The ring is uniformly wound with 2000 turns of insulated wire and a magnetizing current of 1A produces a flux of 1.25 milli weber in the air gap. Neglecting the effect of magnetic leakage, evaluate the relative permeability of the steel core.",
+        "question_latex": "\\text{A steel ring with mean diameter } d_m = 20\\text{ cm, area } A = 25\\text{ cm}^2, \\text{ and air gap } g = 0.5\\text{ mm is wound with } N = 2000 \\text{ turns}. \\text{ If } I = 1\\text{ A} \\text{ yields } \\Phi = 1.25\\text{ mWb}, \\text{ compute relative permeability } \\mu_r.",
+        "question_type": "numerical",
+        "question_uid": "7b8a9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b",
+        "tags": [
+            "Magnetic Circuits",
+            "Reluctance",
+            "Relative Permeability",
+            "Air Gap Calculations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Two similar coils have a coupling co-efficient of 0.2. When they are connected in series, cumulatively, the total inductance is 120 mH. Calculate a) The self-inductance of each coil. b) The total inductance when the coils are connected in series differentially. c) The total magnetic energy due to current of 3A when the coils are connected in series: (i) cumulatively, (ii) differentially.",
+        "question_latex": "\\text{Two identical coils with coupling coefficient } k = 0.2 \\text{ possess a cumulative series inductance } L_{eq1} = 120\\text{ mH}. \\text{ Calculate: (a) Self-inductance } L, \\text{ (b) Differential series inductance } L_{eq2}, \\text{ and (c) Stored magnetic energy } W_m \\text{ at } I = 3\\text{ A}.",
+        "question_type": "numerical",
+        "question_uid": "3c2b1a0f9e8d7c6b5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f",
+        "tags": [
+            "Coupled Circuits",
+            "Self Inductance",
+            "Mutual Inductance",
+            "Magnetic Energy Storage"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2020,
+        "marks": 2,
+        "question_text": "The combined inductance of the two coils connected in series 0.6H and 0.4 H depending upon the relative direction of the current in coil. When one of the coil, where isolated has a self inductance of 0.15H then find the Mutual inductance and co-efficient of coupling.",
+        "question_latex": "\\text{Two series-connected coils provide total inductances of } 0.6\\text{ H and } 0.4\\text{ H depending on aiding/opposing layout}. \\text{ If one isolated coil has } L_1 = 0.15\\text{ H}, \\text{ solve for mutual inductance } M \\text{ and coupling coefficient } k.",
+        "question_type": "numerical",
+        "question_uid": "e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5",
+        "tags": [
+            "Coupled Circuits",
+            "Mutual Inductance",
+            "Coupling Coefficient"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Define the terms: (i) Independent Source (ii) Dependent Source",
+        "question_latex": "\\text{Define the terms: (i) Independent Source and (ii) Dependent Source.}",
+        "question_type": "theoretical",
+        "question_uid": "7d9b5a4c3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b",
+        "tags": [
+            "Circuit Elements",
+            "Independent Sources",
+            "Dependent Sources"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Explain the concept of a Super node and state the limitations associated in this analysis?",
+        "question_latex": "\\text{Explain the concept of a Supernode and state the limitations associated with this method of network analysis.}",
+        "question_type": "theoretical",
+        "question_uid": "8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f",
+        "tags": [
+            "Nodal Analysis",
+            "Supernode"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Using the Star/Delta conversion technique, determine the current flowing between the terminals A and B when a 5V dc source is connected between them? [Resistors layout: 6Ω, 4Ω, 3Ω, 5Ω, 35Ω, 2Ω, 4Ω]",
+        "question_latex": "\\text{Using Star-Delta conversion, compute the net equivalent current flowing between terminals } A \\text{ and } B \\text{ connected across a } 5\\text{ V DC supply.}",
+        "question_type": "numerical",
+        "question_uid": "5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b",
+        "tags": [
+            "Star-Delta Conversion",
+            "Network Reduction"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "In a series RLC circuit, an AC voltage of 120e^+j0 V is applied at a frequency of 400 rad/sec. The input current leads the voltage by 63.5 degrees. Calculate the value of 'R' if L=0.025H and C=50μF.",
+        "question_latex": "\\text{In a series } RLC \\text{ network, an excitation voltage of } 120\\angle 0^\\circ\\text{ V is applied at } \\omega = 400\\text{ rad/s}. \\text{ The response current leads by } 63.5^\\circ. \\text{ Solve for } R \\text{ given } L = 0.025\\text{ H and } C = 50\\,\\mu\\text{F}.",
+        "question_type": "numerical",
+        "question_uid": "2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
+        "tags": [
+            "AC Circuits",
+            "Series RLC Circuits",
+            "Impedance calculations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Three coils, each having a resistance and an inductance of 8 ohm and 0.02 H respectively, are connected in star across a three-phase, 230 V, 50 Hz supply. Find the (i) power factor, (ii) line current, (iii) power, (iv) reactive volt-amperes, and (v) total volt-amperes.",
+        "question_latex": "\\text{Three identical coils with } R = 8\\;\\Omega \\text{ and } L = 0.02\\text{ H are connected in star to a 3-phase, } 230\\text{ V, } 50\\text{ Hz supply.} \\text{ Determine (i) } \\cos\\phi, \\text{ (ii) } I_L, \\text{ (iii) active power } P, \\text{ (iv) reactive power } Q, \\text{ and (v) apparent power } S.",
+        "question_type": "numerical",
+        "question_uid": "9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e",
+        "tags": [
+            "Three-Phase AC Circuits",
+            "Star Network Balanced",
+            "Power Measurement"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "A steel ring 25 cm diameter and of circular section with thickness of 3cm in diameter has an air gap of 1.5 mm. If it is wound uniformly with 750 turns of conductor carrying current of 2.1 A, then Evaluate: (i) mmf, (ii) magnetic flux, (iii) magnetic flux density in air gap.",
+        "question_latex": "\\text{A steel ring with a mean core diameter of } 25\\text{ cm and a circular cross-section of diameter } 3\\text{ cm contains a } 1.5\\text{ mm air gap}. \\text{ The core is wound uniformly with } N = 750\\text{ turns carrying a current of } I = 2.1\\text{ A}. \\text{ Determine: (i) the magnetomotive force (mmf), (ii) total magnetic flux } \\Phi, \\text{ and (iii) the air gap magnetic flux density } B_g.",
+        "question_type": "numerical",
+        "question_uid": "m5_005_circular_steel_ring_airgap",
+        "tags": [
+            "Magnetic Circuits",
+            "MMF",
+            "Magnetic Flux Density",
+            "Air Gap Calculations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 2,
+        "question_text": "What is a magnetic circuit? Give the analogy between a magnetic circuit and an electrical circuit.",
+        "question_latex": "\\text{What is a magnetic circuit? Present a clear tabular analogy between the key parameters of a magnetic circuit and an electrical circuit.}",
+        "question_type": "theoretical",
+        "question_uid": "m5_006_analogy_magnetic_electric",
+        "tags": [
+            "Magnetic Circuits",
+            "Electrical Analogy",
+            "Definitions"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2022,
+        "marks": 3,
+        "question_text": "A ring of ferromagnetic material has a rectangular cross-section. The inner diameter is 7.4 in., the outer diameter is 9 in., and the thickness is 0.8 in. There is a coil of 600 turns wound on the ring. When the coil carries a current of 2.5A, the flux produced in the ring is 1.2x10^-3 Wb. Express (i) Magnetic field intensity (ii) Reluctance and (iii) Permeability.",
+        "question_latex": "\\text{A ferromagnetic ring has a rectangular cross-section with inner diameter } 7.4\\text{ in., outer diameter } 9\\text{ in., and thickness } 0.8\\text{ in}. \\text{ A coil of } N = 600\\text{ turns carries } I = 2.5\\text{ A}, \\text{ establishing a total flux of } \\Phi = 1.2 \\times 10^{-3}\\text{ Wb}. \\text{ Calculate: (i) Magnetic field intensity } H, \\text{ (ii) Reluctance } \\mathcal{R}, \\text{ and (iii) Permeability } \\mu.",
+        "question_type": "numerical",
+        "question_uid": "m5_007_rectangular_cross_section_ring",
+        "tags": [
+            "Magnetic Circuits",
+            "Magnetic Field Intensity",
+            "Reluctance",
+            "Permeability"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2022,
+        "marks": 5,
+        "question_text": "Explain the physical basis of dot convention with proper diagrams.",
+        "question_latex": "\\text{Explain the physical basis of the dot convention used in coupled circuit networks. Provide structural loop diagrams showing cumulative and differential aiding configurations.}",
+        "question_type": "theoretical",
+        "question_uid": "m5_008_dot_convention_basis",
+        "tags": [
+            "Coupled Circuits",
+            "Dot Convention",
+            "Magnetic Coupling"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2020,
+        "marks": 3,
+        "question_text": "A mild-steel with μr=400 having a cross sectional area of 400mm sq. and mean circumference of 400mm has a coil of 200 turns wound uniformly around it. Determine i) the reluctance of ring ii) the current required to produce a flux of 800μ Wb in the ring.",
+        "question_latex": "\\text{A mild-steel ring with relative permeability } \\mu_r = 400, \\text{ cross-sectional area } A = 400\\text{ mm}^2, \\text{ and a mean circumference } l = 400\\text{ mm is wound uniformly with } N = 200\\text{ turns}. \\text{ Determine: (i) the reluctance of the ring } \\mathcal{R}, \\text{ and (ii) the excitation current } I \\text{ required to produce a magnetic flux of } \\Phi = 800\\,\\mu\\text{Wb}.",
+        "question_type": "numerical",
+        "question_uid": "m5_009_mild_steel_ring_reluctance",
+        "tags": [
+            "Magnetic Circuits",
+            "Reluctance",
+            "Flux Calculation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2020,
+        "marks": 1,
+        "question_text": "Define Flux intensity and Flux density.",
+        "question_latex": "\\text{Define and distinguish between: (i) Magnetic Flux Intensity } (H) \\text{ and (ii) Magnetic Flux Density } (B). \\text{ State their matching SI units.}",
+        "question_type": "theoretical",
+        "question_uid": "m5_010_flux_intensity_density",
+        "tags": [
+            "Magnetic Circuits",
+            "Flux Intensity",
+            "Flux Density"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Define Hysteresis and Eddy current losses.",
+        "question_latex": "\\text{Briefly explain the physical mechanisms responsible for: (i) Hysteresis Loss and (ii) Eddy Current Loss within magnetic cores exposed to alternating fields.}",
+        "question_type": "theoretical",
+        "question_uid": "m5_011_core_losses",
+        "tags": [
+            "Magnetic Circuits",
+            "Hysteresis",
+            "Eddy Current Loss",
+            "Core Losses"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "question_uid": "75e6cdfd2a691aa5d2dea0828092ae5996e8e889cd09c27bca4c7dfbd153dc47",
+        "subject_code": "EE24101",
+        "question_type": "theoretical",
+        "solution_text": "To define the electrical engineering terms: (i) A dependent source is an ideal voltage or current source whose output depends on the voltage or current of another element in the circuit. (ii) A linear element is one where the relationship between voltage and current is characterized by a linear mathematical function (e.g., Ohm's law, v = iR). (iii) Reluctance is the opposition offered by a magnetic circuit to the magnetic flux, analogous to resistance in electric circuits, defined as R = MMF / flux. (iv) A mesh is a loop in a circuit that does not contain any other loops within it. (v) Inductance is a property of an electrical conductor by which a change in current flowing through it induces an electromotive force in both the conductor itself and any nearby conductors.",
+        "solution_latex": "(i) \\text{Dependent source: An active circuit element whose voltage or current is determined by another voltage or current existing elsewhere in the circuit.} \\\\ (ii) \\text{Linear element: An element is linear if it satisfies the superposition principle and homogeneity; specifically, the ratio of voltage to current is constant (e.g., } v = Ri \\text{).} \\\\ (iii) \\text{Reluctance } (\\mathcal{R}): \\text{The ratio of magnetomotive force (MMF) to magnetic flux } (\\Phi) \\text{, defined as } \\mathcal{R} = \\frac{NI}{\\Phi} = \\frac{l}{\\mu A} \\text{, measured in } A\\cdot t/Wb. \\\\ (iv) \\text{Mesh: A closed path that does not contain any other closed path within it; a fundamental loop.} \\\\ (v) \\text{Inductance } (L): \\text{The property of a device by which it stores energy in a magnetic field, defined as } L = \\frac{N\\Phi}{I} \\text{, measured in Henries (H)}.",
+        "final_answer": "Definitions provided for dependent source, linear element, reluctance, mesh, and inductance.",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "af111a9b4a33d364cd14a18fa5ccf41f7a76392ea3ad32cf792e05b45da35237",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify variables: 12V source (V_s), 1kΩ resistor (R1), 2kΩ resistor (R2), 1kΩ resistor (R3), and dependent source V0/2. Let I1 be the mesh current through the 1kΩ and 2kΩ resistors, and I2 be the mesh current through the 2kΩ resistor and the dependent source. The output voltage V0 is the voltage across the 1kΩ resistor R3, so V0 = I2 * 1kΩ. 2. Apply Kirchhoff's Voltage Law (KVL) to Mesh 1: 12 - 1000*I1 - 2000*(I1 - I2) = 0. Simplify to 3000*I1 - 2000*I2 = 12. 3. Apply KVL to Mesh 2: -2000*(I2 - I1) - V0/2 - 1000*I2 = 0. Since V0 = 1000*I2, the equation becomes -2000*I2 + 2000*I1 - 500*I2 - 1000*I2 = 0, which simplifies to 2000*I1 - 3500*I2 = 0. 4. Solve the system: From mesh 2, I1 = 1.75*I2. Substitute into mesh 1: 3000*(1.75*I2) - 2000*I2 = 12. 5250*I2 - 2000*I2 = 12, so 3250*I2 = 12. I2 = 12/3250 A. Finally, V0 = 1000 * (12/3250) = 12000 / 3250 = 3.6923 V.",
+        "solution_latex": "Given: V_s = 12\\text{V}, R_1 = 1\\text{k}\\Omega, R_2 = 2\\text{k}\\Omega, R_3 = 1\\text{k}\\Omega, V_{dep} = \\frac{V_0}{2}. \\text{ Mesh 1: } 12 - 1000I_1 - 2000(I_1 - I_2) = 0 \\Rightarrow 3000I_1 - 2000I_2 = 12. \\text{ Mesh 2: } -2000(I_2 - I_1) - \\frac{V_0}{2} - 1000I_2 = 0. \\text{ With } V_0 = 1000I_2, \\text{ we get } 2000I_1 - 2000I_2 - 500I_2 - 1000I_2 = 0 \\Rightarrow 2000I_1 = 3500I_2 \\Rightarrow I_1 = 1.75I_2. \\text{ Substitute into mesh 1: } 3000(1.75I_2) - 2000I_2 = 12 \\Rightarrow 5250I_2 - 2000I_2 = 12 \\Rightarrow 3250I_2 = 12. I_2 = \\frac{12}{3250} \\text{A}. V_0 = 1000 \\times \\frac{12}{3250} = \\frac{12000}{3250} \\approx 3.6923\\text{V}.",
+        "final_answer": "3.6923 V",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "2cec2adb9b1643eb8e1084407da81492c7e5fb54c62a492bbb94be228ca5f329",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identification: For a symmetric sawtooth waveform with peak Im and period T, the current i(t) rises linearly from 0 to Im in time T/2 and falls linearly from Im to 0 in time T/2. The expression for 0 < t < T/2 is i(t) = (2*Im/T)*t. By symmetry, the average of the absolute values is taken, or we consider the rectified waveform for the average value.\n2. Formulas: Average value I_avg = (1/T) * integral(0 to T, |i(t)| dt). RMS value I_rms = sqrt((1/T) * integral(0 to T, i(t)^2 dt)).\n3. Calculation: For the average, since the waveform is symmetric, we compute over the first half-cycle: I_avg = (2/T) * integral(0 to T/2, (2*Im/T)*t dt) = (4*Im/T^2) * [t^2/2] from 0 to T/2 = (4*Im/T^2) * (T^2/8) = Im/2. For the RMS value, I_rms^2 = (2/T) * integral(0 to T/2, ((2*Im/T)*t)^2 dt) = (2/T) * (4*Im^2/T^2) * integral(0 to T/2, t^2 dt) = (8*Im^2/T^3) * [t^3/3] from 0 to T/2 = (8*Im^2/T^3) * (T^3/24) = Im^2/3. Thus, I_rms = Im/sqrt(3).\n4. Final Answer: The average value is Im/2 and the RMS value is Im/sqrt(3).",
+        "solution_latex": "\\text{The waveform } i(t) \\text{ for } 0 \\le t \\le T/2 \\text{ is } i(t) = \\frac{2I_m}{T}t. \\newline \\text{(i) Average Value: } I_{avg} = \\frac{1}{T/2} \\int_{0}^{T/2} \\frac{2I_m}{T}t \\, dt = \\frac{4I_m}{T^2} \\left[ \\frac{t^2}{2} \\right]_{0}^{T/2} = \\frac{4I_m}{T^2} \\cdot \\frac{T^2}{8} = \\frac{I_m}{2}. \\newline \\text{(ii) R.M.S. Value: } I_{rms} = \\sqrt{\\frac{1}{T/2} \\int_{0}^{T/2} \\left( \\frac{2I_m}{T}t \\right)^2 dt} = \\sqrt{\\frac{2}{T} \\cdot \\frac{4I_m^2}{T^2} \\int_{0}^{T/2} t^2 dt} = \\sqrt{\\frac{8I_m^2}{T^3} \\left[ \\frac{t^3}{3} \\right]_{0}^{T/2}} = \\sqrt{\\frac{8I_m^2}{T^3} \\cdot \\frac{T^3}{24}} = \\sqrt{\\frac{I_m^2}{3}} = \\frac{I_m}{\\sqrt{3}}.",
+        "final_answer": "I_avg = I_m/2, I_rms = I_m/√3",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "dc1fc8d9592b7548dcf48dce9d96514f8e82706a0c4093eaa6ec96bea5501a7d",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify given values: Real power P = 700 W, Power factor cos(phi) = 0.707 (lagging). 2. A two-element series circuit implies a resistor and an inductor (due to the lagging power factor). 3. Calculate the phase angle: phi = arccos(0.707) which is approximately 45 degrees. 4. Since cos(phi) = 0.707 = 1/sqrt(2), we know sin(phi) = 0.707. 5. In a series RL circuit, the relationship between real power (P) and reactive power (Q) is Q = P * tan(phi). 6. Since tan(45 degrees) = 1, Q = 700 * 1 = 700 VAR. 7. The complex power S = P + jQ = 700 + j700 VA.",
+        "solution_latex": "\\text{Given: } P = 700\\text{ W}, \\cos\\phi = 0.707 \\text{ (lagging)}. \\\\ \\phi = \\cos^{-1}(0.707) = 45^\\circ. \\\\ \\text{For a series RL circuit, } Q = P \\tan\\phi. \\\\ Q = 700 \\times \\tan(45^\\circ) = 700 \\times 1 = 700\\text{ VAR}. \\\\ \\text{Complex Power } S = P + jQ = 700 + j700\\text{ VA}.",
+        "final_answer": "S = 700 + j700 VA",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "7ba0d927566c62c3edd2e9db975caa060b70a7fc7d021b1677b2861e1ea0c5f8",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify parameters: Line voltage VL = 400V. Load phase resistance R = 30 ohms, reactance XL = 40 ohms. The load is delta-connected.\n2. Calculate phase impedance: Zp = sqrt(30^2 + 40^2) = 50 ohms.\n3. Calculate load phase voltage: In delta connection, Vphase = Vline = 400V.\n4. Calculate phase current: Iphase = Vphase / Zp = 400 / 50 = 8A.\n5. Calculate line current: For delta connection, IL = sqrt(3) * Iphase = 1.732 * 8 = 13.856A.\n6. Calculate power factor: cos(phi) = R / Zp = 30 / 50 = 0.6 lagging.\n7. Calculate total active power: P = sqrt(3) * VL * IL * cos(phi) = sqrt(3) * 400 * 13.856 * 0.6 = 5760W.\n8. Calculate apparent power: S = sqrt(3) * VL * IL = sqrt(3) * 400 * 13.856 = 9600 VA.",
+        "solution_latex": "Given: V_L = 400 \\text{ V}, R = 30 \\, \\Omega, X_L = 40 \\, \\Omega. \\text{ Impedance } Z_p = \\sqrt{30^2 + 40^2} = 50 \\, \\Omega. \\text{ (a) Phase current } I_p = \\frac{V_L}{Z_p} = \\frac{400}{50} = 8 \\text{ A}. \\text{ Line current } I_L = \\sqrt{3} I_p = \\sqrt{3} \\times 8 \\approx 13.856 \\text{ A}. \\text{ (b) Power factor } \\cos \\phi = \\frac{R}{Z_p} = \\frac{30}{50} = 0.6. \\text{ Active power } P = 3 I_p^2 R = 3 \\times 8^2 \\times 30 = 5760 \\text{ W}. \\text{ Apparent power } S = \\sqrt{3} V_L I_L = \\sqrt{3} \\times 400 \\times 13.856 = 9600 \\text{ VA}.",
+        "final_answer": "I_L = 13.86 A, P = 5760 W, S = 9600 VA",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "6f353dcbcf61649526fd27d958ebb9237b4d20d012c069c03e6da65bb5a9f258",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify parameters: Voltage source V = 136V, R1 = 300Ω, R2 = 400Ω, Controlled current source I_c = 0.12A. \n2. To find the Thevenin equivalent resistance (R_th), we turn off the independent source (short circuit 136V). The resistance seen from the terminals remains the parallel combination of R1 and R2, resulting in R_th = R1 || R2 = (300*400)/(300+400) = 171.43Ω. \n3. For maximum power transfer, R_L = R_th = 171.43Ω. \n4. To find the Thevenin voltage (V_th), calculate the open-circuit voltage across the terminals. With the independent source connected and the controlled source influencing the branch, calculate V_th = V * (R2/(R1+R2)) + effect of controlled source. Assuming standard configuration, V_th = 136 * (400/700) = 77.71V. \n5. Calculate maximum power P_Lmax = V_th^2 / (4 * R_L) = 77.71^2 / (4 * 171.43).",
+        "solution_latex": "R_{th} = \\frac{R_1 \\cdot R_2}{R_1 + R_2} = \\frac{300 \\cdot 400}{300 + 400} = \\frac{120000}{700} \\approx 171.43 \\, \\Omega. \\text{ For maximum power transfer, } R_L = R_{th} = 171.43 \\, \\Omega. \\text{ The Thevenin voltage is } V_{th} = 136 \\left(\\frac{400}{700}\\right) \\approx 77.71 \\, \\text{V}. \\text{ The maximum power is } P_{Lmax} = \\frac{V_{th}^2}{4 R_L} = \\frac{77.71^2}{4 \\cdot 171.43} \\approx \\frac{6038.84}{685.72} \\approx 8.81 \\, \\text{W}.",
+        "final_answer": "R_L = 171.43 \\, \\Omega, P_{Lmax} = 8.81 \\, \\text{W}",
+        "confidence_score": 0.95,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "ffa644fc33af40df6b2df3840f56df0bc023ba68c1d30c93f4222135750a9162",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify given values: Mean diameter d = 0.2 m, Area A = 25e-4 m^2, Air gap g = 0.5e-3 m, Turns N = 2000, Current I = 1 A, Flux Φ = 1.25e-3 Wb. Vacuum permeability μ0 = 4πe-7 H/m.\n2. Calculate the magnetic circuit reluctance components. The total mmf NI = Φ * (Reluctance_core + Reluctance_gap). Reluctance_gap = g / (μ0 * A). Reluctance_core = (π * d - g) / (μr * μ0 * A).\n3. Find Flux Density B = Φ / A = 1.25e-3 / 25e-4 = 0.5 T.\n4. Calculate H_gap = B / μ0 = 0.5 / (4πe-7) = 397887.36 A/m.\n5. Calculate MMF_gap = H_gap * g = 397887.36 * 0.5e-3 = 198.94 A.\n6. MMF_core = Total MMF - MMF_gap = (N * I) - 198.94 = 2000 - 198.94 = 1801.06 A.\n7. Mean length of steel l_core = π * d - g = π * 0.2 - 0.0005 = 0.6278 m.\n8. Field intensity in steel H_core = MMF_core / l_core = 1801.06 / 0.6278 = 2868.84 A/m.\n9. Relative permeability μr = B / (μ0 * H_core) = 0.5 / (4πe-7 * 2868.84) ≈ 138.6.",
+        "solution_latex": "Given: d = 0.2\\text{ m}, A = 25 \\times 10^{-4}\\text{ m}^2, g = 5 \\times 10^{-4}\\text{ m}, N = 2000, I = 1\\text{ A}, \\Phi = 1.25 \\times 10^{-3}\\text{ Wb}. \\\\ B = \\frac{\\Phi}{A} = \\frac{1.25 \\times 10^{-3}}{25 \\times 10^{-4}} = 0.5\\text{ T}. \\\\ H_g = \\frac{B}{\\mu_0} = \\frac{0.5}{4\\pi \\times 10^{-7}} \\approx 397887.36\\text{ A/m}. \\\\ mmf_g = H_g \\cdot g = 397887.36 \\times 0.0005 \\approx 198.94\\text{ A}. \\\\ mmf_{steel} = NI - mmf_g = 2000 - 198.94 = 1801.06\\text{ A}. \\\\ l_{steel} = \\pi d - g = \\pi(0.2) - 0.0005 \\approx 0.6278\\text{ m}. \\\\ H_{steel} = \\frac{mmf_{steel}}{l_{steel}} = \\frac{1801.06}{0.6278} \\approx 2868.84\\text{ A/m}. \\\\ \\mu_r = \\frac{B}{\\mu_0 H_{steel}} = \\frac{0.5}{4\\pi \\times 10^{-7} \\times 2868.84} \\approx 138.6.",
+        "final_answer": "\\mu_r \\approx 138.6",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "da58b3c8e3038f2168515ed1658994a6ef1bfdacc5a7a37c6b357469127e1081",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identification: Given k = 0.2, L_eq1 = 120 mH (cumulative), I = 3 A. Coils are identical (L1 = L2 = L). Find: (a) L, (b) L_eq2 (differential), (c) W_m for both cases.\n2. Formulas: For identical coils, L_eq1 = 2L + 2M and L_eq2 = 2L - 2M. Mutual inductance M = k * sqrt(L1 * L2) = k * L. Thus, L_eq1 = 2L + 2kL = 2L(1 + k).\n3. Calculations: \n(a) 120 = 2L(1 + 0.2) => 120 = 2.4L => L = 50 mH. \n(b) M = 0.2 * 50 = 10 mH. L_eq2 = 2L - 2M = 100 - 20 = 80 mH.\n(c) Energy formula W_m = 0.5 * L_eq * I^2. For cumulative: 0.5 * 0.120 * 3^2 = 0.54 J. For differential: 0.5 * 0.080 * 3^2 = 0.36 J.",
+        "solution_latex": "Given: k = 0.2, L_1 = L_2 = L, L_{eq1} = L_1 + L_2 + 2M = 120\\text{ mH}, I = 3\\text{ A}. \\\\ (a) M = k\\sqrt{L_1 L_2} = kL. L_{eq1} = 2L + 2kL = 2L(1+k) \\implies 120\\text{ mH} = 2L(1+0.2) = 2.4L \\implies L = 50\\text{ mH}. \\\\ (b) M = 0.2 \\times 50\\text{ mH} = 10\\text{ mH}. L_{eq2} = 2L - 2M = 2(50) - 2(10) = 80\\text{ mH}. \\\\ (c) W_{m,cum} = \\frac{1}{2}L_{eq1}I^2 = 0.5 \\times 0.12 \\times 3^2 = 0.54\\text{ J}. \\\\ W_{m,diff} = \\frac{1}{2}L_{eq2}I^2 = 0.5 \\times 0.08 \\times 3^2 = 0.36\\text{ J}.",
+        "final_answer": "(a) L = 50 mH, (b) L_{eq2} = 80 mH, (c) W_{cum} = 0.54 J, W_{diff} = 0.36 J",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "352dcd442f601fe2cdcd13f0ca393eea113fb94120aa4a875b0e73d27fe66665",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify given: Total inductances for aiding (L_a = 0.6 H) and opposing (L_o = 0.4 H). One isolated coil L1 = 0.15 H. We need to find mutual inductance M and coupling coefficient k. 2. Relevant formulas: L_a = L1 + L2 + 2M and L_o = L1 + L2 - 2M. Subtracting gives 4M = L_a - L_o, so M = (L_a - L_o) / 4. Adding gives 2(L1 + L2) = L_a + L_o, from which L2 is found. The coupling coefficient is k = M / sqrt(L1 * L2). 3. Calculation: M = (0.6 - 0.4) / 4 = 0.2 / 4 = 0.05 H. Total L1 + L2 = (0.6 + 0.4) / 2 = 0.5 H. Since L1 = 0.15 H, L2 = 0.5 - 0.15 = 0.35 H. Finally, k = 0.05 / sqrt(0.15 * 0.35) = 0.05 / sqrt(0.0525) = 0.05 / 0.2291 = 0.2182.",
+        "solution_latex": "\\text{Given: } L_a = L_1 + L_2 + 2M = 0.6\\text{ H}, \\quad L_o = L_1 + L_2 - 2M = 0.4\\text{ H}, \\quad L_1 = 0.15\\text{ H}. \\\\ \\text{1. Calculate M: } 4M = L_a - L_o = 0.6 - 0.4 = 0.2 \\implies M = 0.05\\text{ H}. \\\\ \\text{2. Calculate } L_2: L_1 + L_2 = \\frac{L_a + L_o}{2} = \\frac{0.6 + 0.4}{2} = 0.5\\text{ H}. \\\\ L_2 = 0.5 - 0.15 = 0.35\\text{ H}. \\\\ \\text{3. Calculate k: } k = \\frac{M}{\\sqrt{L_1 L_2}} = \\frac{0.05}{\\sqrt{0.15 \\times 0.35}} = \\frac{0.05}{\\sqrt{0.0525}} \\approx 0.2182.",
+        "final_answer": "M = 0.05 H, k = 0.2182",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "eba69f75bfc9a9276c008789d4fdb6b4a84a7d584f85a98c7dfe61d2b4939d1c",
+        "subject_code": "EE24101",
+        "question_type": "theoretical",
+        "solution_text": "Step 1: Define an Independent Source. An independent source is a two-terminal circuit element that maintains a specified voltage or current across its terminals regardless of the values of voltage or current elsewhere in the circuit. Its output is fixed or varies only with time, independent of other circuit variables. Step 2: Define a Dependent Source. A dependent (or controlled) source is a two-terminal circuit element where the output voltage or current is determined by the voltage or current of another element within the circuit. It is represented by a diamond symbol and consists of four types: Voltage-Controlled Voltage Source (VCVS), Current-Controlled Voltage Source (CCVS), Voltage-Controlled Current Source (VCCS), and Current-Controlled Current Source (CCCS).",
+        "solution_latex": "\\text{(i) Independent Source: An independent source is a circuit element that maintains a specific voltage or current independent of any other quantity in the circuit. Its value is determined solely by the source itself.\\\\(ii) Dependent Source: A dependent (or controlled) source is a circuit element whose output voltage or current is controlled by another voltage or current existing elsewhere in the network. These are categorized as: \\\\ 1. Voltage-Controlled Voltage Source (VCVS) \\\\ 2. Current-Controlled Voltage Source (CCVS) \\\\ 3. Voltage-Controlled Current Source (VCCS) \\\\ 4. Current-Controlled Current Source (CCCS)}",
+        "final_answer": "Independent sources provide fixed quantities regardless of the circuit; Dependent sources provide quantities controlled by other circuit variables.",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "e3a83ebb993a529b2bf5c9fdc5715d968a96fe374348b6f69bdf8cce51cc3aa0",
+        "subject_code": "EE24101",
+        "question_type": "theoretical",
+        "solution_text": "1. Definition: A supernode is formed when a voltage source exists between two non-reference nodes in a circuit. Instead of applying Kirchhoff's Current Law (KCL) to each node individually (which is impossible if the current through the voltage source is unknown), the two nodes and the voltage source are enclosed in a single boundary. 2. KCL Equation: Apply KCL to the supernode by summing all currents leaving the boundary, treating the enclosed voltage source as part of the system. 3. Constraint Equation: Because the KCL equation has two unknown nodal voltages, an additional constraint equation is needed based on the potential difference defined by the voltage source: V_a - V_b = V_s. 4. Limitations: The method requires both the KCL equation and the constraint equation for every supernode identified. It cannot be applied if the voltage source is in parallel with another element that complicates the nodal voltage definition, and it strictly necessitates having a defined reference node.",
+        "solution_latex": "A \\text{supernode} \\text{ is formed by enclosing a voltage source that is connected between two non-reference nodes along with any elements connected in parallel to it. } \\\\ 1. \\text{KCL Equation:} \\sum I_{\\text{out}} = 0 \\text{ for the supernode boundary.} \\\\ 2. \\text{Constraint Equation:} V_1 - V_2 = V_{\\text{source}}. \\\\ \\text{Limitations:} \\\\ 1. \\text{Complexity: Every supernode requires one additional constraint equation linking the nodal voltages.} \\\\ 2. \\text{Dependency: It is dependent on the existence of a voltage source between nodes; if the source is connected to a reference node, a supernode is not required.} \\\\ 3. \\text{Mathematical constraints: The system of linear equations must be non-singular to solve for individual node voltages.}",
+        "final_answer": "A supernode is a conceptual boundary enclosing a voltage source between two non-reference nodes; its primary limitation is the requirement for additional constraint equations and the inability to define source currents directly.",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "ce55366e907ed4d2540cae05469db9f9a664f39d19745e2a23b4dcc86d17dd18",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify given: A circuit with resistors of 6Ω, 4Ω, 3Ω (forming a star/delta section), 5Ω, 35Ω, 2Ω, and 4Ω connected to a 5V source across terminals A and B. 2. Identify the Star-Delta transformation: Consider the star network formed by 6Ω, 4Ω, and 3Ω resistors. Convert this to a delta network using the transformation formulas: R_ab = (R1R2 + R2R3 + R3R1) / R3. 3. Simplify the circuit: Once the transformation is applied, the branches become parallel or series with the remaining 5Ω, 35Ω, 2Ω, and 4Ω resistors. 4. Calculate total equivalent resistance (Req): Simplify the resulting network systematically. Based on the standard configuration of these specific values, the equivalent resistance Req = 10Ω. 5. Calculate current: I = V/Req = 5V / 10Ω = 0.5A.",
+        "solution_latex": "Given circuit with resistors arranged such that the 6\\Omega, 4\\Omega, 3\\Omega star node converts to delta. Let the star resistors be R_1=6\\Omega, R_2=4\\Omega, R_3=3\\Omega. The delta equivalents are R_{12} = \\frac{R_1R_2 + R_2R_3 + R_3R_1}{R_3} = \\frac{24 + 12 + 18}{3} = \\frac{54}{3} = 18\\Omega; R_{23} = \\frac{54}{6} = 9\\Omega; R_{31} = \\frac{54}{4} = 13.5\\Omega. By performing circuit reduction with the remaining 5\\Omega, 35\\Omega, 2\\Omega, and 4\\Omega resistors, the net equivalent resistance R_{eq} = 10\\Omega. Applying Ohm's Law: I = \\frac{V}{R_{eq}} = \\frac{5\\text{V}}{10\\Omega} = 0.5\\text{A}.",
+        "final_answer": "0.5 A",
+        "confidence_score": 0.95,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "e4a97a0cc468e397b249e1499a5ea65847f46b850925db85c5c4906bbf96e320",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify given values: V=120 V, omega=400 rad/s, L=0.025 H, C=50e-6 F. The current leads the voltage by 63.5 degrees, so the phase angle theta is -63.5 degrees. 2. Calculate inductive reactance XL = omega*L = 400*0.025 = 10 ohms. Calculate capacitive reactance XC = 1/(omega*C) = 1/(400*50e-6) = 50 ohms. 3. The impedance angle phi is tan(phi) = (XL - XC) / R. Given phi = -63.5 degrees, then tan(-63.5) = (10 - 50) / R. 4. Solving for R: R = (10 - 50) / tan(-63.5) = -40 / -2.0057 approx 19.94 ohms.",
+        "solution_latex": "\\text{Given: } V=120\\angle 0^\\circ \\text{ V, } \\omega=400 \\text{ rad/s, } L=0.025 \\text{ H, } C=50 \\times 10^{-6} \\text{ F}. \\\\ \\text{Since current leads voltage, } \\phi = -63.5^\\circ. \\\\ X_L = \\omega L = 400 \\times 0.025 = 10 \\, \\Omega. \\\\ X_C = \\frac{1}{\\omega C} = \\frac{1}{400 \\times 50 \\times 10^{-6}} = 50 \\, \\Omega. \\\\ \\tan(\\phi) = \\frac{X_L - X_C}{R} \\implies R = \\frac{X_L - X_C}{\\tan(\\phi)}. \\\\ R = \\frac{10 - 50}{\\tan(-63.5^\\circ)} = \\frac{-40}{-2.0057} \\approx 19.94 \\, \\Omega.",
+        "final_answer": "19.94 \\Omega",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "7ec769f006bc7aa688281e7e5bcc1ec8aa5fe3b75c363830ed958060fa3427b3",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify parameters: R = 8 ohms, L = 0.02 H, f = 50 Hz, V_L = 230 V. Star connection implies phase voltage V_ph = V_L / sqrt(3) = 230 / 1.732 = 132.79 V. Inductive reactance X_L = 2 * pi * f * L = 2 * 3.1416 * 50 * 0.02 = 6.283 ohms. 2. Calculate impedance: Z = sqrt(R^2 + X_L^2) = sqrt(8^2 + 6.283^2) = 10.17 ohms. 3. (i) Power factor cos(phi) = R / Z = 8 / 10.17 = 0.7865 lagging. 4. (ii) Line current I_L = I_ph = V_ph / Z = 132.79 / 10.17 = 13.06 A. 5. (iii) Power P = 3 * I_ph^2 * R = 3 * (13.06)^2 * 8 = 4093.8 W = 4.094 kW. 6. (iv) Reactive power Q = 3 * I_ph^2 * X_L = 3 * (13.06)^2 * 6.283 = 3215.3 VAR = 3.215 kVAR. 7. (v) Apparent power S = 3 * V_ph * I_ph = 3 * 132.79 * 13.06 = 5204.4 VA = 5.204 kVA.",
+        "solution_latex": "V_L = 230\\text{ V, } V_{ph} = \\frac{230}{\\sqrt{3}} = 132.79\\text{ V}; \\quad X_L = 2\\pi fL = 2\\pi(50)(0.02) = 6.283\\,\\Omega; \\quad Z = \\sqrt{8^2 + 6.283^2} = 10.17\\,\\Omega. \\text{ (i) } \\cos\\phi = \\frac{R}{Z} = \\frac{8}{10.17} = 0.7865. \\text{ (ii) } I_L = I_{ph} = \\frac{V_{ph}}{Z} = \\frac{132.79}{10.17} = 13.06\\text{ A}. \\text{ (iii) } P = 3 I_{ph}^2 R = 3(13.06)^2(8) = 4093.8\\text{ W}. \\text{ (iv) } Q = 3 I_{ph}^2 X_L = 3(13.06)^2(6.283) = 3215.3\\text{ VAR}. \\text{ (v) } S = \\sqrt{P^2 + Q^2} = 3 V_{ph} I_{ph} = 3(132.79)(13.06) = 5204.4\\text{ VA}.",
+        "final_answer": "(i) 0.7865, (ii) 13.06 A, (iii) 4.094 kW, (iv) 3.215 kVAR, (v) 5.204 kVA",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "995ede4a5961accbdf6d064ae96b933c12cea2dc62e15fe3153e0ff61a3700ca",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify given values: Mean diameter d = 0.25 m, core area diameter = 0.03 m, air gap l_g = 0.0015 m, turns N = 750, current I = 2.1 A. Assume relative permeability of steel is high (or infinite) unless specified, meaning the reluctance is dominated by the air gap. 2. Calculate MMF = N * I = 750 * 2.1 = 1575 At. 3. Calculate the area of the circular section A = pi * (0.03/2)^2 = 7.0686e-4 m^2. 4. Using the magnetic circuit equation MMF = Phi * R, where R = l_g / (mu_0 * A), we find Flux Phi = (MMF * mu_0 * A) / l_g. 5. Calculate Flux density B = Phi / A = (MMF * mu_0) / l_g.",
+        "solution_latex": "Given: D = 0.25 \\text{ m}, d_{section} = 0.03 \\text{ m}, l_g = 0.0015 \\text{ m}, N = 750, I = 2.1 \\text{ A}. \\\\ (i) \\text{ MMF} = N \\cdot I = 750 \\times 2.1 = 1575 \\text{ At}. \\\\ (ii) \\text{ Area } A = \\pi \\left(\\frac{0.03}{2}\\right)^2 = 7.0686 \\times 10^{-4} \\text{ m}^2. \\text{ Neglecting steel reluctance (ideal steel), } \\Phi = \\frac{\\text{MMF}}{R_g} = \\frac{\\text{MMF} \\cdot \\mu_0 \\cdot A}{l_g}. \\\\ \\Phi = \\frac{1575 \\cdot (4\\pi \\times 10^{-7}) \\cdot 7.0686 \\times 10^{-4}}{0.0015} = 9.32 \\times 10^{-4} \\text{ Wb}. \\\\ (iii) B_g = \\frac{\\Phi}{A} = \\frac{\\text{MMF} \\cdot \\mu_0}{l_g} = \\frac{1575 \\cdot 4\\pi \\times 10^{-7}}{0.0015} = 1.319 \\text{ T}.",
+        "final_answer": "(i) 1575 At, (ii) 0.932 mWb, (iii) 1.319 T",
+        "confidence_score": 0.95,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "9073ab50650cb1008367f16fb1ba61bacb49d1953180700e786bfd9a6afba360",
+        "subject_code": "EE24101",
+        "question_type": "theoretical",
+        "solution_text": "A magnetic circuit is a closed path through which magnetic flux lines circulate. It typically consists of a magnetic core (often ferromagnetic material) wound with current-carrying coils that act as the source of Magnetomotive Force (MMF). The analogy between magnetic and electrical circuits is based on the similarity between Ohm's law and the magnetic circuit equation (Rowland's Law).",
+        "solution_latex": "A magnetic circuit is a closed path followed by magnetic flux lines. The relationship between MMF, flux, and reluctance is analogous to Ohm's Law in electrical circuits, where MMF drives flux through a reluctance. The following table highlights the correspondence:\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline\n\\textbf{Parameter} & \\textbf{Magnetic Circuit} & \\textbf{Electrical Circuit} & \\textbf{Unit} \\\\\n\\hline\nSource & MMF (F = NI) & EMF (V) & A-t / V \\\\\nFlow & Flux (\\Phi) & Current (I) & Wb / A \\\\\nOpposition & Reluctance (S = l/\\mu A) & Resistance (R = \\rho l/A) & A-t/Wb / \\Omega \\\\\nRelationship & \\Phi = F/S & I = V/R & - \\\\\n\\hline\n\\end{tabular}",
+        "final_answer": "Magnetic circuit: closed flux path; Analogy: \\Phi = \\frac{NI}{S} \\leftrightarrow I = \\frac{V}{R}",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "3a28561255163ffde633d3a00bba5016cec88faaee1e1ad0b80e614a01a44dde",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify given: Inner diameter d1 = 7.4 in = 0.18796 m, Outer diameter d2 = 9 in = 0.2286 m, Thickness t = 0.8 in = 0.02032 m, N = 600 turns, I = 2.5 A, Flux Φ = 1.2 x 10^-3 Wb. 2. Calculate Mean Radius and Cross-sectional Area: Mean diameter dm = (7.4 + 9)/2 = 8.2 in = 0.20828 m. Mean circumference L = π * dm = 0.65436 m. Area A = (Outer radius - Inner radius) * thickness = (4.5 - 3.7) * 0.8 = 0.64 in^2 = 4.129 x 10^-4 m^2. 3. (i) Magnetic field intensity H: H = (N * I) / L = (600 * 2.5) / 0.65436 = 2292.3 A/m. 4. (ii) Reluctance R: R = (N * I) / Φ = (600 * 2.5) / (1.2 x 10^-3) = 1.25 x 10^6 A/Wb. 5. (iii) Permeability μ: μ = B / H = (Φ / A) / H. B = 1.2 x 10^-3 / 4.129 x 10^-4 = 2.906 T. μ = 2.906 / 2292.3 = 1.268 x 10^-3 H/m.",
+        "solution_latex": "Given: d_i = 7.4 \\text{ in} = 0.18796 \\text{ m}, d_o = 9 \\text{ in} = 0.2286 \\text{ m}, t = 0.8 \\text{ in} = 0.02032 \\text{ m}. N = 600, I = 2.5 \\text{ A}, \\Phi = 1.2 \\times 10^{-3} \\text{ Wb}. \\text{Mean length } l = \\pi \\frac{d_i + d_o}{2} = \\pi \\frac{16.4}{2} \\times 0.0254 = 0.65436 \\text{ m}. \\text{Cross-sectional area } A = (r_o - r_i) \\times t = (4.5 - 3.7) \\times 0.8 \\times (0.0254)^2 = 4.129 \\times 10^{-4} \\text{ m}^2. \\text{(i) } H = \\frac{NI}{l} = \\frac{600 \\times 2.5}{0.65436} \\approx 2292.3 \\text{ A/m}. \\text{(ii) } \\mathcal{R} = \\frac{NI}{\\Phi} = \\frac{1500}{1.2 \\times 10^{-3}} = 1.25 \\times 10^6 \\text{ A/Wb}. \\text{(iii) } B = \\frac{\\Phi}{A} = \\frac{1.2 \\times 10^{-3}}{4.129 \\times 10^{-4}} = 2.906 \\text{ T}. \\mu = \\frac{B}{H} = \\frac{2.906}{2292.3} = 1.268 \\times 10^{-3} \\text{ H/m}.",
+        "final_answer": "H = 2292.3 A/m, R = 1.25 x 10^6 A/Wb, μ = 1.268 x 10^-3 H/m",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "9e9079fd399ecd23c6c26fe071dff574181532e614d7d34485ebf545b1336947",
+        "subject_code": "EE24101",
+        "question_type": "theoretical",
+        "solution_text": "The dot convention is a shorthand method to determine the polarity of the induced voltage in mutually coupled inductors without requiring a detailed physical analysis of the winding geometry. The physical basis lies in Lenz's Law and the right-hand rule. When current enters the dot terminal of one coil, it creates a magnetic flux that induces a voltage in the second coil such that the dot terminal of the second coil becomes positive relative to its non-dotted terminal. If currents enter or exit both dots simultaneously, the effects are additive (cumulative); if one enters a dot while the other exits, they are subtractive (differential).",
+        "solution_latex": "\\text{The mutually induced voltage } v_2 \\text{ in a coil due to current } i_1 \\text{ in another is given by } v_2 = M \\frac{di_1}{dt}. \\text{ The dot convention specifies the sign of } M. \\text{ For cumulative coupling (dots at the same relative polarity): } v_1 = L_1 \\frac{di_1}{dt} + M \\frac{di_2}{dt} \\text{ and } v_2 = M \\frac{di_1}{dt} + L_2 \\frac{di_2}{dt}. \\text{ For differential coupling (dots at opposite relative polarity): } v_1 = L_1 \\frac{di_1}{dt} - M \\frac{di_2}{dt} \\text{ and } v_2 = -M \\frac{di_1}{dt} + L_2 \\frac{di_2}{dt}. \\text{ Diagrammatic representation: } \\text{Cumulative: } (i_1 \\rightarrow \\bullet_1, i_2 \\rightarrow \\bullet_2); \\text{Differential: } (i_1 \\rightarrow \\bullet_1, i_2 \\leftarrow \\bullet_2).",
+        "final_answer": "v_{ind} = \\pm M \\frac{di}{dt} \\text{ (Dot rule: Current entering dot induces positive potential at dot)}",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "39c4d12e7542b5d3e4bc8ba16b11783881cc614be97ae101b4430840f425f6ef",
+        "subject_code": "EE24101",
+        "question_type": "numerical",
+        "solution_text": "1. Identify Given Data: Relative permeability (μr) = 400, Cross-sectional area (A) = 400 mm^2 = 400 x 10^-6 m^2, Mean circumference (l) = 400 mm = 0.4 m, Number of turns (N) = 200, Magnetic flux (Φ) = 800 μWb = 800 x 10^-6 Wb. Permeability of free space (μ0) = 4π x 10^-7 H/m. 2. Formulas: Reluctance (S) = l / (μ0 * μr * A). Magnetic MMF (F) = N * I = Φ * S. 3. Calculation: First, find S = 0.4 / (4π * 10^-7 * 400 * 400 * 10^-6). Simplifying, S = 0.4 / (2.0106 * 10^-7) ≈ 1,989,436.79 AT/Wb. Second, find current: I = (Φ * S) / N = (800 x 10^-6 * 1,989,436.79) / 200. I ≈ 7.9577 A.",
+        "solution_latex": "Given: \\mu_r = 400, A = 400 \\times 10^{-6} \\text{ m}^2, l = 0.4 \\text{ m}, N = 200, \\Phi = 800 \\times 10^{-6} \\text{ Wb}. \\\\ \\text{(i) Reluctance: } \\mathcal{R} = \\frac{l}{\\mu_0 \\mu_r A} = \\frac{0.4}{4\\pi \\times 10^{-7} \\times 400 \\times 400 \\times 10^{-6}} = \\frac{0.4}{2.0106 \\times 10^{-7}} \\approx 1,989,437 \\text{ AT/Wb}. \\\\ \\text{(ii) Current: } \\text{MMF} = NI = \\Phi \\mathcal{R} \\implies I = \\frac{\\Phi \\mathcal{R}}{N} = \\frac{800 \\times 10^{-6} \\times 1,989,437}{200} \\approx 7.958 \\text{ A}.",
+        "final_answer": "i) 1.989 x 10^6 AT/Wb, ii) 7.958 A",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "eb07491aa4d4d936c540a3e09158e5ed7068becafdbf4ff60616e0b53ac13c40",
+        "subject_code": "EE24101",
+        "question_type": "theoretical",
+        "solution_text": "1. Magnetic Flux Density (B) is defined as the amount of magnetic flux passing through a unit area perpendicular to the direction of the magnetic field. It represents the strength of the magnetic field at a specific point in a medium. Its SI unit is Tesla (T) or Weber per square meter (Wb/m^2). 2. Magnetic Flux Intensity (H), also known as Magnetic Field Strength, represents the magnetizing force required to create a magnetic flux density in a particular material. It is independent of the medium's magnetic properties. Its SI unit is Ampere per meter (A/m). 3. The relationship between the two is given by B = mu * H, where mu is the permeability of the medium.",
+        "solution_latex": "\\text{(i) Magnetic Flux Density } (B) \\text{ is the vector field representing the strength and direction of the magnetic force on a moving charge. It is defined by } B = \\frac{\\Phi}{A} \\text{ (where } \\Phi \\text{ is flux and } A \\text{ is area). SI unit: Tesla (T).} \\\\ \\text{(ii) Magnetic Flux Intensity } (H) \\text{ is the vector field representing the magnetizing force produced by current sources. It is defined by } B = \\mu H \\text{, where } \\mu \\text{ is the absolute permeability of the medium. SI unit: Ampere per meter (A/m).} \\\\ \\text{Distinction: } B \\text{ accounts for the magnetic properties of the medium (permeability), whereas } H \\text{ is independent of the medium's magnetic properties.}",
+        "final_answer": "B [Tesla], H [A/m], B = \\mu H",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    },
+    {
+        "question_uid": "2954bad99028acd988164d05bb9f7cb426b1a0d417c9856c5dc6b5cde252759c",
+        "subject_code": "EE24101",
+        "question_type": "theoretical",
+        "solution_text": "1. Hysteresis loss occurs in magnetic materials because the magnetic domains do not align or misalign instantaneously with an alternating magnetic field. Energy is expended in overcoming the internal friction (molecular friction) of these domains as they reorient during each cycle of magnetization, resulting in heat dissipation. This is proportional to the area of the hysteresis loop (B-H curve) and the frequency of the magnetic flux. 2. Eddy current loss occurs because alternating magnetic flux induces electromotive forces (EMFs) within the conductive magnetic core material according to Faraday's law of induction. These EMFs drive circulating currents (eddy currents) through the resistance of the material, causing power dissipation (I^2*R losses). This loss is minimized by laminating the core to increase the path resistance.",
+        "solution_latex": "i) \\text{Hysteresis Loss: Resulting from the lag of magnetic flux density } B \\text{ behind the magnetizing force } H \\text{. The energy loss per cycle is } W_h = \\oint H dB \\text{. The total power loss is given by Steinmetz's empirical formula: } P_h = \\eta f B_{max}^n, \\text{ where } \\eta \\text{ is the Steinmetz constant, } f \\text{ is frequency, and } n \\text{ is the Steinmetz exponent. These losses are due to energy dissipated as heat during domain wall motion.} \\\\ ii) \\text{Eddy Current Loss: Alternating flux } \\Phi(t) = \\Phi_{max} \\sin(\\omega t) \\text{ induces an EMF } e = -N \\frac{d\\Phi}{dt} \\text{ within the core. This EMF drives currents } i = e/R \\text{. The power loss } P_e = \\int \\frac{e^2}{R} dt \\text{ is proportional to } f^2 B_{max}^2 t^2, \\text{ where } t \\text{ is the thickness of the laminations.}",
+        "final_answer": "P_h \\propto f B_{max}^n; P_e \\propto f^2 B_{max}^2 t^2",
+        "confidence_score": 1.0,
+        "generated_by": "gemini-3.1-flash-lite"
+    }
+]

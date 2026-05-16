@@ -1,0 +1,1496 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 2,
+        "question_text": "Define the cell theory and state its seven fundamental principles.",
+        "question_latex": "\\text{Define the cell theory and state its seven fundamental principles.}",
+        "question_type": "conceptual",
+        "question_uid": "01789c67b2d5f8bfd32152865ec015c7921a92e1e9df64627efc9213efc17bb4",
+        "tags": [
+            "Cell Theory",
+            "Cell Biology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 3,
+        "question_text": "Draw a schematic diagram of Bioreactor. Describe any three major applications of bioreactor in Biotechnology.",
+        "question_latex": "\\text{Draw a schematic diagram of Bioreactor. Describe any three major applications of bioreactor in Biotechnology.}",
+        "question_type": "analytical",
+        "question_uid": "a24b179269de892e67efca2a1219b67ffae345bc781b2def167812bcde45ea72",
+        "tags": [
+            "Bioreactor",
+            "Biotechnology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 2,
+        "question_text": "Describe functions of mitochondria and chloroplast in eukaryotic cells.",
+        "question_latex": "\\text{Describe functions of mitochondria and chloroplast in eukaryotic cells.}",
+        "question_type": "conceptual",
+        "question_uid": "f90df23a1a5b4c6e7d8e9f01234a5b6c7d8e9f01234a5b6c7d8e9f01234a5b6c",
+        "tags": [
+            "Cell Organelles",
+            "Mitochondria",
+            "Chloroplast"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 3,
+        "question_text": "Explain the significance of the Miller-Urey experiment in understanding the origin of life.",
+        "question_latex": "\\text{Explain the significance of the Miller-Urey experiment in understanding the origin of life.}",
+        "question_type": "analytical",
+        "question_uid": "12a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+        "tags": [
+            "Origin of Life",
+            "Miller-Urey Experiment"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 4,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 2,
+        "question_text": "List the key steps involved in the Central Dogma of Molecular Biology.",
+        "question_latex": "\\text{List the key steps involved in the Central Dogma of Molecular Biology.}",
+        "question_type": "conceptual",
+        "question_uid": "bc34d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4",
+        "tags": [
+            "Central Dogma",
+            "Molecular Biology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 3,
+        "question_text": "Compare prokaryotic and eukaryotic cells in terms of structure and function.",
+        "question_latex": "\\text{Compare prokaryotic and eukaryotic cells in terms of structure and function.}",
+        "question_type": "analytical",
+        "question_uid": "45e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6",
+        "tags": [
+            "Prokaryotes",
+            "Eukaryotes",
+            "Cell Structure"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 2,
+        "question_text": "DNA consists of four alphabets (nucleotide bases), while proteins are made up of twenty alphabets (different amino acids). Explain how genetic information flow from DNA to protein.",
+        "question_latex": "\\text{DNA consists of four alphabets (nucleotide bases), while proteins are made up of twenty alphabets (different amino acids). Explain how genetic information flow from DNA to protein.}",
+        "question_type": "analytical",
+        "question_uid": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b",
+        "tags": [
+            "Genetic Code",
+            "Protein Synthesis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 3,
+        "question_text": "Evaluate the advantages and ethical concerns of genome editing technology.",
+        "question_latex": "\\text{Evaluate the advantages and ethical concerns of genome editing technology.}",
+        "question_type": "analytical",
+        "question_uid": "b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0",
+        "tags": [
+            "Genome Editing",
+            "Bioethics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 2,
+        "question_text": "Explain the steps involved in recombinant DNA technology and mention its applications.",
+        "question_latex": "\\text{Explain the steps involved in recombinant DNA technology and mention its applications.}",
+        "question_type": "analytical",
+        "question_uid": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e",
+        "tags": [
+            "Recombinant DNA Technology",
+            "Genetic Engineering"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 4,
+        "source_exam": "Mid Semester",
+        "source_year": 2025,
+        "marks": 3,
+        "question_text": "If the total number of seed obtained after a monohybrid cross between a Tall (TT) and dwarf (tt) plants is 100. Find the possible number of tall plant and dwarf plants. The punnett square for the monohybrid cross is given below. 'T' stands for tall plant and 't' stands for dwarf plant.",
+        "question_latex": "\\text{If the total number of seed obtained after a monohybrid cross between a Tall (TT) and dwarf (tt) plants is 100. Find the possible number of tall plant and dwarf plants. The punnett square for the monohybrid cross is given below. 'T' stands for tall plant and 't' stands for dwarf plant.}",
+        "question_type": "numerical",
+        "question_uid": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b",
+        "tags": [
+            "Mendelian Genetics",
+            "Monohybrid Cross"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Provide a schematic diagram of a typical fluid mosaic model of a cell membrane.",
+        "question_latex": "\\text{Provide a schematic diagram of a typical fluid mosaic model of a cell membrane.}",
+        "question_type": "conceptual",
+        "question_uid": "91ab6e1b7396cbfef93bcda8762f928a38ec90b21aef42211e4bf5b3127814b1",
+        "tags": [
+            "Cell Membrane",
+            "Fluid Mosaic Model"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Define biotechnology and mention any two areas where it intersects with engineering",
+        "question_latex": "\\text{Define biotechnology and mention any two areas where it intersects with engineering}",
+        "question_type": "conceptual",
+        "question_uid": "fa2b13c19e596da3450e1819bbff2b1a3746c1a82f3ef8a74e50cd89aef411aa",
+        "tags": [
+            "Biotechnology",
+            "Bioengineering"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Differentiate between DNA and RNA based on structure, function, and types",
+        "question_latex": "\\text{Differentiate between DNA and RNA based on structure, function, and types}",
+        "question_type": "conceptual",
+        "question_uid": "ba61b17ac1f2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8",
+        "tags": [
+            "DNA",
+            "RNA",
+            "Nucleic Acids"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Discuss the functions of Carbohydrates and proteins.",
+        "question_latex": "\\text{Discuss the functions of Carbohydrates and proteins.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Biomolecules",
+            "Carbohydrates",
+            "Proteins"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Define cell signalling. Describe signal transduction and components involved in it.",
+        "question_latex": "\\text{Define cell signalling. Describe signal transduction and components involved in it.}",
+        "question_type": "conceptual",
+        "question_uid": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+        "tags": [
+            "Cell Signalling",
+            "Signal Transduction"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Explain how changes in environmental conditions such as temperature and pH can affect the activity of a specific enzyme used in an industrial or biological process. Discuss all such environmental factors.",
+        "question_latex": "\\text{Explain how changes in environmental conditions such as temperature and pH can affect the activity of a specific enzyme used in an industrial or biological process. Discuss all such environmental factors.}",
+        "question_type": "analytical",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Enzymes",
+            "Enzyme Activity",
+            "Factors Affecting Enzymes"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Explain why DNA has a single major function whereas proteins have diverse functions.",
+        "question_latex": "\\text{Explain why DNA has a single major function whereas proteins have diverse functions.}",
+        "question_type": "analytical",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "DNA Function",
+            "Protein Function"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Describe different types of biomaterials and discuss their applications.",
+        "question_latex": "\\text{Describe different types of biomaterials and discuss their applications.}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Biomaterials"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Discuss key ethical principles in Biological Science and Biotechnology.",
+        "question_latex": "\\text{Discuss key ethical principles in Biological Science and Biotechnology.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Bioethics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2025,
+        "marks": 5,
+        "question_text": "Describe biosafety issues in Biotechnology and list the four biosafety levels.",
+        "question_latex": "\\text{Describe biosafety issues in Biotechnology and list the four biosafety levels.}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Biosafety",
+            "Biosafety Levels"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Write the characteristic features of living organisms.",
+        "question_latex": "\\text{Write the characteristic features of living organisms.}",
+        "question_type": "conceptual",
+        "question_uid": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c",
+        "tags": [
+            "Living Organisms",
+            "Characteristics of Life"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Give a brief illustration on any two theories of origin of life",
+        "question_latex": "\\text{Give a brief illustration on any two theories of origin of life}",
+        "question_type": "conceptual",
+        "question_uid": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e",
+        "tags": [
+            "Origin of Life",
+            "Evolutionary Theories"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Why is biology important for engineers?",
+        "question_latex": "\\text{Why is biology important for engineers?}",
+        "question_type": "conceptual",
+        "question_uid": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a",
+        "tags": [
+            "Biology for Engineers"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "How will you differentiate between Plant and Animal cells? Explain with their contrasting features.",
+        "question_latex": "\\text{How will you differentiate between Plant and Animal cells? Explain with their contrasting features.}",
+        "question_type": "conceptual",
+        "question_uid": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c",
+        "tags": [
+            "Plant Cells",
+            "Animal Cells",
+            "Cell Structure"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "What is a cell? How does the cell theory establish the importance of cell?",
+        "question_latex": "\\text{What is a cell? How does the cell theory establish the importance of cell?}",
+        "question_type": "conceptual",
+        "question_uid": "a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1",
+        "tags": [
+            "Cell Theory",
+            "Cell Biology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 5,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "How can genome editing be useful in solving real world problem?",
+        "question_latex": "\\text{How can genome editing be useful in solving real world problem?}",
+        "question_type": "analytical",
+        "question_uid": "c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3",
+        "tags": [
+            "Genome Editing",
+            "Biotechnology Applications"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Describe the basic structure of protein.",
+        "question_latex": "\\text{Describe the basic structure of protein.}",
+        "question_type": "conceptual",
+        "question_uid": "e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5",
+        "tags": [
+            "Proteins",
+            "Protein Structure"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "What is central dogma of molecular biology? Why it is important to understand?",
+        "question_latex": "\\text{What is central dogma of molecular biology? Why it is important to understand?}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Central Dogma",
+            "Molecular Biology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 4,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "What is DNA? Briefly describe its structure",
+        "question_latex": "\\text{What is DNA? Briefly describe its structure}",
+        "question_type": "conceptual",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "DNA Structure"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 4,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Explain the law of segregation in Mendelian genetics.",
+        "question_latex": "\\text{Explain the law of segregation in Mendelian genetics.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Mendelian Genetics",
+            "Law of Segregation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Describe Miller's experiment with suitable diagram.",
+        "question_latex": "\\text{Describe Miller's experiment with suitable diagram.}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Miller-Urey Experiment",
+            "Origin of Life"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Explain the structure and function of mitochondria and plasma membrane with suitable diagram.",
+        "question_latex": "\\text{Explain the structure and function of mitochondria and plasma membrane with suitable diagram.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Mitochondria",
+            "Plasma Membrane",
+            "Cell Structure"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "What are protein made of and why they are important for cells?",
+        "question_latex": "\\text{What are protein made of and why they are important for cells?}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Proteins",
+            "Cellular Importance"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "How glucose molecules are broken down into pyruvates? Give the metabolic steps involve in it.",
+        "question_latex": "\\text{How glucose molecules are broken down into pyruvates? Give the metabolic steps involve in it.}",
+        "question_type": "conceptual",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Glycolysis",
+            "Metabolism"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Discuss the different types of cell signalling.",
+        "question_latex": "\\text{Discuss the different types of cell signalling.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Cell Signalling"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "What are biomaterials? Describe the salient characteristics of biomaterials.",
+        "question_latex": "\\text{What are biomaterials? Describe the salient characteristics of biomaterials.}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Biomaterials"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "What is bioinformatics? Describe different components of bioinformatics.",
+        "question_latex": "\\text{What is bioinformatics? Describe different components of bioinformatics.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Bioinformatics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Write a short note on application of Al in biology.",
+        "question_latex": "\\text{Write a short note on application of Al in biology.}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "AI in Biology",
+            "Computational Biology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Comment on impact of climate change on food security.",
+        "question_latex": "\\text{Comment on impact of climate change on food security.}",
+        "question_type": "analytical",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Climate Change",
+            "Food Security"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Diagrammatically illustrate the structural and functional importance of mitochondria and nucleus of a cell.",
+        "question_latex": "\\text{Diagrammatically illustrate the structural and functional importance of mitochondria and nucleus of a cell.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Mitochondria",
+            "Nucleus",
+            "Cell Biology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Explain the steps in detail that occur during the mitosis cell division.",
+        "question_latex": "\\text{Explain the steps in detail that occur during the mitosis cell division.}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Mitosis",
+            "Cell Division"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Sketch the photosynthesis pathway and evaluate the importance of photosynthesis towards enhancing the productivity and nourishing the overwhelming population.",
+        "question_latex": "\\text{Sketch the photosynthesis pathway and evaluate the importance of photosynthesis towards enhancing the productivity and nourishing the overwhelming population.}",
+        "question_type": "analytical",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Photosynthesis",
+            "Plant Productivity"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Explain the detailed mechanism of enzyme action with suitable diagrams.",
+        "question_latex": "\\text{Explain the detailed mechanism of enzyme action with suitable diagrams.}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Enzyme Mechanism",
+            "Enzymes"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Discuss the various methods used for enzyme immobilization and its industrial importance.",
+        "question_latex": "\\text{Discuss the various methods used for enzyme immobilization and its industrial importance.}",
+        "question_type": "conceptual",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Enzyme Immobilization",
+            "Industrial Biotechnology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Diagrammatically describe the nerve cell structure as well as its role in signal propagation.",
+        "question_latex": "\\text{Diagrammatically describe the nerve cell structure as well as its role in signal propagation.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Nerve Cell",
+            "Neurons",
+            "Signal Propagation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Describe the structure of the eye & its importance in vision and differentiation of color.",
+        "question_latex": "\\text{Describe the structure of the eye \\& its importance in vision and differentiation of color.}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Eye Structure",
+            "Vision"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Illustrate about genetic engineering and its various applications.",
+        "question_latex": "\\text{Illustrate about genetic engineering and its various applications.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Genetic Engineering",
+            "Biotechnology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2024,
+        "marks": 5,
+        "question_text": "Describe about plant factory its advantages over the conventional production system.",
+        "question_latex": "\\text{Describe about plant factory its advantages over the conventional production system.}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Plant Factory",
+            "Agricultural Engineering"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "What is cell theory?",
+        "question_latex": "\\text{What is cell theory?}",
+        "question_type": "conceptual",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Cell Theory"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Write the structure and function of Mitochondria.",
+        "question_latex": "\\text{Write the structure and function of Mitochondria.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Mitochondria",
+            "Cell Organelles"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "Describe the classification of carbohydrates.",
+        "question_latex": "\\text{Describe the classification of carbohydrates.}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Carbohydrates",
+            "Biomolecules"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "What is meiosis? Discuss the significance of meiosis.",
+        "question_latex": "\\text{What is meiosis? Discuss the significance of meiosis.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Meiosis",
+            "Cell Division"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "What are the functions of proteins?",
+        "question_latex": "\\text{What are the functions of proteins?}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Proteins",
+            "Biomolecules"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 2,
+        "question_text": "State the first law of thermodynamics and give a suitable mathematical expression for it.",
+        "question_latex": "\\text{State the first law of thermodynamics and give a suitable mathematical expression for it.}",
+        "question_type": "conceptual",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Bioenergetics",
+            "Thermodynamics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2024,
+        "marks": 3,
+        "question_text": "Distinguish between aerobic and anaerobic respiration with suitable examples.",
+        "question_latex": "\\text{Distinguish between aerobic and anaerobic respiration with suitable examples.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Respiration",
+            "Metabolism"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Define animal cell structure and discuss any two organelles.",
+        "question_latex": "\\text{Define animal cell structure and discuss any two organelles.}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Animal Cells",
+            "Cell Organelles"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "State the stages of Electron Transport Chain with diagram.",
+        "question_latex": "\\text{State the stages of Electron Transport Chain with diagram.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Electron Transport Chain",
+            "Respiration"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Discuss the light reaction of photosynthesis with diagram.",
+        "question_latex": "\\text{Discuss the light reaction of photosynthesis with diagram.}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Photosynthesis",
+            "Light Reaction"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Describe lock and key model for enzyme-substrate.",
+        "question_latex": "\\text{Describe lock and key model for enzyme-substrate.}",
+        "question_type": "conceptual",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Enzymes",
+            "Lock and Key Model"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Discuss any one technique of enzyme immobilization and its application.",
+        "question_latex": "\\text{Discuss any one technique of enzyme immobilization and its application.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Enzyme Immobilization"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Write the structure and function of ear.",
+        "question_latex": "\\text{Write the structure and function of ear.}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Ear Structure",
+            "Sensory Systems"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Describe Various components and applications of PCR.",
+        "question_latex": "\\text{Describe Various components and applications of PCR.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "PCR",
+            "Biotechnology Tools"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "What are the various stages of biological organization?",
+        "question_latex": "\\text{What are the various stages of biological organization?}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Biological Organization"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Write the sources and disorder caused by vitamin A and vitamin B1.",
+        "question_latex": "\\text{Write the sources and disorder caused by vitamin A and vitamin B1.}",
+        "question_type": "conceptual",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Vitamins",
+            "Biomolecules"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 2,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "What are the levels of protein structure?",
+        "question_latex": "\\text{What are the levels of protein structure?}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Protein Structure",
+            "Biomolecules"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "What is Gibbs Free Energy?",
+        "question_latex": "\\text{What is Gibbs Free Energy?}",
+        "question_type": "conceptual",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Bioenergetics",
+            "Gibbs Free Energy"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Write note on aerobic and anaerobic respiration and its location in cell.",
+        "question_latex": "\\text{Write note on aerobic and anaerobic respiration and its location in cell.}",
+        "question_type": "conceptual",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Respiration",
+            "Cellular Location"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Draw a schematic diagram of cell cycle.",
+        "question_latex": "\\text{Draw a schematic diagram of cell cycle.}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Cell Cycle"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Who gave the Chemosynthetic theory for the origin of life? Describe an experiment to prove the Chemosynthetic theory of the origin of life.",
+        "question_latex": "\\text{Who gave the Chemosynthetic theory for the origin of life? Describe an experiment to prove the Chemosynthetic theory of the origin of life.}",
+        "question_type": "analytical",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Origin of Life",
+            "Chemosynthetic Theory"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Differentiate between Mitosis and Meiosis.",
+        "question_latex": "\\text{Differentiate between Mitosis and Meiosis.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Mitosis",
+            "Meiosis",
+            "Cell Division"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 1,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "Who proposed cell theory? Discuss its components and limitations.",
+        "question_latex": "\\text{Who proposed cell theory? Discuss its components and limitations.}",
+        "question_type": "analytical",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Cell Theory",
+            "History of Biology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 2,
+        "question_text": "Define Entropy. Does photosynthesis reduce local entropy?",
+        "question_latex": "\\text{Define Entropy. Does photosynthesis reduce local entropy?}",
+        "question_type": "analytical",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Bioenergetics",
+            "Entropy",
+            "Photosynthesis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 3,
+        "source_exam": "Mid Semester",
+        "source_year": 2023,
+        "marks": 3,
+        "question_text": "What are the 5 differences between aerobics and anaerobic respiration? Is there any similarity between them?",
+        "question_latex": "\\text{What are the 5 differences between aerobics and anaerobic respiration? Is there any similarity between them?}",
+        "question_type": "analytical",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Respiration Metabolism"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Explain schematically the experiments of Redi, Spallanzani and Pasteur and refute the hypothesis of spontaneous generation.",
+        "question_latex": "\\text{Explain schematically the experiments of Redi, Spallanzani and Pasteur and refute the hypothesis of spontaneous generation.}",
+        "question_type": "analytical",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Spontaneous Generation",
+            "Origin of Life"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Some special organelles are recruited in eukaryotic Cells, identify these organelles and discuss their functions.",
+        "question_latex": "\\text{Some special organelles are recruited in eukaryotic Cells, identify these organelles and discuss their functions.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Eukaryotic Organelles",
+            "Cell Biology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Justify, the Krebs cycle is an important event for aerobic respiration. How much ATP and $CO_{2}$ are generated in a complete cycle?",
+        "question_latex": "\\text{Justify, the Krebs cycle is an important event for aerobic respiration. How much ATP and } CO_{2} \\text{ are generated in a complete cycle?}",
+        "question_type": "analytical",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Krebs Cycle",
+            "Respiration",
+            "ATP Yield"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 3,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Photocatalytic water splitting converts sunlight and water into hydrogen, the fuel of the future. Justify the statement.",
+        "question_latex": "\\text{Photocatalytic water splitting converts sunlight and water into hydrogen, the fuel of the future. Justify the statement.}",
+        "question_type": "analytical",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Photocatalytic Water Splitting",
+            "Bioenergy"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 2,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Describe the mechanism of enzyme action and five uses of enzymes in Industries.",
+        "question_latex": "\\text{Describe the mechanism of enzyme action and five uses of enzymes in Industries.}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "Enzyme Mechanism",
+            "Industrial Enzymes"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Explain the importance of Enzyme Immobilization. Is there any disadvantage to doing so?",
+        "question_latex": "\\text{Explain the importance of Enzyme Immobilization. Is there any disadvantage to doing so?}",
+        "question_type": "analytical",
+        "question_uid": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+        "tags": [
+            "Enzyme Immobilization"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "What do you mean by circadian rhythm? Draw a labeled diagram of a Nerve cell.",
+        "question_latex": "\\text{What do you mean by circadian rhythm? Draw a labeled diagram of a Nerve cell.}",
+        "question_type": "conceptual",
+        "question_uid": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+        "tags": [
+            "Circadian Rhythm",
+            "Nerve Cell"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 1,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Discuss the different types of cell signaling. How the signals are amplified in a cell.",
+        "question_latex": "\\text{Discuss the different types of cell signaling. How the signals are amplified in a cell.}",
+        "question_type": "analytical",
+        "question_uid": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+        "tags": [
+            "Cell Signaling",
+            "Signal Amplification"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "What do you understand by the central dogma of Molecular Biology? How this knowledge is useful in genetic engineering.",
+        "question_latex": "\\text{What do you understand by the central dogma of Molecular Biology? How this knowledge is useful in genetic engineering.}",
+        "question_type": "analytical",
+        "question_uid": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+        "tags": [
+            "Central Dogma",
+            "Genetic Engineering"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "End Semester",
+        "source_year": 2023,
+        "marks": 5,
+        "question_text": "Differentiate between PCR and ELISA.",
+        "question_latex": "\\text{Differentiate between PCR and ELISA.}",
+        "question_type": "conceptual",
+        "question_uid": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+        "tags": [
+            "PCR",
+            "ELISA",
+            "Biotechnology Techniques"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    }
+]
