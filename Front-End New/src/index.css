@@ -1663,3 +1663,292 @@ body::after {
     justify-content: center;
   }
 }
+
+/* ============================================================
+   Subject Selector Page (Page 2) Styles
+   ============================================================ */
+
+.selector-page-container {
+  min-height: 100vh;
+  background: var(--dash-bg);
+  background-attachment: var(--dash-bg-attachment);
+  color: var(--dash-text-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.selector-main-content {
+  padding: 3rem 2rem 5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.selector-main-title {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--dash-text-color);
+  text-align: center;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.selector-main-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: var(--dash-active-module-bg);
+  border-radius: 4px;
+}
+
+.semester-columns-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.semester-column-card {
+  background: var(--dash-panel-bg);
+  border: 1px solid var(--dash-panel-border);
+  border-radius: 24px;
+  padding: 2.2rem;
+  box-shadow: 0 10px 30px var(--dash-panel-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.semester-column-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, var(--dash-active-module-bg) 0%, var(--dash-text-muted) 100%);
+  opacity: 0.8;
+}
+
+.semester-column-card:hover {
+  box-shadow: 0 16px 40px var(--dash-panel-shadow-hover);
+  transform: translateY(-2px);
+}
+
+.semester-pill-header {
+  align-self: flex-start;
+  background: rgba(198, 85, 117, 0.08);
+  border: 1px solid rgba(198, 85, 117, 0.15);
+  color: var(--dash-active-module-bg);
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+[data-theme="dark"] .semester-pill-header {
+  background: rgba(254, 105, 178, 0.1);
+  border-color: rgba(254, 105, 178, 0.2);
+  color: var(--dash-active-module-bg);
+}
+
+.subjects-button-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.subject-selection-btn {
+  background: var(--dash-panel-bg);
+  border: 1px solid var(--dash-panel-border);
+  border-radius: 16px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  text-align: left;
+  transition: transform 250ms cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 250ms ease,
+              background-color 250ms ease,
+              box-shadow 250ms ease;
+  position: relative;
+  outline: none;
+}
+
+.subject-selection-btn:hover {
+  border-color: var(--dash-active-module-bg);
+  background: rgba(198, 85, 117, 0.02);
+  transform: translateX(4px);
+  box-shadow: 0 6px 15px var(--dash-panel-shadow);
+}
+
+[data-theme="dark"] .subject-selection-btn:hover {
+  background: rgba(254, 105, 178, 0.03);
+}
+
+.btn-content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.btn-primary-title {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--dash-text-color);
+  line-height: 1.3;
+}
+
+.btn-secondary-code {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--dash-text-muted);
+}
+
+.btn-arrow-right {
+  width: 20px;
+  height: 20px;
+  color: var(--dash-text-muted);
+  opacity: 0.6;
+  transition: transform 200ms ease, color 200ms ease, opacity 200ms ease;
+}
+
+.subject-selection-btn:hover .btn-arrow-right {
+  transform: translateX(4px);
+  color: var(--dash-active-module-bg);
+  opacity: 1;
+}
+
+/* Unique highlight for bottom LABS button */
+.labs-btn-accent {
+  border: 1px dashed var(--dash-active-module-bg);
+  background: rgba(198, 85, 117, 0.04);
+}
+
+[data-theme="dark"] .labs-btn-accent {
+  background: rgba(254, 105, 178, 0.04);
+}
+
+.labs-btn-accent:hover {
+  background: rgba(198, 85, 117, 0.08) !important;
+  border-style: solid;
+}
+
+[data-theme="dark"] .labs-btn-accent:hover {
+  background: rgba(254, 105, 178, 0.08) !important;
+}
+
+.labs-indicator-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--dash-active-module-bg);
+  box-shadow: 0 0 10px var(--dash-active-module-bg);
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  animation: labs-pulse 2s infinite;
+}
+
+@keyframes labs-pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+    box-shadow: 0 0 14px var(--dash-active-module-bg);
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.6;
+  }
+}
+
+.change-campus-btn {
+  background: var(--dash-panel-bg);
+  border: 1px solid var(--dash-panel-border);
+  color: var(--dash-text-color);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: var(--dash-panel-shadow);
+}
+
+.change-campus-btn:hover {
+  border-color: var(--dash-active-module-bg);
+  color: var(--dash-active-module-bg);
+}
+
+.change-campus-btn .btn-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Landing page Top Right theme toggle wrapper */
+.landing-theme-toggle-wrapper {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 10;
+}
+
+/* ============================================================
+   Responsive Selector Page Adjustments
+   ============================================================ */
+
+@media (max-width: 900px) {
+  .semester-columns-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .selector-main-title {
+    font-size: 2rem;
+  }
+  
+  .selector-main-content {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .change-campus-btn span {
+    display: none;
+  }
+  
+  .change-campus-btn {
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .landing-theme-toggle-wrapper {
+    top: 1rem;
+    right: 1rem;
+  }
+}
+

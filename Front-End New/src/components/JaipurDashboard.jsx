@@ -1,47 +1,314 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 
 // ============================================================
-// INTEGRATION ENDPOINTS & MOCK DATA
+// SUBJECTS REGISTRY & DATA INTEGRATION ENDPOINTS
 // ============================================================
-// Future developers can easily replace these static objects/arrays
-// with state from API fetches (e.g., fetch('/api/subject/MA24101')).
+// Future developers can connect this registry object to backend API fetches
+// (e.g. fetch(`/api/subjects/${code}`).then(res => res.json()))
 
-const SUBJECT_DETAILS = {
-  code: "MA24101",
-  name: "MATHEMATICS-1",
-  semester: "1st Semester",
-  campus: "Jaipur Campus"
+const SUBJECTS_REGISTRY = {
+  "MA24101": {
+    name: "Mathematics 1",
+    code: "MA24101",
+    semester: "1st Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'Calculus, Limits & Continuity' },
+      { id: 'Module-2', name: 'Module-2', title: 'Infinite Series & Convergence' },
+      { id: 'Module-3', name: 'Module-3', title: 'Matrices & Linear Transformations' },
+      { id: 'Module-4', name: 'Module-4', title: 'Multivariable Calculus & Partial Derivatives' }
+    ],
+    books: [
+      { id: 'book1', title: 'Higher Engineering Mathematics', author: 'B.S. Grewal', size: '14.2 MB' },
+      { id: 'book2', title: 'Advanced Engineering Mathematics', author: 'Erwin Kreyszig', size: '28.5 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Math1_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: false, filename: 'Math1_End_2023_Unsolved.pdf' },
+      { id: 'paper3', year: '2023', term: 'Mid Term', solved: true, filename: 'Math1_Mid_2023_Solved.pdf' },
+      { id: 'paper4', year: '2022', term: 'End Term', solved: true, filename: 'Math1_End_2022_Solved.pdf' }
+    ]
+  },
+  "EC24101": {
+    name: "Basics of Electronic Engineering",
+    code: "EC24101",
+    semester: "1st Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'Semiconductor Diodes & Applications' },
+      { id: 'Module-2', name: 'Module-2', title: 'Bipolar Junction Transistors (BJTs)' },
+      { id: 'Module-3', name: 'Module-3', title: 'Field Effect Transistors (FETs)' },
+      { id: 'Module-4', name: 'Module-4', title: 'Operational Amplifiers & Digital Circuits' }
+    ],
+    books: [
+      { id: 'book1', title: 'Electronic Devices & Circuit Theory', author: 'Boylestad & Nashelsky', size: '18.4 MB' },
+      { id: 'book2', title: 'Microelectronic Circuits', author: 'Sedra & Smith', size: '34.2 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Electronics_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Electronics_End_2023_Solved.pdf' }
+    ]
+  },
+  "CH24101": {
+    name: "Chemistry",
+    code: "CH24101",
+    semester: "1st Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'Atomic & Molecular Structure' },
+      { id: 'Module-2', name: 'Module-2', title: 'Spectroscopic Techniques' },
+      { id: 'Module-3', name: 'Module-3', title: 'Chemical Thermodynamics' },
+      { id: 'Module-4', name: 'Module-4', title: 'Phase Rule & Water Chemistry' }
+    ],
+    books: [
+      { id: 'book1', title: 'Engineering Chemistry', author: 'Shashi Chawla', size: '15.6 MB' },
+      { id: 'book2', title: 'A Textbook of Engineering Chemistry', author: 'Jain & Jain', size: '22.1 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Chemistry_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: false, filename: 'Chemistry_End_2023_Unsolved.pdf' }
+    ]
+  },
+  "CE24101": {
+    name: "Environmental Sciences",
+    code: "CE24101",
+    semester: "1st Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'Ecosystems & Ecological Balances' },
+      { id: 'Module-2', name: 'Module-2', title: 'Biodiversity & Conservation' },
+      { id: 'Module-3', name: 'Module-3', title: 'Environmental Pollution & Control' },
+      { id: 'Module-4', name: 'Module-4', title: 'Social Issues & Climate Policies' }
+    ],
+    books: [
+      { id: 'book1', title: 'Environmental Studies', author: 'Benny Joseph', size: '8.4 MB' },
+      { id: 'book2', title: 'Perspectives in Environmental Studies', author: 'Anubha Kaushik', size: '11.2 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'EVS_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'EVS_End_2023_Solved.pdf' }
+    ]
+  },
+  "ME24101": {
+    name: "Basics of Mechanical Engineering",
+    code: "ME24101",
+    semester: "1st Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'Thermodynamics & Steam Generators' },
+      { id: 'Module-2', name: 'Module-2', title: 'Internal Combustion Engines' },
+      { id: 'Module-3', name: 'Module-3', title: 'Refrigeration & Heat Pumps' },
+      { id: 'Module-4', name: 'Module-4', title: 'Machine Elements & Transmission' }
+    ],
+    books: [
+      { id: 'book1', title: 'Basics of Mechanical Engineering', author: 'J.K. Gupta', size: '12.8 MB' },
+      { id: 'book2', title: 'Elements of Mechanical Engineering', author: 'Sadhu Singh', size: '19.4 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Mech_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Mech_End_2023_Solved.pdf' }
+    ]
+  },
+  "LAB-SEM1": {
+    name: "1st Semester Labs",
+    code: "LAB-SEM1",
+    semester: "1st Semester",
+    modules: [
+      { id: 'Module-1', name: 'Exp-1 & 2', title: 'Chemistry Lab: Titrations & Water Hardness' },
+      { id: 'Module-2', name: 'Exp-3 & 4', title: 'Electronics Lab: V-I Characteristics & Rectifiers' },
+      { id: 'Module-3', name: 'Exp-5 & 6', title: 'Workshop Practice: Fitting & Carpentry' },
+      { id: 'Module-4', name: 'Exp-7 & 8', title: 'Drawing & Graphics: Orthographic Projection' }
+    ],
+    books: [
+      { id: 'book1', title: 'Engineering Chemistry Lab Manual', author: 'Dept. of Chemistry', size: '4.8 MB' },
+      { id: 'book2', title: 'Electronics & Workshop Practical Guide', author: 'Workshop Instructors', size: '6.5 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'End Term', solved: true, filename: 'Viva_Questions_Sem1_Labs.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Lab_Exam_Calculations_2023.pdf' }
+    ]
+  },
+  "CS24101": {
+    name: "Programming for Problem Solving",
+    code: "CS24101",
+    semester: "2nd Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'Algorithms, Flowcharts & Basics of C' },
+      { id: 'Module-2', name: 'Module-2', title: 'Control Statements: Loops & Branches' },
+      { id: 'Module-3', name: 'Module-3', title: 'Arrays, Functions & String Handlings' },
+      { id: 'Module-4', name: 'Module-4', title: 'Pointers, Structures, Unions & Files' }
+    ],
+    books: [
+      { id: 'book1', title: 'Programming in ANSI C', author: 'E. Balagurusamy', size: '11.8 MB' },
+      { id: 'book2', title: 'Let Us C', author: 'Yashavant Kanetkar', size: '9.2 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Programming_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Programming_End_2023_Solved.pdf' },
+      { id: 'paper3', year: '2023', term: 'Mid Term', solved: false, filename: 'Programming_Mid_2023_Unsolved.pdf' }
+    ]
+  },
+  "MA24103": {
+    name: "Mathematics 2",
+    code: "MA24103",
+    semester: "2nd Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'Ordinary Differential Equations of First Order' },
+      { id: 'Module-2', name: 'Module-2', title: 'Linear Differential Equations of Higher Order' },
+      { id: 'Module-3', name: 'Module-3', title: 'Laplace & Fourier Integral Transforms' },
+      { id: 'Module-4', name: 'Module-4', title: 'Vector Calculus & Line Integrals' }
+    ],
+    books: [
+      { id: 'book1', title: 'Higher Engineering Mathematics Vol II', author: 'B.S. Grewal', size: '15.4 MB' },
+      { id: 'book2', title: 'Advanced Engineering Mathematics', author: 'H.K. Dass', size: '20.6 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Math2_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Math2_End_2023_Solved.pdf' }
+    ]
+  },
+  "PH24101": {
+    name: "Physics",
+    code: "PH24101",
+    semester: "2nd Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'Wave Optics: Interference & Diffraction' },
+      { id: 'Module-2', name: 'Module-2', title: 'Quantum Theory & Wave-Particle Duality' },
+      { id: 'Module-3', name: 'Module-3', title: 'Maxwell Equations & Electromagnetic Waves' },
+      { id: 'Module-4', name: 'Module-4', title: 'Laser Physics & Optical Fibres' }
+    ],
+    books: [
+      { id: 'book1', title: 'Fundamentals of Physics', author: 'Halliday, Resnick & Walker', size: '31.5 MB' },
+      { id: 'book2', title: 'A Textbook of Engineering Physics', author: 'M.N. Avadhanulu', size: '17.8 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Physics_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: false, filename: 'Physics_End_2023_Unsolved.pdf' }
+    ]
+  },
+  "EE24101": {
+    name: "Basics of Electrical Engineering",
+    code: "EE24101",
+    semester: "2nd Semester",
+    modules: [
+      { id: 'Module-1', name: 'Module-1', title: 'DC Circuit Analysis & Network Theorems' },
+      { id: 'Module-2', name: 'Module-2', title: 'AC Fundamentals & Single Phase Circuits' },
+      { id: 'Module-3', name: 'Module-3', title: 'Three-Phase Balanced Systems' },
+      { id: 'Module-4', name: 'Module-4', title: 'Magnetic Circuits & Transformers' }
+    ],
+    books: [
+      { id: 'book1', title: 'Basic Electrical Engineering', author: 'C.L. Wadhwa', size: '14.5 MB' },
+      { id: 'book2', title: 'Electrical Technology', author: 'B.L. Theraja', size: '24.1 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Electrical_Mid_2024_Solved.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Electrical_End_2023_Solved.pdf' }
+    ]
+  },
+  "LAB-SEM2": {
+    name: "2nd Semester Labs",
+    code: "LAB-SEM2",
+    semester: "2nd Semester",
+    modules: [
+      { id: 'Module-1', name: 'Exp-1 & 2', title: 'Physics Lab: Newton Rings & Laser Diffractions' },
+      { id: 'Module-2', name: 'Exp-3 & 4', title: 'Electrical Lab: KVL/KCL & Transformer Ratios' },
+      { id: 'Module-3', name: 'Exp-5 & 6', title: 'Programming Lab: Matrix Operations & File I/O' },
+      { id: 'Module-4', name: 'Exp-7 & 8', title: 'Viva Voice: Practical Concepts & Viva Cards' }
+    ],
+    books: [
+      { id: 'book1', title: 'Engineering Physics Practical Guide', author: 'Dept. of Physics', size: '5.2 MB' },
+      { id: 'book2', title: 'Electrical Lab Manual & C Programs', author: 'Lab Instructors', size: '7.8 MB' }
+    ],
+    papers: [
+      { id: 'paper1', year: '2024', term: 'End Term', solved: true, filename: 'Viva_Questions_Sem2_Labs.pdf' },
+      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Lab_Calculations_Sem2_Solved.pdf' }
+    ]
+  }
 };
 
-const MODULES_DATA = [
-  { id: 'Module-1', name: 'Module-1', title: 'Calculus, Limits & Continuity' },
-  { id: 'Module-2', name: 'Module-2', title: 'Infinite Series & Convergence' },
-  { id: 'Module-3', name: 'Module-3', title: 'Matrices & Linear Transformations' },
-  { id: 'Module-4', name: 'Module-4', title: 'Multivariable Calculus & Partial Derivatives' }
-];
+// Unique SVG Icon Renderer matching subject themes
+const renderSubjectIcon = (code) => {
+  switch (code) {
+    case 'MA24101':
+    case 'MA24103':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <path d="M4 12h2l3 7 5-14h6" strokeLinecap="round" strokeLinejoin="round" />
+          <text x="14" y="16" fontSize="8" fontWeight="bold" fontFamily="sans-serif" fill="currentColor">x</text>
+        </svg>
+      );
+    case 'PH24101':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <circle cx="12" cy="12" r="3" />
+          <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)" />
+          <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(150 12 12)" />
+        </svg>
+      );
+    case 'CH24101':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <path d="M6 3h12M9 3v4L4.3 17.6A2 2 0 0 0 6 20h12a2 2 0 0 0 1.7-2.4L15 7V3" />
+          <line x1="6" y1="14" x2="18" y2="14" />
+        </svg>
+      );
+    case 'EC24101':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <rect x="2" y="2" width="20" height="20" rx="4" />
+          <path d="M7 12h10M12 7v10" />
+          <circle cx="7" cy="12" r="1.5" fill="currentColor" />
+          <circle cx="17" cy="12" r="1.5" fill="currentColor" />
+        </svg>
+      );
+    case 'CS24101':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <polyline points="16 18 22 12 16 6" />
+          <polyline points="8 6 2 12 8 18" />
+          <line x1="14" y1="4" x2="10" y2="20" />
+        </svg>
+      );
+    case 'CE24101':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2Z" />
+          <path d="M12 6c-2 2-3 4-3 6s1 4 3 6c2-2 3-4 3-6s-1-4-3-6Z" />
+          <path d="M2 12h20" />
+        </svg>
+      );
+    case 'ME24101':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <circle cx="12" cy="12" r="3" />
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+        </svg>
+      );
+    case 'EE24101':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+        </svg>
+      );
+    case 'LAB-SEM1':
+    case 'LAB-SEM2':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+          <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
+          <path d="M9 14h6M9 10h6M9 18h4" />
+        </svg>
+      );
+    default:
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="math-logo-svg">
+          <path d="M12 2L2 22h20L12 2z" />
+        </svg>
+      );
+  }
+};
 
-const PRACTICE_MODULES_LIST = [
-  { id: 'mod1', name: 'Module 1: Calculus' },
-  { id: 'mod2', name: 'Module 2: Infinite Series' },
-  { id: 'mod3', name: 'Module 3: Matrices & Linear Algebra' },
-  { id: 'mod4', name: 'Module 4: Multivariable Calculus' }
-];
+function JaipurDashboard({ subjectCode, theme, onToggleTheme, onBack }) {
+  // Retrieve specific subject dataset or fallback safely to Mathematics-1
+  const subjectData = SUBJECTS_REGISTRY[subjectCode] || SUBJECTS_REGISTRY["MA24101"];
 
-const REFERENCE_BOOKS = [
-  { id: 'book1', title: 'Higher Engineering Mathematics', author: 'B.S. Grewal', size: '14.2 MB', filesCount: 1 },
-  { id: 'book2', title: 'Advanced Engineering Mathematics', author: 'Erwin Kreyszig', size: '28.5 MB', filesCount: 1 }
-];
-
-const PREVIOUS_YEAR_PAPERS = [
-  { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Math1_Mid_2024_Solved.pdf' },
-  { id: 'paper2', year: '2023', term: 'End Term', solved: false, filename: 'Math1_End_2023_Unsolved.pdf' },
-  { id: 'paper3', year: '2023', term: 'Mid Term', solved: true, filename: 'Math1_Mid_2023_Solved.pdf' },
-  { id: 'paper4', year: '2022', term: 'End Term', solved: true, filename: 'Math1_End_2022_Solved.pdf' }
-];
-
-function JaipurDashboard({ theme, onToggleTheme, onBack }) {
   // Page / Content States
-  const [activeModule, setActiveModule] = useState('Module-1');
+  const [activeModule, setActiveModule] = useState(subjectData.modules[0].id);
   const [selectedDifficulty, setSelectedDifficulty] = useState('Medium');
   
   // Practice Mode Dropdowns
@@ -76,6 +343,12 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
     }, 2800);
   }, []);
 
+  // Update active module when subjectCode changes
+  useEffect(() => {
+    setActiveModule(subjectData.modules[0].id);
+    setSelectedPracticeModules(['mod1']);
+  }, [subjectCode, subjectData]);
+
   useEffect(() => {
     return () => {
       if (toastTimerRef.current) clearTimeout(toastTimerRef.current);
@@ -93,7 +366,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
 
   const handleStartPractice = () => {
     const activeModuleNames = selectedPracticeModules
-      .map(id => PRACTICE_MODULES_LIST.find(m => m.id === id)?.name || '')
+      .map(id => subjectData.modules.find((_, i) => `mod${i+1}` === id)?.title || '')
       .filter(Boolean)
       .join(', ');
     
@@ -102,11 +375,11 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
       return;
     }
 
-    showToast(`Starting Practice: Difficulty [${selectedDifficulty}] with [${activeModuleNames}]`);
+    showToast(`Starting Practice: Difficulty [${selectedDifficulty}]`);
   };
 
   // Filter Previous Year Papers
-  const filteredPapers = PREVIOUS_YEAR_PAPERS.filter(paper => {
+  const filteredPapers = subjectData.papers.filter(paper => {
     const matchYear = yearFilter === 'All' || paper.year === yearFilter;
     const matchTerm = termFilter === 'All' || paper.term === termFilter;
     const matchSolved = solvedFilter === 'All' || 
@@ -152,7 +425,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
           ============================================================ */}
       <header className="dash-header" id="dash-header">
         <div className="dash-header__left">
-          <div className="logo-container" onClick={onBack} title="Go back to campus selection">
+          <div className="logo-container" onClick={onBack} title="Go back to subject selector">
             <div className="logo-icon-wrapper">
               <svg className="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M4 19.5V15a2 2 0 0 1 2-2h14M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V17" />
@@ -173,13 +446,11 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
             id="theme-toggle-button"
           >
             {theme === 'light' ? (
-              // Sun icon (in Light Mode, clicking goes to Dark Mode)
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="toggle-icon">
                 <circle cx="12" cy="12" r="4" />
                 <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
               </svg>
             ) : (
-              // Moon icon
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="toggle-icon">
                 <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
               </svg>
@@ -200,7 +471,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                 <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                 <polyline points="9 22 9 12 15 12 15 22" />
               </svg>
-              <span>{SUBJECT_DETAILS.campus}</span>
+              <span>Jaipur Campus</span>
               <svg className="arrow-down-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <polyline points="6 9 12 15 18 9" />
               </svg>
@@ -209,8 +480,8 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
             {campusDropdownOpen && (
               <div className="campus-dropdown-menu" id="campus-dropdown-menu">
                 <div className="campus-dropdown-item active">Jaipur Campus (Active)</div>
-                <div className="campus-dropdown-item disabled" onClick={() => showToast("Mesra Campus dashboard integration is in planning!")}>
-                  Mesra Campus (External link)
+                <div className="campus-dropdown-item disabled" onClick={() => showToast("Mesra Campus dashboard is coming soon!")}>
+                  Mesra Campus
                 </div>
               </div>
             )}
@@ -241,12 +512,12 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
             <svg className="sidebar-section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <path d="M12 20h9M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
             </svg>
-            <span>NOTES</span>
+            <span>{subjectCode.startsWith('LAB') ? 'EXPERIMENTS' : 'NOTES'}</span>
           </div>
 
           {/* Modules List */}
           <nav className="modules-nav" id="modules-nav">
-            {MODULES_DATA.map(mod => {
+            {subjectData.modules.map(mod => {
               const isSelected = activeModule === mod.id;
               return (
                 <button
@@ -254,7 +525,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                   className={`module-nav-item ${isSelected ? 'active' : ''}`}
                   onClick={() => {
                     setActiveModule(mod.id);
-                    showToast(`Switched to Notes: ${mod.name} (${mod.title})`);
+                    showToast(`Switched: ${mod.name}`);
                   }}
                   id={`module-btn-${mod.id.toLowerCase()}`}
                 >
@@ -262,9 +533,6 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                     <svg className="doc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                       <polyline points="14 2 14 8 20 8" />
-                      <line x1="16" y1="13" x2="8" y2="13" />
-                      <line x1="16" y1="17" x2="8" y2="17" />
-                      <polyline points="10 9 9 9 8 9" />
                     </svg>
                     <span>{mod.name}</span>
                   </div>
@@ -285,7 +553,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
             onClick={() => showToast("Syllabus view downloading...")}
             id="syllabus-view-button"
           >
-            SYLLABUS
+            {subjectCode.startsWith('LAB') ? 'LAB INFO' : 'SYLLABUS'}
           </button>
         </aside>
 
@@ -297,27 +565,16 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
           {/* 1. Subject Header Box */}
           <section className="subject-header-box" id="subject-header-box">
             <div className="subject-meta-left">
-              {/* Mathematics root-x square icon */}
+              {/* Mathematics root-x square icon or dynamic subject icon */}
               <div className="math-logo-box">
-                <svg viewBox="0 0 24 24" className="math-logo-svg">
-                  {/* Square Root Symbol Icon */}
-                  <path 
-                    d="M4 12h2l3 7 5-14h6" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    strokeWidth="2.5" 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                  />
-                  <text x="14" y="16" fontSize="8" fontWeight="bold" fontFamily="sans-serif" fill="currentColor">x</text>
-                </svg>
+                {renderSubjectIcon(subjectData.code)}
               </div>
               <div className="subject-titles">
-                <h2 className="subject-title-name">{SUBJECT_DETAILS.name}</h2>
+                <h2 className="subject-title-name">{subjectData.name}</h2>
                 <div className="subject-title-sub">
-                  <span className="code-badge">{SUBJECT_DETAILS.code}</span>
+                  <span className="code-badge">{subjectData.code}</span>
                   <span className="bullet-separator">•</span>
-                  <span className="sem-info">{SUBJECT_DETAILS.semester}</span>
+                  <span className="sem-info">{subjectData.semester}</span>
                 </div>
               </div>
             </div>
@@ -325,7 +582,6 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
             {/* Stylized vector mountains illustration on the right */}
             <div className="subject-header-hills" aria-hidden="true">
               <svg viewBox="0 0 200 100" preserveAspectRatio="none" className="hills-svg">
-                {/* Layered hill vectors echoing the screenshot's warm aesthetic */}
                 <path 
                   d="M10 100 C 40 70, 60 50, 90 75 C 110 90, 130 65, 170 100 Z" 
                   fill="none" 
@@ -347,7 +603,6 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                   strokeWidth="1.5" 
                   opacity="0.8" 
                 />
-                {/* Dotted accents for artistic depth */}
                 <circle cx="125" cy="20" r="1.5" fill="currentColor" opacity="0.6" />
                 <circle cx="140" cy="28" r="1" fill="currentColor" opacity="0.4" />
                 <circle cx="85" cy="40" r="1.2" fill="currentColor" opacity="0.5" />
@@ -369,7 +624,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                   </svg>
                 </div>
                 <div className="card-header-titles">
-                  <h3 className="card-title-main">Practice Mode</h3>
+                  <h3 className="card-title-main">{subjectCode.startsWith('LAB') ? 'Viva Mode' : 'Practice Mode'}</h3>
                   <p className="card-title-sub">Customize your session.</p>
                 </div>
               </div>
@@ -382,7 +637,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                     onClick={() => { closeAllDropdowns(); setModulesDropdownOpen(!modulesDropdownOpen); }}
                     id="select-modules-dropdown-btn"
                   >
-                    <span>Select Modules</span>
+                    <span>{subjectCode.startsWith('LAB') ? 'Select Experiments' : 'Select Modules'}</span>
                     <svg className="trigger-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                       <polyline points="9 18 15 12 9 6" />
                     </svg>
@@ -390,18 +645,19 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                   
                   {modulesDropdownOpen && (
                     <div className="custom-dropdown-popover" id="select-modules-popover">
-                      <p className="popover-title">Choose Modules to Include:</p>
-                      {PRACTICE_MODULES_LIST.map(mod => {
-                        const isChecked = selectedPracticeModules.includes(mod.id);
+                      <p className="popover-title">Choose to Include:</p>
+                      {subjectData.modules.map((mod, index) => {
+                        const practiceId = `mod${index + 1}`;
+                        const isChecked = selectedPracticeModules.includes(practiceId);
                         return (
                           <label key={mod.id} className="checkbox-label">
                             <input 
                               type="checkbox" 
                               checked={isChecked}
-                              onChange={() => togglePracticeModule(mod.id)}
+                              onChange={() => togglePracticeModule(practiceId)}
                             />
                             <span className="checkbox-custom" />
-                            <span className="checkbox-text">{mod.name}</span>
+                            <span className="checkbox-text">{mod.name}: {mod.title.split(':')[1] || mod.title}</span>
                           </label>
                         );
                       })}
@@ -409,7 +665,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                   )}
                 </div>
 
-                {/* Select Difficulty Dropdown Trigger (syncs with radio buttons below) */}
+                {/* Select Difficulty Dropdown Trigger */}
                 <div className="practice-field-container" onClick={(e) => e.stopPropagation()}>
                   <button 
                     className={`custom-select-trigger ${difficultyDropdownOpen ? 'open' : ''}`}
@@ -490,16 +746,15 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                       <path d="M4 19.5V15a2 2 0 0 1 2-2h14" />
                       <path d="M20 17v-4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2Z" />
                       <path d="M12 6V2h8v4" />
-                      <path d="M12 2h2" />
                     </svg>
                   </div>
                   <div className="card-header-titles">
-                    <h3 className="card-title-main">Reference Books and Materials</h3>
+                    <h3 className="card-title-main">{subjectCode.startsWith('LAB') ? 'Lab Manuals & Practical Guides' : 'Reference Books and Materials'}</h3>
                   </div>
                 </div>
 
                 <div className="materials-list-container">
-                  {REFERENCE_BOOKS.map(book => (
+                  {subjectData.books.map(book => (
                     <div 
                       key={book.id} 
                       className="material-file-item" 
@@ -513,7 +768,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                         </svg>
                         <div className="file-info-text">
                           <span className="file-title">{book.title}</span>
-                          <span className="file-author">by {book.author}</span>
+                          <span className="file-author">by {book.author || 'Department'}</span>
                         </div>
                       </div>
                       <span className="file-size-badge">{book.size}</span>
@@ -526,7 +781,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                     <polyline points="14 2 14 8 20 8" />
                   </svg>
-                  <span>2 Files</span>
+                  <span>{subjectData.books.length} Files</span>
                 </div>
               </section>
 
@@ -537,13 +792,10 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                     <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                       <polyline points="14 2 14 8 20 8" />
-                      <line x1="16" y1="13" x2="8" y2="13" />
-                      <line x1="16" y1="17" x2="8" y2="17" />
-                      <line x1="10" y1="9" x2="8" y2="9" />
                     </svg>
                   </div>
                   <div className="card-header-titles">
-                    <h3 className="card-title-main">Previous Year Papers</h3>
+                    <h3 className="card-title-main">{subjectCode.startsWith('LAB') ? 'Previous Practical Papers' : 'Previous Year Papers'}</h3>
                   </div>
                 </div>
 
@@ -667,7 +919,7 @@ function JaipurDashboard({ theme, onToggleTheme, onBack }) {
                             <polyline points="14 2 14 8 20 8" />
                           </svg>
                           <span className="paper-title-text">
-                            Mathematics-1 ({paper.term} {paper.year})
+                            {subjectData.name} ({paper.term || 'Lab'} {paper.year})
                           </span>
                         </div>
                         <div className="paper-badges-right">
