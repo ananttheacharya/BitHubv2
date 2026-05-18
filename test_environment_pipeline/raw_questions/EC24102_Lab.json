@@ -1,0 +1,434 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "When displaying two separate sinusoidal signals on a Cathode Ray Oscilloscope (CRO), what physical parameters dictate whether you should operate the dual-trace control in 'Chop' mode versus 'Alternate' mode to avoid visual flicker?",
+        "question_latex": "\\text{When displaying two separate sinusoidal signals on a Cathode Ray Oscilloscope (CRO), what physical parameters dictate whether you should operate the dual-trace control in 'Chop' mode versus 'Alternate' mode to avoid visual flicker?}",
+        "question_type": "conceptual",
+        "question_uid": "e1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a1",
+        "tags": [
+            "Oscilloscope",
+            "CRO Measurement"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How does the physical geometric orientation of a Lissajous pattern on a CRO screen change as the phase difference between two equal-frequency orthogonal inputs varies from 0 to 90 degrees?",
+        "question_latex": "\\text{How does the physical geometric orientation of a Lissajous pattern on a CRO screen change as the phase difference between two equal-frequency orthogonal inputs varies from 0 to 90 degrees?}",
+        "question_type": "analytical",
+        "question_uid": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+        "tags": [
+            "Lissajous Patterns",
+            "Phase Measurement"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical operational mechanism causes the forward bias current of a silicon PN junction diode to grow exponentially with applied voltage rather than linearly?",
+        "question_latex": "\\text{What physical operational mechanism causes the forward bias current of a silicon PN junction diode to grow exponentially with applied voltage rather than linearly?}",
+        "question_type": "conceptual",
+        "question_uid": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+        "tags": [
+            "PN Junction",
+            "Diode Characteristics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does the reverse saturation current of a PN junction diode remain relatively independent of the magnitude of the external reverse voltage until it approaches the breakdown threshold?",
+        "question_latex": "\\text{Why does the reverse saturation current of a PN junction diode remain relatively independent of the magnitude of the external reverse voltage until it approaches the breakdown threshold?}",
+        "question_type": "analytical",
+        "question_uid": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+        "tags": [
+            "Reverse Bias",
+            "Saturation Current"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What is the key physical distinction in breakdown mechanisms between Zener breakdown and Avalanche breakdown regarding the core material doping levels and the behavior of internal covalent bonds?",
+        "question_latex": "\\text{What is the key physical distinction in breakdown mechanisms between Zener breakdown and Avalanche breakdown regarding the core material doping levels and the behavior of internal covalent bonds?}",
+        "question_type": "conceptual",
+        "question_uid": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+        "tags": [
+            "Zener Diode",
+            "Breakdown Mechanisms"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why must a series current-limiting resistor always be placed upstream of a Zener diode when configured to operate as a constant shunt voltage regulator?",
+        "question_latex": "\\text{Why must a series current-limiting resistor always be placed upstream of a Zener diode when configured to operate as a constant shunt voltage regulator?}",
+        "question_type": "analytical",
+        "question_uid": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+        "tags": [
+            "Voltage Regulation",
+            "Circuit Protection"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does a center-tapped full-wave rectifier require its semiconductor diodes to possess twice the Peak Inverse Voltage (PIV) rating of an equivalent bridge rectifier circuit?",
+        "question_latex": "\\text{Why does a center-tapped full-wave rectifier require its semiconductor diodes to possess twice the Peak Inverse Voltage (PIV) rating of an equivalent bridge rectifier circuit?}",
+        "question_type": "conceptual",
+        "question_uid": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+        "tags": [
+            "Rectifiers",
+            "Peak Inverse Voltage"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How does adding a shunt capacitor filter structurally lower the ripple factor of a full-wave rectifier circuit, and what happens to this ripple if the parallel load resistance decreases?",
+        "question_latex": "\\text{How does adding a shunt capacitor filter structurally lower the ripple factor of a full-wave rectifier circuit, and what happens to this ripple if the parallel load resistance decreases?}",
+        "question_type": "analytical",
+        "question_uid": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+        "tags": [
+            "Filter Circuits",
+            "Ripple Factor"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical hardware phenomena cause the voltage gain of a Common Emitter (CE) transistor amplifier to drop significantly at very low operating frequencies versus very high frequencies?",
+        "question_latex": "\\text{What physical hardware phenomena cause the voltage gain of a Common Emitter (CE) transistor amplifier to drop significantly at very low operating frequencies versus very high frequencies?}",
+        "question_type": "conceptual",
+        "question_uid": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+        "tags": [
+            "CE Amplifier",
+            "Frequency Response"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What structural role does the emitter bypass capacitor serve in a standard self-biased CE configuration, and how does removing it alter the AC voltage gain of the amplifier stage?",
+        "question_latex": "\\text{What structural role does the emitter bypass capacitor serve in a standard self-biased CE configuration, and how does removing it alter the AC voltage gain of the amplifier stage?}",
+        "question_type": "analytical",
+        "question_uid": "d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+        "tags": [
+            "CE Amplifier",
+            "Bypass Capacitor"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.6(a)",
+        "module_number": 6,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why is a Junction Field Effect Transistor (JFET) categorized explicitly as a unipolar voltage-controlled device, whereas a Bipolar Junction Transistor (BJT) is a current-controlled bipolar device?",
+        "question_latex": "\\text{Why is a Junction Field Effect Transistor (JFET) categorized explicitly as a unipolar voltage-controlled device, whereas a Bipolar Junction Transistor (BJT) is a current-controlled bipolar device?}",
+        "question_type": "conceptual",
+        "question_uid": "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2",
+        "tags": [
+            "JFET",
+            "Device Physics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.6(b)",
+        "module_number": 6,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical structural state manifests inside a JFET channel when the drain-to-source voltage reaches the 'pinch-off' threshold, and why does the drain current plateau beyond this value?",
+        "question_latex": "\\text{What physical structural state manifests inside a JFET channel when the drain-to-source voltage reaches the 'pinch-off' threshold, and why does the drain current plateau beyond this value?}",
+        "question_type": "analytical",
+        "question_uid": "f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+        "tags": [
+            "JFET",
+            "Pinch-Off Region"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.7(a)",
+        "module_number": 7,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "According to the Barkhausen criterion, what operational conditions must the loop phase shift and loop gain magnitude meet to establish sustained, stable output oscillations?",
+        "question_latex": "\\text{According to the Barkhausen criterion, what operational conditions must the loop phase shift and loop gain magnitude meet to establish sustained, stable output oscillations?}",
+        "question_type": "conceptual",
+        "question_uid": "a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+        "tags": [
+            "Oscillators",
+            "Barkhausen Criterion"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.7(b)",
+        "module_number": 7,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why must an RC phase shift oscillator constructed using an Operational Amplifier utilize exactly three consecutive passive RC ladders to fulfill the system's phase constraints inside the feedback network?",
+        "question_latex": "\\text{Why must an RC phase shift oscillator constructed using an Operational Amplifier utilize exactly three consecutive passive RC ladders to fulfill the system's phase constraints inside the feedback network?}",
+        "question_type": "analytical",
+        "question_uid": "b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+        "tags": [
+            "RC Phase Shift",
+            "Feedback Networks"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.8(a)",
+        "module_number": 8,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What is the physical significance of a 'Virtual Ground' at the inverting input terminal of an Operational Amplifier configured with negative feedback, and why does this node resist incoming current?",
+        "question_latex": "\\text{What is the physical significance of a 'Virtual Ground' at the inverting input terminal of an Operational Amplifier configured with negative feedback, and why does this node resist incoming current?}",
+        "question_type": "conceptual",
+        "question_uid": "c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+        "tags": [
+            "Op-Amp Circuits",
+            "Virtual Ground"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.8(b)",
+        "module_number": 8,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How does switching an Op-Amp system layout from an inverting amplifier structure to a non-inverting amplifier structure alter the internal input impedance seen directly by the primary signal source?",
+        "question_latex": "\\text{How does switching an Op-Amp system layout from an inverting amplifier structure to a non-inverting amplifier structure alter the internal input impedance seen directly by the primary signal source?}",
+        "question_type": "analytical",
+        "question_uid": "d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+        "tags": [
+            "Op-Amp Circuits",
+            "Input Impedance"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.9(a)",
+        "module_number": 9,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why are NAND and NOR digital gates specifically categorized as 'Universal Gates' in digital electronics architectural design frameworks?",
+        "question_latex": "\\text{Why are NAND and NOR digital gates specifically categorized as 'Universal Gates' in digital electronics architectural design frameworks?}",
+        "question_type": "conceptual",
+        "question_uid": "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+        "tags": [
+            "Digital Electronics",
+            "Universal Gates"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.9(b)",
+        "module_number": 9,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "When implementing a simple NOT inverter logic operation using a two-input universal NAND gate IC, what structural wiring choices must be made with the unused secondary input pin?",
+        "question_latex": "\\text{When implementing a simple NOT inverter logic operation using a two-input universal NAND gate IC, what structural wiring choices must be made with the unused secondary input pin?}",
+        "question_type": "analytical",
+        "question_uid": "f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9",
+        "tags": [
+            "Logic Gates",
+            "NAND Realization"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.10(a)",
+        "module_number": 10,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical hardware limit dictates the minimum propagation delay time of an AND-OR combination logic gate array when evaluated using distinct integrated circuit modules?",
+        "question_latex": "\\text{What physical hardware limit dictates the minimum propagation delay time of an AND-OR combination logic gate array when evaluated using distinct integrated circuit modules?}",
+        "question_type": "conceptual",
+        "question_uid": "a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0",
+        "tags": [
+            "Combinational Logic",
+            "Propagation Delay"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.10(b)",
+        "module_number": 10,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "According to Boolean algebra axioms, how does applying De Morgan's theorem structurally simplify a product-of-sums expression containing long overarching negation bars?",
+        "question_latex": "\\text{According to Boolean algebra axioms, how does applying De Morgan's theorem structurally simplify a product-of-sums expression containing long overarching negation bars?}",
+        "question_type": "analytical",
+        "question_uid": "b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1",
+        "tags": [
+            "Boolean Algebra",
+            "De Morgan's Theorem"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.11(a)",
+        "module_number": 11,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical structural issue happens during Amplitude Modulation if the modulation index exceeds unity, and how does it affect signal recovery at the demodulator?",
+        "question_latex": "\\text{What physical structural issue happens during Amplitude Modulation if the modulation index exceeds unity, and how does it affect signal recovery at the demodulator?}",
+        "question_type": "conceptual",
+        "question_uid": "c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2",
+        "tags": [
+            "Analog Communication",
+            "Overmodulation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.11(b)",
+        "module_number": 11,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does a standard envelope detector circuit require a precise matching optimization of its RC time-constant component values to successfully bypass 'diagonal clipping' tracking failures?",
+        "question_latex": "\\text{Why does a standard envelope detector circuit require a precise matching optimization of its RC time-constant component values to successfully bypass 'diagonal clipping' tracking failures?}",
+        "question_type": "analytical",
+        "question_uid": "d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3",
+        "tags": [
+            "AM Detection",
+            "Envelope Detector"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.12(a)",
+        "module_number": 12,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What is the structural difference between Amplitude Modulation and Frequency Modulation regarding how noise spikes present within an open environmental channel corrupt information transmission?",
+        "question_latex": "\\text{What is the structural difference between Amplitude Modulation and Frequency Modulation regarding how noise spikes present within an open environmental channel corrupt information transmission?}",
+        "question_type": "conceptual",
+        "question_uid": "e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4",
+        "tags": [
+            "Frequency Modulation",
+            "Noise Immunity"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.12(b)",
+        "module_number": 12,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "According to Carson's rule, why does the operational transmission bandwidth of a Frequency Modulated (FM) wave depend directly on both the maximum frequency deviation and the modulation signal frequency?",
+        "question_latex": "\\text{According to Carson's rule, why does the operational transmission bandwidth of a Frequency Modulated (FM) wave depend directly on both the maximum frequency deviation and the modulation signal frequency?}",
+        "question_type": "analytical",
+        "question_uid": "f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5",
+        "tags": [
+            "FM Modulation",
+            "Carson's Rule"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    }
+]

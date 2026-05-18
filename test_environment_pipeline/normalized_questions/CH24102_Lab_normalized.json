@@ -1,0 +1,485 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In the gravimetric estimation of Nickel, why must the addition of alcoholic dimethylglyoxime (DMG) be limited to only a slight excess rather than a large surplus?",
+        "question_latex": "\\text{In the gravimetric estimation of Nickel, why must the addition of alcoholic dimethylglyoxime (DMG) be limited to only a slight excess rather than a large surplus?}",
+        "question_type": "conceptual",
+        "question_uid": "a1b687cbdc95c4429096eea4b57953e3272b26a392c7fed9bce1232a212240e0",
+        "tags": [
+            "Gravimetric Estimation",
+            "Nickel DMG"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why is the chemical solution initially heated to 70–80 degrees Celsius before completing precipitation during the gravimetric analysis of Nickel?",
+        "question_latex": "\\text{Why is the chemical solution initially heated to 70–80 degrees Celsius before completing precipitation during the gravimetric analysis of Nickel?}",
+        "question_type": "analytical",
+        "question_uid": "de123eaab0848138b78c040c7493f2ecda6ec052e04f2c41326a99d288850723",
+        "tags": [
+            "Gravimetric Estimation",
+            "Nucleation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In the complexometric estimation of Calcium and Magnesium ions, why is a specific buffer used to keep the system exactly at pH 10?",
+        "question_latex": "\\text{In the complexometric estimation of Calcium and Magnesium ions, why is a specific buffer used to keep the system exactly at pH 10?}",
+        "question_type": "conceptual",
+        "question_uid": "c78b1ace84504e54fe2da9517f7ef2e6d3faf45afad4521a9f7503ca5dbcfd73",
+        "tags": [
+            "Complexometric Titration",
+            "EDTA"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How does the addition of a strongly alkaline medium isolate Calcium ions exclusively from Magnesium ions prior to the second titration step?",
+        "question_latex": "\\text{How does the addition of a strongly alkaline medium isolate Calcium ions exclusively from Magnesium ions prior to the second titration step?}",
+        "question_type": "analytical",
+        "question_uid": "40f7f1f189565adfaf0b3ecd51e0d687793a51c97d4955f36b49641ed77ae21c",
+        "tags": [
+            "Complexometric Titration",
+            "Masking Magnesium"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why is a specific complementary color wavelength choice required when setting up a colorimeter to verify Beer's Law for Iron(III) solutions?",
+        "question_latex": "\\text{Why is a specific complementary color wavelength choice required when setting up a colorimeter to verify Beer's Law for Iron(III) solutions?}",
+        "question_type": "conceptual",
+        "question_uid": "c73eac939963c12f8822ca0d094c3117e9ff41012a0df20db090f00063d67a77",
+        "tags": [
+            "Beer's Law",
+            "Spectrophotometry"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What structural issue or chemical limitation causes the calibration curve of Absorbance versus Concentration to deviate from linearity at high sample concentrations?",
+        "question_latex": "\\text{What structural issue or chemical limitation causes the calibration curve of Absorbance versus Concentration to deviate from linearity at high sample concentrations?}",
+        "question_type": "analytical",
+        "question_uid": "a1c25fefe1ffe8e4ae946fd8fc05294b329a512ddbfdc188c4e473fa4a3e79a3",
+        "tags": [
+            "Beer-Lambert Deviations",
+            "Colorimetry"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In liquid-liquid extraction of a binary organic mixture, what is the purpose of converting one of the neutral components into an ionic salt form?",
+        "question_latex": "\\text{In liquid-liquid extraction of a binary organic mixture, what is the purpose of converting one of the neutral components into an ionic salt form?}",
+        "question_type": "conceptual",
+        "question_uid": "a5eddda9c57b8c06a4cd6de13112309370c2b51db67413d7239c6551c236cf40",
+        "tags": [
+            "Acid-Base Extraction",
+            "Organic Separation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Which diagnostic absorption bands in an FTIR spectrum quickly differentiate a terminal carboxylic acid component from a basic amine inside an isolated organic layer?",
+        "question_latex": "\\text{Which diagnostic absorption bands in an FTIR spectrum quickly differentiate a terminal carboxylic acid component from a basic amine inside an isolated organic layer?}",
+        "question_type": "analytical",
+        "question_uid": "4ad010db561e93c6fb03ba68ed0eb71e56fdb5d9270ba064287079ceffdb1e32",
+        "tags": [
+            "FTIR Characterization",
+            "Spectroscopy"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why must the preparation of Diazoaminobenzene be strictly maintained below 5 degrees Celsius during the initial diazotization step?",
+        "question_latex": "\\text{Why must the preparation of Diazoaminobenzene be strictly maintained below 5 degrees Celsius during the initial diazotization step?}",
+        "question_type": "conceptual",
+        "question_uid": "4544aa5ac95a849b7c7b58a94e32e9a42aadb3e1f3bc378c0c4e58003f76917e",
+        "tags": [
+            "Diazotization",
+            "Organic Synthesis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What structural change or impurity feature during synthesis causes an isolated Diazoaminobenzene sample to show a broad melting point range rather than a sharp single value?",
+        "question_latex": "\\text{What structural change or impurity feature during synthesis causes an isolated Diazoaminobenzene sample to show a broad melting point range rather than a sharp single value?}",
+        "question_type": "analytical",
+        "question_uid": "129419a370268663c402f2f7d4dd544c55379850afa05a08ac8ab89be674f54b",
+        "tags": [
+            "Melting Point Analysis",
+            "Organic Synthesis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.6(a)",
+        "module_number": 6,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What is the thermodynamic definitions of a 'Eutectic Point' on a solid-liquid binary phase diagram?",
+        "question_latex": "\\text{What is the thermodynamic definitions of a 'Eutectic Point' on a solid-liquid binary phase diagram?}",
+        "question_type": "conceptual",
+        "question_uid": "b994fd9862dff5285fd09fbb49ccb267c6efa6a8e8ae064580751441806165a0",
+        "tags": [
+            "Engineering Thermodynamics",
+            "Eutectic Mixture",
+            "Phase Equilibria"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.6(b)",
+        "module_number": 6,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "According to Gibbs Phase Rule, how many degrees of freedom exist exactly at the eutectic temperature for a two-component condensed system at constant atmospheric pressure?",
+        "question_latex": "\\text{According to Gibbs Phase Rule, how many degrees of freedom exist exactly at the eutectic temperature for a two-component condensed system at constant atmospheric pressure?}",
+        "question_type": "analytical",
+        "question_uid": "54ea7a0298f78c6cd2ee45c456cea8d0c7f8270377d48a0ef20530bb69e99479",
+        "tags": [
+            "Phase Equilibria",
+            "Phase Rule",
+            "Thermodynamics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.7(a)",
+        "module_number": 7,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why is the acid-catalyzed hydrolysis of ethyl acetate classified as a pseudo-first-order reaction rather than a true second-order kinetic process?",
+        "question_latex": "\\text{Why is the acid-catalyzed hydrolysis of ethyl acetate classified as a pseudo-first-order reaction rather than a true second-order kinetic process?}",
+        "question_type": "conceptual",
+        "question_uid": "0050af3786481d027e18d6290dad25b61ca97e4585ddf430784d4f6ab54e9976",
+        "tags": [
+            "Chemical Kinetics",
+            "Pseudo-First-Order"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.7(b)",
+        "module_number": 7,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What role does the concentration of the mineral acid catalyst play in determining the absolute reaction rate constant during ester hydrolysis?",
+        "question_latex": "\\text{What role does the concentration of the mineral acid catalyst play in determining the absolute reaction rate constant during ester hydrolysis?}",
+        "question_type": "analytical",
+        "question_uid": "f2867d7bc985fa8feae7139b0bd018b395926db6ee579b19732f71cad052081f",
+        "tags": [
+            "Acid Catalysis",
+            "Chemical Kinetics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.8(a)",
+        "module_number": 8,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In studying the kinetics of the iodide-hydrogen peroxide clock reaction, what physical property is evaluated to monitor the sudden endpoint of the initial reaction step?",
+        "question_latex": "\\text{In studying the kinetics of the iodide-hydrogen peroxide clock reaction, what physical property is evaluated to monitor the sudden endpoint of the initial reaction step?}",
+        "question_type": "conceptual",
+        "question_uid": "92513dd596d29a4874cc7032ad6d67ba2c4f654f6e2addc535ee0913c5c47d8b",
+        "tags": [
+            "Clock Reaction",
+            "Reaction Dynamics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.8(b)",
+        "module_number": 8,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How does adding a specific chemical catalyst like Fe(III) physically alter the activation energy barrier for the reaction between iodide and peroxide?",
+        "question_latex": "\\text{How does adding a specific chemical catalyst like Fe(III) physically alter the activation energy barrier for the reaction between iodide and peroxide?}",
+        "question_type": "analytical",
+        "question_uid": "f7fa9b10a9e9259f447338086f06e0cd39ff16c0440e18b7cc44f4870edff989",
+        "tags": [
+            "Catalyst Effect",
+            "Reaction Dynamics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.9(a)",
+        "module_number": 9,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical parameter drop or plateau identifies the exact equivalence point during a potentiometric strong acid-strong base titration?",
+        "question_latex": "\\text{What physical parameter drop or plateau identifies the exact equivalence point during a potentiometric strong acid-strong base titration?}",
+        "question_type": "conceptual",
+        "question_uid": "27ac67dcd3effb8017808c7938a350449a95dc4bf749416c330a908b0524dc2d",
+        "tags": [
+            "Electrochemistry",
+            "Potentiometric Titration"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.9(b)",
+        "module_number": 9,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why do potentiometric titrations provide higher analytical precision over traditional indicator color changes when examining turbid or highly colored liquid solutions?",
+        "question_latex": "\\text{Why do potentiometric titrations provide higher analytical precision over traditional indicator color changes when examining turbid or highly colored liquid solutions?}",
+        "question_type": "analytical",
+        "question_uid": "fb19f0934434902699ef2a13bd65cb1d240a71b7566994d1a2609c4b28749f9c",
+        "tags": [
+            "Complex Analysis",
+            "Electrochemistry",
+            "Titration Precision"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.10(a)",
+        "module_number": 10,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical event or crystalline transition marks the transition temperature of a salt hydrate compound?",
+        "question_latex": "\\text{What physical event or crystalline transition marks the transition temperature of a salt hydrate compound?}",
+        "question_type": "conceptual",
+        "question_uid": "eedb9665daa606a7e53cb3f96d56ec5df55e4521685a4f97aa22173cc52c929b",
+        "tags": [
+            "Salt Hydrates",
+            "Thermal Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.10(b)",
+        "module_number": 10,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why must the cooling rate of the salt hydrate solution be kept slow and uniform to prevent severe deviations when observing the true crystallization point?",
+        "question_latex": "\\text{Why must the cooling rate of the salt hydrate solution be kept slow and uniform to prevent severe deviations when observing the true crystallization point?}",
+        "question_type": "analytical",
+        "question_uid": "cd7effbf9714c614ac3cfeff5e91d8b58936376c07cfb77ec6f49be060683038",
+        "tags": [
+            "Supercooling Effects",
+            "Thermal Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.11(a)",
+        "module_number": 11,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In Lassaigne's test for detecting heteroatoms, what is the chemical reason for fusing the organic sample directly with metallic sodium?",
+        "question_latex": "\\text{In Lassaigne's test for detecting heteroatoms, what is the chemical reason for fusing the organic sample directly with metallic sodium?}",
+        "question_type": "conceptual",
+        "question_uid": "610369ebf2b588021e86c4714bdd19d0708235ba618f7b4e06a28082f1445dec",
+        "tags": [
+            "Lassaigne's Test",
+            "Qualitative Organic Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.11(b)",
+        "module_number": 11,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does a distinctive Prussian Blue coloration appear when testing for Nitrogen in a Lassaigne's filtrate sample upon adding freshly prepared iron(II) sulfate?",
+        "question_latex": "\\text{Why does a distinctive Prussian Blue coloration appear when testing for Nitrogen in a Lassaigne's filtrate sample upon adding freshly prepared iron(II) sulfate?}",
+        "question_type": "analytical",
+        "question_uid": "2076c011230155280bdc9e75a57d6e632933bc8949d49b2d4e1c9849ad5bc9aa",
+        "tags": [
+            "Heteroatom Detection",
+            "Qualitative Organic Analysis"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.12(a)",
+        "module_number": 12,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does the inflection point on a graph plotting pH versus Volume of titrant added perfectly signify the equivalence point of a neutralization reaction?",
+        "question_latex": "\\text{Why does the inflection point on a graph plotting pH versus Volume of titrant added perfectly signify the equivalence point of a neutralization reaction?}",
+        "question_type": "conceptual",
+        "question_uid": "94f4da3b48bceb34090a2e766552a1e17068e1798b2e8b6ef636d776fb8e303f",
+        "tags": [
+            "Neutralization Curves",
+            "pH Titration"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    },
+    {
+        "question_number": "Q.12(b)",
+        "module_number": 12,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does plotting a differential curve of delta pH divided by delta V versus average volume clarify the endpoint location much better than a standard titration plot?",
+        "question_latex": "\\text{Why does plotting a differential curve of delta pH divided by delta V versus average volume clarify the endpoint location much better than a standard titration plot?}",
+        "question_type": "analytical",
+        "question_uid": "79c8f13c024ba71424eb9cb2e874a4dd07779458991e7561890aea0a5041e55c",
+        "tags": [
+            "Differential Titration Curves",
+            "pH Titration"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (CH24102)",
+        "subject_code": "CH24102"
+    }
+]

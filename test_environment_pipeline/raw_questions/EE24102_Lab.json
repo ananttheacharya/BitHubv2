@@ -1,0 +1,362 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What is the physical operational distinction between a unilateral element and a bilateral element in an electrical network, and how does the V-I characteristic curve reflect this difference?",
+        "question_latex": "\\text{What is the physical operational distinction between a unilateral element and a bilateral element in an electrical network, and how does the } V\\text{-}I \\text{ characteristic curve reflect this difference?}",
+        "question_type": "conceptual",
+        "question_uid": "3a1c8f1a09efbc12abcd7812efab341290decfab451298cdfa7812efbc9012a1",
+        "tags": [
+            "Introduction",
+            "Electrical Elements"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does an ideal voltage source violate the principle of conservation of energy when connected directly in parallel with another ideal voltage source of a different magnitude?",
+        "question_latex": "\\text{Why does an ideal voltage source violate the principle of conservation of energy when connected directly in parallel with another ideal voltage source of a different magnitude?}",
+        "question_type": "analytical",
+        "question_uid": "4b2d9f2b10f0cd23bcde8923fbc4523a01efdbbc5623a9de01bcd0fcd012ab32",
+        "tags": [
+            "Introduction",
+            "Ideal Sources"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(c)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How do lumped elements differ from distributed elements regarding spatial dimension limitations when modeling a circuit using Kirchhoff's laws?",
+        "question_latex": "\\text{How do lumped elements differ from distributed elements regarding spatial dimension limitations when modeling a circuit using Kirchhoff's laws?}",
+        "question_type": "conceptual",
+        "question_uid": "ee1049fa0218bca1284de0192bcfa39de401ffab381029cde8912ba012efcd41",
+        "tags": [
+            "Introduction",
+            "Circuit Classification"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.1(d)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why is the Mesh current analysis technique restricted exclusively to planar networks, whereas Nodal voltage method can evaluate both planar and non-planar topologies?",
+        "question_latex": "\\text{Why is the Mesh current analysis technique restricted exclusively to planar networks, whereas Nodal voltage method can evaluate both planar and non-planar topologies?}",
+        "question_type": "analytical",
+        "question_uid": "ff2010abcd2948bcde0129348fbcde3901aefb293841029decfb9012384aed10",
+        "tags": [
+            "Introduction",
+            "Network Topology"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "When applying Thevenin's or Norton's theorem to a circuit containing dependent sources, why is it invalid to find the internal equivalent resistance by simply deactivating the dependent sources?",
+        "question_latex": "\\text{When applying Thevenin's or Norton's theorem to a circuit containing dependent sources, why is it invalid to find the internal equivalent resistance by simply deactivating the dependent sources?}",
+        "question_type": "analytical",
+        "question_uid": "5c3e0a3c21a1de34cdef9034fcd5634b12f0eccd6734baef12cde1fde123bc43",
+        "tags": [
+            "D.C. Circuits",
+            "Circuit Theorems"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Under the Maximum Power Transfer Theorem, if the internal source resistance of a DC network is fixed, why does matching the load resistance to this value restrict the electrical efficiency of the system to exactly 50%?",
+        "question_latex": "\\text{Under the Maximum Power Transfer Theorem, if the internal source resistance of a DC network is fixed, why does matching the load resistance to this value restrict the electrical efficiency of the system to exactly 50\\%?}",
+        "question_type": "conceptual",
+        "question_uid": "6d4f1b4d32b2ef45def0a145fde6745c23a1fdee7845bb0f23def2fef234cd54",
+        "tags": [
+            "D.C. Circuits",
+            "Maximum Power Transfer"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(c)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical criteria must a network element satisfy for the Superposition Theorem to remain fully valid during multi-source DC circuit computations?",
+        "question_latex": "\\text{What physical criteria must a network element satisfy for the Superposition Theorem to remain fully valid during multi-source DC circuit computations?}",
+        "question_type": "conceptual",
+        "question_uid": "cc2049baef8912cdfa10923efbc01239abfe0192834bcfde901237aefb0123ef",
+        "tags": [
+            "D.C. Circuits",
+            "Superposition"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.2(d)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does Norton's equivalent current represent a short-circuit parameter condition, and how does this contrast with the open-circuit nature of Thevenin's voltage parameter?",
+        "question_latex": "\\text{Why does Norton's equivalent current represent a short-circuit parameter condition, and how does this contrast with the open-circuit nature of Thevenin's voltage parameter?}",
+        "question_type": "analytical",
+        "question_uid": "dd104932abcf0192bcfa7812efcd451209beaf2489cfd312a01bfde89012bc44",
+        "tags": [
+            "D.C. Circuits",
+            "Norton Equivalent"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What is the physical meaning of a lagging power factor versus a leading power factor in a single-phase AC network, and how does it relate to the directional exchange of reactive power between source and load?",
+        "question_latex": "\\text{What is the physical meaning of a lagging power factor versus a leading power factor in a single-phase AC network, and how does it relate to the directional exchange of reactive power between source and load?}",
+        "question_type": "conceptual",
+        "question_uid": "7e502c5e43c3fa56ef01b256fdf7856d34b2feff8956cc1a34f030f0f345de65",
+        "tags": [
+            "Single-phase AC Circuits",
+            "Power Factor"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why is a parallel RLC network referred to as a 'rejector circuit' at its resonant frequency, whereas a series RLC network acts as an 'acceptor circuit' under the same frequency conditions?",
+        "question_latex": "\\text{Why is a parallel RLC network referred to as a 'rejector circuit' at its resonant frequency, whereas a series RLC network acts as an 'acceptor circuit' under the same frequency conditions?}",
+        "question_type": "analytical",
+        "question_uid": "8f613d6f54d40b67f012c367f0a8967e45c30f009067dd2b45f141f10456ef76",
+        "tags": [
+            "Single-phase AC Circuits",
+            "Resonance"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(c)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why are the Form factor and Peak factor for a purely sinusoidal signal constant values, and what physical characteristics do these factors reveal about waveform geometric distortion?",
+        "question_latex": "\\text{Why are the Form factor and Peak factor for a purely sinusoidal signal constant values, and what physical characteristics do these factors reveal about waveform geometric distortion?}",
+        "question_type": "conceptual",
+        "question_uid": "ab2049fa0231bcde912384baef0123cd49efba230192efbdc9012384fecb0123",
+        "tags": [
+            "Single-phase AC Circuits",
+            "Waveform Metrics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.3(d)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How does the introduction of shunt capacitors across an inductive AC load improve the system's power factor without modifying the real active power consumption of that load?",
+        "question_latex": "\\text{How does the introduction of shunt capacitors across an inductive AC load improve the system's power factor without modifying the real active power consumption of that load?}",
+        "question_type": "analytical",
+        "question_uid": "ba102932deba0192bcfa47812efcd491a0beaf452391cfad201bde781023bc45",
+        "tags": [
+            "Single-phase AC Circuits",
+            "Power Factor Improvement"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In a balanced three-phase star-connected system, what structural reason explains why the neutral wire current equals zero, and under what line conditions does a neutral shift occur?",
+        "question_latex": "\\text{In a balanced three-phase star-connected system, what structural reason explains why the neutral wire current equals zero, and under what line conditions does a neutral shift occur?}",
+        "question_type": "conceptual",
+        "question_uid": "9a724e7a65e51c78f123d478f1b9a78f56d41f11a178ee3c56a252a21567fa87",
+        "tags": [
+            "Three-Phase AC Circuits",
+            "Star Connection"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "When measuring power in a three-phase system using the two-wattmeter method, what physical behavior causes one of the wattmeters to register a negative reading or demand a reverse coil connection?",
+        "question_latex": "\\text{When measuring power in a three-phase system using the two-wattmeter method, what physical behavior causes one of the wattmeters to register a negative reading or demand a reverse coil connection?}",
+        "question_type": "analytical",
+        "question_uid": "0b835f8b76f62d89f234e589f2ca089a67e52f22b289ff4d67b363b326780b98",
+        "tags": [
+            "Three-Phase AC Circuits",
+            "Two-Wattmeter Method"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(c)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why can a balanced three-phase system transmit the same amount of real power over a longer distance using significantly less total conductor material mass than an equivalent single-phase system?",
+        "question_latex": "\\text{Why can a balanced three-phase system transmit the same amount of real power over a longer distance using significantly less total conductor material mass than an equivalent single-phase system?}",
+        "question_type": "conceptual",
+        "question_uid": "cb2049fa0128bca3489fe012cdba8921a0befa348912efcd49102bfae0123de4",
+        "tags": [
+            "Three-Phase AC Circuits",
+            "Network Efficiency"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.4(d)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical imbalances cause phase voltages to distort in a three-phase delta connection compared to a standard four-wire star connection scheme when dealing with highly unbalanced consumer loads?",
+        "question_latex": "\\text{What physical imbalances cause phase voltages to distort in a three-phase delta connection compared to a standard four-wire star connection scheme when dealing with highly unbalanced consumer loads?}",
+        "question_type": "analytical",
+        "question_uid": "da1049fae0192bcd7812efba0123debc49102834bfa0129cdfa890123ba0123e",
+        "tags": [
+            "Three-Phase AC Circuits",
+            "Unbalanced Systems"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical structural changes manifest inside the core of a magnetic circuit as a result of hysteresis losses when exposed to a continuous sinusoidal alternating current excitation?",
+        "question_latex": "\\text{What physical structural changes manifest inside the core of a magnetic circuit as a result of hysteresis losses when exposed to a continuous sinusoidal alternating current excitation?}",
+        "question_type": "conceptual",
+        "question_uid": "1c94609c87a73e90f345f690f3db190b78f63f33c3900a5e78c474c437891ca9",
+        "tags": [
+            "Magnetic Circuits",
+            "Hysteresis Loss"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "According to the dot rule in coupled circuits, how do you determine if the mutually induced electromotive force in a secondary coil aids or opposes the self-induced electromotive force of that loop?",
+        "question_latex": "\\text{According to the dot rule in coupled circuits, how do you determine if the mutually induced electromotive force in a secondary coil aids or opposes the self-induced electromotive force of that loop?}",
+        "question_type": "analytical",
+        "question_uid": "2da571ad98b84fa1f456a701f4ec201c89a74f44d4011b6f89d585d548902db0",
+        "tags": [
+            "Coupled Circuits",
+            "Dot Rule"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(c)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does structural lamination of a ferromagnetic core significantly lower eddy current power losses during high-frequency AC excitation, and how does it alter internal circulating paths?",
+        "question_latex": "\\text{Why does structural lamination of a ferromagnetic core significantly lower eddy current power losses during high-frequency AC excitation, and how does it alter internal circulating paths?}",
+        "question_type": "conceptual",
+        "question_uid": "ea2049fa0129bcde7812934fba0123cdba9012384fbc9012387aefb01234bc55",
+        "tags": [
+            "Magnetic Circuits",
+            "Eddy Currents"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What does the magnetic 'coefficient of coupling' represent physically between two separate electrical inductors, and what system features cause it to fall below unity?",
+        "question_latex": "\\text{What does the magnetic 'coefficient of coupling' represent physically between two separate electrical inductors, and what system features cause it to fall below unity?}",
+        "question_type": "analytical",
+        "question_uid": "fa102932abcd49ef7812934efbc0123da0beaf452391cfba90123bdfe01234ef",
+        "tags": [
+            "Coupled Circuits",
+            "Magnetic Coupling"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true
+    }
+]

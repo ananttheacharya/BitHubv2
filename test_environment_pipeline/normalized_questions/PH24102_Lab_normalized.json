@@ -1,0 +1,418 @@
+[
+    {
+        "question_number": "Q.1(a)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why do the interference fringes observed in a Newton's rings experiment exhibit a central dark spot instead of a bright one when viewed by reflected light?",
+        "question_latex": "\\text{Why do the interference fringes observed in a Newton's rings experiment exhibit a central dark spot instead of a bright one when viewed by reflected light?}",
+        "question_type": "conceptual",
+        "question_uid": "7ef9ca82c651b2e503242bac26da1a68a041c55d75da93de86193854ebd3d783",
+        "tags": [
+            "Diffraction",
+            "Interference",
+            "Newton's Rings",
+            "Physical Optics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.1(b)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In fiber optic propagation, what physical phenomenon causes modal dispersion, and how does switching from a step-index profile to a graded-index profile mitigate this effect?",
+        "question_latex": "\\text{In fiber optic propagation, what physical phenomenon causes modal dispersion, and how does switching from a step-index profile to a graded-index profile mitigate this effect?}",
+        "question_type": "analytical",
+        "question_uid": "63a4730bd6e2d9d48280dd650c071d6c306e2432e3543553094cdb6fa3e1978e",
+        "tags": [
+            "Fiber Optics",
+            "Modal Dispersion"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.1(c)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In a Newton's Rings experiment, if you introduce a liquid drop of refractive index less than that of the glass plate but greater than air between the lens and the plate, what exact structural changes occur to the diameter of the dark rings?",
+        "question_latex": "\\text{In a Newton's Rings experiment, if you introduce a liquid drop of refractive index less than that of the glass plate but greater than air between the lens and the plate, what exact structural changes occur to the diameter of the dark rings?}",
+        "question_type": "analytical",
+        "question_uid": "efb0e45d395c3558ee50dd9d44f18ed658cb8a0fad937e5deb39c2d40f975696",
+        "tags": [
+            "Newton's Rings",
+            "Physical Optics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.1(d)",
+        "module_number": 1,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why must the slit width in a Fraunhofer single-slit diffraction setup be of the same order of magnitude as the wavelength of the incident light source to distinctly observe the secondary maxima and minima?",
+        "question_latex": "\\text{Why must the slit width in a Fraunhofer single-slit diffraction setup be of the same order of magnitude as the wavelength of the incident light source to distinctly observe the secondary maxima and minima?}",
+        "question_type": "conceptual",
+        "question_uid": "70422ea6627270dbe921a70d66c2bca627d3704afa3c2ad9ee37bc26d19a161f",
+        "tags": [
+            "Diffraction",
+            "Fraunhofer Diffraction",
+            "Physical Optics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.2(a)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What is the physical necessity of introducing the displacement current term in Ampere's circuital law to maintain the validity of the equation of continuity under time-varying conditions?",
+        "question_latex": "\\text{What is the physical necessity of introducing the displacement current term in Ampere's circuital law to maintain the validity of the equation of continuity under time-varying conditions?}",
+        "question_type": "analytical",
+        "question_uid": "f1f2c83c2549c813761452647663d48cace49b829beea320014a76dd552ff8fe",
+        "tags": [
+            "Circuit Analysis",
+            "Displacement Current",
+            "Electromagnetic Theory",
+            "Maxwell's Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.2(b)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does the normal component of the electric displacement field vector D remain continuous across a charge-free boundary interface between two different dielectric materials?",
+        "question_latex": "\\text{Why does the normal component of the electric displacement field vector } D \\text{ remain continuous across a charge-free boundary interface between two different dielectric materials?}",
+        "question_type": "conceptual",
+        "question_uid": "827e7572af63b787eaedc9e8147086dff9c6285643a6c36e7116f5446d107361",
+        "tags": [
+            "Boundary Conditions",
+            "Electromagnetic Theory"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.2(c)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "If a dielectric material is subjected to a uniform external electric field, what is the physical meaning of the 'local electric field' acting on an individual molecule, and why does it differ from the macroscopic electric field inside the bulk material?",
+        "question_latex": "\\text{If a dielectric material is subjected to a uniform external electric field, what is the physical meaning of the 'local electric field' acting on an individual molecule, and why does it differ from the macroscopic electric field inside the bulk material?}",
+        "question_type": "conceptual",
+        "question_uid": "4ef0e6ab1685fdb92713cad7ba4b2409febb8ea5df93c9db12a1b0aaaa3599c7",
+        "tags": [
+            "Boundary Conditions",
+            "Dielectric Polarization",
+            "Electromagnetic Theory",
+            "Electrostatics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.2(d)",
+        "module_number": 2,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does Maxwell's modification of Ampere's Law imply that magnetic fields can be generated within a perfect vacuum region completely devoid of real material moving charges?",
+        "question_latex": "\\text{Why does Maxwell's modification of Ampere's Law imply that magnetic fields can be generated within a perfect vacuum region completely devoid of real material moving charges?}",
+        "question_type": "analytical",
+        "question_uid": "85c88aba6f6036436f3a11de6e22e649d74d04ce44c8c26bf0af30d34a591b9d",
+        "tags": [
+            "Electromagnetic Theory",
+            "Maxwell Equations",
+            "Maxwell's Equations"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.3(a)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "If length contraction acts along the direction of relative motion, what happens to the geometric measurements of a perfect sphere moving at a significant fraction of the speed of light relative to a stationary observer?",
+        "question_latex": "\\text{If length contraction acts along the direction of relative motion, what happens to the geometric measurements of a perfect sphere moving at a significant fraction of the speed of light relative to a stationary observer?}",
+        "question_type": "conceptual",
+        "question_uid": "bf3e87c7f52092eec8e1a17180ecec3359897f88e30d3de0843d87305626b6f4",
+        "tags": [
+            "Length Contraction",
+            "Relativistic Mechanics",
+            "Special Theory of Relativity"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.3(b)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why is it physically impossible for a material particle possessing a non-zero rest mass to be accelerated to or exceed the exact speed of light in a vacuum according to the relativistic mass-energy relation?",
+        "question_latex": "\\text{Why is it physically impossible for a material particle possessing a non-zero rest mass to be accelerated to or exceed the exact speed of light in a vacuum according to the relativistic mass-energy relation?}",
+        "question_type": "analytical",
+        "question_uid": "cee2953fcd3a80a6bb48a9957d9751d95b52fee05f86cfceb0e98c1a75b6b73b",
+        "tags": [
+            "Mass Energy Relation",
+            "Special Theory of Relativity"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.3(c)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Under Galilean transformation, velocity is additive and variant, yet acceleration remains invariant. Why does the Lorentz velocity transformation rule eliminate this absolute nature of acceleration across different inertial frames?",
+        "question_latex": "\\text{Under Galilean transformation, velocity is additive and variant, yet acceleration remains invariant. Why does the Lorentz velocity transformation rule eliminate this absolute nature of acceleration across different inertial frames?}",
+        "question_type": "analytical",
+        "question_uid": "9fc1735733ad73a6e887b419fa547c694c3ab08cca630c50bbf04586f9f23434",
+        "tags": [
+            "Lorentz Transformations",
+            "Relativistic Mechanics",
+            "Special Theory of Relativity"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.3(d)",
+        "module_number": 3,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How do cosmic-ray muons, which possess an extremely short laboratory lifetime, manage to hit the Earth's surface in abundance when viewed from the earth's frame of reference versus their own rest frame?",
+        "question_latex": "\\text{How do cosmic-ray muons, which possess an extremely short laboratory lifetime, manage to hit the Earth's surface in abundance when viewed from the earth's frame of reference versus their own rest frame?}",
+        "question_type": "conceptual",
+        "question_uid": "6bcb0dd5718953b3c0236f3af28c63189e3cc929d06f2229ad24bb4f12252e7d",
+        "tags": [
+            "Special Theory of Relativity",
+            "Time Dilation"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.4(a)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical constraints must a quantum mechanical wave function satisfy at the boundary walls of a one-dimensional infinite square well to be considered acceptable and mathematically normalized?",
+        "question_latex": "\\text{What physical constraints must a quantum mechanical wave function satisfy at the boundary walls of a one-dimensional infinite square well to be considered acceptable and mathematically normalized?}",
+        "question_type": "conceptual",
+        "question_uid": "c741135beddadcf93f8feae204a2b6dcf6c10bf0d686fb0b27452e54d083dfff",
+        "tags": [
+            "Programming Concepts",
+            "Quantum Mechanics",
+            "Schrödinger Equation",
+            "Strength of Materials",
+            "Wave Function"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.4(b)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In the Davisson-Germer experiment, how does the observed variation in intensity of scattered electrons when hitting a nickel target confirm the physical validity of de Broglie's matter wave hypothesis?",
+        "question_latex": "\\text{In the Davisson-Germer experiment, how does the observed variation in intensity of scattered electrons when hitting a nickel target confirm the physical validity of de Broglie's matter wave hypothesis?}",
+        "question_type": "analytical",
+        "question_uid": "3159566f3684e45a5d0e1769c9de6c88560a2796332e1a10f300084caa6e19b8",
+        "tags": [
+            "Davisson-Germer Experiment",
+            "Quantum Mechanics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.4(c)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does a quantum mechanical particle trapped inside a one-dimensional infinite potential well possess a non-zero minimum kinetic energy state (ground state energy), whereas its classical counterpart can have zero kinetic energy?",
+        "question_latex": "\\text{Why does a quantum mechanical particle trapped inside a one-dimensional infinite potential well possess a non-zero minimum kinetic energy state (ground state energy), whereas its classical counterpart can have zero kinetic energy?}",
+        "question_type": "conceptual",
+        "question_uid": "bb1c213c4860459895c33f414bffaa35c8e8170af66859ce7913b91bbfc16098",
+        "tags": [
+            "Electrostatics",
+            "Infinite Square Well",
+            "Particle in a Box",
+            "Quantum Mechanics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.4(d)",
+        "module_number": 4,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "What physical parameter dictates the spatial spread of a wave packet representing a moving particle, and what happens to this spread over a long duration of time in a free region?",
+        "question_latex": "\\text{What physical parameter dictates the spatial spread of a wave packet representing a moving particle, and what happens to this spread over a long duration of time in a free region?}",
+        "question_type": "analytical",
+        "question_uid": "3f4f496f444e9bfc1081269450880fba5e69abdb15aab3a1163e894b753a713a",
+        "tags": [
+            "Quantum Mechanics",
+            "Wave Packet"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.5(a)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why is the achievement of a state of population inversion an absolute thermodynamic prerequisite for light amplification to dominate over spontaneous absorption inside an active laser medium?",
+        "question_latex": "\\text{Why is the achievement of a state of population inversion an absolute thermodynamic prerequisite for light amplification to dominate over spontaneous absorption inside an active laser medium?}",
+        "question_type": "conceptual",
+        "question_uid": "e78235dbf117ecbdd0817afbcc16279bbbf093ca7fdde087413a5db0014ab2d3",
+        "tags": [
+            "Engineering Thermodynamics",
+            "Laser Action",
+            "Modern Physics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.5(b)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "How does the collective behavior of a collection of quasi-neutral ionized particles in the plasma state fundamentally differentiate it from an ordinary neutral gas when exposed to external electromagnetic fields?",
+        "question_latex": "\\text{How does the collective behavior of a collection of quasi-neutral ionized particles in the plasma state fundamentally differentiate it from an ordinary neutral gas when exposed to external electromagnetic fields?}",
+        "question_type": "analytical",
+        "question_uid": "de5db3d815b27572ba611d32f408b29006dfc62f840a2f58c596212dce8b5bfd",
+        "tags": [
+            "Modern Physics",
+            "Plasma Physics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.5(c)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "In a Helium-Neon laser system, why are Helium atoms essential for achieving lasing action when the actual laser light transitions happen entirely within the energy states of Neon atoms?",
+        "question_latex": "\\text{In a Helium-Neon laser system, why are Helium atoms essential for achieving lasing action when the actual laser light transitions happen entirely within the energy states of Neon atoms?}",
+        "question_type": "conceptual",
+        "question_uid": "c3cce231322738c246abd22aa32906696a2bf6af0c7f9441c49ad6feb28e4052",
+        "tags": [
+            "He-Ne Laser",
+            "Modern Physics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    },
+    {
+        "question_number": "Q.5(d)",
+        "module_number": 5,
+        "source_exam": "Viva Voce",
+        "source_year": 2026,
+        "marks": 2,
+        "question_text": "Why does the binding energy per nucleon curve reveal a maximum peak near the Iron-56 nucleus, and what structural insight does this give regarding both the fission of heavy elements and the fusion of light elements?",
+        "question_latex": "\\text{Why does the binding energy per nucleon curve reveal a maximum peak near the Iron-56 nucleus, and what structural insight does this give regarding both the fission of heavy elements and the fusion of light elements?}",
+        "question_type": "analytical",
+        "question_uid": "41427377449a41620fd0c4222e37468c96a957062101f689b61b1140d0718519",
+        "tags": [
+            "Modern Physics",
+            "Nuclear Physics"
+        ],
+        "is_normalized": true,
+        "is_verified": false,
+        "latex_valid": true,
+        "subject": "Unknown Subject (PH24102)",
+        "subject_code": "PH24102"
+    }
+]
