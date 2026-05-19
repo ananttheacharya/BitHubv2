@@ -194,6 +194,8 @@ const generateDistractors = (correctAnswerVal, questionUid) => {
 function PracticeMode({ subjectCode, selectedModules, difficulties = ['Easy', 'Medium', 'Hard'], marks = [2, 3, 5], years = ['2022', '2023', '2024'], onBack, theme, onToggleTheme }) {
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(null);
+  const [retryTrigger, setRetryTrigger] = useState(0);
   
   // Active question index
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -234,6 +236,7 @@ function PracticeMode({ subjectCode, selectedModules, difficulties = ['Easy', 'M
     // Fetch questions for all selected modules
     const fetchQuestions = async () => {
       setLoading(true);
+      setFetchError(null);
       try {
         let allQs = [];
         const diffsStr = difficulties.join(',').toLowerCase();
@@ -259,11 +262,15 @@ function PracticeMode({ subjectCode, selectedModules, difficulties = ['Easy', 'M
         setCurrentIndex(0);
       } catch (err) {
         console.error("Error fetching questions:", err);
+        setFetchError({
+          message: err.message || "Failed to establish a connection to the server.",
+          details: String(err)
+        });
       }
       setLoading(false);
     };
     fetchQuestions();
-  }, [subjectCode, selectedModules, difficulties, years, marks]);
+  }, [subjectCode, selectedModules, difficulties, years, marks, retryTrigger]);
 
   // Statistics calculation
   const totalQuestions = questions.length;
@@ -277,6 +284,80 @@ function PracticeMode({ subjectCode, selectedModules, difficulties = ['Easy', 'M
       <div className="practice-loader-container">
         <div className="practice-spinner"></div>
         <span className="spin-loader-text">Assembling practice session...</span>
+      </div>
+    );
+  }
+
+  if (fetchError) {
+    return (
+      <div className="dashboard-container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <header className="dash-header">
+          <div className="dash-header__left">
+            <button className="back-subjects-btn" onClick={onBack}>
+              <svg className="btn-arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <line x1="19" y1="12" x2="5" y2="12" />
+                <polyline points="12 19 5 12 12 5" />
+              </svg>
+              <span>Exit Practice</span>
+            </button>
+            <span className="logo-text" style={{ marginLeft: '1rem' }}>Practice Connection Error</span>
+          </div>
+          <div className="dash-header__right">
+             <button className="change-campus-btn" onClick={onToggleTheme} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1.2rem' }}>
+               {theme === 'light' ? '🌙' : '☀️'}
+             </button>
+          </div>
+        </header>
+        <div style={{ flexGrow: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'var(--dash-text-color)', fontFamily: 'var(--font-body)', gap: '1.2rem', padding: '2rem', maxWidth: '650px', margin: '0 auto' }}>
+          <div style={{ background: 'rgba(231, 76, 60, 0.1)', border: '2px solid #e74c3c', borderRadius: '50%', width: '72px', height: '72px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#e74c3c' }}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ width: '36px', height: '36px' }}>
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+              <line x1="12" y1="9" x2="12" y2="13" />
+              <line x1="12" y1="17" x2="12.01" y2="17" />
+            </svg>
+          </div>
+          
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', textAlign: 'center', margin: 0 }}>
+            Backend Server Offline or Unreachable
+          </h2>
+          
+          <p style={{ color: 'var(--dash-text-muted)', textAlign: 'center', margin: 0, fontSize: '0.98rem', lineHeight: '1.6' }}>
+            We failed to establish a connection to the backend database service at <code style={{ background: 'rgba(0,0,0,0.05)', padding: '2px 6px', borderRadius: '4px', fontFamily: 'monospace' }}>http://localhost:3001</code>.
+          </p>
+
+          <div style={{ width: '100%', background: 'var(--dash-panel-bg)', border: '1px solid var(--dash-panel-border)', borderRadius: '12px', padding: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.8rem', fontSize: '0.9rem', color: 'var(--dash-text-color)' }}>
+            <span style={{ fontWeight: '700', textTransform: 'uppercase', fontSize: '0.75rem', letterSpacing: '1px', color: 'var(--dash-text-muted)' }}>Troubleshooting Checklist</span>
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+              <span style={{ color: '#2ecc71', fontWeight: 'bold' }}>✓</span>
+              <span><strong>Front-End New Server:</strong> Running (active on port 3000)</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+              <span style={{ color: '#e74c3c', fontWeight: 'bold' }}>✗</span>
+              <span><strong>Back-End Node Server:</strong> Offline. Make sure you run <code style={{ background: 'rgba(0,0,0,0.05)', padding: '1px 4px', borderRadius: '3px', fontFamily: 'monospace' }}>node index.js</code> inside your <code style={{ fontFamily: 'monospace' }}>BitHuB/Backend</code> directory.</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+              <span style={{ color: '#e74c3c', fontWeight: 'bold' }}>✗</span>
+              <span><strong>Database Tunnel:</strong> Check if SSH credentials or local database is running active.</span>
+            </div>
+          </div>
+
+          <details style={{ width: '100%', cursor: 'pointer' }}>
+            <summary style={{ fontSize: '0.85rem', color: 'var(--dash-text-muted)', userSelect: 'none', fontWeight: '600' }}>View Technical Error Logs</summary>
+            <pre style={{ marginTop: '0.5rem', background: '#1e1e2e', color: '#f38ba8', padding: '1rem', borderRadius: '8px', overflowX: 'auto', fontFamily: 'monospace', fontSize: '0.8rem', whiteSpace: 'pre-wrap', textAlign: 'left' }}>
+              {fetchError.message}
+              {"\n\nDetails:\n" + fetchError.details}
+            </pre>
+          </details>
+
+          <div style={{ display: 'flex', gap: '1rem', marginTop: '0.5rem' }}>
+            <button className="back-subjects-btn" onClick={() => setRetryTrigger(prev => prev + 1)} style={{ background: 'var(--dash-active-module-bg)', color: '#fff', border: 'none', padding: '10px 20px', fontWeight: '600' }}>
+              🔄 Retry Connection
+            </button>
+            <button className="back-subjects-btn" onClick={onBack}>
+              Go Back
+            </button>
+          </div>
+        </div>
       </div>
     );
   }

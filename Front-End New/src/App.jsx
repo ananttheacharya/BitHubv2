@@ -12,6 +12,7 @@ import CampusCard from './components/CampusCard';
 import Toast from './components/Toast';
 import SubjectSelector from './components/SubjectSelector';
 import JaipurDashboard from './components/JaipurDashboard';
+import confetti from 'canvas-confetti';
 
 /* Import campus images from the images directory */
 import jaipurImg from '../images/jaipur.png';
@@ -25,6 +26,7 @@ function App() {
   const [toastVisible, setToastVisible] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const timerRef = useRef(null);
+  const wobbleTimeoutRef = useRef(null);
 
   /* Synchronize html theme attribute with React state */
   useEffect(() => {
@@ -52,6 +54,69 @@ function App() {
   useEffect(() => {
     return () => {
       if (timerRef.current) clearTimeout(timerRef.current);
+    };
+  }, []);
+
+  /* Easter egg: listen for '67' to trigger confetti and wobbly page tilt */
+  useEffect(() => {
+    let keyBuffer = '';
+    
+    const handleKeyDown = (e) => {
+      // Ignore keys when modifier keys (like Ctrl, Alt, Meta) are held down
+      if (e.ctrlKey || e.altKey || e.metaKey) return;
+      
+      const key = e.key;
+      if (key && key.length === 1) {
+        keyBuffer += key;
+        keyBuffer = keyBuffer.slice(-10); // Keep only the last 10 characters
+        
+        if (keyBuffer.endsWith('67')) {
+          // Trigger confetti burst
+          confetti({
+            particleCount: 150,
+            spread: 80,
+            origin: { y: 0.6 }
+          });
+          
+          confetti({
+            particleCount: 60,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0 }
+          });
+
+          confetti({
+            particleCount: 60,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1 }
+          });
+          
+          // Clean up any existing wobble class and timer
+          if (wobbleTimeoutRef.current) {
+            clearTimeout(wobbleTimeoutRef.current);
+          }
+          document.body.classList.remove('easter-egg-wobble');
+          
+          // Trigger wobbly web page tilt (force reflow to restart animation if triggered rapidly)
+          void document.body.offsetWidth;
+          
+          document.body.classList.add('easter-egg-wobble');
+          
+          wobbleTimeoutRef.current = setTimeout(() => {
+            document.body.classList.remove('easter-egg-wobble');
+            wobbleTimeoutRef.current = null;
+          }, 1300); // matches the CSS animation duration
+
+          keyBuffer = ''; // Reset the buffer
+        }
+      }
+    };
+    
+    window.addEventListener('keydown', handleKeyDown, true); // use capture to ensure it handles keyboard event anywhere
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown, true);
+      if (wobbleTimeoutRef.current) clearTimeout(wobbleTimeoutRef.current);
     };
   }, []);
 
