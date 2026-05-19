@@ -1,5 +1,6 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 import PracticeMode from './PracticeMode';
+import CreatorsSection from './CreatorsSection';
 
 // ============================================================
 // LOCAL REFERENCE BOOKS REGISTRY (MANUAL HIGH-FIDELITY BOOK DATA)
@@ -1330,6 +1331,7 @@ function JaipurDashboard({ subjectCode, theme, onToggleTheme, onBack }) {
           </div>
         </div>
       )}
+      <CreatorsSection />
     </div>
   );
 }

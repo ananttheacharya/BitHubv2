@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import CreatorsSection from './CreatorsSection';
 
 function SubjectSelector({ onSelectSubject, onBackToLanding, theme, onToggleTheme }) {
   const [campusDropdownOpen, setCampusDropdownOpen] = useState(false);
@@ -204,6 +205,7 @@ function SubjectSelector({ onSelectSubject, onBackToLanding, theme, onToggleThem
         </div>
       </main>
 
+      <CreatorsSection />
     </div>
   );
 }
