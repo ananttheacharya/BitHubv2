@@ -1,0 +1,223 @@
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  fopen(/tmp/ci_sessionoqqkrk5h0k4t89g2u3lln1drpui7e43a): failed to open stream: No space left on device</p>
+<p>Filename: drivers/Session_files_driver.php</p>
+<p>Line Number: 172</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/index.php<br />
+			Line: 326<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  session_write_close(): Failed to write session data (user). Please verify that the current setting of session.save_path is correct (/tmp)</p>
+<p>Filename: controllers/Document.php</p>
+<p>Line Number: 1004</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/application/controllers/Document.php<br />
+			Line: 1004<br />
+			Function: session_write_close			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/index.php<br />
+			Line: 326<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  curl_exec(): Unable to create temporary file, Check permissions in temporary files directory.</p>
+<p>Filename: Handler/CurlHandler.php</p>
+<p>Line Number: 40</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php<br />
+			Line: 40<br />
+			Function: curl_exec			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php<br />
+			Line: 28<br />
+			Function: __invoke			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php<br />
+			Line: 51<br />
+			Function: GuzzleHttp\Handler\{closure}			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php<br />
+			Line: 42<br />
+			Function: GuzzleHttp\Handler\{closure}			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php<br />
+			Line: 30<br />
+			Function: __invoke			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php<br />
+			Line: 68<br />
+			Function: GuzzleHttp\{closure}			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php<br />
+			Line: 59<br />
+			Function: __invoke			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/HandlerStack.php<br />
+			Line: 67<br />
+			Function: GuzzleHttp\{closure}			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/Client.php<br />
+			Line: 275<br />
+			Function: __invoke			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/Client.php<br />
+			Line: 123<br />
+			Function: transfer			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/vendor/guzzlehttp/guzzle/src/Client.php<br />
+			Line: 129<br />
+			Function: requestAsync			</p>
+
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/application/controllers/Document.php<br />
+			Line: 1050<br />
+			Function: request			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /home/dl.pdfcoffee.com/public_html/index.php<br />
+			Line: 326<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>File not found !!!
