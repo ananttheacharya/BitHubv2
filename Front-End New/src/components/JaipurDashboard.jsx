@@ -6,6 +6,28 @@ import CreatorsSection from './CreatorsSection';
 // LOCAL REFERENCE BOOKS REGISTRY (MANUAL HIGH-FIDELITY BOOK DATA)
 // ============================================================
 const REFERENCE_BOOKS_REGISTRY = {
+  "MA24101": [
+    {
+      filename: "Linear_Algebra_and_its_application.pdf",
+      title: "Linear Algebra and Its Applications",
+      author: "David C. Lay, Steven R. Lay & Judi J. McDonald",
+      tags: ["Mathematics", "Linear Algebra", "Matrices", "Eigenvalues"]
+    },
+    {
+      filename: "Thomas_Calculus.pdf",
+      title: "Thomas' Calculus",
+      author: "George B. Thomas Jr., Joel R. Hass & Christopher Heil",
+      tags: ["Mathematics", "Calculus", "Integration", "Multivariable"]
+    }
+  ],
+  "CE24101": [
+    {
+      filename: "Basic Concepts of Environmental Chemistry (D.W. Conell).pdf",
+      title: "Basic Concepts of Environmental Chemistry",
+      author: "D.W. Connell",
+      tags: ["Environmental Science", "Chemistry", "Pollution", "Ecology"]
+    }
+  ],
   "BE24101": [
     {
       filename: "Biochemistry 5th Edition, Jeremy M. Berg.pdf",
@@ -111,6 +133,20 @@ const REFERENCE_BOOKS_REGISTRY = {
       author: "Ajoy Ghatak",
       tags: ["Physics", "Optics", "Interference", "Diffraction", "Lasers"]
     }
+  ],
+  "ME24101": [
+    {
+      filename: "A Textbook of Engineering Mechanics By R. S. Khurmi.pdf",
+      title: "A Textbook of Engineering Mechanics",
+      author: "R.S. Khurmi",
+      tags: ["Mechanical Engineering", "Statics", "Dynamics", "Trusses"]
+    },
+    {
+      filename: "ME24101 Complete Course Material.pdf",
+      title: "ME24101 Complete Course Material",
+      author: "Department of Mechanical Engineering",
+      tags: ["Mechanical Engineering", "Course Notes", "Manufacturing", "Thermodynamics"]
+    }
   ]
 };
 
@@ -126,40 +162,34 @@ const SUBJECTS_REGISTRY = {
     code: "MA24101",
     semester: "1st Semester",
     modules: [
-      { id: 'Module-1', name: 'Module-1', title: 'Calculus, Limits & Continuity' },
-      { id: 'Module-2', name: 'Module-2', title: 'Infinite Series & Convergence' },
-      { id: 'Module-3', name: 'Module-3', title: 'Matrices & Linear Transformations' },
-      { id: 'Module-4', name: 'Module-4', title: 'Multivariable Calculus & Partial Derivatives' }
+      { id: 'Module-1', name: 'Module-1', title: 'Calculus: Limits, Continuity & Differentiability' },
+      { id: 'Module-2', name: 'Module-2', title: 'Infinite Series & Convergence Tests' },
+      { id: 'Module-3', name: 'Module-3', title: 'Matrices & Systems of Linear Equations' },
+      { id: 'Module-4', name: 'Module-4', title: 'Multivariable Calculus & Partial Derivatives' },
+      { id: 'Module-5', name: 'Module-5', title: 'Vector Calculus & Multiple Integrals' }
     ],
     books: [
-      { id: 'book1', title: 'Higher Engineering Mathematics', author: 'B.S. Grewal', size: '14.2 MB' },
-      { id: 'book2', title: 'Advanced Engineering Mathematics', author: 'Erwin Kreyszig', size: '28.5 MB' }
+      { id: 'book1', title: 'Thomas\' Calculus', author: 'George B. Thomas Jr.', size: '22.1 MB' },
+      { id: 'book2', title: 'Linear Algebra and Its Applications', author: 'David C. Lay', size: '29.4 MB' }
     ],
-    papers: [
-      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Math1_Mid_2024_Solved.pdf' },
-      { id: 'paper2', year: '2023', term: 'End Term', solved: false, filename: 'Math1_End_2023_Unsolved.pdf' },
-      { id: 'paper3', year: '2023', term: 'Mid Term', solved: true, filename: 'Math1_Mid_2023_Solved.pdf' },
-      { id: 'paper4', year: '2022', term: 'End Term', solved: true, filename: 'Math1_End_2022_Solved.pdf' }
-    ]
+    papers: []
   },
   "EC24101": {
     name: "Basics of Electronic Engineering",
     code: "EC24101",
     semester: "1st Semester",
     modules: [
-      { id: 'Module-1', name: 'Module-1', title: 'Semiconductor Diodes & Applications' },
+      { id: 'Module-1', name: 'Module-1', title: 'Semiconductor Physics & PN Junction Diodes' },
       { id: 'Module-2', name: 'Module-2', title: 'Bipolar Junction Transistors (BJTs)' },
-      { id: 'Module-3', name: 'Module-3', title: 'Field Effect Transistors (FETs)' },
-      { id: 'Module-4', name: 'Module-4', title: 'Operational Amplifiers & Digital Circuits' }
+      { id: 'Module-3', name: 'Module-3', title: 'Field Effect Transistors (MOSFETs)' },
+      { id: 'Module-4', name: 'Module-4', title: 'Operational Amplifiers & Applications' },
+      { id: 'Module-5', name: 'Module-5', title: 'Digital Electronics & Logic Gates' }
     ],
     books: [
       { id: 'book1', title: 'Electronic Devices & Circuit Theory', author: 'Boylestad & Nashelsky', size: '18.4 MB' },
       { id: 'book2', title: 'Microelectronic Circuits', author: 'Sedra & Smith', size: '34.2 MB' }
     ],
-    papers: [
-      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Electronics_Mid_2024_Solved.pdf' },
-      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Electronics_End_2023_Solved.pdf' }
-    ]
+    papers: []
   },
   "CH24101": {
     name: "Chemistry",
@@ -167,56 +197,49 @@ const SUBJECTS_REGISTRY = {
     semester: "1st Semester",
     modules: [
       { id: 'Module-1', name: 'Module-1', title: 'Atomic & Molecular Structure' },
-      { id: 'Module-2', name: 'Module-2', title: 'Spectroscopic Techniques' },
-      { id: 'Module-3', name: 'Module-3', title: 'Chemical Thermodynamics' },
-      { id: 'Module-4', name: 'Module-4', title: 'Phase Rule & Water Chemistry' }
+      { id: 'Module-2', name: 'Module-2', title: 'Spectroscopic Techniques & Molecular Spectroscopy' },
+      { id: 'Module-3', name: 'Module-3', title: 'Thermodynamics & Chemical Equilibrium' },
+      { id: 'Module-4', name: 'Module-4', title: 'Electrochemistry & Corrosion' },
+      { id: 'Module-5', name: 'Module-5', title: 'Polymers & Engineering Materials' }
     ],
     books: [
       { id: 'book1', title: 'Engineering Chemistry', author: 'Shashi Chawla', size: '15.6 MB' },
       { id: 'book2', title: 'A Textbook of Engineering Chemistry', author: 'Jain & Jain', size: '22.1 MB' }
     ],
-    papers: [
-      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Chemistry_Mid_2024_Solved.pdf' },
-      { id: 'paper2', year: '2023', term: 'End Term', solved: false, filename: 'Chemistry_End_2023_Unsolved.pdf' }
-    ]
+    papers: []
   },
   "CE24101": {
     name: "Environmental Sciences",
     code: "CE24101",
     semester: "1st Semester",
     modules: [
-      { id: 'Module-1', name: 'Module-1', title: 'Ecosystems & Ecological Balances' },
-      { id: 'Module-2', name: 'Module-2', title: 'Biodiversity & Conservation' },
-      { id: 'Module-3', name: 'Module-3', title: 'Environmental Pollution & Control' },
-      { id: 'Module-4', name: 'Module-4', title: 'Social Issues & Climate Policies' }
+      { id: 'Module-1', name: 'Module-1', title: 'Ecology, Ecosystems & Energy Flow' },
+      { id: 'Module-2', name: 'Module-2', title: 'Air Pollution & Atmospheric Chemistry' },
+      { id: 'Module-3', name: 'Module-3', title: 'Water & Wastewater Treatment' },
+      { id: 'Module-4', name: 'Module-4', title: 'Soil Pollution & Solid Waste Management' },
+      { id: 'Module-5', name: 'Module-5', title: 'Noise Pollution & Environmental Impact Assessment' }
     ],
     books: [
-      { id: 'book1', title: 'Environmental Studies', author: 'Benny Joseph', size: '8.4 MB' },
-      { id: 'book2', title: 'Perspectives in Environmental Studies', author: 'Anubha Kaushik', size: '11.2 MB' }
+      { id: 'book1', title: 'Basic Concepts of Environmental Chemistry', author: 'D.W. Connell', size: '14.0 MB' }
     ],
-    papers: [
-      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'EVS_Mid_2024_Solved.pdf' },
-      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'EVS_End_2023_Solved.pdf' }
-    ]
+    papers: []
   },
   "ME24101": {
     name: "Basics of Mechanical Engineering",
     code: "ME24101",
     semester: "1st Semester",
     modules: [
-      { id: 'Module-1', name: 'Module-1', title: 'Thermodynamics & Steam Generators' },
-      { id: 'Module-2', name: 'Module-2', title: 'Internal Combustion Engines' },
-      { id: 'Module-3', name: 'Module-3', title: 'Refrigeration & Heat Pumps' },
-      { id: 'Module-4', name: 'Module-4', title: 'Machine Elements & Transmission' }
+      { id: 'Module-1', name: 'Module-1', title: 'Statics: Force Systems, Equilibrium & Trusses' },
+      { id: 'Module-2', name: 'Module-2', title: 'Kinematics & Kinetics of Rigid Bodies' },
+      { id: 'Module-3', name: 'Module-3', title: 'Friction, Vibrations & Simple Harmonic Motion' },
+      { id: 'Module-4', name: 'Module-4', title: 'Thermodynamics: IC Engines, Boilers & Heat Transfer' },
+      { id: 'Module-5', name: 'Module-5', title: 'Manufacturing Processes & Engineering Materials' }
     ],
     books: [
-      { id: 'book1', title: 'Basics of Mechanical Engineering', author: 'J.K. Gupta', size: '12.8 MB' },
-      { id: 'book2', title: 'Elements of Mechanical Engineering', author: 'Sadhu Singh', size: '19.4 MB' }
+      { id: 'book1', title: 'A Textbook of Engineering Mechanics', author: 'R.S. Khurmi', size: '20.0 MB' },
+      { id: 'book2', title: 'ME24101 Complete Course Material', author: 'Department of ME', size: '5.1 MB' }
     ],
-    papers: [
-      { id: 'paper1', year: '2024', term: 'Mid Term', solved: true, filename: 'Mech_Mid_2024_Solved.pdf' },
-      { id: 'paper2', year: '2023', term: 'End Term', solved: true, filename: 'Mech_End_2023_Solved.pdf' }
-    ]
+    papers: []
   },
   "LAB-SEM1": {
     name: "1st Semester Labs",
@@ -581,11 +604,18 @@ function JaipurDashboard({ subjectCode, theme, onToggleTheme, onBack }) {
     let year = "2024";
     let term = "Mid Term";
     
-    // Quick regex to extract from SP-25_END
+    // Quick regex to extract from SP-25_END or MO-24_MID
     const match = filename.match(/(SP|MO)-(\d{2})_(MID|END)/i);
     if (match) {
       year = "20" + match[2];
       term = match[3].toUpperCase() === "MID" ? "Mid Term" : "End Term";
+    } else {
+      // Handle MA24103 MAQPA format: (END_SP22), (MID_SP23), etc.
+      const altMatch = filename.match(/\((MID|END)_(SP|MO)(\d{2})\)/i);
+      if (altMatch) {
+        term = altMatch[1].toUpperCase() === "MID" ? "Mid Term" : "End Term";
+        year = "20" + altMatch[3];
+      }
     }
 
     return {
@@ -607,8 +637,13 @@ function JaipurDashboard({ subjectCode, theme, onToggleTheme, onBack }) {
     return matchYear && matchTerm && matchSolved;
   });
 
+  // Compute available years dynamically from papers data
+  const availableYears = [...new Set(dynamicPapers.map(p => p.year))].sort((a, b) => b - a);
+
   const handleDownloadPaper = (filename) => {
-    window.open(`/study-material/${subjectCode}/QPA/${filename}`, '_blank');
+    // Use the actual QPA folder name from backend (handles MAQPA for MA24103)
+    const qpaFolder = subjectFiles?.qpaFolder || 'QPA';
+    window.open(`/study-material/${subjectCode}/${qpaFolder}/${filename}`, '_blank');
   };
 
   const handleDownloadBook = (filename) => {
@@ -902,9 +937,9 @@ function JaipurDashboard({ subjectCode, theme, onToggleTheme, onBack }) {
                     <label>Year</label>
                     <select value={yearFilter} onChange={(e) => setYearFilter(e.target.value)}>
                       <option value="All">All Years</option>
-                      <option value="2024">2024</option>
-                      <option value="2023">2023</option>
-                      <option value="2022">2022</option>
+                      {availableYears.map(y => (
+                        <option key={y} value={y}>{y}</option>
+                      ))}
                     </select>
                   </div>
 
@@ -1688,7 +1723,7 @@ function JaipurDashboard({ subjectCode, theme, onToggleTheme, onBack }) {
 
                       {yearDropdownOpen && (
                         <div className="filter-popover-menu">
-                          {['All', '2024', '2023', '2022'].map(y => (
+                          {['All', ...availableYears].map(y => (
                             <div 
                               key={y} 
                               className={`filter-popover-item ${yearFilter === y ? 'active' : ''}`}

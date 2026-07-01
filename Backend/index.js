@@ -11,6 +11,10 @@ app.use(express.json());
 const STUDY_MATERIAL_DIR = path.resolve(__dirname, '../Study Material');
 app.use('/study-material', express.static(STUDY_MATERIAL_DIR));
 
+// Admin routes
+const adminRoutes = require('./admin_routes');
+app.use('/api/admin', adminRoutes);
+
 // ============================================================
 // UTILITY: Normalize double-escaped LaTeX from SSH/JSON pipeline
 // ============================================================
@@ -121,11 +125,13 @@ app.get('/api/subjects/:code/materials', async (req, res) => {
                     const modFiles = await fs.readdir(modDir);
                     const pdfs = modFiles.filter(f => f.toLowerCase().endsWith('.pdf'));
                     structure.notes[item.name] = pdfs;
-                } else if (lowerName === 'qpa') {
-                    // QPA folder
+                } else if (lowerName === 'qpa' || lowerName === 'maqpa') {
+                    // QPA folder (also MAQPA for MA24103)
                     const qpaDir = path.join(subjectDir, item.name);
                     const qpaFiles = await fs.readdir(qpaDir);
                     structure.qpa = qpaFiles.filter(f => f.toLowerCase().endsWith('.pdf'));
+                    // Store the actual folder name for correct URL paths
+                    structure.qpaFolder = item.name;
                 }
             }
         }

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bithub-bg: #120f22;
+  --color-bithub-card: #20151b;
+  --color-bithub-accent: #fe69b2;
+  --color-bithub-accent-hover: #e04a95;
+  --color-bithub-text: #fdf5ef;
+  --color-bithub-muted: #b76aec;
+  --color-bithub-border: #3c2a35;
+}
+
+body {
+  background-color: var(--color-bithub-bg);
+  color: var(--color-bithub-text);
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: block;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: var(--color-bithub-card);
+  border: 1px solid var(--color-bithub-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}

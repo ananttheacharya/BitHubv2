@@ -2574,6 +2574,40 @@ body::after {
   will-change: transform;
 }
 
+/* ----- Easter Egg 69: Brutalist Animation & Image ----- */
+/*
+@keyframes brutalist-shake {
+  0% { transform: translate(10px, 10px) rotate(0deg); filter: hue-rotate(0deg) contrast(1.2); }
+  10% { transform: translate(-15px, -5px) rotate(-5deg); filter: hue-rotate(45deg) contrast(1.5) invert(0.2); }
+  20% { transform: translate(15px, -15px) rotate(5deg); filter: hue-rotate(90deg) contrast(1.1); }
+  30% { transform: translate(-10px, 15px) rotate(-10deg); filter: hue-rotate(135deg) contrast(1.8) invert(0.1); }
+  40% { transform: translate(20px, 5px) rotate(10deg); filter: hue-rotate(180deg) contrast(1.3); }
+  50% { transform: translate(-20px, -20px) rotate(-15deg); filter: hue-rotate(225deg) contrast(2) invert(0.3); }
+  60% { transform: translate(15px, 20px) rotate(15deg); filter: hue-rotate(270deg) contrast(1.2); }
+  70% { transform: translate(-5px, -15px) rotate(-5deg); filter: hue-rotate(315deg) contrast(1.6) invert(0.1); }
+  80% { transform: translate(10px, 5px) rotate(5deg); filter: hue-rotate(360deg) contrast(1.1); }
+  90% { transform: translate(-15px, 10px) rotate(-2deg); filter: hue-rotate(45deg) contrast(1.4); }
+  100% { transform: translate(0px, 0px) rotate(0deg); filter: hue-rotate(0deg) contrast(1); }
+}
+
+.easter-egg-brutalist {
+  animation: brutalist-shake 0.3s infinite;
+}
+
+.easter-egg-image-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  max-width: 80vw;
+  max-height: 80vh;
+  box-shadow: 20px 20px 0px #000;
+  border: 10px solid #fff;
+  pointer-events: none;
+}
+*/
+
 /* ============================================================
    CREATORS SECTION & TEAM CARDS
    ============================================================ */

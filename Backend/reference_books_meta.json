@@ -1,4 +1,60 @@
 {
+    "MA24101": {
+        "Linear_Algebra_and_its_application.pdf": {
+            "title": "Linear Algebra and Its Applications",
+            "author": "David C. Lay, Steven R. Lay & Judi J. McDonald",
+            "tags": [
+                "Mathematics",
+                "Linear Algebra",
+                "Matrices",
+                "Eigenvalues"
+            ]
+        },
+        "Thomas_Calculus.pdf": {
+            "title": "Thomas' Calculus",
+            "author": "George B. Thomas Jr., Joel R. Hass & Christopher Heil",
+            "tags": [
+                "Mathematics",
+                "Calculus",
+                "Integration",
+                "Multivariable"
+            ]
+        }
+    },
+    "CE24101": {
+        "Basic Concepts of Environmental Chemistry (D.W. Conell).pdf": {
+            "title": "Basic Concepts of Environmental Chemistry",
+            "author": "D.W. Connell",
+            "tags": [
+                "Environmental Science",
+                "Chemistry",
+                "Pollution",
+                "Ecology"
+            ]
+        }
+    },
+    "ME24101": {
+        "A Textbook of Engineering Mechanics By R. S. Khurmi.pdf": {
+            "title": "A Textbook of Engineering Mechanics",
+            "author": "R.S. Khurmi",
+            "tags": [
+                "Mechanical Engineering",
+                "Statics",
+                "Dynamics",
+                "Trusses"
+            ]
+        },
+        "ME24101 Complete Course Material.pdf": {
+            "title": "ME24101 Complete Course Material",
+            "author": "Department of Mechanical Engineering",
+            "tags": [
+                "Mechanical Engineering",
+                "Course Notes",
+                "Manufacturing",
+                "Thermodynamics"
+            ]
+        }
+    },
     "BE24101": {
         "Biochemistry 5th Edition, Jeremy M. Berg.pdf": {
             "title": "Biochemistry",

@@ -18,6 +18,7 @@ import confetti from 'canvas-confetti';
 /* Import campus images from the images directory */
 import jaipurImg from '../images/jaipur.png';
 import mesraImg from '../images/mesra.png';
+// import mananImg from '../ProfilePics/mananonhisweddingnight.jpg'; // BACKUP 69 EASTER EGG
 
 function App() {
   const [view, setView] = useState('landing'); // 'landing', 'subject-selector', 'subject-dashboard'
@@ -111,6 +112,60 @@ function App() {
 
           keyBuffer = ''; // Reset the buffer
         }
+        /* --- 69 EASTER EGG BACKUP ---
+        else if (keyBuffer.endsWith('69')) {
+          const duration = 3000;
+          const end = Date.now() + duration;
+
+          (function frame() {
+            confetti({
+              particleCount: 15,
+              angle: 60,
+              spread: 55,
+              origin: { x: 0 },
+              colors: ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff']
+            });
+            confetti({
+              particleCount: 15,
+              angle: 120,
+              spread: 55,
+              origin: { x: 1 },
+              colors: ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff']
+            });
+
+            if (Date.now() < end) {
+              requestAnimationFrame(frame);
+            }
+          }());
+
+          // Brutalist animation
+          const rootElement = document.getElementById('root');
+          if (rootElement) {
+            rootElement.classList.add('easter-egg-brutalist');
+          }
+          
+          let img = document.getElementById('easter-egg-69-img');
+          if (!img) {
+            img = document.createElement('img');
+            img.id = 'easter-egg-69-img';
+            img.src = mananImg;
+            img.className = 'easter-egg-image-overlay';
+            document.body.appendChild(img);
+          }
+          img.style.display = 'block';
+
+          setTimeout(() => {
+            if (rootElement) {
+              rootElement.classList.remove('easter-egg-brutalist');
+            }
+            if (img) {
+              img.style.display = 'none';
+            }
+          }, 3000);
+
+          keyBuffer = ''; // Reset the buffer
+        }
+        */
       }
     };
     
