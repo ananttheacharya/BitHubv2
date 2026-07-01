@@ -1,10 +1,14 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 import CreatorsSection from './CreatorsSection';
+import CS24102Dashboard from './CS24102Dashboard';
 import Toast from './Toast';
 import './LabDashboard.css';
 
 // Hardcoded registry for Lab materials
 const LAB_DATA = {
+  "PH24102": { name: "Physics Lab", icon: "flask" },
+  "EE24102": { name: "Electrical Lab", icon: "chip" },
+  "CS24102": { name: "Programming for Problem Solving Lab", icon: "code" },
   "ME24102": { name: "Engineering Drawing", icon: "pencil" },
   "EC24102": { name: "Electrical Engineering", icon: "chip" },
   "CH24102": { name: "Chemistry Lab", icon: "flask" },
@@ -70,6 +74,29 @@ const getSubjectIcon = (code) => {
       return (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="math-logo-svg">
           <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+        </svg>
+      );
+    case 'CS24102':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="math-logo-svg">
+          <polyline points="16 18 22 12 16 6"></polyline>
+          <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+      );
+    case 'PH24102':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="math-logo-svg">
+          <path d="M9 3H15M10 3V12L4 20H20L14 12V3" />
+          <path d="M7 15H17" opacity="0.5" />
+        </svg>
+      );
+    case 'EE24102':
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="math-logo-svg">
+          <rect x="2" y="2" width="20" height="20" rx="4" />
+          <path d="M7 12h10M12 7v10" />
+          <circle cx="7" cy="12" r="1.5" fill="currentColor" />
+          <circle cx="17" cy="12" r="1.5" fill="currentColor" />
         </svg>
       );
     default:
@@ -141,10 +168,29 @@ const renderImageIcon = () => {
   );
 };
 
+const eeExperiments = [
+  "EXP 1", "EXP 2", "EXP 3", "EXP 4", "EXP 5",
+  "EXP 6", "EXP 7", "EXP 8", "EXP 9", "EXP 10"
+];
+
+const eeTitles = [
+  "Measurement of Low and High resistance",
+  "Verification of KCL and KVL",
+  "Verification of Superposition Theorem",
+  "Verification of Thevenin's and Reciprocity",
+  "Verification of Norton's Theorem",
+  "3 Phase Star Connection",
+  "3 Phase Delta Connection",
+  "3 Phase Power Measurement",
+  "AC Series Circuit",
+  "AC Parallel Circuit"
+];
+
 const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
   const [selectedLab, setSelectedLab] = useState(null);
   const [activeMEModal, setActiveMEModal] = useState(null);
   const [activePEShop, setActivePEShop] = useState(null);
+  const [activeEEModal, setActiveEEModal] = useState(null);
 
   const renderSubjectHeader = (code, name) => (
     <section className="subject-header-box" style={{ marginBottom: '2.5rem' }}>
@@ -353,6 +399,83 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
           </div>
         );
 
+      case 'CS24102':
+        return <CS24102Dashboard theme={theme} onBack={() => setSelectedLab(null)} />;
+
+      case 'PH24102':
+        return (
+          <div className="dashboard-right-stack" style={{width: '100%', margin: '0 auto'}}>
+            <section className="dashboard-card">
+              <div className="card-header">
+                <div className="card-header-titles">
+                  <h3 className="card-title-main">Physics Lab Manual</h3>
+                  <p className="card-title-sub">Official guide for the laboratory</p>
+                </div>
+              </div>
+              <div className="subjects-button-list" style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '1.5rem'}}>
+                <button 
+                  className="subject-selection-btn"
+                  onClick={() => window.open(`/study-material/PH24102/physics_lab.pdf`, '_blank')}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+                    <div className="math-logo-box" style={{width: 54, height: 54}}>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width: 24, height: 24}}>
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                        <polyline points="14 2 14 8 20 8" />
+                      </svg>
+                    </div>
+                    <div className="btn-content-left">
+                      <span className="btn-primary-title" style={{ fontSize: '1.4rem' }}>
+                        Physics Lab Manual
+                      </span>
+                    </div>
+                  </div>
+                  <svg className="btn-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+              </div>
+            </section>
+          </div>
+        );
+
+      case 'EE24102':
+        return (
+          <div className="dashboard-right-stack" style={{width: '100%', margin: '0 auto'}}>
+            <section className="dashboard-card">
+              <div className="card-header">
+                <div className="card-header-titles">
+                  <h3 className="card-title-main">Experiments</h3>
+                  <p className="card-title-sub">Select an experiment to view the manual pages</p>
+                </div>
+              </div>
+              <div className="subjects-button-list" style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '1.5rem'}}>
+                {eeExperiments.map((exp, idx) => (
+                  <button 
+                    key={idx}
+                    className="subject-selection-btn"
+                    onClick={() => setActiveEEModal(exp)}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem' }}>
+                      <div className="math-logo-box" style={{width: 54, height: 54, fontSize: '1.2rem', fontWeight: 'bold'}}>
+                        {idx + 1}
+                      </div>
+                      <div className="btn-content-left">
+                        <span className="btn-primary-title" style={{ fontSize: '1.1rem', whiteSpace: 'normal', textAlign: 'left', lineHeight: '1.3' }}>
+                          {eeTitles[idx]}
+                        </span>
+                      </div>
+                    </div>
+                    <svg className="btn-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <polyline points="9 18 15 12 9 6" />
+                    </svg>
+                  </button>
+                ))}
+              </div>
+            </section>
+          </div>
+        );
+
       case 'EC24102':
       case 'CH24102':
         const isEC = selectedLab === 'EC24102';
@@ -506,6 +629,66 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
                   )
                 })}
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* --- EE24102 Image Viewer Modal --- */}
+      {activeEEModal && (
+        <div className="lab-modal-overlay" onClick={() => setActiveEEModal(null)}>
+          <div className="lab-modal-content" onClick={e => e.stopPropagation()} style={{maxWidth: '90vw', width: '1200px', height: '90vh', display: 'flex', flexDirection: 'column'}}>
+            <div className="lab-modal-header" style={{flexShrink: 0}}>
+              <h3 style={{fontFamily: 'var(--font-display)', fontSize: '1.5rem', color: 'var(--dash-text-color)'}}>
+                {activeEEModal}: {eeTitles[eeExperiments.indexOf(activeEEModal)]}
+              </h3>
+              <div style={{display: 'flex', gap: '1rem', alignItems: 'center'}}>
+                <button 
+                  className="subject-selection-btn" 
+                  style={{padding: '0.5rem 1rem', minHeight: 'auto', borderRadius: '6px', fontSize: '0.9rem'}}
+                  onClick={() => {
+                    // Try to download all images up to 10
+                    for(let i = 1; i <= 10; i++) {
+                      const link = document.createElement('a');
+                      link.href = `/study-material/EE24102/${activeEEModal}/${i}.jpg`;
+                      link.download = `${activeEEModal}_Page_${i}.jpg`;
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }
+                  }}
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width: 16, height: 16, marginRight: 6, display: 'inline-block', verticalAlign: 'middle'}}>
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  Download All
+                </button>
+                <button className="lab-modal-close" onClick={() => setActiveEEModal(null)}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width: 24, height: 24}}>
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            
+            <div className="lab-modal-body" style={{flex: 1, padding: 0, overflowY: 'auto', background: '#0a0a0a', textAlign: 'center'}}>
+              {/* Load up to 15 images dynamically and hide if error */}
+              {[...Array(15)].map((_, i) => (
+                <div key={i} style={{marginBottom: '1rem'}}>
+                  <img 
+                    src={`/study-material/EE24102/${activeEEModal}/${i + 1}.jpg`} 
+                    alt={`Page ${i + 1}`}
+                    style={{maxWidth: '100%', objectFit: 'contain', border: '1px solid #333', boxShadow: '0 4px 20px rgba(0,0,0,0.5)'}}
+                    onError={(e) => {
+                      e.target.style.display = 'none'; // Hide if missing
+                      e.target.parentElement.style.display = 'none';
+                    }}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

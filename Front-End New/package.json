@@ -12,6 +12,7 @@
     "tunnel": "ngrok http --domain=unpicked-mignon-unlawyerlike.ngrok-free.dev 3000"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
     "canvas-confetti": "^1.9.4",
     "esbuild": "^0.28.0",
     "katex": "^0.16.47",

@@ -1,0 +1,48 @@
+.oj-container {
+    padding: 1rem 2rem;
+}
+
+.oj-layout {
+    display: flex;
+    gap: 2rem;
+    height: 100%;
+}
+
+.oj-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.problem-panel {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    overflow-y: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.editor-panel {
+    /* Transparent or subtle background */
+}
+
+.editor-container {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 900px) {
+    .oj-layout {
+        flex-direction: column;
+    }
+    
+    .oj-container {
+        height: auto;
+    }
+    
+    .editor-container {
+        height: 500px;
+    }
+}

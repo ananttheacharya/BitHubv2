@@ -1,0 +1,2648 @@
+[
+    {
+        "problem_id": "CS24102_Q1",
+        "question_number": 1,
+        "question_text": "Write a program to print HELLO WORLD on screen.",
+        "title": "Hello World",
+        "evaluationType": "stdout",
+        "functionName": "print_hello",
+        "returnType": "void",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "HELLO WORLD"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q3",
+        "question_number": 3,
+        "question_text": "Write a program which accept two numbers and print their sum.",
+        "title": "Sum of Two Numbers",
+        "evaluationType": "stdout",
+        "functionName": "print_sum",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "a"
+            },
+            {
+                "type": "int",
+                "name": "b"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    5,
+                    7
+                ],
+                "expected_return": null,
+                "expected_stdout": "12"
+            },
+            {
+                "input": [
+                    10,
+                    -5
+                ],
+                "expected_return": null,
+                "expected_stdout": "5"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q7",
+        "question_number": 7,
+        "question_text": "Write a program to swap the values of two variables.",
+        "title": "Swap Values",
+        "evaluationType": "return_value",
+        "functionName": "swap",
+        "returnType": "int*",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "arr"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "expected_return": [
+                    2,
+                    1
+                ],
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q2",
+        "question_number": 2,
+        "question_text": "Write a program to display the following output using a single cout statement.\n\n&nbsp; Subject Marks  \n Mathematics 90\nComputer 77\nChemistry 69",
+        "title": "Display Subject Marks",
+        "evaluationType": "stdout",
+        "functionName": "printMarks",
+        "returnType": "void",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": " Subject Marks  \n Mathematics 90\nComputer 77\nChemistry 69"
+            },
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": " Subject Marks  \n Mathematics 90\nComputer 77\nChemistry 69"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q4",
+        "question_number": 4,
+        "question_text": "Write a program which accept temperature in Farenheit and print it in centigrade.",
+        "title": "Fahrenheit to Centigrade",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": "32",
+                "expected_return": 0,
+                "expected_stdout": "0.00"
+            },
+            {
+                "input": "212",
+                "expected_return": 0,
+                "expected_stdout": "100.00"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q5",
+        "question_number": 5,
+        "question_text": "Write a program which accept principle, rate and time from user and print the simple interest.",
+        "title": "Calculate Simple Interest",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": "1000 5 2",
+                "expected_return": 0,
+                "expected_stdout": "100.00"
+            },
+            {
+                "input": "5000 7.5 3",
+                "expected_return": 0,
+                "expected_stdout": "1125.00"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q6",
+        "question_number": 6,
+        "question_text": "Write a program which accepts a character and display its ASCII value.",
+        "title": "Character ASCII Value",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [
+                    "A"
+                ],
+                "expected_return": null,
+                "expected_stdout": "65"
+            },
+            {
+                "input": [
+                    "b"
+                ],
+                "expected_return": null,
+                "expected_stdout": "98"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q8",
+        "question_number": 8,
+        "question_text": "Write a program to calculate area of circle.",
+        "title": "Calculate Circle Area",
+        "evaluationType": "return_value",
+        "functionName": "calculateArea",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "radius"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    1.0
+                ],
+                "expected_return": 3.14159,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    2.5
+                ],
+                "expected_return": 19.6349375,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q9",
+        "question_number": 9,
+        "question_text": "Write a program to check whether the given number is positive or negative (using ? : ternary operator )",
+        "title": "Positive or Negative",
+        "evaluationType": "stdout",
+        "functionName": "checkSign",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    10
+                ],
+                "expected_return": null,
+                "expected_stdout": "Positive"
+            },
+            {
+                "input": [
+                    -5
+                ],
+                "expected_return": null,
+                "expected_stdout": "Negative"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q10",
+        "question_number": 10,
+        "question_text": "Write a program to check whether the given number is even or odd (using ? : ternary operator )",
+        "title": "Even or Odd Checker",
+        "evaluationType": "stdout",
+        "functionName": "checkEvenOdd",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    4
+                ],
+                "expected_return": null,
+                "expected_stdout": "Even"
+            },
+            {
+                "input": [
+                    7
+                ],
+                "expected_return": null,
+                "expected_stdout": "Odd"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q11",
+        "question_number": 11,
+        "question_text": "Write a program to swap value of two variables without using third variable.",
+        "title": "Swap Two Variables",
+        "evaluationType": "stdout",
+        "functionName": "swapVariables",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "a"
+            },
+            {
+                "type": "int*",
+                "name": "b"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    5,
+                    10
+                ],
+                "expected_return": null,
+                "expected_stdout": "a=10, b=5"
+            },
+            {
+                "input": [
+                    -1,
+                    20
+                ],
+                "expected_return": null,
+                "expected_stdout": "a=20, b=-1"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q12",
+        "question_number": 12,
+        "question_text": "Write a program which input three numbers and display the largest number using ternary operator.",
+        "title": "Largest of Three",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": "10 25 15",
+                "expected_return": null,
+                "expected_stdout": "25"
+            },
+            {
+                "input": "5 5 2",
+                "expected_return": null,
+                "expected_stdout": "5"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q13",
+        "question_number": 13,
+        "question_text": "Write a program which accepts amount as integer and display total number of Notes of Rs. 500, 100, 50, 20, 10, 5 and 1.",
+        "title": "Currency Note Counter",
+        "evaluationType": "stdout",
+        "functionName": "countNotes",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "amount"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    586
+                ],
+                "expected_return": null,
+                "expected_stdout": "500: 1\n100: 0\n50: 1\n20: 1\n10: 1\n5: 1\n1: 1"
+            },
+            {
+                "input": [
+                    1234
+                ],
+                "expected_return": null,
+                "expected_stdout": "500: 2\n100: 2\n50: 0\n20: 1\n10: 1\n5: 0\n1: 4"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q14",
+        "question_number": 14,
+        "question_text": "Write a program which accepts a character and display its next character.",
+        "title": "Next Character Display",
+        "evaluationType": "stdout",
+        "functionName": "printNextChar",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char",
+                "name": "c"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "a"
+                ],
+                "expected_return": null,
+                "expected_stdout": "b"
+            },
+            {
+                "input": [
+                    "X"
+                ],
+                "expected_return": null,
+                "expected_stdout": "Y"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q15",
+        "question_number": 15,
+        "question_text": "Write a program which accepts days as integer and display total number of years, months and days in it. for example : If user input as 856 days the output should be 2 years 4 months 6 days.",
+        "title": "Convert Days to YMD",
+        "evaluationType": "stdout",
+        "functionName": "convertDays",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "days"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    856
+                ],
+                "expected_return": null,
+                "expected_stdout": "2 years 4 months 6 days"
+            },
+            {
+                "input": [
+                    375
+                ],
+                "expected_return": null,
+                "expected_stdout": "1 years 0 months 10 days"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q16",
+        "question_number": 16,
+        "question_text": "Any integer is input by the user. Write a program to find out whether it is an odd number or even number.",
+        "title": "Check Odd Or Even",
+        "evaluationType": "stdout",
+        "functionName": "checkOddEven",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    7
+                ],
+                "expected_return": null,
+                "expected_stdout": "Odd"
+            },
+            {
+                "input": [
+                    10
+                ],
+                "expected_return": null,
+                "expected_stdout": "Even"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q17",
+        "question_number": 17,
+        "question_text": "Find the absolute value of a number entered by the user.",
+        "title": "Calculate Absolute Value",
+        "evaluationType": "return_value",
+        "functionName": "getAbsoluteValue",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    -15
+                ],
+                "expected_return": 15,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    42
+                ],
+                "expected_return": 42,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q18",
+        "question_number": 18,
+        "question_text": "Write a program to calculate the total expenses. Quantity and price per item are input by the user and discount of 10% is offered if the expense is more than 5000.",
+        "title": "Calculate Total Expenses",
+        "evaluationType": "stdout",
+        "functionName": "calculateExpenses",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "quantity"
+            },
+            {
+                "type": "double",
+                "name": "price"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    100,
+                    40
+                ],
+                "expected_return": null,
+                "expected_stdout": "4000.00"
+            },
+            {
+                "input": [
+                    100,
+                    60
+                ],
+                "expected_return": null,
+                "expected_stdout": "5400.00"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q19",
+        "question_number": 19,
+        "question_text": "Write a program to determine whether the seller has made profit or incurred loss. Also determine how much profit he made or loss he incurred. Cost price and selling price of an item is input by the user.",
+        "title": "Profit or Loss Calculator",
+        "evaluationType": "stdout",
+        "functionName": "calculateProfitLoss",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "float",
+                "name": "costPrice"
+            },
+            {
+                "type": "float",
+                "name": "sellingPrice"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    500.0,
+                    700.0
+                ],
+                "expected_return": null,
+                "expected_stdout": "Profit: 200.00"
+            },
+            {
+                "input": [
+                    1000.0,
+                    800.0
+                ],
+                "expected_return": null,
+                "expected_stdout": "Loss: 200.00"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q20",
+        "question_number": 20,
+        "question_text": "If the ages of Ram, Sulabh and Ajay are input by the user, write a program to determine the youngest of the three.",
+        "title": "Youngest of Three",
+        "evaluationType": "stdout",
+        "functionName": "findYoungest",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "ram"
+            },
+            {
+                "type": "int",
+                "name": "sulabh"
+            },
+            {
+                "type": "int",
+                "name": "ajay"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    25,
+                    20,
+                    30
+                ],
+                "expected_return": null,
+                "expected_stdout": "Sulabh is the youngest"
+            },
+            {
+                "input": [
+                    15,
+                    45,
+                    10
+                ],
+                "expected_return": null,
+                "expected_stdout": "Ajay is the youngest"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q22",
+        "question_number": 22,
+        "question_text": "Any year is input by the user. Write a program to determine whether the year is a leap year or not.",
+        "title": "Leap Year Checker",
+        "evaluationType": "return_value",
+        "functionName": "isLeapYear",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "year"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    2000
+                ],
+                "expected_return": 1,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    2023
+                ],
+                "expected_return": 0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q23",
+        "question_number": 23,
+        "question_text": "In a company an employee is paid as under:  \nIf his basic salary is less than Rs. 1500, then HRA = 10% of basic salary and DA = 90% of basic salary.  \nIf his salary is either equal to or above Rs. 1500, then HRA = Rs. 500 and DA = 98% of basic salary.  \nIf the employee's salary is input by the user write a program to find his gross salary.",
+        "title": "Calculate Gross Salary",
+        "evaluationType": "return_value",
+        "functionName": "calculateGrossSalary",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "basicSalary"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    1200
+                ],
+                "expected_return": 2400.0,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    2000
+                ],
+                "expected_return": 4460.0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q24",
+        "question_number": 24,
+        "question_text": "Write a program to calculate the monthly telephone bills as per the following rule:  \nMinimum Rs. 200 for upto 100 calls.  \nPlus Rs. 0.60 per call for next 50 calls.  \nPlus Rs. 0.50 per call for next 50 calls.  \nPlus Rs. 0.40 per call for any call beyond 200 calls.",
+        "title": "Monthly Telephone Bill",
+        "evaluationType": "return_value",
+        "functionName": "calculateBill",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "calls"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    80
+                ],
+                "expected_return": 200.0,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    210
+                ],
+                "expected_return": 259.0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q25",
+        "question_number": 25,
+        "question_text": "Write a program to find the roots of and quadratic equation of type ax2+bx+c where a is not equal to zero.",
+        "title": "Quadratic Equation Roots",
+        "evaluationType": "stdout",
+        "functionName": "solveQuadratic",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "a"
+            },
+            {
+                "type": "double",
+                "name": "b"
+            },
+            {
+                "type": "double",
+                "name": "c"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    1,
+                    -3,
+                    2
+                ],
+                "expected_return": null,
+                "expected_stdout": "Roots are 2.00 and 1.00"
+            },
+            {
+                "input": [
+                    1,
+                    2,
+                    1
+                ],
+                "expected_return": null,
+                "expected_stdout": "Root is -1.00"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q26",
+        "question_number": 26,
+        "question_text": "The marks obtained by a student in 5 different subjects are input by the user. The student gets a division as per the following rules:  \nPercentage above or equal to 60 - First division  \nPercentage between 50 and 59 - Second division  \nPercentage between 40 and 49 - Third division  \nPercentage less than 40 - Fail  \nWrite a program to calculate the division obtained by the student.",
+        "title": "Student Division Calculator",
+        "evaluationType": "stdout",
+        "functionName": "calculateDivision",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "s1"
+            },
+            {
+                "type": "int",
+                "name": "s2"
+            },
+            {
+                "type": "int",
+                "name": "s3"
+            },
+            {
+                "type": "int",
+                "name": "s4"
+            },
+            {
+                "type": "int",
+                "name": "s5"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    80,
+                    85,
+                    90,
+                    75,
+                    88
+                ],
+                "expected_return": null,
+                "expected_stdout": "First division"
+            },
+            {
+                "input": [
+                    30,
+                    35,
+                    40,
+                    38,
+                    32
+                ],
+                "expected_return": null,
+                "expected_stdout": "Fail"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q27",
+        "question_number": 27,
+        "question_text": "Any character is entered by the user; write a program to determine whether the character entered is a capital letter, a small case letter, a digit or a special symbol.",
+        "title": "Character Type Identifier",
+        "evaluationType": "stdout",
+        "functionName": "checkCharacterType",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char",
+                "name": "ch"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "A"
+                ],
+                "expected_return": null,
+                "expected_stdout": "Capital letter"
+            },
+            {
+                "input": [
+                    "5"
+                ],
+                "expected_return": null,
+                "expected_stdout": "Digit"
+            },
+            {
+                "input": [
+                    "b"
+                ],
+                "expected_return": null,
+                "expected_stdout": "Small case letter"
+            },
+            {
+                "input": [
+                    "$"
+                ],
+                "expected_return": null,
+                "expected_stdout": "Special symbol"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q28",
+        "question_number": 28,
+        "question_text": "Write a program to print number from 1 to 10.",
+        "title": "Print Numbers 1-10",
+        "evaluationType": "stdout",
+        "functionName": "printNumbers",
+        "returnType": "void",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n"
+            },
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "1 2 3 4 5 6 7 8 9 10"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q29",
+        "question_number": 29,
+        "question_text": "Write a program to calculate the sum of first 10 natural number.",
+        "title": "Sum of First Ten",
+        "evaluationType": "return_value",
+        "functionName": "calculateSum",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [],
+                "expected_return": 55,
+                "expected_stdout": ""
+            },
+            {
+                "input": [],
+                "expected_return": 55,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q30",
+        "question_number": 30,
+        "question_text": "Write a program to find the factorial value of any number entered through the keyboard.",
+        "title": "Calculate Factorial Value",
+        "evaluationType": "return_value",
+        "functionName": "factorial",
+        "returnType": "long long",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    5
+                ],
+                "expected_return": 120,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    10
+                ],
+                "expected_return": 3628800,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q31",
+        "question_number": 31,
+        "question_text": "Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another.",
+        "title": "Calculate Power",
+        "evaluationType": "return_value",
+        "functionName": "calculatePower",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "base"
+            },
+            {
+                "type": "double",
+                "name": "exponent"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    2.0,
+                    3.0
+                ],
+                "expected_return": 8.0,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    5.0,
+                    2.0
+                ],
+                "expected_return": 25.0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q32",
+        "question_number": 32,
+        "question_text": "Write a program to reveres any given integer number.",
+        "title": "Reverse Integer Number",
+        "evaluationType": "return_value",
+        "functionName": "reverseInteger",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    1234
+                ],
+                "expected_return": 4321,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    -560
+                ],
+                "expected_return": -65,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q33",
+        "question_number": 33,
+        "question_text": "Write a program to sum of digits of given integer number.",
+        "title": "Sum of Digits",
+        "evaluationType": "return_value",
+        "functionName": "sumOfDigits",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    12345
+                ],
+                "expected_return": 15,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    909
+                ],
+                "expected_return": 18,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q34",
+        "question_number": 34,
+        "question_text": "Write a program to check given number is prime or not.",
+        "title": "Prime Number Checker",
+        "evaluationType": "return_value",
+        "functionName": "isPrime",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    17
+                ],
+                "expected_return": 1,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_return": 0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q35",
+        "question_number": 35,
+        "question_text": "Write a program to calculate HCF of Two given number.",
+        "title": "Calculate HCF",
+        "evaluationType": "return_value",
+        "functionName": "calculateHCF",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "a"
+            },
+            {
+                "type": "int",
+                "name": "b"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    48,
+                    18
+                ],
+                "expected_return": 6,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    101,
+                    10
+                ],
+                "expected_return": 1,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q36",
+        "question_number": 36,
+        "question_text": "Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.",
+        "title": "Count Positive Negative Zeros",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": "1\n-1\n0\n0\nn",
+                "expected_return": 0,
+                "expected_stdout": "Positives: 1, Negatives: 1, Zeros: 2"
+            },
+            {
+                "input": "5\n10\n-2\n-8\n0\n3\nn",
+                "expected_return": 0,
+                "expected_stdout": "Positives: 3, Negatives: 2, Zeros: 1"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q37",
+        "question_number": 37,
+        "question_text": "Write a program to enter the numbers till the user wants and at the end it should display the maximum and minimum number entered.",
+        "title": "Min Max Tracker",
+        "evaluationType": "stdout",
+        "functionName": "findMinMax",
+        "returnType": "void",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": "5\n10\n2\n8\n-1",
+                "expected_return": null,
+                "expected_stdout": "Maximum: 10\nMinimum: 2"
+            },
+            {
+                "input": "3\n-5\n0\n100\n-1",
+                "expected_return": null,
+                "expected_stdout": "Maximum: 100\nMinimum: -5"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q38",
+        "question_number": 38,
+        "question_text": "Write a program to print out all Armstrong numbers between 1 and 500. If sum of cubes of each digit of the number is equal to the number itself, then the number is called an Armstrong number.  \nFor example, 153 = ( 1 \\* 1 \\* 1 ) + ( 5 \\* 5 \\* 5 ) + ( 3 \\* 3 \\* 3 )",
+        "title": "Find Armstrong Numbers",
+        "evaluationType": "stdout",
+        "functionName": "printArmstrongNumbers",
+        "returnType": "void",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "1\n153\n370\n371\n407\n"
+            },
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "1\n153\n370\n371\n407\n"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q40",
+        "question_number": 40,
+        "question_text": "Write a program to calculate the sum of following series where n is input by user.  \n1 + 1/2 + 1/3 + 1/4 + 1/5 +…………1/n",
+        "title": "Harmonic Series Sum",
+        "evaluationType": "return_value",
+        "functionName": "calculateHarmonicSum",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    1
+                ],
+                "expected_return": 1.0,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_return": 2.083333,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q41",
+        "question_number": 41,
+        "question_text": "Compute the natural logarithm of 2, by adding up to n terms in the series  \n1 - 1/2 + 1/3 - 1/4 + 1/5 -... 1/n  \nwhere n is a positive integer and input by user.",
+        "title": "Natural Logarithm Series",
+        "evaluationType": "return_value",
+        "functionName": "calculateLn2",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    2
+                ],
+                "expected_return": 0.5,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    4
+                ],
+                "expected_return": 0.583333,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q42",
+        "question_number": 42,
+        "question_text": "Write a program to print following:\n\n**i)**\n\n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n**ii)**\n\n\\*  \n\\*\\*  \n\\*\\*\\*  \n\\*\\*\\*\\*  \n\\*\\*\\*\\*\\*\n\n&nbsp;**iii)**\n\n&nbsp; \\*  \n \\*\\*  \n \\*\\*\\*  \n \\*\\*\\*\\*  \n\\*\\*\\*\\*\\*\n\n&nbsp;\n\n**iv)**  \n \\*  \n \\*\\*\\*  \n \\*\\*\\*\\*\\*  \n \\*\\*\\*\\*\\*\\*\\*  \n\\*\\*\\*\\*\\*\\*\\*\\*\\*\n\n&nbsp;\n\n**v)**\n\n&nbsp; **1  \n 222  \n 33333  \n 4444444  \n555555555**\n\n**vi)**\n\n&nbsp; **1  \n 212  \n 32123  \n 4321234  \n543212345**\n\n&nbsp;",
+        "title": "C Pattern Printing Suite",
+        "evaluationType": "stdout",
+        "functionName": "printPatterns",
+        "returnType": "void",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "**********\n**********\n**********\n**********\n\n*\n**\n***\n****\n*****\n\n    *\n   **\n  ***\n ****\n*****\n\n    *\n   ***\n  *****\n *******\n*********\n\n    1\n   222\n  33333\n 4444444\n555555555\n\n    1\n   212\n  32123\n 4321234\n543212345"
+            },
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "**********\n**********\n**********\n**********\n\n*\n**\n***\n****\n*****\n\n    *\n   **\n  ***\n ****\n*****\n\n    *\n   ***\n  *****\n *******\n*********\n\n    1\n   222\n  33333\n 4444444\n555555555\n\n    1\n   212\n  32123\n 4321234\n543212345"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q43",
+        "question_number": 43,
+        "question_text": "Write a program to compute sinx for given x. The user should supply x and a positive integer n. We compute the sine of x using the series and the computation should use all terms in the series up through the term involving x<sup>n</sup>\n\nsin x = x - x<sup>3</sup>/3! + x<sup>5</sup>/5! - x<sup>7</sup>/7! + x<sup>9</sup>/9! ........",
+        "title": "Sine Series Approximation",
+        "evaluationType": "return_value",
+        "functionName": "computeSine",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "x"
+            },
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    0.52359877559,
+                    3
+                ],
+                "expected_return": 0.4996740638,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    1.0,
+                    5
+                ],
+                "expected_return": 0.8416666667,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q44",
+        "question_number": 44,
+        "question_text": "Write a program to compute the cosine of x. The user should supply x and a positive integer n. We compute the cosine of x using the series and the computation should use all terms in the series up through the term involving x<sup>n</sup>\n\ncos x = 1 - x<sup>2</sup>/2! + x<sup>4</sup>/4! - x<sup>6</sup>/6! .....",
+        "title": "Cosine Taylor Series",
+        "evaluationType": "return_value",
+        "functionName": "compute_cosine",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "x"
+            },
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    0.0,
+                    2
+                ],
+                "expected_return": 1.0,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    3.1415926535,
+                    6
+                ],
+                "expected_return": -1.0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q45",
+        "question_number": 45,
+        "question_text": "Write a program which input principal, rate and time from user and calculate compound interest. You can use library function.  \nCI = P(1+R/100)<sup>T</sup> - P",
+        "title": "Calculate Compound Interest",
+        "evaluationType": "stdout",
+        "functionName": "calculateCompoundInterest",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "principal"
+            },
+            {
+                "type": "double",
+                "name": "rate"
+            },
+            {
+                "type": "double",
+                "name": "time"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    1000,
+                    5,
+                    2
+                ],
+                "expected_return": null,
+                "expected_stdout": "102.50"
+            },
+            {
+                "input": [
+                    5000,
+                    10,
+                    3
+                ],
+                "expected_return": null,
+                "expected_stdout": "1655.00"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q46",
+        "question_number": 46,
+        "question_text": "Write a program to compute area of triangle. Sides are input by user.  \nArea = sqrt(s\\*(s-a)\\*(s-b)\\*(s-c))  \nwhere s=(a+b+c)/2.",
+        "title": "Compute Triangle Area",
+        "evaluationType": "return_value",
+        "functionName": "calculateTriangleArea",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "a"
+            },
+            {
+                "type": "double",
+                "name": "b"
+            },
+            {
+                "type": "double",
+                "name": "c"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    3.0,
+                    4.0,
+                    5.0
+                ],
+                "expected_return": 6.0,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    5.0,
+                    5.0,
+                    6.0
+                ],
+                "expected_return": 12.0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q47",
+        "question_number": 47,
+        "question_text": "Write a program to check character entered is alphabet, digit or special character using library functions.",
+        "title": "Classify Input Character",
+        "evaluationType": "stdout",
+        "functionName": "checkCharacter",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char",
+                "name": "ch"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "A"
+                ],
+                "expected_return": null,
+                "expected_stdout": "Alphabet"
+            },
+            {
+                "input": [
+                    "5"
+                ],
+                "expected_return": null,
+                "expected_stdout": "Digit"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q48",
+        "question_number": 48,
+        "question_text": "Write a program which display a number between 10 to 100 randomly.",
+        "title": "Random Number Generator",
+        "evaluationType": "stdout",
+        "functionName": "generateRandom",
+        "returnType": "void",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "42"
+            },
+            {
+                "input": [],
+                "expected_return": null,
+                "expected_stdout": "87"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q49",
+        "question_number": 49,
+        "question_text": "Write a program which accept a letter and display it in uppercase letter.",
+        "title": "Convert to Uppercase",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": "a",
+                "expected_return": null,
+                "expected_stdout": "A"
+            },
+            {
+                "input": "g",
+                "expected_return": null,
+                "expected_stdout": "G"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q50",
+        "question_number": 50,
+        "question_text": "Write a program to implement the Number Guessing Game. In this game the computer chooses a random number between 1 and 100, and the player tries to guess the number in as few attempts as possible. Each time the player enters a guess, the computer tells him whether the guess is too high, too low, or right. Once the player guesses the number, the game is over.",
+        "title": "Number Guessing Game",
+        "evaluationType": "stdout",
+        "functionName": "play_game",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "target_number"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    50
+                ],
+                "expected_return": null,
+                "expected_stdout": "Too low!\nToo high!\nCorrect!"
+            },
+            {
+                "input": [
+                    10
+                ],
+                "expected_return": null,
+                "expected_stdout": "Too high!\nCorrect!"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q51",
+        "question_number": 51,
+        "question_text": "Write a program using function which accept two integers as an argument and return its sum. Call this function from main( ) and print the results in main( ).",
+        "title": "Calculate Integer Sum",
+        "evaluationType": "stdout",
+        "functionName": "sum",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "a"
+            },
+            {
+                "type": "int",
+                "name": "b"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    5,
+                    10
+                ],
+                "expected_return": null,
+                "expected_stdout": "15"
+            },
+            {
+                "input": [
+                    -1,
+                    1
+                ],
+                "expected_return": null,
+                "expected_stdout": "0"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q52",
+        "question_number": 52,
+        "question_text": "Write a function to calculate the factorial value of any integer as an argument. Call this function from main( ) and print the results in main( ).",
+        "title": "Calculate Integer Factorial",
+        "evaluationType": "stdout",
+        "functionName": "factorial",
+        "returnType": "long long",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    5
+                ],
+                "expected_return": null,
+                "expected_stdout": "120"
+            },
+            {
+                "input": [
+                    0
+                ],
+                "expected_return": null,
+                "expected_stdout": "1"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q53",
+        "question_number": 53,
+        "question_text": "Write a function that receives two numbers as an argument and display all prime numbers between these two numbers. Call this function from main( ).",
+        "title": "Display Prime Range",
+        "evaluationType": "stdout",
+        "functionName": "displayPrimes",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "start"
+            },
+            {
+                "type": "int",
+                "name": "end"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    10,
+                    20
+                ],
+                "expected_return": null,
+                "expected_stdout": "11 13 17 19 "
+            },
+            {
+                "input": [
+                    1,
+                    10
+                ],
+                "expected_return": null,
+                "expected_stdout": "2 3 5 7 "
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q54",
+        "question_number": 54,
+        "question_text": "Raising a number to a power p is the same as multiplying n by itself p times. Write a function called power that takes two arguments, a double value for n and an int value for p, and return the result as double value. Use default argument of 2 for p, so that if this argument is omitted the number will be squared. Write the main function that gets value from the user to test power function.",
+        "title": "Calculate Power Function",
+        "evaluationType": "return_value",
+        "functionName": "power",
+        "returnType": "double",
+        "parameters": [
+            {
+                "type": "double",
+                "name": "n"
+            },
+            {
+                "type": "int",
+                "name": "p"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    3.0,
+                    3
+                ],
+                "expected_return": 27.0,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    5.0,
+                    2
+                ],
+                "expected_return": 25.0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q55",
+        "question_number": 55,
+        "question_text": "Write a function called zero_small() that has two integer arguments being passed by reference and sets the smaller of the two numbers to 0. Write the main program to access the function.",
+        "title": "Zero Small Value",
+        "evaluationType": "stdout",
+        "functionName": "zero_small",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "a"
+            },
+            {
+                "type": "int*",
+                "name": "b"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    5,
+                    10
+                ],
+                "expected_return": null,
+                "expected_stdout": "0 10"
+            },
+            {
+                "input": [
+                    20,
+                    3
+                ],
+                "expected_return": null,
+                "expected_stdout": "20 0"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q56",
+        "question_number": 56,
+        "question_text": "Write a program that lets the user perform arithmetic operations on two numbers. Your program must be menu driven, allowing the user to select the operation (+, -, \\*, or /) and input the numbers. Furthermore, your program must consist of following functions:  \n1\\. Function showChoice: This function shows the options to the user and explains how to enter data.  \n2\\. Function add: This function accepts two number as arguments and returns sum.  \n3\\. Function subtract: This function accepts two number as arguments and returns their difference.  \n4\\. Function multiply: This function accepts two number as arguments and returns product.  \n5\\. Function divide: This function accepts two number as arguments and returns quotient.",
+        "title": "Arithmetic Menu Calculator",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": [
+                    "+",
+                    "10",
+                    "5"
+                ],
+                "expected_return": 0,
+                "expected_stdout": "Enter operation (+, -, *, /): Enter two numbers: 15.00"
+            },
+            {
+                "input": [
+                    "/",
+                    "10",
+                    "2"
+                ],
+                "expected_return": 0,
+                "expected_stdout": "Enter operation (+, -, *, /): Enter two numbers: 5.00"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q62",
+        "question_number": 62,
+        "question_text": "P is one-dimensional array of integers. Write a C++ function to efficiently search for a data VAL from P. If VAL is present in the array then the function should return value 1 and 0 otherwise.",
+        "title": "Efficient Array Search",
+        "evaluationType": "return_value",
+        "functionName": "searchElement",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "P"
+            },
+            {
+                "type": "int",
+                "name": "size"
+            },
+            {
+                "type": "int",
+                "name": "VAL"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    30
+                ],
+                "expected_return": 1,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    5,
+                    8,
+                    12,
+                    15,
+                    2,
+                    99
+                ],
+                "expected_return": 0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q63",
+        "question_number": 63,
+        "question_text": "Suppose a one-dimensional array AR containing integers is arranged in ascending order. Write a user-defined function in to search for an integer from AR with the help of Binary search method, returning an integer 0 to show absence of the number and integer 1 to show presence of the number in the array. Function should have three parameters : (i) array AR (ii) the number to be searched and (iii) the number of elements N in the array.",
+        "title": "Binary Search Array",
+        "evaluationType": "return_value",
+        "functionName": "binarySearch",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "AR"
+            },
+            {
+                "type": "int",
+                "name": "target"
+            },
+            {
+                "type": "int",
+                "name": "N"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    [
+                        10,
+                        20,
+                        30,
+                        40,
+                        50
+                    ],
+                    30,
+                    5
+                ],
+                "expected_return": 1,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    [
+                        5,
+                        12,
+                        18,
+                        25
+                    ],
+                    10,
+                    4
+                ],
+                "expected_return": 0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q64",
+        "question_number": 64,
+        "question_text": "Suppose A, B, C are arrays of integers of size M, N, and M + N respectively. The numbers in array A appear in ascending order while the numbers in array B appear in descending order. Write a user defined function in to produce third array C by merging arrays A and B in ascending order. Use A, B and C as arguments in the function.",
+        "title": "Merge Sorted Arrays",
+        "evaluationType": "stdout",
+        "functionName": "mergeArrays",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "A"
+            },
+            {
+                "type": "int*",
+                "name": "B"
+            },
+            {
+                "type": "int*",
+                "name": "C"
+            },
+            {
+                "type": "int",
+                "name": "M"
+            },
+            {
+                "type": "int",
+                "name": "N"
+            }
+        ],
+        "testCases": [
+            {
+                "input": {
+                    "A": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "B": [
+                        6,
+                        4,
+                        2
+                    ],
+                    "C": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "M": 3,
+                    "N": 3
+                },
+                "expected_return": null,
+                "expected_stdout": "1 2 3 4 5 6 "
+            },
+            {
+                "input": {
+                    "A": [
+                        10,
+                        20
+                    ],
+                    "B": [
+                        5,
+                        0
+                    ],
+                    "C": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "M": 2,
+                    "N": 2
+                },
+                "expected_return": null,
+                "expected_stdout": "0 5 10 20 "
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q65",
+        "question_number": 65,
+        "question_text": "Suppose X. Y, Z are arrays of integers of size M, N, and M + N respectively. The numbers in array X and Y appear in descending order. Write a user-defined function in to produce third array Z by merging arrays X and Y in descending order.",
+        "title": "Merge Sorted Arrays",
+        "evaluationType": "stdout",
+        "functionName": "mergeArrays",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "X"
+            },
+            {
+                "type": "int",
+                "name": "M"
+            },
+            {
+                "type": "int*",
+                "name": "Y"
+            },
+            {
+                "type": "int",
+                "name": "N"
+            },
+            {
+                "type": "int*",
+                "name": "Z"
+            }
+        ],
+        "testCases": [
+            {
+                "input": {
+                    "X": [
+                        10,
+                        8,
+                        5
+                    ],
+                    "M": 3,
+                    "Y": [
+                        9,
+                        4
+                    ],
+                    "N": 2
+                },
+                "expected_return": null,
+                "expected_stdout": "10 9 8 5 4"
+            },
+            {
+                "input": {
+                    "X": [
+                        5,
+                        2
+                    ],
+                    "M": 2,
+                    "Y": [
+                        7,
+                        6,
+                        3,
+                        1
+                    ],
+                    "N": 4
+                },
+                "expected_return": null,
+                "expected_stdout": "7 6 5 3 2 1"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q66",
+        "question_number": 66,
+        "question_text": "Given two arrays of integers A and B of sizes M and N respectively. Write a function named MIX () with four arguments, which will produce a third array named C. such that the following sequence is followed.  \nAll even numbers of A from left to right are copied into C from left to right.  \nAll odd numbers of A from left to right are copied into C from right to left.  \nAll even numbers of B from left to right are copied into C from left to right.  \nAll old numbers of B from left to right are copied into C from right to left.  \nA, B and C are passed as arguments to MIX (). e.g., A is {3, 2, 1, 7, 6, 3} and B is {9, 3, 5, 6, 2, 8, 10} the resultant array C is {2, 6, 6, 2, 8, 10, 5, 3, 9, 3, 7, 1, 3}",
+        "title": "Array Mixing Sequence",
+        "evaluationType": "stdout",
+        "functionName": "MIX",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "A"
+            },
+            {
+                "type": "int",
+                "name": "M"
+            },
+            {
+                "type": "int*",
+                "name": "B"
+            },
+            {
+                "type": "int",
+                "name": "N"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    [
+                        3,
+                        2,
+                        1,
+                        7,
+                        6,
+                        3
+                    ],
+                    6,
+                    [
+                        9,
+                        3,
+                        5,
+                        6,
+                        2,
+                        8,
+                        10
+                    ],
+                    7
+                ],
+                "expected_return": null,
+                "expected_stdout": "2 6 6 2 8 10 5 3 9 3 7 1 3"
+            },
+            {
+                "input": [
+                    [
+                        1,
+                        3,
+                        5
+                    ],
+                    3,
+                    [
+                        2,
+                        4,
+                        6
+                    ],
+                    3
+                ],
+                "expected_return": null,
+                "expected_stdout": "2 4 6 5 3 1"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q67",
+        "question_number": 67,
+        "question_text": "Write a program to find the length of string.",
+        "title": "Calculate String Length",
+        "evaluationType": "return_value",
+        "functionName": "stringLength",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "hello"
+                ],
+                "expected_return": 5,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    "Competitive Programming"
+                ],
+                "expected_return": 23,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q68",
+        "question_number": 68,
+        "question_text": "Write a program to display string from backward.",
+        "title": "Reverse String Output",
+        "evaluationType": "stdout",
+        "functionName": "printReverse",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "hello"
+                ],
+                "expected_return": null,
+                "expected_stdout": "olleh"
+            },
+            {
+                "input": [
+                    "OpenAI"
+                ],
+                "expected_return": null,
+                "expected_stdout": "IAnepO"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q69",
+        "question_number": 69,
+        "question_text": "Write a program to count number of words in string.",
+        "title": "Count String Words",
+        "evaluationType": "return_value",
+        "functionName": "countWords",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "Hello World"
+                ],
+                "expected_return": 2,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    "Programming in C is fun"
+                ],
+                "expected_return": 5,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q70",
+        "question_number": 70,
+        "question_text": "Write a program to concatenate one string contents to another.",
+        "title": "Concatenate Two Strings",
+        "evaluationType": "stdout",
+        "functionName": "concatenateStrings",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "dest"
+            },
+            {
+                "type": "const char*",
+                "name": "src"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "Hello ",
+                    "World"
+                ],
+                "expected_return": null,
+                "expected_stdout": "Hello World"
+            },
+            {
+                "input": [
+                    "C",
+                    "Programming"
+                ],
+                "expected_return": null,
+                "expected_stdout": "CProgramming"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q71",
+        "question_number": 71,
+        "question_text": "Write a program to compare two strings they are exact equal or not.",
+        "title": "String Equality Comparison",
+        "evaluationType": "return_value",
+        "functionName": "areStringsEqual",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str1"
+            },
+            {
+                "type": "char*",
+                "name": "str2"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "hello",
+                    "hello"
+                ],
+                "expected_return": 1,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    "hello",
+                    "world"
+                ],
+                "expected_return": 0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q72",
+        "question_number": 72,
+        "question_text": "Write a program to check a string is palindrome or not.",
+        "title": "Check Palindrome String",
+        "evaluationType": "return_value",
+        "functionName": "isPalindrome",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "racecar"
+                ],
+                "expected_return": 1,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    "hello"
+                ],
+                "expected_return": 0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q73",
+        "question_number": 73,
+        "question_text": "Write a program to find a substring within a string. If found display its starting position.",
+        "title": "Find Substring Position",
+        "evaluationType": "stdout",
+        "functionName": "findSubstring",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str"
+            },
+            {
+                "type": "char*",
+                "name": "sub"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "hello world",
+                    "world"
+                ],
+                "expected_return": null,
+                "expected_stdout": "6"
+            },
+            {
+                "input": [
+                    "programming in C",
+                    "gram"
+                ],
+                "expected_return": null,
+                "expected_stdout": "3"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q74",
+        "question_number": 74,
+        "question_text": "Write a program to reverse a string.",
+        "title": "Reverse a String",
+        "evaluationType": "stdout",
+        "functionName": "reverseString",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "hello"
+                ],
+                "expected_return": null,
+                "expected_stdout": "olleh"
+            },
+            {
+                "input": [
+                    "OpenAI"
+                ],
+                "expected_return": null,
+                "expected_stdout": "IAnepO"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q75",
+        "question_number": 75,
+        "question_text": "Write a program to convert a string in lowercase.",
+        "title": "Convert String Lowercase",
+        "evaluationType": "stdout",
+        "functionName": "toLowercase",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "HELLO WORLD"
+                ],
+                "expected_return": null,
+                "expected_stdout": "hello world"
+            },
+            {
+                "input": [
+                    "OpenAI C-Coder"
+                ],
+                "expected_return": null,
+                "expected_stdout": "openai c-coder"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q76",
+        "question_number": 76,
+        "question_text": "Write a program to convert a string in uppercase.",
+        "title": "Uppercase String Converter",
+        "evaluationType": "stdout",
+        "functionName": "convertToUppercase",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "char*",
+                "name": "str"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    "hello world"
+                ],
+                "expected_return": null,
+                "expected_stdout": "HELLO WORLD"
+            },
+            {
+                "input": [
+                    "C-Programming 123"
+                ],
+                "expected_return": null,
+                "expected_stdout": "C-PROGRAMMING 123"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q76",
+        "question_number": 76,
+        "question_text": "Write a menu driven program to do following operation on two dimensional array A of size m x n. You should use user-defined functions which accept 2-D array A, and its size m and n as arguments. The options are:\n\n- To input elements into matrix of size m x n\n- To display elements of matrix of size m x n\n- Sum of all elements of matrix of size m x n\n- To display row-wise sum of matrix of size m x n\n- To display column-wise sum of matrix of size m x n\n- To create transpose of matrix B of size n x m",
+        "title": "2D Matrix Operations",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "int",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": "1\n2 2\n1 2\n3 4\n3\n",
+                "expected_return": 0,
+                "expected_stdout": "Sum of all elements: 10\n"
+            },
+            {
+                "input": "1\n2 2\n1 2\n3 4\n6\n",
+                "expected_return": 0,
+                "expected_stdout": "Transpose of matrix:\n1 3\n2 4\n"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q21",
+        "question_number": 21,
+        "question_text": "Write a program to check whether a triangle is valid or not, when the three angles of the triangle are entered by the user. A triangle is valid if the sum of all the three angles is equal to 180 degrees.",
+        "title": "Valid Triangle Check",
+        "evaluationType": "return_value",
+        "functionName": "isValidTriangle",
+        "returnType": "int",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "angle1"
+            },
+            {
+                "type": "int",
+                "name": "angle2"
+            },
+            {
+                "type": "int",
+                "name": "angle3"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    60,
+                    60,
+                    60
+                ],
+                "expected_return": 1,
+                "expected_stdout": ""
+            },
+            {
+                "input": [
+                    90,
+                    45,
+                    30
+                ],
+                "expected_return": 0,
+                "expected_stdout": ""
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q39",
+        "question_number": 39,
+        "question_text": "Write a program to print Fibonacci series of n terms where n is input by user : 0 1 1 2 3 5 8 13 24 .....",
+        "title": "Fibonacci Series Generator",
+        "evaluationType": "stdout",
+        "functionName": "printFibonacci",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    5
+                ],
+                "expected_return": null,
+                "expected_stdout": "0 1 1 2 3"
+            },
+            {
+                "input": [
+                    8
+                ],
+                "expected_return": null,
+                "expected_stdout": "0 1 1 2 3 5 8 13"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q57",
+        "question_number": 57,
+        "question_text": "Write a program to find the sum and average of one dimensional integer array.",
+        "title": "Sum and Average Calculation",
+        "evaluationType": "stdout",
+        "functionName": "calculateSumAndAverage",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "arr"
+            },
+            {
+                "type": "int",
+                "name": "size"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    [
+                        10,
+                        20,
+                        30,
+                        40
+                    ],
+                    4
+                ],
+                "expected_return": null,
+                "expected_stdout": "Sum: 100, Average: 25.00"
+            },
+            {
+                "input": [
+                    [
+                        5,
+                        5,
+                        5
+                    ],
+                    3
+                ],
+                "expected_return": null,
+                "expected_stdout": "Sum: 15, Average: 5.00"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q58",
+        "question_number": 58,
+        "question_text": "Write a program to swap first and last element of an integer 1-d array.",
+        "title": "Swap Array Ends",
+        "evaluationType": "stdout",
+        "functionName": "swapFirstAndLast",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "arr"
+            },
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": "5\n10 20 30 40 50",
+                "expected_return": null,
+                "expected_stdout": "50 20 30 40 10"
+            },
+            {
+                "input": "3\n1 2 3",
+                "expected_return": null,
+                "expected_stdout": "3 2 1"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q59",
+        "question_number": 59,
+        "question_text": "Write a program to reverse the element of an integer 1-D array.",
+        "title": "Reverse Integer Array",
+        "evaluationType": "stdout",
+        "functionName": "reverseArray",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "arr"
+            },
+            {
+                "type": "int",
+                "name": "size"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    5
+                ],
+                "expected_return": null,
+                "expected_stdout": "5 4 3 2 1"
+            },
+            {
+                "input": [
+                    [
+                        10,
+                        20
+                    ],
+                    2
+                ],
+                "expected_return": null,
+                "expected_stdout": "20 10"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q60",
+        "question_number": 60,
+        "question_text": "Write a program to find the largest and smallest element of an array.",
+        "title": "Find Array Extremes",
+        "evaluationType": "stdout",
+        "functionName": "findMinMax",
+        "returnType": "void",
+        "parameters": [
+            {
+                "type": "int*",
+                "name": "arr"
+            },
+            {
+                "type": "int",
+                "name": "n"
+            }
+        ],
+        "testCases": [
+            {
+                "input": [
+                    [
+                        3,
+                        1,
+                        4,
+                        1,
+                        5,
+                        9
+                    ],
+                    6
+                ],
+                "expected_return": null,
+                "expected_stdout": "Smallest: 1, Largest: 9"
+            },
+            {
+                "input": [
+                    [
+                        -10,
+                        0,
+                        50,
+                        -20,
+                        100
+                    ],
+                    5
+                ],
+                "expected_return": null,
+                "expected_stdout": "Smallest: -20, Largest: 100"
+            }
+        ]
+    },
+    {
+        "problem_id": "CS24102_Q61",
+        "question_number": 61,
+        "question_text": "Write a menu driven program with following option  \na. Accept elements of an array  \nb. Display elements of an array  \nc. Sort the array using insertion sort method  \nd. Sort the array using selection sort method  \ne. Sort the array using bubble sort method  \nWrite C functions for all options. The functions should have two parameters name of the array and number of elements in the array.",
+        "title": "Array Sorting Operations",
+        "evaluationType": "stdout",
+        "functionName": "main",
+        "returnType": "void",
+        "parameters": [],
+        "testCases": [
+            {
+                "input": "a 3 3 2 1 c b",
+                "expected_return": null,
+                "expected_stdout": "1 2 3 "
+            },
+            {
+                "input": "a 3 5 1 4 d b",
+                "expected_return": null,
+                "expected_stdout": "1 4 5 "
+            }
+        ]
+    }
+]
