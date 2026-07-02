@@ -194,6 +194,8 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
   const [activePEShop, setActivePEShop] = useState(null);
   const [activeEEModal, setActiveEEModal] = useState(null);
 
+  const [selectedSemester, setSelectedSemester] = useState(null);
+
   const renderSubjectHeader = (code, name) => (
     <section className="subject-header-box" style={{ marginBottom: '2.5rem' }}>
       <div className="subject-meta-left">
@@ -205,7 +207,7 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
           <div className="subject-title-sub">
             <span className="code-badge">{code}</span>
             <span className="bullet-separator">•</span>
-            <span className="sem-info">1st Semester</span>
+            <span className="sem-info">{selectedSemester === 1 ? '1st Semester' : '2nd Semester'}</span>
           </div>
         </div>
       </div>
@@ -257,7 +259,7 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
     </header>
   );
 
-  const renderMainMenu = () => {
+  const renderSemesterSelection = () => {
     return (
       <div className="dashboard-container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         {renderTopBar()}
@@ -271,25 +273,24 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
               </svg>
               <span>Back to Subjects</span>
             </button>
-            <h1 style={{fontFamily: 'var(--font-display, "Advercase", sans-serif)', fontSize: '3rem', margin: '0 0 2rem 0', color: 'var(--dash-text-color)'}}>Labs</h1>
+            <h1 style={{fontFamily: 'var(--font-display, "Advercase", sans-serif)', fontSize: '3rem', margin: '0 0 2rem 0', color: 'var(--dash-text-color)'}}>Select Semester</h1>
           </div>
           
           <div style={{ maxWidth: '1000px', margin: '0 auto', width: '100%' }}>
-            <h2 style={{fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dash-text-color)', marginBottom: '1rem', paddingLeft: '1rem'}}>Semester 2</h2>
             <div className="labs-main-grid" style={{ marginBottom: '3rem' }}>
-              {Object.entries(SEM2_LABS).map(([code, data]) => (
+              {[1, 2].map(sem => (
                 <button 
-                  key={code}
+                  key={sem}
                   className="subject-selection-btn lab-big-btn"
-                  onClick={() => setSelectedLab(code)}
+                  onClick={() => setSelectedSemester(sem)}
                 >
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem', width: '100%' }}>
-                    <div className="math-logo-box" style={{width: 64, height: 64, flexShrink: 0}}>
-                      {getSubjectIcon(code)}
+                    <div className="math-logo-box" style={{width: 64, height: 64, flexShrink: 0, fontSize: '1.5rem', fontWeight: 'bold'}}>
+                      S{sem}
                     </div>
                     <div className="btn-content-left">
-                      <span className="btn-primary-title" style={{fontSize: '1.4rem'}}>{data.name}</span>
-                      <span className="btn-secondary-code" style={{fontSize: '1.0rem'}}>{code}</span>
+                      <span className="btn-primary-title" style={{fontSize: '1.4rem'}}>Semester {sem}</span>
+                      <span className="btn-secondary-code" style={{fontSize: '1.0rem'}}>View Labs</span>
                     </div>
                   </div>
                   <svg className="btn-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{width: 32, height: 32}}>
@@ -298,10 +299,40 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
                 </button>
               ))}
             </div>
+          </div>
+        </div>
 
-            <h2 style={{fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dash-text-color)', marginBottom: '1rem', paddingLeft: '1rem'}}>Semester 1</h2>
-            <div className="labs-main-grid" style={{ marginBottom: '2rem' }}>
-              {Object.entries(SEM1_LABS).map(([code, data]) => (
+        <CreatorsSection theme={theme} />
+      </div>
+    );
+  };
+
+  const renderMainMenu = () => {
+    if (!selectedSemester) return renderSemesterSelection();
+
+    const labs = selectedSemester === 1 ? SEM1_LABS : SEM2_LABS;
+
+    return (
+      <div className="dashboard-container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        {renderTopBar()}
+        
+        <div style={{ padding: '0 2rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
+          <div style={{ maxWidth: '1000px', margin: '0 auto', width: '100%', paddingLeft: '1rem' }}>
+            <button className="back-subjects-btn" onClick={() => setSelectedSemester(null)} style={{marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: 'var(--dash-text-color)', cursor: 'pointer', fontFamily: 'var(--font-body)', fontSize: '1rem', fontWeight: '500'}}>
+              <svg className="btn-arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{width: 20, height: 20}}>
+                <line x1="19" y1="12" x2="5" y2="12" />
+                <polyline points="12 19 5 12 12 5" />
+              </svg>
+              <span>Back to Semesters</span>
+            </button>
+            <h1 style={{fontFamily: 'var(--font-display, "Advercase", sans-serif)', fontSize: '3rem', margin: '0 0 2rem 0', color: 'var(--dash-text-color)'}}>
+              Semester {selectedSemester} Labs
+            </h1>
+          </div>
+          
+          <div style={{ maxWidth: '1000px', margin: '0 auto', width: '100%' }}>
+            <div className="labs-main-grid" style={{ marginBottom: '3rem' }}>
+              {Object.entries(labs).map(([code, data]) => (
                 <button 
                   key={code}
                   className="subject-selection-btn lab-big-btn"
