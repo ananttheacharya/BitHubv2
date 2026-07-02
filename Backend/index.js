@@ -413,7 +413,7 @@ app.post('/api/practice/compile', async (req, res) => {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    compiler: 'gcc-head',
+                    compiler: 'gcc-head-c',
                     code: finalCode,
                     stdin: stdin
                 })

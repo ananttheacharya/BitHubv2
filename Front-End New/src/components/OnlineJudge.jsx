@@ -17,6 +17,7 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
 
   // Mobile specific state
   const [isMobile, setIsMobile] = useState(false);
+  const [mobileView, setMobileView] = useState('problem');
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   useEffect(() => {
@@ -44,7 +45,8 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
     setStatus("running");
     setOutput("Compiling and running...");
     
-    // Close drawer if open to show console
+    // Ensure we are in editor view
+    setMobileView('editor');
     setIsDrawerOpen(false);
 
     try {
@@ -89,6 +91,7 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
     } else {
       setOutput("No sample code available for this problem.");
     }
+    setMobileView('editor');
     setIsDrawerOpen(false);
   };
 
@@ -204,44 +207,107 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
 
   if (isMobile) {
     return (
-      <div className="cs24102-mobile-container" style={{ height: 'calc(100vh - 80px)', display: 'flex', flexDirection: 'column' }}>
+      <div className="cs24102-mobile-container" style={{ height: 'calc(100vh - 80px)', display: 'flex', flexDirection: 'column', position: 'relative' }}>
         
-        {/* Mobile Header matching Practice Mode */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'var(--dash-bg)', borderBottom: '1px solid var(--glass-border)' }}>
-          <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#d97b93', fontWeight: 'bold', fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer' }}>
+        {/* Mobile Header */}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'var(--dash-bg)', borderBottom: '1px solid var(--glass-border)', flexShrink: 0 }}>
+          <button onClick={mobileView === 'editor' ? () => setMobileView('problem') : onBack} style={{ background: 'none', border: 'none', color: '#d97b93', fontWeight: 'bold', fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer' }}>
             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2.5" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             Back
           </button>
           
-          <button className="btn-pink" onClick={() => setIsDrawerOpen(true)}>
-            View Problem
-          </button>
+          <h3 style={{ margin: 0, color: 'var(--dash-text-color)', fontSize: '1.2rem' }}>Q{problem.question_number}</h3>
         </div>
 
-        {/* Main Workspace */}
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-          {renderEditor()}
-          {renderConsole()}
-        </div>
+        {/* View Switching */}
+        {mobileView === 'problem' ? (
+          <div style={{ flex: 1, overflowY: 'auto', padding: '1rem', paddingBottom: '80px', display: 'flex', flexDirection: 'column' }}>
+            {renderProblemContent()}
+            
+            {/* Floating Play Button */}
+            <button 
+              onClick={() => setMobileView('editor')}
+              style={{
+                position: 'fixed',
+                bottom: '3rem',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                background: 'linear-gradient(135deg, #d97b93, #c55a73)',
+                color: 'white',
+                border: 'none',
+                borderRadius: '50px',
+                padding: '1rem 2.5rem',
+                fontSize: '1.2rem',
+                fontWeight: 'bold',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.8rem',
+                boxShadow: '0 8px 25px rgba(217, 123, 147, 0.5)',
+                cursor: 'pointer',
+                zIndex: 100
+              }}
+            >
+              <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2.5" fill="white"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              Solve Problem
+            </button>
+          </div>
+        ) : (
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+            <div style={{ padding: '0.5rem 1rem', background: 'var(--dash-bg)', display: 'flex', justifyContent: 'flex-end', borderBottom: '1px solid var(--glass-border)' }}>
+              <button 
+                onClick={() => setIsDrawerOpen(true)}
+                style={{
+                  background: 'var(--glass-bg)',
+                  border: '1px solid var(--glass-border)',
+                  color: 'var(--dash-text-color)',
+                  padding: '0.5rem 1rem',
+                  borderRadius: '20px',
+                  fontSize: '0.9rem',
+                  fontWeight: 'bold',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  cursor: 'pointer'
+                }}
+              >
+                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2.5" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+                View Problem
+              </button>
+            </div>
+            {renderEditor()}
+            {renderConsole()}
+          </div>
+        )}
 
         {/* Problem Statement Drawer Overlay */}
         {isDrawerOpen && (
-          <div className="problem-drawer-overlay" onClick={() => setIsDrawerOpen(false)} />
+          <div className="problem-drawer-overlay" onClick={() => setIsDrawerOpen(false)} style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.5)', zIndex: 1000 }} />
         )}
         
         {/* Problem Statement Drawer */}
-        <div className={`problem-drawer ${isDrawerOpen ? 'open' : ''}`}>
-          <div className="drawer-header">
+        <div className={`problem-drawer ${isDrawerOpen ? 'open' : ''}`} style={{
+          position: 'fixed',
+          top: 0,
+          left: isDrawerOpen ? 0 : '-100%',
+          width: '85%',
+          height: '100%',
+          background: 'var(--dash-bg)',
+          zIndex: 1001,
+          transition: 'left 0.3s ease',
+          boxShadow: isDrawerOpen ? '5px 0 20px rgba(0,0,0,0.3)' : 'none',
+          display: 'flex',
+          flexDirection: 'column'
+        }}>
+          <div className="drawer-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', borderBottom: '1px solid var(--glass-border)' }}>
             <h3 style={{ margin: 0, color: 'var(--dash-text-color)' }}>Q{problem.question_number}</h3>
             <button onClick={() => setIsDrawerOpen(false)} style={{ background: 'none', border: 'none', color: 'var(--dash-text-color)', cursor: 'pointer', padding: '0.5rem' }}>
               <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
           </div>
-          <div className="drawer-content">
+          <div className="drawer-content" style={{ padding: '1rem', overflowY: 'auto', flex: 1 }}>
             {renderProblemContent()}
           </div>
         </div>
-
       </div>
     );
   }

@@ -732,12 +732,20 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
 
 const ME24102Modal = ({ activeMEModal, setActiveMEModal, renderImageIcon }) => {
   const [files, setFiles] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
     fetch(`/api/study-material/files?folder=ME24102/${encodeURIComponent(activeMEModal)}`)
       .then(res => res.json())
-      .then(data => setFiles(data.files || []))
-      .catch(console.error);
+      .then(data => {
+        setFiles(data.files || []);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error(err);
+        setLoading(false);
+      });
   }, [activeMEModal]);
 
   return (
@@ -754,8 +762,10 @@ const ME24102Modal = ({ activeMEModal, setActiveMEModal, renderImageIcon }) => {
         </div>
         <div className="lab-modal-body">
           <div className="subjects-button-list" style={{display: 'flex', flexDirection: 'column', gap: '1rem'}}>
-            {files.length === 0 ? (
+            {loading ? (
               <p style={{ color: 'var(--dash-text-color)', textAlign: 'center' }}>Loading files...</p>
+            ) : files.length === 0 ? (
+              <p style={{ color: 'var(--dash-text-color)', textAlign: 'center' }}>No files found in {activeMEModal}</p>
             ) : (
               files.map((file, idx) => (
                 <button 
