@@ -617,40 +617,11 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
 
       {/* --- ME24102 Images Modal --- */}
       {activeMEModal && (
-        <div className="lab-modal-overlay" onClick={() => setActiveMEModal(null)}>
-          <div className="lab-modal-content" onClick={e => e.stopPropagation()}>
-            <div className="lab-modal-header">
-              <h3 style={{fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dash-text-color)'}}>{activeMEModal} Samples</h3>
-              <button className="lab-modal-close" onClick={() => setActiveMEModal(null)}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width: 24, height: 24}}>
-                  <line x1="18" y1="6" x2="6" y2="18" />
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
-              </button>
-            </div>
-            <div className="lab-modal-body">
-              <div className="subjects-button-list" style={{display: 'flex', flexDirection: 'column', gap: '1rem'}}>
-                {[1, 2, 3].map(num => (
-                  <button 
-                    key={num}
-                    className="subject-selection-btn"
-                    onClick={() => window.open(`/study-material/ME24102/${activeMEModal}/IMG_${num}.jpg`, '_blank')}
-                  >
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem' }}>
-                      {renderImageIcon()}
-                      <div className="btn-content-left">
-                        <span className="btn-primary-title" style={{ fontSize: '1.1rem' }}>Sample Image {num}</span>
-                      </div>
-                    </div>
-                    <svg className="btn-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <polyline points="9 18 15 12 9 6" />
-                    </svg>
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+        <ME24102Modal 
+          activeMEModal={activeMEModal} 
+          setActiveMEModal={setActiveMEModal} 
+          renderImageIcon={renderImageIcon} 
+        />
       )}
 
       {/* --- PE24102 Shop Modal --- */}
@@ -755,6 +726,58 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
           </div>
         </div>
       )}
+    </div>
+  );
+};
+
+const ME24102Modal = ({ activeMEModal, setActiveMEModal, renderImageIcon }) => {
+  const [files, setFiles] = useState([]);
+
+  useEffect(() => {
+    fetch(`/api/study-material/files?folder=ME24102/${encodeURIComponent(activeMEModal)}`)
+      .then(res => res.json())
+      .then(data => setFiles(data.files || []))
+      .catch(console.error);
+  }, [activeMEModal]);
+
+  return (
+    <div className="lab-modal-overlay" onClick={() => setActiveMEModal(null)}>
+      <div className="lab-modal-content" onClick={e => e.stopPropagation()}>
+        <div className="lab-modal-header">
+          <h3 style={{fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dash-text-color)'}}>{activeMEModal} Samples</h3>
+          <button className="lab-modal-close" onClick={() => setActiveMEModal(null)}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width: 24, height: 24}}>
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+        <div className="lab-modal-body">
+          <div className="subjects-button-list" style={{display: 'flex', flexDirection: 'column', gap: '1rem'}}>
+            {files.length === 0 ? (
+              <p style={{ color: 'var(--dash-text-color)', textAlign: 'center' }}>Loading files...</p>
+            ) : (
+              files.map((file, idx) => (
+                <button 
+                  key={idx}
+                  className="subject-selection-btn"
+                  onClick={() => window.open(`/study-material/ME24102/${encodeURIComponent(activeMEModal)}/${encodeURIComponent(file)}`, '_blank')}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem' }}>
+                    {renderImageIcon()}
+                    <div className="btn-content-left">
+                      <span className="btn-primary-title" style={{ fontSize: '1.1rem' }}>{file.split('.')[0]}</span>
+                    </div>
+                  </div>
+                  <svg className="btn-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </button>
+              ))
+            )}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

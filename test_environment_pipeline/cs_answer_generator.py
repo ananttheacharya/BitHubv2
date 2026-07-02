@@ -71,11 +71,13 @@ The output MUST exactly match this JSON schema:
   "functionName": "Name of the C function to implement",
   "returnType": "C return type (e.g. 'int', 'void', 'int*')",
   "parameters": [
-    {"type": "int", "name": "a"}
+    {"type": "int", "name": "a"},
+    {"type": "int[]", "name": "arr"},
+    {"type": "int", "name": "n"}
   ],
   "testCases": [
     {
-      "input": [1, 2],
+      "input": [1, [1, 2, 3], 3],
       "expected_return": 3,
       "expected_stdout": ""
     }
@@ -83,14 +85,22 @@ The output MUST exactly match this JSON schema:
   "solutionCode": "A complete, working C function that solves the problem. Do NOT include #include <stdio.h> or int main(), ONLY the function definition."
 }
 
+Rules for parameters and testCases:
+1. ALWAYS use C primitive types (int, float, double, char, etc.) or 1D/2D arrays of primitives.
+2. For arrays, the type MUST clearly be an array (e.g., 'int[]' or 'int[10]' or 'int[3][3]' or 'int*').
+3. For array inputs, the testCase input must be a JSON array: [1, 2, 3]. For 2D arrays, a nested JSON array: [[1, 2], [3, 4]].
+4. NEVER pass custom structs as arguments. If a question asks for a struct, break the struct down into its primitive fields and pass them as separate arguments to the function, or write the testcase such that the function can take primitives.
+5. If the function expects a pointer to modify a value (e.g., swapping two integers `void swap(int* a, int* b)`), the parameter type MUST be `int*`. But if possible, avoid passing by pointer if returning the value makes more sense, unless it's strictly required by the question.
+6. The testCase "input" array must exactly match the length and order of the "parameters" array.
+
 Rules for evaluationType:
 - Use "stdout" if the problem asks to print a pattern, print Hello World, or display specific formatted output. 
-- Use "return_value" if the problem asks to calculate, compute, swap, or return a specific logical/mathematical value.
+- Use "return_value" if the problem asks to calculate, compute, or return a specific logical/mathematical value.
 - If evaluationType is "stdout", the test case MUST have "expected_stdout" matching the exact output, and "expected_return" can be null.
 - If evaluationType is "return_value", "expected_return" must contain the expected result, and "expected_stdout" can be "".
 
 Generate 2 diverse test cases per problem.
-The solutionCode MUST be valid C code implementing the functionName.
+The solutionCode MUST be valid C code implementing the functionName and EXACTLY matching the parameters specified.
 Return ONLY valid JSON.
 """
 

@@ -11,6 +11,42 @@ app.use(express.json());
 const STUDY_MATERIAL_DIR = path.resolve(__dirname, '../Study Material');
 app.use('/study-material', express.static(STUDY_MATERIAL_DIR));
 
+// Dynamic file lister for study material
+app.get('/api/study-material/files', async (req, res) => {
+    try {
+        const folder = req.query.folder;
+        if (!folder) return res.status(400).json({ error: 'Folder required' });
+        
+        // Prevent path traversal
+        const safeFolder = path.normalize(folder).replace(/^(\.\.(\/|\\|$))+/, '');
+        const targetPath = path.join(STUDY_MATERIAL_DIR, safeFolder);
+        
+        try {
+            const stat = await fs.stat(targetPath);
+            if (!stat.isDirectory()) {
+                return res.json({ files: [] });
+            }
+        } catch(e) {
+            return res.json({ files: [] }); // Folder not found
+        }
+
+        const files = await fs.readdir(targetPath);
+        // Only return files, not directories
+        const fileList = [];
+        for (const file of files) {
+            const filePath = path.join(targetPath, file);
+            const fileStat = await fs.stat(filePath);
+            if (fileStat.isFile()) {
+                fileList.push(file);
+            }
+        }
+        
+        res.json({ files: fileList });
+    } catch (error) {
+        console.error('Error listing study material files:', error);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+});
 // Admin routes
 const adminRoutes = require('./admin_routes');
 app.use('/api/admin', adminRoutes);
@@ -293,38 +329,81 @@ app.post('/api/practice/compile', async (req, res) => {
         
         // Dynamically build a C wrapper if it's an online judge problem
         if (problem && problem.testCases && problem.testCases.length > 0) {
-            // Check if user accidentally included their own main
             const hasMain = code.includes("int main(") || code.includes("void main(");
+            let includes = `\n#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n#include <stdbool.h>\n#include <math.h>\n\n`;
             
-            if (!hasMain && problem.evaluationType === "return_value") {
-                let wrapper = `\n\n#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n\nint main() {\n    printf("Running %d Test Cases...\\n\\n", ${problem.testCases.length});\n`;
+            // Remove user's own includes so we don't duplicate or we just put ours at the very top.
+            finalCode = includes + code;
+
+            if (!hasMain) {
+                let wrapper = `\nint main() {\n`;
+                if (problem.evaluationType === "return_value") {
+                    wrapper += `    printf("Running %d Test Cases...\\n\\n", ${problem.testCases.length});\n`;
+                }
                 
                 problem.testCases.forEach((tc, idx) => {
-                    let args = tc.input ? tc.input.map(arg => typeof arg === "string" ? `"${arg}"` : arg).join(', ') : "";
-                    let expected = typeof tc.expected_return === "string" ? `"${tc.expected_return}"` : tc.expected_return;
+                    let preamble = "";
+                    let argsList = [];
                     
-                    wrapper += `    ${problem.returnType} res${idx} = ${problem.functionName}(${args});\n`;
-                    if (problem.returnType === "int" || problem.returnType === "float" || problem.returnType === "double" || problem.returnType === "char") {
-                        let fmt = problem.returnType === "int" ? "%d" : (problem.returnType === "char" ? "%c" : "%f");
-                        wrapper += `    if (res${idx} == ${expected}) { printf("✅ [TEST_PASS] Test ${idx} Passed\\n"); } else { printf("❌ [TEST_FAIL] Test ${idx} Failed: Expected ${expected}, got ${fmt}\\n", res${idx}); }\n`;
-                    } else if (problem.returnType === "char*") {
-                        wrapper += `    if (strcmp(res${idx}, ${expected}) == 0) { printf("✅ [TEST_PASS] Test ${idx} Passed\\n"); } else { printf("❌ [TEST_FAIL] Test ${idx} Failed: Expected %s, got %s\\n", ${expected}, res${idx}); }\n`;
-                    } else {
-                        wrapper += `    printf("🔹 [TEST_LOG] Executed Test ${idx}\\n");\n`;
+                    if (tc.input) {
+                        tc.input.forEach((arg, i) => {
+                            let pType = problem.parameters && problem.parameters[i] ? problem.parameters[i].type : null;
+                            if (Array.isArray(arg)) {
+                                let baseType = pType ? pType.replace(/\[.*?\]/g, '').replace(/\*/g, '').trim() : "int";
+                                if (Array.isArray(arg[0])) { // 2D array
+                                    const flat = arg.map(r => "{" + r.map(x => typeof x === 'string' ? '"' + x + '"' : x).join(",") + "}").join(",");
+                                    preamble += `    ${baseType} arr_${idx}_${i}[][${arg[0].length}] = {${flat}};\n`;
+                                    argsList.push(`arr_${idx}_${i}`);
+                                } else { // 1D array
+                                    preamble += `    ${baseType} arr_${idx}_${i}[] = {${arg.map(x => typeof x === 'string' ? '"' + x + '"' : x).join(",")}};\n`;
+                                    argsList.push(`arr_${idx}_${i}`);
+                                }
+                            } else if (typeof arg === "string") {
+                                argsList.push(`"${arg}"`);
+                            } else if (typeof arg === "object" && arg !== null) {
+                                let fields = Object.values(arg).map(v => typeof v === 'string' ? `"${v}"` : v).join(", ");
+                                let baseType = pType ? pType.replace(/\*/g, '').trim() : "struct Unknown";
+                                if (pType && pType.includes('*')) {
+                                    preamble += `    ${baseType} obj_${idx}_${i} = {${fields}};\n`;
+                                    argsList.push(`&obj_${idx}_${i}`);
+                                } else {
+                                    preamble += `    ${baseType} obj_${idx}_${i} = {${fields}};\n`;
+                                    argsList.push(`obj_${idx}_${i}`);
+                                }
+                            } else {
+                                argsList.push(arg);
+                            }
+                        });
+                    }
+                    
+                    let args = argsList.join(', ');
+                    wrapper += preamble;
+
+                    if (problem.evaluationType === "return_value") {
+                        let expected = typeof tc.expected_return === "string" ? `"${tc.expected_return}"` : tc.expected_return;
+                        let rType = problem.returnType ? problem.returnType.replace(/\s+/g, '') : "void";
+                        if (rType !== "void") {
+                            wrapper += `    ${problem.returnType} res${idx} = ${problem.functionName}(${args});\n`;
+                            if (rType === "int" || rType === "float" || rType === "double" || rType === "char" || rType === "long" || rType === "longlong") {
+                                let fmt = rType === "char" ? "%c" : (rType.includes("float") || rType.includes("double") ? "%f" : "%d");
+                                wrapper += `    if (res${idx} == ${expected}) { printf("✅ [TEST_PASS] Test ${idx} Passed\\n"); } else { printf("❌ [TEST_FAIL] Test ${idx} Failed: Expected ${expected}, got ${fmt}\\n", res${idx}); }\n`;
+                            } else if (rType === "char*") {
+                                wrapper += `    if (strcmp(res${idx}, ${expected}) == 0) { printf("✅ [TEST_PASS] Test ${idx} Passed\\n"); } else { printf("❌ [TEST_FAIL] Test ${idx} Failed: Expected %s, got %s\\n", ${expected}, res${idx}); }\n`;
+                            } else {
+                                wrapper += `    printf("🔹 [TEST_LOG] Executed Test ${idx}\\n");\n`;
+                            }
+                        } else {
+                            wrapper += `    ${problem.functionName}(${args});\n`;
+                            wrapper += `    printf("🔹 [TEST_LOG] Executed Test ${idx}\\n");\n`;
+                        }
+                    } else if (problem.evaluationType === "stdout") {
+                        wrapper += `    printf("--- Test Case ${idx} ---\\n");\n`;
+                        wrapper += `    ${problem.functionName}(${args});\n`;
+                        wrapper += `    printf("\\n");\n`;
                     }
                 });
                 wrapper += `    return 0;\n}\n`;
-                finalCode = code + wrapper;
-            } else if (!hasMain && problem.evaluationType === "stdout" && problem.functionName && problem.functionName !== "main") {
-                let wrapper = `\n\n#include <stdio.h>\n\nint main() {\n`;
-                problem.testCases.forEach((tc, idx) => {
-                    let args = tc.input ? tc.input.map(arg => typeof arg === "string" ? `"${arg}"` : arg).join(', ') : "";
-                    wrapper += `    printf("--- Test Case ${idx} ---\\n");\n`;
-                    wrapper += `    ${problem.functionName}(${args});\n`;
-                    wrapper += `    printf("\\n");\n`;
-                });
-                wrapper += `    return 0;\n}\n`;
-                finalCode = code + wrapper;
+                finalCode = finalCode + wrapper;
             }
         }
 

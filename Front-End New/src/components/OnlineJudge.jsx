@@ -85,7 +85,7 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
 
   const viewSampleCode = () => {
     if (problem.solutionCode) {
-      setCode(problem.solutionCode);
+      setCode(`/*\n * DISCLAIMER: This environment is purely for practicing syntax and logic.\n * Please write the traditional answers in your lab manual.\n */\n\n${problem.solutionCode}`);
     } else {
       setOutput("No sample code available for this problem.");
     }
@@ -101,6 +101,9 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
 
   const renderProblemContent = () => (
     <>
+      <div style={{ background: 'rgba(255, 193, 7, 0.1)', borderLeft: '4px solid #ffc107', padding: '1rem', marginBottom: '1.5rem', borderRadius: '4px', color: 'var(--dash-text-color)', fontSize: '0.95rem' }}>
+        <strong>Note:</strong> This environment is purely for practicing syntax and logic. The code written here should <em>not</em> be copied directly into your lab manual. Please write a traditional answer for your manual submissions.
+      </div>
       <div style={{ color: 'var(--dash-text-color)', lineHeight: '1.6', fontSize: '1.1rem' }} dangerouslySetInnerHTML={{ __html: problem.question_text }} />
       
       {problem.testCases && problem.testCases.length > 0 && (

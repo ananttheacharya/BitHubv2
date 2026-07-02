@@ -80,18 +80,6 @@ function SubjectSelector({ onSelectSubject, onBackToLanding, theme, onToggleThem
             </span>
           </button>
 
-          {/* Change Campus Button */}
-          <button 
-            className="change-campus-btn" 
-            onClick={onBackToLanding} 
-            title="Switch Campus / Return to Main Landing"
-            id="change-campus-button"
-          >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="btn-icon">
-              <path d="M16 17l5-5-5-5M21 12H9M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
-            </svg>
-            <span>Change Campus</span>
-          </button>
 
           {/* Campus Selector Dropdown (matches visual drawing) */}
           <div className="campus-dropdown-container" onClick={(e) => e.stopPropagation()}>
