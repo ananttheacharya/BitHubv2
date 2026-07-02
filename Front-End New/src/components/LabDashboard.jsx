@@ -4,15 +4,17 @@ import CS24102Dashboard from './CS24102Dashboard';
 import Toast from './Toast';
 import './LabDashboard.css';
 
-// Hardcoded registry for Lab materials
-const LAB_DATA = {
-  "PH24102": { name: "Physics Lab", icon: "flask" },
-  "EE24102": { name: "Electrical Lab", icon: "chip" },
-  "CS24102": { name: "Programming for Problem Solving Lab", icon: "code" },
+const SEM1_LABS = {
   "ME24102": { name: "Engineering Drawing", icon: "pencil" },
   "EC24102": { name: "Electrical Engineering", icon: "chip" },
   "CH24102": { name: "Chemistry Lab", icon: "flask" },
   "PE24102": { name: "Engineering Workshop", icon: "wrench" }
+};
+
+const SEM2_LABS = {
+  "PH24102": { name: "Physics Lab", icon: "flask" },
+  "EE24102": { name: "Electrical Lab", icon: "chip" },
+  "CS24102": { name: "Programming for Problem Solving Lab", icon: "code" }
 };
 
 const meTopics = [
@@ -272,27 +274,54 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
             <h1 style={{fontFamily: 'var(--font-display, "Advercase", sans-serif)', fontSize: '3rem', margin: '0 0 2rem 0', color: 'var(--dash-text-color)'}}>Labs</h1>
           </div>
           
-          <div className="labs-main-grid">
-            {Object.entries(LAB_DATA).map(([code, data]) => (
-              <button 
-                key={code}
-                className="subject-selection-btn lab-big-btn"
-                onClick={() => setSelectedLab(code)}
-              >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem', width: '100%' }}>
-                  <div className="math-logo-box" style={{width: 64, height: 64, flexShrink: 0}}>
-                    {getSubjectIcon(code)}
+          <div style={{ maxWidth: '1000px', margin: '0 auto', width: '100%' }}>
+            <h2 style={{fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dash-text-color)', marginBottom: '1rem', paddingLeft: '1rem'}}>Semester 2</h2>
+            <div className="labs-main-grid" style={{ marginBottom: '3rem' }}>
+              {Object.entries(SEM2_LABS).map(([code, data]) => (
+                <button 
+                  key={code}
+                  className="subject-selection-btn lab-big-btn"
+                  onClick={() => setSelectedLab(code)}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem', width: '100%' }}>
+                    <div className="math-logo-box" style={{width: 64, height: 64, flexShrink: 0}}>
+                      {getSubjectIcon(code)}
+                    </div>
+                    <div className="btn-content-left">
+                      <span className="btn-primary-title" style={{fontSize: '1.4rem'}}>{data.name}</span>
+                      <span className="btn-secondary-code" style={{fontSize: '1.0rem'}}>{code}</span>
+                    </div>
                   </div>
-                  <div className="btn-content-left">
-                    <span className="btn-primary-title" style={{fontSize: '1.4rem'}}>{data.name}</span>
-                    <span className="btn-secondary-code" style={{fontSize: '1.0rem'}}>{code}</span>
+                  <svg className="btn-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{width: 32, height: 32}}>
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+              ))}
+            </div>
+
+            <h2 style={{fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dash-text-color)', marginBottom: '1rem', paddingLeft: '1rem'}}>Semester 1</h2>
+            <div className="labs-main-grid" style={{ marginBottom: '2rem' }}>
+              {Object.entries(SEM1_LABS).map(([code, data]) => (
+                <button 
+                  key={code}
+                  className="subject-selection-btn lab-big-btn"
+                  onClick={() => setSelectedLab(code)}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '1.2rem', width: '100%' }}>
+                    <div className="math-logo-box" style={{width: 64, height: 64, flexShrink: 0}}>
+                      {getSubjectIcon(code)}
+                    </div>
+                    <div className="btn-content-left">
+                      <span className="btn-primary-title" style={{fontSize: '1.4rem'}}>{data.name}</span>
+                      <span className="btn-secondary-code" style={{fontSize: '1.0rem'}}>{code}</span>
+                    </div>
                   </div>
-                </div>
-                <svg className="btn-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{width: 32, height: 32}}>
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
-              </button>
-            ))}
+                  <svg className="btn-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{width: 32, height: 32}}>
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -546,7 +575,7 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
         </div>
 
         <div style={{ maxWidth: '1000px', width: '100%', margin: '0 auto' }}>
-          {renderSubjectHeader(selectedLab, LAB_DATA[selectedLab].name)}
+          {renderSubjectHeader(selectedLab, (SEM1_LABS[selectedLab] || SEM2_LABS[selectedLab]).name)}
           {renderLabContent()}
         </div>
       </div>

@@ -102,8 +102,8 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
         </div>
 
         {/* Right Side: Editor & Output */}
-        <div className="oj-panel editor-panel" style={{ display: 'flex', flexDirection: 'column' }}>
-          <div className="oj-editor-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+        <div className="oj-panel editor-panel">
+          <div className="oj-editor-header" style={{ padding: '0.5rem 1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid var(--glass-border)', background: 'var(--glass-bg)' }}>
             <span style={{ color: 'var(--dash-text-color)', fontWeight: 'bold' }}>C Compiler (gcc)</span>
             <button 
               className="subject-selection-btn" 
@@ -115,7 +115,7 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
             </button>
           </div>
           
-          <div className="editor-container" style={{ flex: 1, borderRadius: '8px', overflow: 'hidden', border: '1px solid var(--glass-border)' }}>
+          <div className="editor-container">
             <Editor
               height="100%"
               defaultLanguage="c"
@@ -137,12 +137,16 @@ const OnlineJudge = ({ problem, theme, onBack }) => {
             />
           </div>
 
-          <div className="output-panel" style={{ height: '200px', marginTop: '1rem', background: 'var(--glass-bg)', borderRadius: '8px', border: '1px solid var(--glass-border)', display: 'flex', flexDirection: 'column' }}>
-            <div style={{ padding: '0.5rem 1rem', borderBottom: '1px solid var(--glass-border)', display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--dash-text-color)' }}>
-              <strong>Terminal</strong>
+          <div className="output-panel">
+            <div style={{ padding: '0.5rem 1rem', borderBottom: '1px solid #333', display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#ccc', background: '#252526' }}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{width: 16, height: 16}}>
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+              <strong>Console</strong>
               <div style={{ width: '10px', height: '10px', borderRadius: '50%', background: getStatusColor(), marginLeft: 'auto' }}></div>
             </div>
-            <div style={{ padding: '1rem', flex: 1, overflowY: 'auto', fontFamily: 'monospace', color: 'var(--dash-text-color)', whiteSpace: 'pre-wrap' }}>
+            <div style={{ padding: '1rem', flex: 1, overflowY: 'auto', fontFamily: 'monospace', color: '#e5e5e5', whiteSpace: 'pre-wrap', fontSize: '0.9rem' }}>
               {output || "Output will appear here..."}
             </div>
           </div>

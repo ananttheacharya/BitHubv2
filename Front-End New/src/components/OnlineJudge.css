@@ -1,36 +1,49 @@
 .oj-container {
     padding: 1rem 2rem;
+    height: calc(100vh - 100px); /* Full screen minus header */
+    box-sizing: border-box;
 }
 
 .oj-layout {
     display: flex;
-    gap: 2rem;
-    height: 100%;
+    gap: 1rem;
+    height: calc(100% - 60px);
 }
 
 .oj-panel {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    overflow: hidden;
 }
 
 .problem-panel {
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: 12px;
+    flex: 0 0 40%;
     padding: 1.5rem;
     overflow-y: auto;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .editor-panel {
-    /* Transparent or subtle background */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .editor-container {
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-height: 0;
+}
+
+.output-panel {
+    height: 250px;
+    border-top: 1px solid var(--glass-border);
+    display: flex;
+    flex-direction: column;
+    background: #1e1e1e; /* Darker terminal look */
 }
 
 @media (max-width: 900px) {
@@ -44,5 +57,10 @@
     
     .editor-container {
         height: 500px;
+    }
+    
+    .problem-panel {
+        flex: none;
+        max-height: 400px;
     }
 }

@@ -388,17 +388,22 @@ app.post('/api/practice/compile', async (req, res) => {
 // ============================================================
 app.get('/api/cs-problems', async (req, res) => {
     try {
-        // Try reading from the generated metadata file directly
-        const metadataPath = path.resolve(__dirname, '../test_environment_pipeline/answers/CS24102_metadata.json');
-        try {
-            const data = await fs.readFile(metadataPath, 'utf8');
-            const problems = JSON.parse(data);
-            res.json({ problems });
-        } catch (e) {
-            console.warn("Could not read CS24102_metadata.json, falling back to mock data");
-            res.json({ problems: [] });
-        }
+        const sql = `SELECT JSON_ARRAYAGG(JSON_OBJECT(
+            'problem_id', problem_id,
+            'question_number', question_number,
+            'title', title,
+            'question_text', question_text,
+            'evaluationType', evaluationType,
+            'functionName', functionName,
+            'returnType', returnType,
+            'parameters', parameters,
+            'testCases', testCases
+        )) FROM cs_problems ORDER BY question_number ASC;`;
+        
+        const result = await queryDB(sql);
+        res.json({ problems: result || [] });
     } catch (err) {
+        console.error("DB Fetch Error for cs_problems:", err);
         res.status(500).json({ error: err.message });
     }
 });
