@@ -26,6 +26,7 @@ function App() {
   const [theme, setTheme] = useState('light'); // 'light', 'dark'
   const [selectedSubjectCode, setSelectedSubjectCode] = useState(null);
   
+  const [isMobileMode, setIsMobileMode] = useState(false);
   const [toastVisible, setToastVisible] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
   const timerRef = useRef(null);
@@ -35,6 +36,19 @@ function App() {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
+
+  /* Synchronize force-mobile-mode class with React state */
+  useEffect(() => {
+    if (isMobileMode) {
+      document.body.classList.add('force-mobile-mode');
+    } else {
+      document.body.classList.remove('force-mobile-mode');
+    }
+  }, [isMobileMode]);
+
+  const toggleMobileMode = useCallback(() => {
+    setIsMobileMode(prev => !prev);
+  }, []);
 
   /* Toggle Light / Dark Mode globally */
   const toggleTheme = useCallback(() => {
@@ -179,9 +193,10 @@ function App() {
 
   // PAGE VIEW ROUTER
   const renderContent = () => {
+    let content;
     if (view === 'subject-dashboard' && selectedSubjectCode) {
       if (selectedSubjectCode.startsWith('LAB-')) {
-        return (
+        content = (
           <Suspense fallback={<div className="practice-loader-container"><div className="practice-spinner"></div></div>}>
             <LabDashboard 
               subjectCode={selectedSubjectCode}
@@ -191,22 +206,20 @@ function App() {
             />
           </Suspense>
         );
+      } else {
+        content = (
+          <Suspense fallback={<div className="practice-loader-container"><div className="practice-spinner"></div></div>}>
+            <JaipurDashboard 
+              subjectCode={selectedSubjectCode}
+              theme={theme} 
+              onToggleTheme={toggleTheme} 
+              onBack={() => setView('subject-selector')} 
+            />
+          </Suspense>
+        );
       }
-
-      return (
-        <Suspense fallback={<div className="practice-loader-container"><div className="practice-spinner"></div></div>}>
-          <JaipurDashboard 
-            subjectCode={selectedSubjectCode}
-            theme={theme} 
-            onToggleTheme={toggleTheme} 
-            onBack={() => setView('subject-selector')} 
-          />
-        </Suspense>
-      );
-    }
-
-    if (view === 'subject-selector') {
-      return (
+    } else if (view === 'subject-selector') {
+      content = (
         <Suspense fallback={<div className="practice-loader-container"><div className="practice-spinner"></div></div>}>
           <SubjectSelector
             theme={theme}
@@ -219,71 +232,89 @@ function App() {
           />
         </Suspense>
       );
+    } else {
+      content = (
+        <main className="landing-page" id="landing-page">
+          {/* Light/Dark Toggle Switch on landing page top right */}
+          <div className="landing-theme-toggle-wrapper">
+            <button 
+              className="theme-toggle-btn" 
+              onClick={toggleTheme}
+              title={`Switch to ${theme === 'light' ? 'Dark' : 'Light'} Mode`}
+              aria-label="Toggle theme mode"
+              id="landing-theme-toggle"
+            >
+              {theme === 'light' ? (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="toggle-icon">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+                </svg>
+              ) : (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="toggle-icon">
+                  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                </svg>
+              )}
+              <span className="theme-toggle-slider">
+                <span className="theme-toggle-knob" />
+              </span>
+            </button>
+          </div>
+
+          <h1 className="landing-title" id="bithub-title">BitHub</h1>
+          <p className="landing-subtitle" id="campus-subtitle">Select your campus</p>
+
+          <div className="campus-grid" id="campus-grid">
+            <CampusCard
+              name="JAIPUR"
+              image={jaipurImg}
+              href="#"
+              disabled={false}
+              onClick={() => setView('subject-selector')}
+            />
+            <CampusCard
+              name="MESRA"
+              image={mesraImg}
+              href="../index.html"
+              disabled={false}
+            />
+          </div>
+
+          <Toast message={toastMessage} visible={toastVisible} />
+
+          <footer className="landing-footer" id="landing-footer">
+            © 2025–2026 Birla Institute of Technology | Team BitHub
+          </footer>
+        </main>
+      );
     }
 
     return (
-      <main className="landing-page" id="landing-page">
-        
-        {/* Light/Dark Toggle Switch on landing page top right */}
-        <div className="landing-theme-toggle-wrapper">
-          <button 
-            className="theme-toggle-btn" 
-            onClick={toggleTheme}
-            title={`Switch to ${theme === 'light' ? 'Dark' : 'Light'} Mode`}
-            aria-label="Toggle theme mode"
-            id="landing-theme-toggle"
-          >
-            {theme === 'light' ? (
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="toggle-icon">
-                <circle cx="12" cy="12" r="4" />
-                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
-              </svg>
+      <>
+        {content}
+        {/* Floating Mobile Mode Toggle for Debugging */}
+        <div className="mobile-toggle-floating-btn">
+          <button onClick={toggleMobileMode} title="Toggle Mobile UI Preview">
+            {isMobileMode ? (
+              <>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+                Desktop
+              </>
             ) : (
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="toggle-icon">
-                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-              </svg>
+              <>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+                Mobile View
+              </>
             )}
-            <span className="theme-toggle-slider">
-              <span className="theme-toggle-knob" />
-            </span>
           </button>
         </div>
-
-        {/* BitHub Logo / Title */}
-        <h1 className="landing-title" id="bithub-title">
-          BitHub
-        </h1>
-
-        {/* Subtitle */}
-        <p className="landing-subtitle" id="campus-subtitle">
-          Select your campus
-        </p>
-
-        {/* Campus Cards */}
-        <div className="campus-grid" id="campus-grid">
-          <CampusCard
-            name="JAIPUR"
-            image={jaipurImg}
-            href="#"
-            disabled={false}
-            onClick={() => setView('subject-selector')}
-          />
-          <CampusCard
-            name="MESRA"
-            image={mesraImg}
-            href="../index.html"
-            disabled={false}
-          />
-        </div>
-
-        {/* Toast Notification */}
-        <Toast message={toastMessage} visible={toastVisible} />
-
-        {/* Footer */}
-        <footer className="landing-footer" id="landing-footer">
-          © 2025–2026 Birla Institute of Technology | Team BitHub
-        </footer>
-      </main>
+      </>
     );
   };
 

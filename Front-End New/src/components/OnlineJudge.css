@@ -64,3 +64,49 @@
         max-height: 400px;
     }
 }
+
+/* Mobile Multistep Layout Specifics */
+.cs24102-mobile-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mobile-scrollable-card {
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+}
+
+.mobile-floating-action-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: linear-gradient(to top, var(--dash-bg) 60%, transparent);
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.floating-play-pill {
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    cursor: pointer;
+    pointer-events: auto;
+    transition: transform 0.2s;
+}
+
+.floating-play-pill:active {
+    transform: scale(0.95);
+}

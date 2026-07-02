@@ -34,11 +34,11 @@ const CS24102Dashboard = ({ theme, onBack }) => {
   const attempted = 0; // Mock for now
 
   return (
-    <div style={{ width: '100%', margin: '0 auto', display: 'flex', gap: '2rem', padding: '1rem', height: 'calc(100vh - 100px)' }}>
+    <div className="cs24102-layout">
       {/* LEFT COLUMN */}
-      <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
+      <div className="cs24102-left">
         {!selectedProblem ? (
-          <section className="dashboard-card" style={{ flex: 1 }}>
+          <section className="dashboard-card cs24102-list-card">
             <div className="card-header">
               <div className="card-header-titles">
                 <h3 className="card-title-main">C Lab Assignments</h3>
@@ -89,9 +89,20 @@ const CS24102Dashboard = ({ theme, onBack }) => {
       </div>
 
       {/* RIGHT COLUMN (STATISTICS & NAVIGATION) */}
-      <div style={{ width: '300px', display: 'flex', flexDirection: 'column', gap: '1.5rem', flexShrink: 0 }}>
-        {/* Stats Card */}
-        <div className="dashboard-card" style={{ padding: '1.5rem', textAlign: 'center' }}>
+      <div className={`cs24102-right ${selectedProblem ? 'hide-on-mobile' : ''}`}>
+        {/* Mobile Linear Tracker (Only visible on mobile) */}
+        <div className="cs24102-mobile-tracker">
+          <div className="tracker-header">
+            <span>Progress</span>
+            <span>{attempted} / {totalQuestions}</span>
+          </div>
+          <div className="tracker-bar">
+            <div className="tracker-fill" style={{ width: `${totalQuestions > 0 ? (attempted / totalQuestions) * 100 : 0}%` }}></div>
+          </div>
+        </div>
+
+        {/* Desktop Stats Card */}
+        <div className="dashboard-card cs24102-desktop-stats">
           <h3 style={{ margin: '0 0 1rem 0', color: 'var(--dash-text-color)', fontFamily: 'var(--font-display)' }}>Progress</h3>
           
           <div style={{ position: 'relative', width: '120px', height: '120px', margin: '0 auto 1rem' }}>
@@ -128,8 +139,8 @@ const CS24102Dashboard = ({ theme, onBack }) => {
           </div>
         </div>
 
-        {/* Navigation Grid */}
-        <div className="dashboard-card" style={{ flex: 1, padding: '1.5rem', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+        {/* Navigation Grid (Hidden on Mobile) */}
+        <div className="dashboard-card cs24102-grid-nav">
           <h3 style={{ margin: '0 0 1rem 0', color: 'var(--dash-text-color)', fontFamily: 'var(--font-display)' }}>Questions Grid</h3>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', overflowY: 'auto', paddingRight: '0.5rem' }}>
             {problems.map(prob => {
