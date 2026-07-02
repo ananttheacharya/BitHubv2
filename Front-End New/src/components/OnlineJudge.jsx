@@ -4,7 +4,13 @@ import './LabDashboard.css'; // Reuse existing styles
 import './OnlineJudge.css';
 
 const OnlineJudge = ({ problem, theme, onBack }) => {
-  const [code, setCode] = useState(`#include <stdio.h>\n\n${problem.returnType} ${problem.functionName}() {\n    // Write your code here\n}\n`);
+  const formatParams = (params) => {
+    if (!params || !Array.isArray(params)) return "";
+    return params.map(p => `${p.type} ${p.name}`).join(', ');
+  };
+
+  const paramString = formatParams(problem.parameters);
+  const [code, setCode] = useState(`#include <stdio.h>\n\n${problem.returnType} ${problem.functionName}(${paramString}) {\n    // Write your code here\n}\n`);
   const [output, setOutput] = useState("");
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState("idle"); // idle, running, success, error
