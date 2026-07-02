@@ -34,7 +34,7 @@ const CS24102Dashboard = ({ theme, onBack }) => {
   const attempted = 0; // Mock for now
 
   return (
-    <div style={{ width: '100%', maxWidth: '1400px', margin: '0 auto', display: 'flex', gap: '2rem', padding: '1rem', height: 'calc(100vh - 100px)' }}>
+    <div style={{ width: '100%', margin: '0 auto', display: 'flex', gap: '2rem', padding: '1rem', height: 'calc(100vh - 100px)' }}>
       {/* LEFT COLUMN */}
       <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
         {!selectedProblem ? (

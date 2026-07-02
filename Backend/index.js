@@ -373,7 +373,9 @@ app.post('/api/practice/compile', async (req, res) => {
                 const char = rawInputs[0] ?? 'A';
                 simResult.runOutput = `ASCII value of ${char} = ${char.charCodeAt(0)}\n`;
             } else {
-                simResult.runOutput = "Program executed successfully with no compile errors.\nInputs: " + JSON.stringify(rawInputs) + "\n";
+                simResult.success = false;
+                simResult.compileError = "Compilation Error: Could not determine output for this code. (Offline simulation fallback).";
+                simResult.runOutput = "";
             }
 
             res.json(simResult);

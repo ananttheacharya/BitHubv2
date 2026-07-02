@@ -194,7 +194,9 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
   const [activePEShop, setActivePEShop] = useState(null);
   const [activeEEModal, setActiveEEModal] = useState(null);
 
-  const [selectedSemester, setSelectedSemester] = useState(null);
+  // Initialize selectedSemester from subjectCode
+  const initialSemester = subjectCode === 'LAB-SEM1' ? 1 : (subjectCode === 'LAB-SEM2' ? 2 : null);
+  const [selectedSemester, setSelectedSemester] = useState(initialSemester);
 
   const renderSubjectHeader = (code, name) => (
     <section className="subject-header-box" style={{ marginBottom: '2.5rem' }}>
@@ -318,12 +320,12 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
         
         <div style={{ padding: '0 2rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
           <div style={{ maxWidth: '1000px', margin: '0 auto', width: '100%', paddingLeft: '1rem' }}>
-            <button className="back-subjects-btn" onClick={() => setSelectedSemester(null)} style={{marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: 'var(--dash-text-color)', cursor: 'pointer', fontFamily: 'var(--font-body)', fontSize: '1rem', fontWeight: '500'}}>
+            <button className="back-subjects-btn" onClick={onBack} style={{marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: 'var(--dash-text-color)', cursor: 'pointer', fontFamily: 'var(--font-body)', fontSize: '1rem', fontWeight: '500'}}>
               <svg className="btn-arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{width: 20, height: 20}}>
                 <line x1="19" y1="12" x2="5" y2="12" />
                 <polyline points="12 19 5 12 12 5" />
               </svg>
-              <span>Back to Semesters</span>
+              <span>Back to Subjects</span>
             </button>
             <h1 style={{fontFamily: 'var(--font-display, "Advercase", sans-serif)', fontSize: '3rem', margin: '0 0 2rem 0', color: 'var(--dash-text-color)'}}>
               Semester {selectedSemester} Labs
@@ -595,17 +597,17 @@ const LabDashboard = ({ subjectCode, theme, onToggleTheme, onBack }) => {
       {renderTopBar()}
       
       <div style={{ padding: '0 2rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
-        <div style={{ maxWidth: '1000px', width: '100%', margin: '0 auto', paddingLeft: '1rem' }}>
-          <button className="back-subjects-btn" onClick={() => setSelectedLab(null)} style={{marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: 'var(--dash-text-color)', cursor: 'pointer', fontFamily: 'var(--font-body)', fontSize: '1rem', fontWeight: '500'}}>
+        <div style={{ maxWidth: selectedLab === 'CS24102' ? '100%' : '1000px', width: '100%', margin: '0 auto', paddingLeft: '1rem' }}>
+          <button className="back-subjects-btn" onClick={() => setSelectedLab(null)} style={{marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px', background: 'none', border: 'none', color: 'var(--dash-text-color)', cursor: 'pointer', fontFamily: 'var(--font-body)', fontSize: '1rem', fontWeight: '500'}}>
             <svg className="btn-arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{width: 20, height: 20}}>
               <line x1="19" y1="12" x2="5" y2="12" />
               <polyline points="12 19 5 12 12 5" />
             </svg>
-            <span>Back to Labs Main</span>
+            <span>Back to Labs Main Menu</span>
           </button>
         </div>
 
-        <div style={{ maxWidth: '1000px', width: '100%', margin: '0 auto' }}>
+        <div style={{ maxWidth: selectedLab === 'CS24102' ? '100%' : '1000px', width: '100%', margin: '0 auto' }}>
           {renderSubjectHeader(selectedLab, (SEM1_LABS[selectedLab] || SEM2_LABS[selectedLab]).name)}
           {renderLabContent()}
         </div>
