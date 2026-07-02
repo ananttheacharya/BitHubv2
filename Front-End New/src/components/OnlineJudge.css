@@ -110,3 +110,96 @@
 .floating-play-pill:active {
     transform: scale(0.95);
 }
+
+/* Drawer Styles for Mobile Problem Statement */
+.problem-drawer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+}
+
+.problem-drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 85%;
+    max-width: 400px;
+    background: var(--dash-bg, #fff);
+    z-index: 1001;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15);
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.problem-drawer.open {
+    transform: translateX(0);
+}
+
+[data-theme="dark"] .problem-drawer {
+    background: var(--dash-bg, #1e1b30);
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.5);
+}
+
+.drawer-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--glass-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drawer-content {
+    padding: 1.5rem;
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Pink button theme for OJ */
+.btn-pink {
+    background: var(--dash-active-module-bg);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-body);
+}
+
+.btn-pink:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.btn-pink:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn-pink-outline {
+    background: transparent;
+    color: var(--dash-active-module-bg);
+    border: 1px solid var(--dash-active-module-bg);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-body);
+}
+
+.btn-pink-outline:hover {
+    background: rgba(198, 85, 117, 0.1);
+}
