@@ -1260,7 +1260,7 @@ function JaipurDashboard({ subjectCode, theme, onToggleTheme, onBack }) {
             {campusDropdownOpen && (
               <div className="campus-dropdown-menu" id="campus-dropdown-menu">
                 <div className="campus-dropdown-item active">Jaipur Campus (Active)</div>
-                <div className="campus-dropdown-item" onClick={() => window.location.href = "../index.html"}>
+                <div className="campus-dropdown-item" onClick={() => window.location.href = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' ? 'http://localhost:3001/dev-root/index.html' : '/index.html'}>
                   Mesra Campus
                 </div>
               </div>

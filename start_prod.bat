@@ -23,4 +23,4 @@ timeout /t 5 /nobreak >nul
 echo.
 echo Starting Ngrok Tunnel on port 3000...
 echo ==========================================
-ngrok http 3000
+npx ngrok http --domain=unpicked-mignon-unlawyerlike.ngrok-free.dev 3000

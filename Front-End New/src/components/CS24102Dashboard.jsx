@@ -51,7 +51,7 @@ const CS24102Dashboard = ({ theme, onBack }) => {
             ) : problems.length === 0 ? (
               <div style={{padding: '2rem', textAlign: 'center', color: 'var(--dash-text-color)'}}>No problems found.</div>
             ) : (
-              <div className="subjects-button-list" style={{display: 'flex', flexDirection: 'column', gap: '1rem', padding: '0 1.5rem 1.5rem'}}>
+              <div className="subjects-button-list" style={{display: 'flex', flexDirection: 'column', gap: '1rem', padding: '0 1.5rem 1.5rem', overflowY: 'auto', flex: 1}}>
                 {problems.map(prob => (
                   <button 
                     key={prob.problem_id}
@@ -142,7 +142,7 @@ const CS24102Dashboard = ({ theme, onBack }) => {
         {/* Navigation Grid (Hidden on Mobile) */}
         <div className="dashboard-card cs24102-grid-nav">
           <h3 style={{ margin: '0 0 1rem 0', color: 'var(--dash-text-color)', fontFamily: 'var(--font-display)' }}>Questions Grid</h3>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', overflowY: 'auto', paddingRight: '0.5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', overflowY: 'auto', paddingRight: '0.5rem', flex: 1, alignContent: 'start' }}>
             {problems.map(prob => {
               const isSelected = selectedProblem?.problem_id === prob.problem_id;
               return (

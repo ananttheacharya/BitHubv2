@@ -274,7 +274,7 @@ function App() {
             <CampusCard
               name="MESRA"
               image={mesraImg}
-              href="../index.html"
+              href={window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' ? 'http://localhost:3001/dev-root/index.html' : '/index.html'}
               disabled={false}
             />
           </div>

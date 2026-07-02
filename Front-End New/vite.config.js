@@ -55,7 +55,7 @@ export default defineConfig({
     /* Dev server port */
     port: 3000,
     open: true,
-    allowedHosts: ["unpicked-mignon-unlawyerlike.ngrok-free.dev"],
+    allowedHosts: true,
     /* Proxy backend requests to bypass PNA popup and CORS */
     proxy: {
       '/api': 'http://localhost:3001',
