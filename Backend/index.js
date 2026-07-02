@@ -306,11 +306,11 @@ app.post('/api/practice/compile', async (req, res) => {
                     wrapper += `    ${problem.returnType} res${idx} = ${problem.functionName}(${args});\n`;
                     if (problem.returnType === "int" || problem.returnType === "float" || problem.returnType === "double" || problem.returnType === "char") {
                         let fmt = problem.returnType === "int" ? "%d" : (problem.returnType === "char" ? "%c" : "%f");
-                        wrapper += `    if (res${idx} == ${expected}) { printf("✅ [TEST_PASS] Test %d Passed\\n"); } else { printf("❌ [TEST_FAIL] Test %d Failed: Expected ${expected}, got ${fmt}\\n", res${idx}); }\n`;
+                        wrapper += `    if (res${idx} == ${expected}) { printf("✅ [TEST_PASS] Test ${idx} Passed\\n"); } else { printf("❌ [TEST_FAIL] Test ${idx} Failed: Expected ${expected}, got ${fmt}\\n", res${idx}); }\n`;
                     } else if (problem.returnType === "char*") {
-                        wrapper += `    if (strcmp(res${idx}, ${expected}) == 0) { printf("✅ [TEST_PASS] Test %d Passed\\n"); } else { printf("❌ [TEST_FAIL] Test %d Failed: Expected %s, got %s\\n", ${expected}, res${idx}); }\n`;
+                        wrapper += `    if (strcmp(res${idx}, ${expected}) == 0) { printf("✅ [TEST_PASS] Test ${idx} Passed\\n"); } else { printf("❌ [TEST_FAIL] Test ${idx} Failed: Expected %s, got %s\\n", ${expected}, res${idx}); }\n`;
                     } else {
-                        wrapper += `    printf("🔹 [TEST_LOG] Executed Test %d\\n");\n`;
+                        wrapper += `    printf("🔹 [TEST_LOG] Executed Test ${idx}\\n");\n`;
                     }
                 });
                 wrapper += `    return 0;\n}\n`;
@@ -319,7 +319,7 @@ app.post('/api/practice/compile', async (req, res) => {
                 let wrapper = `\n\n#include <stdio.h>\n\nint main() {\n`;
                 problem.testCases.forEach((tc, idx) => {
                     let args = tc.input ? tc.input.map(arg => typeof arg === "string" ? `"${arg}"` : arg).join(', ') : "";
-                    wrapper += `    printf("--- Test Case %d ---\\n");\n`;
+                    wrapper += `    printf("--- Test Case ${idx} ---\\n");\n`;
                     wrapper += `    ${problem.functionName}(${args});\n`;
                     wrapper += `    printf("\\n");\n`;
                 });
@@ -329,38 +329,30 @@ app.post('/api/practice/compile', async (req, res) => {
         }
 
         try {
-            // Use Piston API (free, no auth required)
-            const response = await fetch('https://emkc.org/api/v2/piston/execute', {
+            // Use Wandbox API (free, no auth required)
+            const response = await fetch('https://wandbox.org/api/compile.json', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    language: language,
-                    version: '*',
-                    files: [{ name: 'main.c', content: finalCode }],
-                    stdin: stdin,
-                    compile_timeout: 10000,
-                    run_timeout: 5000
+                    compiler: 'gcc-head',
+                    code: finalCode,
+                    stdin: stdin
                 })
             });
 
             const data = await response.json();
-            console.log("PISTON DATA:", JSON.stringify(data, null, 2));
+            console.log("WANDBOX DATA:", JSON.stringify(data, null, 2));
             
-            if (!data.run) {
-                console.warn("Piston returned empty/invalid response. Triggering simulation fallback.");
-                throw new Error("Invalid Piston API response format");
-            }
-
             res.json({
-                success: !data.compile?.stderr && !data.run?.stderr,
-                compileOutput: data.compile?.output || '',
-                compileError: data.compile?.stderr || '',
-                runOutput: data.run?.output || data.run?.stdout || '',
-                runError: data.run?.stderr || '',
-                exitCode: data.run?.code ?? -1
+                success: data.status === "0" && !data.compiler_error,
+                compileOutput: '',
+                compileError: data.compiler_error || '',
+                runOutput: data.program_output || '',
+                runError: data.program_error || '',
+                exitCode: data.status
             });
         } catch (fetchErr) {
-            console.warn("Piston API failed, falling back to simulated compiler execution:", fetchErr.message);
+            console.warn("Compiler API failed, falling back to simulated compiler execution:", fetchErr.message);
             
             // Smart offline simulation fallback
             const inputs = stdin.trim().split(/\s+/).map(Number);
