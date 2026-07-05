@@ -54,6 +54,7 @@ export default defineConfig({
   server: {
     /* Dev server port */
     port: 3000,
+    host: '127.0.0.1',
     open: true,
     allowedHosts: true,
     /* Proxy backend requests to bypass PNA popup and CORS */
