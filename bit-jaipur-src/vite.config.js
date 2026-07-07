@@ -16,6 +16,13 @@ export default defineConfig({
   /* Relative base path for flexible deployment */
   base: './',
 
+  resolve: {
+    alias: [
+      /* Force Vite to use the pre-built UMD bundle of KaTeX to bypass aggressive tree-shaking that breaks \sin, \cos, etc. in production */
+      { find: /^katex$/, replacement: 'katex/dist/katex.js' }
+    ]
+  },
+
   build: {
     /* Output to bit-jaipur/ directory at the root */
     outDir: '../bit-jaipur',
