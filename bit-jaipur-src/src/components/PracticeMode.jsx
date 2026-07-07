@@ -1,8 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import 'katex/dist/katex.min.css';
-import { InlineMath, BlockMath } from 'react-katex';
+import React, { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronRight, ExternalLink, X, Settings, RotateCcw, AlertCircle, Plus, Minus, Search, Play, Pause, Bookmark, BookmarkCheck } from 'lucide-react';
 import { API_BASE } from '../config';
+import './PracticeMode.css';
 
+// Custom KaTeX components relying on window.katex loaded via CDN
+const InlineMath = ({ math }) => {
+  try {
+    return window.katex 
+      ? <span dangerouslySetInnerHTML={{ __html: window.katex.renderToString(math, { throwOnError: false, displayMode: false }) }} />
+      : <span>{math}</span>;
+  } catch (e) {
+    return <span style={{ color: '#c65575' }}>{math}</span>;
+  }
+};
+
+const BlockMath = ({ math }) => {
+  try {
+    return window.katex 
+      ? <div dangerouslySetInnerHTML={{ __html: window.katex.renderToString(math, { throwOnError: false, displayMode: true }) }} />
+      : <div>{math}</div>;
+  } catch (e) {
+    return <div style={{ color: '#c65575' }}>{math}</div>;
+  }
+};
 
 // Sub-parser to split text by $ and $$ delimiters
 const parseInlineDollars = (str) => {
