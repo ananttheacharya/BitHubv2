@@ -11,7 +11,23 @@
     <title>BitHub — Select Your Campus</title>
     <!-- KaTeX loaded via CDN to completely bypass Vite tree-shaking issues -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsRQf1u03Z+IeG2z0/F/L9x6kO79X5u/UymX/Z/6HqXwU/l+9LzF5Pz6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-5R3q7Xz9Epx5b+5/zP/qQ8/C3y/j6H/U/00s9Rz4O9z+kY7qO+p8j+q+LqZ5p5Pz" crossorigin="anonymous"></script>
+    <!-- Corrected JS Integrity Hash -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+    
+    <!-- Automated KaTeX Verification Measure -->
+    <script>
+      window.addEventListener('load', function() {
+        if (typeof window.katex === 'undefined') {
+          console.error("KaTeX failed to load from CDN! Please check SRI integrity hashes or network connectivity.");
+          var errorBanner = document.createElement('div');
+          errorBanner.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#c65575;color:white;padding:15px;border-radius:5px;z-index:9999;font-weight:bold;box-shadow:0 4px 6px rgba(0,0,0,0.3);';
+          errorBanner.innerText = 'KaTeX Failed to Load (SRI Hash Mismatch / Blocked by Browser)';
+          document.body.appendChild(errorBanner);
+        } else {
+          console.log("KaTeX successfully loaded from CDN!");
+        }
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>
