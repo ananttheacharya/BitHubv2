@@ -101,8 +101,8 @@ function SubjectSelector({ onSelectSubject, onBackToLanding, theme, onToggleThem
             {campusDropdownOpen && (
               <div className="campus-dropdown-menu" id="campus-dropdown-menu">
                 <div className="campus-dropdown-item active">Jaipur Campus (Active)</div>
-                <div className="campus-dropdown-item" onClick={() => window.location.href = '../bit-mesra/index.html'}>
-                  Mesra Campus
+                <div className="campus-dropdown-item" onClick={() => { onBackToLanding(); }}>
+                  Change Campus
                 </div>
               </div>
             )}

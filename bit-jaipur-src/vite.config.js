@@ -17,9 +17,8 @@ export default defineConfig({
   base: './',
 
   build: {
-    /* Output to bit-jaipur/ directory at the root */
-    outDir: '../bit-jaipur',
-    emptyOutDir: true,
+    /* Output to dist/ directory */
+    outDir: 'dist',
 
     /* Inline assets smaller than 4KB */
     assetsInlineLimit: 4096,
@@ -55,14 +54,23 @@ export default defineConfig({
   server: {
     /* Dev server port */
     port: 3000,
-    host: '127.0.0.1',
+    host: '0.0.0.0',
     open: true,
     allowedHosts: true,
     /* Proxy backend requests to bypass PNA popup and CORS */
     proxy: {
-      '/api': 'http://localhost:3001',
-      '/study-material': 'http://localhost:3001',
-      '/dev-root': 'http://localhost:3001'
+      '/api': {
+        target: process.env.VITE_BACKEND_URL || 'http://localhost:3001',
+        changeOrigin: true
+      },
+      '/study-material': {
+        target: process.env.VITE_BACKEND_URL || 'http://localhost:3001',
+        changeOrigin: true
+      },
+      '/dev-root': {
+        target: process.env.VITE_BACKEND_URL || 'http://localhost:3001',
+        changeOrigin: true
+      }
     }
   },
 });
