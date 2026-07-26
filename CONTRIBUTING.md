@@ -92,4 +92,27 @@ Before staging your changes, run `npm run build` to ensure the compilation compl
    ```
 3. **Submit a Pull Request (PR):** Push your branch to your fork and submit a PR from your `bit_jaipur` branch into the upstream `master`/`main` branch.
 
+---
+
+## ⚠️ Common Pitfalls & Code Quality Standards
+
+To prevent production build failures and runtime bugs, all contributors must check their changes against these guidelines before submitting a pull request:
+
+### 1. File Encoding Requirements
+* **UTF-8 Only:** All source files and configuration files (including `.env`, `.env.production`, `.json`, `.js`, `.jsx`, `.css`) **must** be saved using **UTF-8 encoding**. 
+* Do **not** commit files in UTF-16LE or other encodings. Node.js environment loaders and dotenv parsers do not support UTF-16, which causes environment variables to resolve to `undefined` during compilation.
+
+### 2. Run Local Build Tests
+* Always run `npm run build` inside `bit-jaipur-src/` to verify that your changes compile without parser warnings, duplicate variable declarations, unclosed JSX elements, or syntax errors. If the local build fails, the deployment on GitHub Pages will fail.
+
+### 3. Avoid Duplicate Network Calls & Side Effects
+* When updating base URLs or routing paths, verify that you have cleaned up and deleted legacy code lines. 
+* Do not leave redundant fetch calls or `window.open` statements running sequentially. This triggers multiple parallel requests (causing console 404s) and opens duplicate browser tabs.
+* Centralize all API routing modifications in `bit-jaipur-src/src/config.js` via the `API_BASE` variable.
+
+### 4. Check for Duplicate Object Keys
+* Double-check JavaScript object literals for duplicate keys (e.g. duplicating key definitions in database maps or layouts). JavaScript will silently overwrite preceding values with the last key, which can hide files or render components incorrectly.
+
+---
+
 Thank you for contributing to BitHub! Your efforts help make campus resources more accessible for everyone. If you run into issues, please open an issue or reach out to the project maintainer.

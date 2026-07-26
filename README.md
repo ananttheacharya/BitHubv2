@@ -44,6 +44,8 @@ We welcome contributions to improve student resources for both campuses!
 ## 🚀 Technical Requirements
 
 - **Node.js**: v16.0 or higher (recommended for compiling Jaipur assets)
+- **File Encoding**: UTF-8 encoding is strictly required for all code and configuration files. Do not commit files in UTF-16LE.
+- **Build Verification**: Run `npm run build` locally inside `bit-jaipur-src/` to verify compiler integrity before committing.
 - **Deployment**: Any updates merged into the main/master branch are automatically deployed to [bithub.co.in](https://bithub.co.in) via GitHub Pages.
 
 ---
