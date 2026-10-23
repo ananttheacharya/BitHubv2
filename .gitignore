@@ -1,2 +1,12 @@
 case_study.md
 ref/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# macOS generated files
+.DS_Store
+
+# Generated and local classroom data
+data/
