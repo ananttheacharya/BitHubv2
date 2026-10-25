@@ -1,0 +1,25 @@
+Day,Time,Subject,Faculty,Venue
+Monday,12:00–12:50 PM,Mathematics for AI-ML,NJS,CR 11
+Monday,1:00–1:50 PM,EC24203 - Digital System Design,SNE,C8
+Monday,2:00–2:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C-8
+Monday,3:00–4:50 PM,Choice of NSS/PT & Games/Creative Arts/Entrepreneurship,NIS/RJA,OD/CR 04
+Tuesday,10:00–10:50 AM,TUT - Mathematics for AI-ML Lab,NJS,LAB 1
+Tuesday,11:00–11:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,C-5
+Tuesday,1:00–1:50 PM,Mathematics for AI-ML,NJS,CR 11
+Tuesday,2:00–2:50 PM,Computer Organization and Architecture,DHB,CR 11
+Tuesday,3:00–3:50 PM,Data Structures and Algorithms,PNG,CR 11
+Tuesday,4:00–4:50 PM,Discrete Mathematics,BHA,CR 11
+Wednesday,9:00–9:50 AM,Data Structures and Algorithms,PNG,CR 08
+Wednesday,10:00–10:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,C-8
+Wednesday,11:00–11:50 AM,Computer Organization and Architecture,DHB,CR 11
+Wednesday,1:00–1:50 PM,EC24203 - Digital System Design,SNE,C8
+Wednesday,2:00–4:50 PM,Mathematics for AI-ML Lab,NJS,LAB 1
+Thursday,9:00–10:50 AM,EC24204 - Digital System Design Lab (B2),AKA,EL3
+Thursday,11:00 AM–12:50 PM,EC24204 - Digital System Design Lab (B1),SNE,EL3
+Thursday,3:00–3:50 PM,Discrete Mathematics,BHA,CR 08
+Thursday,4:00–4:50 PM,EC24203 - Digital System Design,SNE,C8
+Friday,9:00–9:50 AM,Mathematics for AI-ML,NJS,CR 11
+Friday,10:00–10:50 AM,Discrete Mathematics,BHA,CR 11
+Friday,11:00–11:50 AM,Data Structures and Algorithms,PNG,CR 11
+Friday,12:00–12:50 PM,Computer Organization and Architecture,DHB,CR 11
+Friday,2:00–4:50 PM,Data Structures and Algorithms Lab,PTK,LAB 1

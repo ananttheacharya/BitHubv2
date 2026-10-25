@@ -1,0 +1,26 @@
+Day,Time,Subject / Activity,Faculty,Venue
+Monday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01
+Monday,10:00–10:50,Programming and Problem-Solving using C / Programming with C,ABM,CR13
+Monday,11:00–11:50,Principles of Management,JKC,CR-01
+Monday,12:00–12:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CR13
+Monday,2:00–4:50,C Lab,PTK,LAB 1
+Tuesday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01
+Tuesday,10:00–10:50,Programming and Problem-Solving using C / Programming with C,ABM,CR13
+Tuesday,11:00–11:50,Fundamentals of Computer Science,RKS,CR13
+Tuesday,12:00–12:50,Basics of Operating Systems,BIP,CR13
+Tuesday,2:00–2:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CR-13
+Tuesday,4:00–4:50,Communications Skill-I,RTP,CR-01
+Wednesday,9:00–10:50,Linux Administration,BKS,LAB 1
+Wednesday,12:00–12:50,Programming and Problem-Solving using C / Programming with C,ABM,CR13
+Wednesday,1:00–1:50,Principles of Management,JKC,CR-07
+Wednesday,2:00–2:50,Basics of Operating Systems,BIP,CR13
+Wednesday,3:00–3:50,Digital Empowerment,AML,CR13
+Wednesday,4:00–4:50,Communications Skill-I,RTP,CR-04
+Thursday,11:00–11:50,Linux Administration Tutorial,BKS,LAB 02
+Thursday,1:00–1:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CR13
+Thursday,2:00–2:50,Basics of Operating Systems,BIP,CR13
+Thursday,3:00–3:50,Principles of Management,JKC,CR-5
+Friday,9:00–10:50,Linux Administration,BKS,LAB 1
+Friday,12:00–12:50,Digital Empowerment,AML,CR13
+Friday,2:00–2:50,Fundamentals of Computer Science,RKS,CR13
+Friday,3:00–3:50,Communications Skill-I,RTP,CR-13

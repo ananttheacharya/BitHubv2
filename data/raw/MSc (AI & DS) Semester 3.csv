@@ -1,0 +1,17 @@
+Day,Time,Subject,Faculty,Venue
+Monday,10:00–10:50 AM,Computer Vision and Applications,SCG,CR 14
+Monday,1:00–2:50 PM,Data Mining Techniques Lab,PNG,LL
+Monday,3:00–3:50 PM,Deep Learning and Applications,VBP,CR 14
+Monday,4:00–4:50 PM,Data Mining Techniques,PNG,CR 14
+Wednesday,9:00–11:50 AM,Deep Learning Applications Lab,VBP,LL
+Wednesday,12:00–12:50 PM,Computer Vision and Applications,SCG,CR 14
+Wednesday,1:00–1:50 PM,TUT: Deep Learning and Applications,VBP,CR 04
+Wednesday,3:00–3:50 PM,Natural Language Processing and Applications,GTP,CR 14
+Thursday,1:00–1:50 PM,Natural Language Processing and Applications,GTP,CR 14
+Thursday,2:00–2:50 PM,Deep Learning and Applications,VBP,CR 14
+Thursday,3:00–3:50 PM,Data Mining Techniques,PNG,CR 14
+Friday,9:00–11:50 AM,Computer Vision Lab,SCG,LL
+Friday,12:00–12:50 PM,Natural Language Processing and Applications,GTP,CR 14
+Friday,1:00–1:50 PM,Computer Vision and Applications,SCG,CR 14
+Friday,2:00–2:50 PM,Data Mining Techniques,PNG,CR 14
+Friday,3:00–3:50 PM,Deep Learning and Applications,VBP,CR 14

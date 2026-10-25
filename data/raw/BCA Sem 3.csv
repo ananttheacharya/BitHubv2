@@ -1,0 +1,21 @@
+Table 1
+Day,Time,Subject / Activity,Faculty,Venue
+Monday,9:00–10:50,Computer Oriented Numerical Methods (CA25215),IKD,LAB 3
+Monday,11:00–11:50,Computer Organization & Architecture,PKS,CR6
+Monday,12:00–12:50,Database Management System,BIP,CR1
+Monday,1:00–1:50,Java Programming,ABM,CR-01
+Monday,2:00–2:50,Public Speaking and Creative Writing (MN25109),RTP,CR-02
+Tuesday,1:00–1:50,Mathematics for Computing II,BHA,CR-7
+Tuesday,2:00–2:50,Database Management System,BIP,CR10
+Tuesday,3:00–3:50,Java Programming,ABM,CR10
+Tuesday,4:00–4:50,Computer Organization & Architecture,PKS,CR-10
+Wednesday,11:00–11:50,Computer Oriented Numerical Methods,IKD,CR05
+Wednesday,12:00–12:50,Mathematics for Computing II,BHA,CR06
+Wednesday,1:00–1:50,Java Programming,ABM,CR-13
+Thursday,12:00–12:50,Public Speaking and Creative Writing (MN25109),RTP,CR-02
+Thursday,1:00–1:50,Database Management System,BIP,CR08
+Thursday,2:00–4:50,Java Lab,ABM,LAB3
+Friday,9:00–9:50,Computer Organization & Architecture,PKS,CR-13
+Friday,11:00–11:50,Computer Oriented Numerical Methods,IKD,CR13
+Friday,12:00–2:50,DBMS Lab,BIP,LAB3
+Friday,3:00–3:50,Mathematics for Computing II,BHA,CR10

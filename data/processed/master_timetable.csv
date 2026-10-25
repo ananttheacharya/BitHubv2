@@ -1,0 +1,712 @@
+course,semester,section,day,time,subject,faculty_code,venue,source_file,source_row
+B.Sc. Animation and Multimedia,5,,Monday,9:00–9:50,AN301 Direction For Animation,OBD,VFX Lab,B.Sc. Animation and Multimedia Sem 5.csv,2
+B.Sc. Animation and Multimedia,5,,Monday,10:00–10:50,AN302 Character Design,VPN,A&M CR,B.Sc. Animation and Multimedia Sem 5.csv,3
+B.Sc. Animation and Multimedia,5,,Monday,11:00–12:50,AN309 Documentary Film Making,OBD,VFX Lab,B.Sc. Animation and Multimedia Sem 5.csv,4
+B.Sc. Animation and Multimedia,5,,Monday,1:00–2:50,AN304 Comic Production,VPN,A&M 2D Lab,B.Sc. Animation and Multimedia Sem 5.csv,5
+B.Sc. Animation and Multimedia,5,,Monday,3:00–4:50,AN310 Field Study,RIS,VFX Lab,B.Sc. Animation and Multimedia Sem 5.csv,6
+B.Sc. Animation and Multimedia,5,,Tuesday,9:00–9:50,AN301 Direction For Animation,OBD,VFX Lab,B.Sc. Animation and Multimedia Sem 5.csv,7
+B.Sc. Animation and Multimedia,5,,Tuesday,10:00–10:50,AN302 Character Design,VPN,A&M CR,B.Sc. Animation and Multimedia Sem 5.csv,8
+B.Sc. Animation and Multimedia,5,,Tuesday,11:00–11:50,AN309 Documentary Film Making,OBD,VFX Lab,B.Sc. Animation and Multimedia Sem 5.csv,9
+B.Sc. Animation and Multimedia,5,,Tuesday,1:00–1:50,AN304 Comic Production,VPN,A&M 2D Lab,B.Sc. Animation and Multimedia Sem 5.csv,10
+B.Sc. Animation and Multimedia,5,,Tuesday,2:00–3:50,AN303 Graphic Design Tools & Techniques-IV,RIS,BAM CL,B.Sc. Animation and Multimedia Sem 5.csv,11
+B.Sc. Animation and Multimedia,5,,Wednesday,9:00–11:50,AN305 Character Animation-II,MCH,BAM CL,B.Sc. Animation and Multimedia Sem 5.csv,12
+B.Sc. Animation and Multimedia,5,,Wednesday,1:00–4:50,AN307 Game Engine,MCH,BAM CL,B.Sc. Animation and Multimedia Sem 5.csv,13
+B.Sc. Animation and Multimedia,5,,Thursday,9:00–9:50,AN301 Direction For Animation,OBD,VFX Lab,B.Sc. Animation and Multimedia Sem 5.csv,14
+B.Sc. Animation and Multimedia,5,,Thursday,10:00–10:50,AN303 Graphic Design Tools & Techniques-IV,RIS,BAM CL,B.Sc. Animation and Multimedia Sem 5.csv,15
+B.Sc. Animation and Multimedia,5,,Thursday,11:00–12:50,AN306 3D C MTL & R,MCH,BAM CL,B.Sc. Animation and Multimedia Sem 5.csv,16
+B.Sc. Animation and Multimedia,5,,Thursday,2:00–2:50,AN302 Character Design,VPN,A&M CR,B.Sc. Animation and Multimedia Sem 5.csv,17
+B.Sc. Animation and Multimedia,5,,Thursday,3:00–5:50,AN308 Layout & Digital Painting,GKG,BAM CL,B.Sc. Animation and Multimedia Sem 5.csv,18
+B.Sc. Animation and Multimedia,5,,Friday,9:00–10:50,AN306 3D C MTL & R,MCH,BAM CL,B.Sc. Animation and Multimedia Sem 5.csv,19
+B.Sc. Animation and Multimedia,5,,Friday,11:00–12:50,AN310 Field Study,RIS,VFX Lab,B.Sc. Animation and Multimedia Sem 5.csv,20
+B.Sc. Animation and Multimedia,5,,Friday,2:00–4:50,AN312 3D Sculpting,GKG,BAM CL,B.Sc. Animation and Multimedia Sem 5.csv,21
+B.Tech AI,3,C,Monday,12:00–12:50 PM,Mathematics for AI-ML,NJS,CR 11,"B.Tech AI, Sem 3 - Section C.csv",2
+B.Tech AI,3,C,Monday,1:00–1:50 PM,EC24203 - Digital System Design,SNE,C8,"B.Tech AI, Sem 3 - Section C.csv",3
+B.Tech AI,3,C,Monday,2:00–2:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C-8,"B.Tech AI, Sem 3 - Section C.csv",4
+B.Tech AI,3,C,Monday,3:00–4:50 PM,Choice of NSS/PT & Games/Creative Arts/Entrepreneurship,NIS/RJA,OD/CR 04,"B.Tech AI, Sem 3 - Section C.csv",5
+B.Tech AI,3,C,Tuesday,10:00–10:50 AM,TUT - Mathematics for AI-ML Lab,NJS,LAB 1,"B.Tech AI, Sem 3 - Section C.csv",6
+B.Tech AI,3,C,Tuesday,11:00–11:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,C-5,"B.Tech AI, Sem 3 - Section C.csv",7
+B.Tech AI,3,C,Tuesday,1:00–1:50 PM,Mathematics for AI-ML,NJS,CR 11,"B.Tech AI, Sem 3 - Section C.csv",8
+B.Tech AI,3,C,Tuesday,2:00–2:50 PM,Computer Organization and Architecture,DHB,CR 11,"B.Tech AI, Sem 3 - Section C.csv",9
+B.Tech AI,3,C,Tuesday,3:00–3:50 PM,Data Structures and Algorithms,PNG,CR 11,"B.Tech AI, Sem 3 - Section C.csv",10
+B.Tech AI,3,C,Tuesday,4:00–4:50 PM,Discrete Mathematics,BHA,CR 11,"B.Tech AI, Sem 3 - Section C.csv",11
+B.Tech AI,3,C,Wednesday,9:00–9:50 AM,Data Structures and Algorithms,PNG,CR 08,"B.Tech AI, Sem 3 - Section C.csv",12
+B.Tech AI,3,C,Wednesday,10:00–10:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,C-8,"B.Tech AI, Sem 3 - Section C.csv",13
+B.Tech AI,3,C,Wednesday,11:00–11:50 AM,Computer Organization and Architecture,DHB,CR 11,"B.Tech AI, Sem 3 - Section C.csv",14
+B.Tech AI,3,C,Wednesday,1:00–1:50 PM,EC24203 - Digital System Design,SNE,C8,"B.Tech AI, Sem 3 - Section C.csv",15
+B.Tech AI,3,C,Wednesday,2:00–4:50 PM,Mathematics for AI-ML Lab,NJS,LAB 1,"B.Tech AI, Sem 3 - Section C.csv",16
+B.Tech AI,3,C,Thursday,9:00–10:50 AM,EC24204 - Digital System Design Lab (B2),AKA,EL3,"B.Tech AI, Sem 3 - Section C.csv",17
+B.Tech AI,3,C,Thursday,11:00 AM–12:50 PM,EC24204 - Digital System Design Lab (B1),SNE,EL3,"B.Tech AI, Sem 3 - Section C.csv",18
+B.Tech AI,3,C,Thursday,3:00–3:50 PM,Discrete Mathematics,BHA,CR 08,"B.Tech AI, Sem 3 - Section C.csv",19
+B.Tech AI,3,C,Thursday,4:00–4:50 PM,EC24203 - Digital System Design,SNE,C8,"B.Tech AI, Sem 3 - Section C.csv",20
+B.Tech AI,3,C,Friday,9:00–9:50 AM,Mathematics for AI-ML,NJS,CR 11,"B.Tech AI, Sem 3 - Section C.csv",21
+B.Tech AI,3,C,Friday,10:00–10:50 AM,Discrete Mathematics,BHA,CR 11,"B.Tech AI, Sem 3 - Section C.csv",22
+B.Tech AI,3,C,Friday,11:00–11:50 AM,Data Structures and Algorithms,PNG,CR 11,"B.Tech AI, Sem 3 - Section C.csv",23
+B.Tech AI,3,C,Friday,12:00–12:50 PM,Computer Organization and Architecture,DHB,CR 11,"B.Tech AI, Sem 3 - Section C.csv",24
+B.Tech AI,3,C,Friday,2:00–4:50 PM,Data Structures and Algorithms Lab,PTK,LAB 1,"B.Tech AI, Sem 3 - Section C.csv",25
+B.Tech AI,5,C,Monday,9:00–9:50 AM,Communication Skill-II,RTP,CR7,"B.Tech AI, Sem 5 - Section C.csv",2
+B.Tech AI,5,C,Monday,10:00–10:50 AM,Communication Skill-II,RTP,CR7,"B.Tech AI, Sem 5 - Section C.csv",3
+B.Tech AI,5,C,Monday,12:00–12:50 PM,Machine Learning Techniques,SPV,CR 12,"B.Tech AI, Sem 5 - Section C.csv",4
+B.Tech AI,5,C,Monday,1:00–1:50 PM,Data Mining Concepts and Techniques,BIP,CR 12,"B.Tech AI, Sem 5 - Section C.csv",5
+B.Tech AI,5,C,Monday,2:00–4:50 PM,Natural Language Processing Lab,MAS,LAB 3,"B.Tech AI, Sem 5 - Section C.csv",6
+B.Tech AI,5,C,Tuesday,1:00–1:50 PM,Natural Language Processing,MAS,CR 9,"B.Tech AI, Sem 5 - Section C.csv",7
+B.Tech AI,5,C,Tuesday,2:00–4:50 PM,Machine Learning Techniques Lab,SPV,LAB 3,"B.Tech AI, Sem 5 - Section C.csv",8
+B.Tech AI,5,C,Tuesday,5:00–5:50 PM,Personality Development,PKM,CR-06,"B.Tech AI, Sem 5 - Section C.csv",9
+B.Tech AI,5,C,Wednesday,9:00–9:50 AM,Data Communication & Computer Networks,RVK,CR 09,"B.Tech AI, Sem 5 - Section C.csv",10
+B.Tech AI,5,C,Wednesday,10:00–10:50 AM,Software Engineering,PKS,CR 9,"B.Tech AI, Sem 5 - Section C.csv",11
+B.Tech AI,5,C,Wednesday,11:00–11:50 AM,Data Mining Concepts and Techniques,BIP,CR 9,"B.Tech AI, Sem 5 - Section C.csv",12
+B.Tech AI,5,C,Wednesday,12:00–12:50 PM,Natural Language Processing,MAS,CR 9,"B.Tech AI, Sem 5 - Section C.csv",13
+B.Tech AI,5,C,Wednesday,2:00–4:50 PM,Data Communication & Computer Networks Lab,AJS,LAB 3,"B.Tech AI, Sem 5 - Section C.csv",14
+B.Tech AI,5,C,Thursday,9:00–9:50 AM,Machine Learning Techniques,SPV,CR 09,"B.Tech AI, Sem 5 - Section C.csv",15
+B.Tech AI,5,C,Thursday,10:00–10:50 AM,Data Mining Concepts and Techniques,BIP,CR 9,"B.Tech AI, Sem 5 - Section C.csv",16
+B.Tech AI,5,C,Thursday,11:00–11:50 AM,Software Engineering,PKS,CR 9,"B.Tech AI, Sem 5 - Section C.csv",17
+B.Tech AI,5,C,Thursday,12:00–12:50 PM,Data Communication & Computer Networks,RVK,CR 09,"B.Tech AI, Sem 5 - Section C.csv",18
+B.Tech AI,5,C,Thursday,1:00–1:50 PM,Communication Skill-II,RTP,CR4,"B.Tech AI, Sem 5 - Section C.csv",19
+B.Tech AI,5,C,Friday,9:00–9:50 AM,Natural Language Processing,MAS,CR 09,"B.Tech AI, Sem 5 - Section C.csv",20
+B.Tech AI,5,C,Friday,10:00–10:50 AM,Software Engineering,PKS,CR 9,"B.Tech AI, Sem 5 - Section C.csv",21
+B.Tech AI,5,C,Friday,11:00–11:50 AM,Machine Learning Techniques,SPV,CR 9,"B.Tech AI, Sem 5 - Section C.csv",22
+B.Tech AI,5,C,Friday,12:00–12:50 PM,Data Communication & Computer Networks,RVK,CR 09,"B.Tech AI, Sem 5 - Section C.csv",23
+B.Tech AI,5,C,Friday,4:00–4:50 PM,Personality Development,PKM,CR-07,"B.Tech AI, Sem 5 - Section C.csv",24
+B.Tech AI,7,C,Monday,2:00–2:50 PM,Natural Language Processing,GTP,CR 12,"B.Tech AI, Sem 7  - Section C.csv",2
+B.Tech AI,7,C,Monday,3:00–3:50 PM,Cryptography & Network Security,JIG,CR 12,"B.Tech AI, Sem 7  - Section C.csv",3
+B.Tech AI,7,C,Monday,4:00–4:50 PM,AI in Medical Image Analysis,SCG,CR 12,"B.Tech AI, Sem 7  - Section C.csv",4
+B.Tech AI,7,C,Wednesday,11:00–11:50 AM,Social Media Marketing,JKC,C2,"B.Tech AI, Sem 7  - Section C.csv",5
+B.Tech AI,7,C,Wednesday,1:00–1:50 PM,Natural Language Processing,GTP,CR 9,"B.Tech AI, Sem 7  - Section C.csv",6
+B.Tech AI,7,C,Wednesday,2:00–2:50 PM,Cryptography & Network Security,JIG,CR 9,"B.Tech AI, Sem 7  - Section C.csv",7
+B.Tech AI,7,C,Wednesday,3:00–3:50 PM,AI in Medical Image Analysis,SCG,CR 9,"B.Tech AI, Sem 7  - Section C.csv",8
+B.Tech AI,7,C,Thursday,9:00–10:50 AM,AI in Medical Image Analysis Lab,SCG,LAB 3,"B.Tech AI, Sem 7  - Section C.csv",9
+B.Tech AI,7,C,Thursday,1:00–1:50 PM,AI in Medical Image Analysis,SCG,CR 8,"B.Tech AI, Sem 7  - Section C.csv",10
+B.Tech AI,7,C,Thursday,2:00–2:50 PM,Cryptography & Network Security,JIG,CR 7,"B.Tech AI, Sem 7  - Section C.csv",11
+B.Tech AI,7,C,Thursday,3:00–3:50 PM,Natural Language Processing,GTP,CR 7,"B.Tech AI, Sem 7  - Section C.csv",12
+B.Tech AI,7,C,Thursday,4:00–4:50 PM,Social Media Marketing,JKC,C2,"B.Tech AI, Sem 7  - Section C.csv",13
+B.Tech AI,7,C,Thursday,5:00–5:50 PM,Social Media Marketing,JKC,C2,"B.Tech AI, Sem 7  - Section C.csv",14
+B.Tech CSE,3,A,Monday,9:00–9:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,C11,"B.Tech CSE, Sem 3 - Section A.csv",3
+B.Tech CSE,3,A,Monday,10:00–10:50 AM,Computer Organization and Architecture,BKS,CR 11,"B.Tech CSE, Sem 3 - Section A.csv",4
+B.Tech CSE,3,A,Monday,11:00–11:50 AM,Data Structures and Algorithms,AJS,CR 11,"B.Tech CSE, Sem 3 - Section A.csv",5
+B.Tech CSE,3,A,Monday,2:00–2:50 PM,Mathematics for Computer Science,GSM,CR 09,"B.Tech CSE, Sem 3 - Section A.csv",6
+B.Tech CSE,3,A,Monday,3:00–4:50 PM,Choice of NSS/PT & Games/Creative Arts/Entrepreneurship,NIS/RJA,OD/GYM/CR04,"B.Tech CSE, Sem 3 - Section A.csv",7
+B.Tech CSE,3,A,Tuesday,9:00–9:50 AM,TUT - IT Workshop,PNG,LAB 1,"B.Tech CSE, Sem 3 - Section A.csv",8
+B.Tech CSE,3,A,Tuesday,10:00–10:50 AM,Computer Organization and Architecture,BKS,CR 12,"B.Tech CSE, Sem 3 - Section A.csv",9
+B.Tech CSE,3,A,Tuesday,11:00 AM–1:50 PM,Data Structures and Algorithms Lab,PTK,LAB 1,"B.Tech CSE, Sem 3 - Section A.csv",10
+B.Tech CSE,3,A,Tuesday,2:00–2:50 PM,EC24203 - Digital System Design,GAJ,C6,"B.Tech CSE, Sem 3 - Section A.csv",11
+B.Tech CSE,3,A,Tuesday,3:00–3:50 PM,Discrete Mathematics,IKD,CR 6,"B.Tech CSE, Sem 3 - Section A.csv",12
+B.Tech CSE,3,A,Wednesday,12:00–12:50 PM,Mathematics for Computer Science,GSM,CR 11,"B.Tech CSE, Sem 3 - Section A.csv",13
+B.Tech CSE,3,A,Wednesday,1:00–1:50 PM,Data Structures and Algorithms,AJS,CR 06,"B.Tech CSE, Sem 3 - Section A.csv",14
+B.Tech CSE,3,A,Wednesday,2:00–2:50 PM,EC24203 - Digital System Design,GAJ,C6,"B.Tech CSE, Sem 3 - Section A.csv",15
+B.Tech CSE,3,A,Wednesday,3:00–3:50 PM,Discrete Mathematics,IKD,CR 06,"B.Tech CSE, Sem 3 - Section A.csv",16
+B.Tech CSE,3,A,Thursday,9:00–9:50 AM,Data Structures and Algorithms,AJS,CR 8,"B.Tech CSE, Sem 3 - Section A.csv",17
+B.Tech CSE,3,A,Thursday,10:00–10:50 AM,Computer Organization and Architecture,BKS,CR 8,"B.Tech CSE, Sem 3 - Section A.csv",18
+B.Tech CSE,3,A,Thursday,12:00–2:50 PM,IT Workshop,PNG,LAB 1,"B.Tech CSE, Sem 3 - Section A.csv",19
+B.Tech CSE,3,A,Thursday,3:00–3:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C6,"B.Tech CSE, Sem 3 - Section A.csv",20
+B.Tech CSE,3,A,Thursday,4:00–4:50 PM,EC24203 - Digital System Design,GAJ,C6,"B.Tech CSE, Sem 3 - Section A.csv",21
+B.Tech CSE,3,A,Friday,9:00–9:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,CR12,"B.Tech CSE, Sem 3 - Section A.csv",22
+B.Tech CSE,3,A,Friday,10:00–10:50 AM,Discrete Mathematics,IKD,CR 12,"B.Tech CSE, Sem 3 - Section A.csv",23
+B.Tech CSE,3,A,Friday,11:00–11:50 AM,Mathematics for Computer Science,GSM,CR 12,"B.Tech CSE, Sem 3 - Section A.csv",24
+B.Tech CSE,3,A,Friday,1:00–2:50 PM,EC24204 - Digital System Design Lab (B1),GAJ,EL3,"B.Tech CSE, Sem 3 - Section A.csv",25
+B.Tech CSE,3,A,Friday,2:00–4:50 PM,EC24204 - Digital System Design Lab (B2),GAJ,EL3,"B.Tech CSE, Sem 3 - Section A.csv",26
+B.Tech CSE,3,B,Monday,9:00–9:50 AM,Discrete Mathematics,BHA,C12,"B.Tech CSE, Sem 3 - Section B.csv",2
+B.Tech CSE,3,B,Monday,10:00–10:50 AM,EC24203 - Digital System Design,SNE,C12,"B.Tech CSE, Sem 3 - Section B.csv",3
+B.Tech CSE,3,B,Monday,11:00–11:50 AM,Data Structures and Algorithms,SKS,CR 12,"B.Tech CSE, Sem 3 - Section B.csv",4
+B.Tech CSE,3,B,Monday,12:00–12:50 PM,TUT: IT Workshop,SEG,CR06,"B.Tech CSE, Sem 3 - Section B.csv",5
+B.Tech CSE,3,B,Monday,2:00–2:50 PM,Lock,,Campus,"B.Tech CSE, Sem 3 - Section B.csv",6
+B.Tech CSE,3,B,Monday,3:00–4:50 PM,Choice of NSS/PT & Games/Creative Arts/Entrepreneurship,NIS/RJA,OD/CR 04,"B.Tech CSE, Sem 3 - Section B.csv",7
+B.Tech CSE,3,B,Tuesday,10:00–10:50 AM,EC24203 - Digital System Design,SNE,C11,"B.Tech CSE, Sem 3 - Section B.csv",8
+B.Tech CSE,3,B,Tuesday,11:00–11:50 AM,Data Structures and Algorithms,SKS,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",9
+B.Tech CSE,3,B,Tuesday,12:00–12:50 PM,Computer Organization and Architecture,DHB,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",10
+B.Tech CSE,3,B,Tuesday,2:00–4:50 PM,IT Workshop,SEG,LAB 1,"B.Tech CSE, Sem 3 - Section B.csv",11
+B.Tech CSE,3,B,Wednesday,9:00–9:50 AM,Computer Organization and Architecture,DHB,CR 12,"B.Tech CSE, Sem 3 - Section B.csv",12
+B.Tech CSE,3,B,Wednesday,11:00 AM–1:50 PM,Data Structures and Algorithms Lab,PTK,LAB 1,"B.Tech CSE, Sem 3 - Section B.csv",13
+B.Tech CSE,3,B,Wednesday,3:00–3:50 PM,Mathematics for Computer Science,GSM,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",14
+B.Tech CSE,3,B,Wednesday,4:00–4:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,CR-11,"B.Tech CSE, Sem 3 - Section B.csv",15
+B.Tech CSE,3,B,Thursday,9:00–9:50 AM,Computer Organization and Architecture,DHB,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",16
+B.Tech CSE,3,B,Thursday,10:00–10:50 AM,Data Structures and Algorithms,SKS,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",17
+B.Tech CSE,3,B,Thursday,11:00–11:50 AM,Mathematics for Computer Science,GSM,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",18
+B.Tech CSE,3,B,Thursday,12:00–12:50 PM,Discrete Mathematics,BHA,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",19
+B.Tech CSE,3,B,Thursday,2:00–2:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C6,"B.Tech CSE, Sem 3 - Section B.csv",20
+B.Tech CSE,3,B,Thursday,3:00–4:50 PM,EC24204 - Digital System Design Lab (B2),DCS,EL3,"B.Tech CSE, Sem 3 - Section B.csv",21
+B.Tech CSE,3,B,Friday,9:00–10:50 AM,EC24204 - Digital System Design Lab (B1),PUS,EL3,"B.Tech CSE, Sem 3 - Section B.csv",22
+B.Tech CSE,3,B,Friday,1:00–1:50 PM,Mathematics for Computer Science,GSM,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",23
+B.Tech CSE,3,B,Friday,2:00–2:50 PM,Discrete Mathematics,BHA,CR 11,"B.Tech CSE, Sem 3 - Section B.csv",24
+B.Tech CSE,3,B,Friday,3:00–3:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C11,"B.Tech CSE, Sem 3 - Section B.csv",25
+B.Tech CSE,3,B,Friday,4:00–4:50 PM,EC24203 - Digital System Design,SNE,CR11,"B.Tech CSE, Sem 3 - Section B.csv",26
+B.Tech CSE,5,A,Monday,9:00–10:50 AM,Personality Development,PKM,CR-06,"B.Tech CSE, Sem 5 - Section A.csv",2
+B.Tech CSE,5,A,Monday,1:00–1:50 PM,Compiler Design,MMA,CR 11,"B.Tech CSE, Sem 5 - Section A.csv",3
+B.Tech CSE,5,A,Monday,2:00–2:50 PM,Data Mining Concepts and Techniques,SEG,CR 11,"B.Tech CSE, Sem 5 - Section A.csv",4
+B.Tech CSE,5,A,Monday,3:00–3:50 PM,Data Communication & Computer Networks,NJS,CR 11,"B.Tech CSE, Sem 5 - Section A.csv",5
+B.Tech CSE,5,A,Monday,4:00–4:50 PM,Software Engineering,PYG,CR 11,"B.Tech CSE, Sem 5 - Section A.csv",6
+B.Tech CSE,5,A,Tuesday,11:00–11:50 AM,Software Engineering,PYG,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",7
+B.Tech CSE,5,A,Tuesday,12:00–12:50 PM,Communication Skill-II,RTP,CR-12,"B.Tech CSE, Sem 5 - Section A.csv",8
+B.Tech CSE,5,A,Tuesday,1:00–1:50 PM,Compiler Design,MMA,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",9
+B.Tech CSE,5,A,Tuesday,2:00–2:50 PM,Artificial Intelligence,GTP,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",10
+B.Tech CSE,5,A,Tuesday,5:00–5:50 PM,Personality Development,PKM,CR-06,"B.Tech CSE, Sem 5 - Section A.csv",11
+B.Tech CSE,5,A,Wednesday,10:00–10:50 AM,Artificial Intelligence,GTP,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",12
+B.Tech CSE,5,A,Wednesday,11:00–11:50 AM,Data Communication & Computer Networks,NJS,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",13
+B.Tech CSE,5,A,Wednesday,12:00–12:50 PM,Communication Skill-II,RTP,CR-12,"B.Tech CSE, Sem 5 - Section A.csv",14
+B.Tech CSE,5,A,Wednesday,1:00–1:50 PM,Data Mining Concepts and Techniques,SEG,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",15
+B.Tech CSE,5,A,Wednesday,3:00–4:50 PM,Compiler Design Lab,MMA,LAB 2,"B.Tech CSE, Sem 5 - Section A.csv",16
+B.Tech CSE,5,A,Thursday,9:00–9:50 AM,Personality Development,PKM,CR-07,"B.Tech CSE, Sem 5 - Section A.csv",17
+B.Tech CSE,5,A,Thursday,10:00–10:50 AM,Compiler Design,MMA,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",18
+B.Tech CSE,5,A,Thursday,11:00–11:50 AM,Artificial Intelligence,GTP,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",19
+B.Tech CSE,5,A,Thursday,12:00–12:50 PM,Data Communication & Computer Networks,NJS,CR 12,"B.Tech CSE, Sem 5 - Section A.csv",20
+B.Tech CSE,5,A,Thursday,1:00–3:50 PM,Data Communication & Computer Networks Lab,NJS,LAB 2,"B.Tech CSE, Sem 5 - Section A.csv",21
+B.Tech CSE,5,A,Friday,10:00–10:50 AM,Communication Skill-II,RTP,CR-06,"B.Tech CSE, Sem 5 - Section A.csv",22
+B.Tech CSE,5,A,Friday,11:00–11:50 AM,Data Mining Concepts and Techniques,SEG,CR 06,"B.Tech CSE, Sem 5 - Section A.csv",23
+B.Tech CSE,5,A,Friday,12:00–12:50 PM,Software Engineering,PYG,CR 7,"B.Tech CSE, Sem 5 - Section A.csv",24
+B.Tech CSE,5,A,Friday,2:00–4:50 PM,Artificial Intelligence Lab,GTP,LAB 2,"B.Tech CSE, Sem 5 - Section A.csv",25
+B.Tech CSE,5,B,Monday,9:00–10:50 AM,Personality Development,PKM,CR-06,"B.Tech CSE, Sem 5 - Section B.csv",2
+B.Tech CSE,5,B,Monday,11:00–11:50 AM,Data Communication & Computer Networks,RVK,CR 9,"B.Tech CSE, Sem 5 - Section B.csv",3
+B.Tech CSE,5,B,Monday,12:00–12:50 PM,Data Mining Concepts and Techniques,VBP,CR 09,"B.Tech CSE, Sem 5 - Section B.csv",4
+B.Tech CSE,5,B,Monday,2:00–4:50 PM,Compiler Design Lab,AML,LAB 2,"B.Tech CSE, Sem 5 - Section B.csv",5
+B.Tech CSE,5,B,Tuesday,9:00–9:50 AM,Artificial Intelligence,ABT,CR 09,"B.Tech CSE, Sem 5 - Section B.csv",6
+B.Tech CSE,5,B,Tuesday,10:00–10:50 AM,Communication Skill-II,RTP,CR 9,"B.Tech CSE, Sem 5 - Section B.csv",7
+B.Tech CSE,5,B,Tuesday,11:00–11:50 AM,Data Communication & Computer Networks,RVK,CR 9,"B.Tech CSE, Sem 5 - Section B.csv",8
+B.Tech CSE,5,B,Tuesday,12:00–12:50 PM,Compiler Design,AML,CR 9,"B.Tech CSE, Sem 5 - Section B.csv",9
+B.Tech CSE,5,B,Tuesday,2:00–4:50 PM,Data Communication & Computer Networks Lab,AJS,LAB 2,"B.Tech CSE, Sem 5 - Section B.csv",10
+B.Tech CSE,5,B,Tuesday,5:00–5:50 PM,Personality Development,PKM,CR-06,"B.Tech CSE, Sem 5 - Section B.csv",11
+B.Tech CSE,5,B,Wednesday,9:00–9:50 AM,Artificial Intelligence,ABT,CR 11,"B.Tech CSE, Sem 5 - Section B.csv",12
+B.Tech CSE,5,B,Wednesday,10:00–10:50 AM,Compiler Design,AML,CR 11,"B.Tech CSE, Sem 5 - Section B.csv",13
+B.Tech CSE,5,B,Wednesday,12:00–1:50 PM,Artificial Intelligence Lab,ABT,LAB 2,"B.Tech CSE, Sem 5 - Section B.csv",14
+B.Tech CSE,5,B,Wednesday,2:00–2:50 PM,Communication Skill-II,RTP,CR12,"B.Tech CSE, Sem 5 - Section B.csv",15
+B.Tech CSE,5,B,Wednesday,3:00–3:50 PM,Software Engineering,PYG,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",16
+B.Tech CSE,5,B,Thursday,9:00–9:50 AM,Personality Development,PKM,CR-07,"B.Tech CSE, Sem 5 - Section B.csv",17
+B.Tech CSE,5,B,Thursday,1:00–1:50 PM,Software Engineering,PYG,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",18
+B.Tech CSE,5,B,Thursday,2:00–2:50 PM,Compiler Design,AML,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",19
+B.Tech CSE,5,B,Thursday,3:00–3:50 PM,Communication Skill-II,RTP,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",20
+B.Tech CSE,5,B,Thursday,4:00–4:50 PM,Data Mining Concepts and Techniques,VBP,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",21
+B.Tech CSE,5,B,Friday,12:00–12:50 PM,Artificial Intelligence,ABT,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",22
+B.Tech CSE,5,B,Friday,1:00–1:50 PM,Data Mining Concepts and Techniques,VBP,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",23
+B.Tech CSE,5,B,Friday,3:00–3:50 PM,Data Communication & Computer Networks,RVK,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",24
+B.Tech CSE,5,B,Friday,4:00–4:50 PM,Software Engineering,PYG,CR 12,"B.Tech CSE, Sem 5 - Section B.csv",25
+B.Tech CSE,7,A,Monday,10:00 AM–12:50 PM,Cloud Computing Lab,VIG,LAB 2,"B.Tech CSE, Sem 7 - Section A.csv",2
+B.Tech CSE,7,A,Monday,1:00–1:50 PM,Frontend Design,JIG,CR 9,"B.Tech CSE, Sem 7 - Section A.csv",3
+B.Tech CSE,7,A,Monday,3:00–3:50 PM,Cloud Computing,VIG,CR 9,"B.Tech CSE, Sem 7 - Section A.csv",4
+B.Tech CSE,7,A,Tuesday,10:00 AM–12:50 PM,Frontend Design Lab,JIG,LAB 2,"B.Tech CSE, Sem 7 - Section A.csv",5
+B.Tech CSE,7,A,Tuesday,2:00–2:50 PM,Frontend Design,JIG,CR 9,"B.Tech CSE, Sem 7 - Section A.csv",6
+B.Tech CSE,7,A,Tuesday,3:00–3:50 PM,Cloud Computing,VIG,CR 09,"B.Tech CSE, Sem 7 - Section A.csv",7
+B.Tech CSE,7,A,Wednesday,11:00–11:50 AM,Social Media Marketing,JKC,C2,"B.Tech CSE, Sem 7 - Section A.csv",8
+B.Tech CSE,7,A,Wednesday,3:00–3:50 PM,Cloud Computing,VIG,CR 07,"B.Tech CSE, Sem 7 - Section A.csv",9
+B.Tech CSE,7,A,Wednesday,4:00–4:50 PM,Frontend Design,JIG,CR 07,"B.Tech CSE, Sem 7 - Section A.csv",10
+B.Tech CSE,7,A,Thursday,4:00–4:50 PM,Social Media Marketing,JKC,C2,"B.Tech CSE, Sem 7 - Section A.csv",11
+B.Tech CSE,7,A,Thursday,5:00–5:50 PM,Social Media Marketing,JKC,C2,"B.Tech CSE, Sem 7 - Section A.csv",12
+B.Tech CSE,7,B,Wednesday,9:00–11:50 AM,Cloud Computing Lab,KTM,LAB 2,"B.Tech CSE, Sem 7 - Section B.csv",2
+B.Tech CSE,7,B,Wednesday,12:00–12:50 PM,Social Media Marketing,JKC,C2,"B.Tech CSE, Sem 7 - Section B.csv",3
+B.Tech CSE,7,B,Wednesday,1:00–1:50 PM,Cloud Computing,KTM,CR 05,"B.Tech CSE, Sem 7 - Section B.csv",4
+B.Tech CSE,7,B,Wednesday,2:00–2:50 PM,Frontend Design,SKA,CR 08,"B.Tech CSE, Sem 7 - Section B.csv",5
+B.Tech CSE,7,B,Thursday,1:00–1:50 PM,Cloud Computing,KTM,CR 11,"B.Tech CSE, Sem 7 - Section B.csv",6
+B.Tech CSE,7,B,Thursday,2:00–2:50 PM,Frontend Design,SKA,CR 11,"B.Tech CSE, Sem 7 - Section B.csv",7
+B.Tech CSE,7,B,Thursday,4:00–4:50 PM,Social Media Marketing,JKC,C2,"B.Tech CSE, Sem 7 - Section B.csv",8
+B.Tech CSE,7,B,Thursday,5:00–5:50 PM,Social Media Marketing,JKC,C2,"B.Tech CSE, Sem 7 - Section B.csv",9
+B.Tech CSE,7,B,Friday,9:00–11:50 AM,Frontend Design Lab,SKA,LAB 2,"B.Tech CSE, Sem 7 - Section B.csv",10
+B.Tech CSE,7,B,Friday,1:00–1:50 PM,Cloud Computing,KTM,CR 05,"B.Tech CSE, Sem 7 - Section B.csv",11
+B.Tech CSE,7,B,Friday,2:00–2:50 PM,Frontend Design,SKA,CR 05,"B.Tech CSE, Sem 7 - Section B.csv",12
+B.Tech ECE,3,,Monday,9:00–9:50 AM,EC24205 - Network Theory,DCS,C3,"B.Tech ECE, Sem 3 .csv",2
+B.Tech ECE,3,,Monday,10:00–10:50 AM,EC24203 - Digital System Design,GAJ,C3,"B.Tech ECE, Sem 3 .csv",3
+B.Tech ECE,3,,Monday,11:00–11:50 AM,EC24209 - Probability and Random Processes,BHA,C3,"B.Tech ECE, Sem 3 .csv",4
+B.Tech ECE,3,,Monday,12:00–12:50 PM,EC24207 - Signals and Systems,GAJ,C14,"B.Tech ECE, Sem 3 .csv",5
+B.Tech ECE,3,,Monday,2:00–2:50 PM,EC24201 - Electronic Devices,RVK,C3,"B.Tech ECE, Sem 3 .csv",6
+B.Tech ECE,3,,Monday,3:00–4:50 PM,EC24204 - Digital System Design Lab,JYS,EL-3,"B.Tech ECE, Sem 3 .csv",7
+B.Tech ECE,3,,Tuesday,9:00–9:50 AM,EC24205 - Network Theory,DCS,C3,"B.Tech ECE, Sem 3 .csv",8
+B.Tech ECE,3,,Tuesday,10:00–10:50 AM,EC24203 - Digital System Design,GAJ,C3,"B.Tech ECE, Sem 3 .csv",9
+B.Tech ECE,3,,Tuesday,11:00–11:50 AM,EC24209 - Probability and Random Processes,BHA,C3,"B.Tech ECE, Sem 3 .csv",10
+B.Tech ECE,3,,Tuesday,12:00–12:50 PM,EC24207 - Signals and Systems,GAJ,C3,"B.Tech ECE, Sem 3 .csv",11
+B.Tech ECE,3,,Tuesday,2:00–2:50 PM,EC24201 - Electronic Devices,RVK,C3,"B.Tech ECE, Sem 3 .csv",12
+B.Tech ECE,3,,Tuesday,3:00–3:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,CR 03,"B.Tech ECE, Sem 3 .csv",13
+B.Tech ECE,3,,Wednesday,9:00–9:50 AM,EC24205 - Network Theory,DCS,C3,"B.Tech ECE, Sem 3 .csv",14
+B.Tech ECE,3,,Wednesday,10:00–10:50 AM,EC24203 - Digital System Design,GAJ,C3,"B.Tech ECE, Sem 3 .csv",15
+B.Tech ECE,3,,Wednesday,11:00–11:50 AM,EC24209 - Probability and Random Processes,BHA,C3,"B.Tech ECE, Sem 3 .csv",16
+B.Tech ECE,3,,Wednesday,12:00–12:50 PM,EC24207 - Signals and Systems,GAJ,C3,"B.Tech ECE, Sem 3 .csv",17
+B.Tech ECE,3,,Wednesday,2:00–2:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C3,"B.Tech ECE, Sem 3 .csv",18
+B.Tech ECE,3,,Wednesday,3:00–4:50 PM,EC24202 - Electronic Devices Lab,JYS,EL-2,"B.Tech ECE, Sem 3 .csv",19
+B.Tech ECE,3,,Thursday,2:00–2:50 PM,EC24201 - Electronic Devices,RVK,C3,"B.Tech ECE, Sem 3 .csv",20
+B.Tech ECE,3,,Thursday,4:00–5:50 PM,Choice of Creative Arts / NSS / NCC,NIS/DHB,OD/C10,"B.Tech ECE, Sem 3 .csv",21
+B.Tech ECE,3,,Friday,9:00–9:50 AM,EC24205 - Network Theory,DCS,C4,"B.Tech ECE, Sem 3 .csv",22
+B.Tech ECE,3,,Friday,10:00–10:50 AM,EC24201 - Electronic Devices,RVK,C4,"B.Tech ECE, Sem 3 .csv",23
+B.Tech ECE,3,,Friday,11:00–11:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,C4,"B.Tech ECE, Sem 3 .csv",24
+B.Tech ECE,5,,Monday,11:00–11:50 AM,ECE5: EC24301 / EEE3: EE24205 - Electromagnetic Fields and Waves,DCS,C10,"B.Tech ECE, Sem 5.csv",2
+B.Tech ECE,5,,Monday,12:00–12:50 PM,EC24305 - Microprocessors,PUS,C10,"B.Tech ECE, Sem 5.csv",3
+B.Tech ECE,5,,Monday,2:00–2:50 PM,EC24303 - Digital Communication,AKA,C10,"B.Tech ECE, Sem 5.csv",4
+B.Tech ECE,5,,Monday,3:00–3:50 PM,EC24307 - Data Communication and Computer Networking,SNE,C10,"B.Tech ECE, Sem 5.csv",5
+B.Tech ECE,5,,Tuesday,11:00–11:50 AM,ECE5: EC24301 / EEE3: EE24205 - Electromagnetic Fields and Waves,DCS,C10,"B.Tech ECE, Sem 5.csv",6
+B.Tech ECE,5,,Tuesday,12:00–12:50 PM,EC24305 - Microprocessors,PUS,C10,"B.Tech ECE, Sem 5.csv",7
+B.Tech ECE,5,,Tuesday,1:00–1:50 PM,EC24307 - Data Communication and Computer Networking,SNE,C10,"B.Tech ECE, Sem 5.csv",8
+B.Tech ECE,5,,Wednesday,10:00–10:50 AM,EC24311 - ASIC Design,JYS,C10,"B.Tech ECE, Sem 5.csv",9
+B.Tech ECE,5,,Wednesday,11:00–11:50 AM,ECE5: EC24301 / EEE3: EE24205 - Electromagnetic Fields and Waves,DCS,C10,"B.Tech ECE, Sem 5.csv",10
+B.Tech ECE,5,,Wednesday,12:00–12:50 PM,EC24305 - Microprocessors,PUS,C10,"B.Tech ECE, Sem 5.csv",11
+B.Tech ECE,5,,Wednesday,2:00–2:50 PM,EC24303 - Digital Communication,AKA,C10,"B.Tech ECE, Sem 5.csv",12
+B.Tech ECE,5,,Thursday,11:00–11:50 AM,ECE5: EC24301 / EEE3: EE24205 - Electromagnetic Fields and Waves,DCS,C10,"B.Tech ECE, Sem 5.csv",13
+B.Tech ECE,5,,Thursday,12:00–12:50 PM,EC24311 - ASIC Design,JYS,C10,"B.Tech ECE, Sem 5.csv",14
+B.Tech ECE,5,,Thursday,1:00–2:50 PM,EC24306 - Microprocessors Lab,PUS,EL4,"B.Tech ECE, Sem 5.csv",15
+B.Tech ECE,5,,Friday,10:00–10:50 AM,EC24311 - ASIC Design,JYS,C10,"B.Tech ECE, Sem 5.csv",16
+B.Tech ECE,5,,Friday,11:00 AM–12:50 PM,EC24304 - Communication System Lab,AKA,EL3,"B.Tech ECE, Sem 5.csv",17
+B.Tech ECE,5,,Friday,1:00–1:50 PM,EC24307 - Data Communication and Computer Networking,SNE,C10,"B.Tech ECE, Sem 5.csv",18
+B.Tech ECE,5,,Friday,2:00–2:50 PM,EC24303 - Digital Communication,AKA,C8,"B.Tech ECE, Sem 5.csv",19
+B.Tech ECE,7,,Monday,11:00–11:50 AM,EC409 - Wireless Communication,SNE,C4,"B.Tech ECE, Sem 7.csv",2
+B.Tech ECE,7,,Monday,12:00–12:50 PM,EC401 - Microwave Theory and Techniques,DCS,CR4,"B.Tech ECE, Sem 7.csv",3
+B.Tech ECE,7,,Monday,3:00–4:50 PM,EC402 Lab - Microwave Lab,DCS,EL1,"B.Tech ECE, Sem 7.csv",4
+B.Tech ECE,7,,Monday,5:00–5:50 PM,EC423 - Biomedical Electronics & Signal Processing,GAJ,C10,"B.Tech ECE, Sem 7.csv",5
+B.Tech ECE,7,,Tuesday,1:00–1:50 PM,EC427 - ASIC Design,JYS,CR-8,"B.Tech ECE, Sem 7.csv",6
+B.Tech ECE,7,,Tuesday,2:00–3:50 PM,EC404 Lab - Advanced Communication Lab,AKA,EL1,"B.Tech ECE, Sem 7.csv",7
+B.Tech ECE,7,,Tuesday,5:00–5:50 PM,EC423 - Biomedical Electronics & Signal Processing,GAJ,C10,"B.Tech ECE, Sem 7.csv",8
+B.Tech ECE,7,,Wednesday,11:00–11:50 AM,EC409 - Wireless Communication,SNE,C4,"B.Tech ECE, Sem 7.csv",9
+B.Tech ECE,7,,Wednesday,12:00–12:50 PM,EC427 - ASIC Design,JYS,C-11,"B.Tech ECE, Sem 7.csv",10
+B.Tech ECE,7,,Wednesday,1:00–1:50 PM,EC401 - Microwave Theory and Techniques,DCS,C10,"B.Tech ECE, Sem 7.csv",11
+B.Tech ECE,7,,Thursday,9:00–9:50 AM,EC409 - Wireless Communication,SNE,C3,"B.Tech ECE, Sem 7.csv",12
+B.Tech ECE,7,,Thursday,10:00–10:50 AM,EC401 - Microwave Theory and Techniques,DCS,C3,"B.Tech ECE, Sem 7.csv",13
+B.Tech ECE,7,,Thursday,11:00–11:50 AM,EC423 - Biomedical Electronics & Signal Processing,GAJ,C3,"B.Tech ECE, Sem 7.csv",14
+B.Tech ECE,7,,Thursday,1:00–1:50 PM,EC427 - ASIC Design,JYS,C10,"B.Tech ECE, Sem 7.csv",15
+B.Tech EEE,3,,Monday,10:00–10:50 AM,EE24201 - Electrical Measurement and Instrumentation,ABTh,TPX,"B.Tech EEE, Sem 3.csv",2
+B.Tech EEE,3,,Monday,11:00–11:50 AM,EE24205 - Engineering Electromagnetics,DCS,C10,"B.Tech EEE, Sem 3.csv",3
+B.Tech EEE,3,,Monday,12:00–12:50 PM,EE24207 - Introduction to System Theory,ABTh,TPX,"B.Tech EEE, Sem 3.csv",4
+B.Tech EEE,3,,Monday,2:00–2:50 PM,EE24203 - Analog and Digital Circuits,PUS,TPX,"B.Tech EEE, Sem 3.csv",5
+B.Tech EEE,3,,Monday,3:00–3:50 PM,EE24209 - Circuit Theory,PRY,TPX,"B.Tech EEE, Sem 3.csv",6
+B.Tech EEE,3,,Tuesday,9:00–10:50 AM,EE24204 Lab - Analog and Digital Circuits Laboratory,PUS,EL2,"B.Tech EEE, Sem 3.csv",7
+B.Tech EEE,3,,Tuesday,11:00–11:50 AM,EE24205 - Engineering Electromagnetics,DCS,C10,"B.Tech EEE, Sem 3.csv",8
+B.Tech EEE,3,,Tuesday,12:00–12:50 PM,EE24207 - Introduction to System Theory,ABTh,TPX,"B.Tech EEE, Sem 3.csv",9
+B.Tech EEE,3,,Tuesday,2:00–2:50 PM,EE24203 - Analog and Digital Circuits,PUS,TPX,"B.Tech EEE, Sem 3.csv",10
+B.Tech EEE,3,,Tuesday,3:00–3:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,CR 03,"B.Tech EEE, Sem 3.csv",11
+B.Tech EEE,3,,Tuesday,4:00–4:50 PM,EE24201 - Electrical Measurement and Instrumentation,ABTh,TPX,"B.Tech EEE, Sem 3.csv",12
+B.Tech EEE,3,,Wednesday,11:00–11:50 AM,EE24205 - Engineering Electromagnetics,DCS,C10,"B.Tech EEE, Sem 3.csv",13
+B.Tech EEE,3,,Wednesday,12:00–1:50 PM,EE24202 Lab - Electrical Measurement and Instrumentation Laboratory,ABTh,EL3,"B.Tech EEE, Sem 3.csv",14
+B.Tech EEE,3,,Wednesday,2:00–2:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C3,"B.Tech EEE, Sem 3.csv",15
+B.Tech EEE,3,,Wednesday,3:00–3:50 PM,EE24209 - Circuit Theory,PRY,TPX,"B.Tech EEE, Sem 3.csv",16
+B.Tech EEE,3,,Thursday,10:00–10:50 AM,EE24209 - Circuit Theory,PRY,TPX,"B.Tech EEE, Sem 3.csv",17
+B.Tech EEE,3,,Thursday,11:00–11:50 AM,EE24205 - Engineering Electromagnetics,DCS,C10,"B.Tech EEE, Sem 3.csv",18
+B.Tech EEE,3,,Thursday,12:00–12:50 PM,EE24203 - Analog and Digital Circuits,PUS,TPX,"B.Tech EEE, Sem 3.csv",19
+B.Tech EEE,3,,Thursday,4:00–5:50 PM,Creative Arts / NSS,NIS/DHB,OD/C10,"B.Tech EEE, Sem 3.csv",20
+B.Tech EEE,3,,Friday,9:00–9:50 AM,EE24207 - Introduction to System Theory,ABTh,TPX,"B.Tech EEE, Sem 3.csv",21
+B.Tech EEE,3,,Friday,11:00–11:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,C10,"B.Tech EEE, Sem 3.csv",22
+B.Tech EEE,3,,Friday,12:00–12:50 PM,EE24209 - Circuit Theory,PRY,TPX,"B.Tech EEE, Sem 3.csv",23
+B.Tech EEE,3,,Friday,1:00–1:50 PM,EE24201 - Electrical Measurement and Instrumentation,ABTh,TPX,"B.Tech EEE, Sem 3.csv",24
+B.Tech EEE,5,,Monday,11:00 AM–12:50 PM,EE24304 - Control System Laboratory,PSR,EL2,"B.Tech EEE, Sem 5.csv",2
+B.Tech EEE,5,,Monday,1:00–1:50 PM,EE24303 - Control Theory,PSR,C4,"B.Tech EEE, Sem 5.csv",3
+B.Tech EEE,5,,Monday,3:00–3:50 PM,EE24305 - Power Electronics,PSR,C3,"B.Tech EEE, Sem 5.csv",4
+B.Tech EEE,5,,Monday,4:00–4:50 PM,EE24307 - Electrical Power Transmission and Distribution,PRY,C3,"B.Tech EEE, Sem 5.csv",5
+B.Tech EEE,5,,Tuesday,10:00–10:50 AM,EE24303 - Control Theory,PSR,C4,"B.Tech EEE, Sem 5.csv",6
+B.Tech EEE,5,,Tuesday,11:00–11:50 AM,EE24307 - Electrical Power Transmission and Distribution,PRY,C14,"B.Tech EEE, Sem 5.csv",7
+B.Tech EEE,5,,Tuesday,12:00–12:50 PM,EE24305 - Power Electronics,PSR,C14,"B.Tech EEE, Sem 5.csv",8
+B.Tech EEE,5,,Tuesday,1:00–1:50 PM,EE24301 - AC Rotating Machines,DPV,C3,"B.Tech EEE, Sem 5.csv",9
+B.Tech EEE,5,,Wednesday,11:00 AM–12:50 PM,EE24302 - Electrical Machine Laboratory-II,DPV,M/C Lab,"B.Tech EEE, Sem 5.csv",10
+B.Tech EEE,5,,Wednesday,1:00–1:50 PM,EE24301 - AC Rotating Machines,DPV,C3,"B.Tech EEE, Sem 5.csv",11
+B.Tech EEE,5,,Wednesday,3:00–3:50 PM,EE24305 - Power Electronics,PSR,C3,"B.Tech EEE, Sem 5.csv",12
+B.Tech EEE,5,,Wednesday,4:00–4:50 PM,EE24331/EE573 - Embedded Systems and Applications,PUS,C3,"B.Tech EEE, Sem 5.csv",13
+B.Tech EEE,5,,Thursday,12:00–12:50 PM,EE24303 - Control Theory,PSR,C10,"B.Tech EEE, Sem 5.csv",14
+B.Tech EEE,5,,Thursday,1:00–1:50 PM,EE24307 - Electrical Power Transmission and Distribution,PRY,C3,"B.Tech EEE, Sem 5.csv",15
+B.Tech EEE,5,,Thursday,3:00–3:50 PM,EE24305 - Power Electronics,PSR,C3,"B.Tech EEE, Sem 5.csv",16
+B.Tech EEE,5,,Thursday,4:00–4:50 PM,EE24331/EE573 - Embedded Systems and Applications,PUS,C3,"B.Tech EEE, Sem 5.csv",17
+B.Tech EEE,5,,Friday,1:00–1:50 PM,EE24301 - AC Rotating Machines,DPV,C13,"B.Tech EEE, Sem 5.csv",18
+B.Tech EEE,5,,Friday,3:00–3:50 PM,EE24303 - Control Theory,PSR,C03,"B.Tech EEE, Sem 5.csv",19
+B.Tech EEE,5,,Friday,4:00–4:50 PM,EE24331/EE573 - Embedded Systems and Applications,PUS,C3,"B.Tech EEE, Sem 5.csv",20
+B.Tech EEE,7,,Wednesday,3:00–3:50 PM,EE437 - Industrial Drives and Control,DPV,C10,"B.Tech EEE, Sem 7.csv",2
+B.Tech EEE,7,,Wednesday,4:00–4:50 PM,EE573 - Embedded Systems and Applications,PUS,C3,"B.Tech EEE, Sem 7.csv",3
+B.Tech EEE,7,,Thursday,9:00–11:50 AM,EE354 Lab - Electrical Workshop,PSR,M/C Lab,"B.Tech EEE, Sem 7.csv",4
+B.Tech EEE,7,,Thursday,12:00–12:50 PM,EE437 - Industrial Drives and Control,DPV,C14,"B.Tech EEE, Sem 7.csv",5
+B.Tech EEE,7,,Thursday,1:00–3:50 PM,EE508 Lab - Advanced Power Electronics Laboratory,DPV,M/C Lab,"B.Tech EEE, Sem 7.csv",6
+B.Tech EEE,7,,Thursday,4:00–4:50 PM,EE573 - Embedded Systems and Applications,PUS,C3,"B.Tech EEE, Sem 7.csv",7
+B.Tech EEE,7,,Friday,2:00–2:50 PM,EE437 - Industrial Drives and Control,DPV,C10,"B.Tech EEE, Sem 7.csv",8
+B.Tech EEE,7,,Friday,4:00–4:50 PM,EE573 - Embedded Systems and Applications,PUS,C3,"B.Tech EEE, Sem 7.csv",9
+B.Tech 1st Year,1,A,Monday,10:00–11:50,Chemistry Lab / Workshop Practice,RNA / ABP,Chem Lab / Mech. Ws,"B.Tech. 1st Year, Sem 1 — Section A.csv",2
+B.Tech 1st Year,1,A,Monday,11:00–11:50,Chemistry Lab / Workshop Practice,RNA / ABP,Chem Lab / Mech. Ws,"B.Tech. 1st Year, Sem 1 — Section A.csv",3
+B.Tech 1st Year,1,A,Monday,1:00–1:50,Chemistry (CH24101),RNA,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",4
+B.Tech 1st Year,1,A,Monday,2:00–2:50,Environmental Science (CE24101),NIS,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",5
+B.Tech 1st Year,1,A,Monday,3:00–3:50,Basic Mechanical Engineering (ME24101),VKS,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",6
+B.Tech 1st Year,1,A,Monday,4:00–4:50,Mathematics-I (MA24101),IKD,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",7
+B.Tech 1st Year,1,A,Tuesday,9:00–9:50,Environmental Science (CE24101),NIS,CR-6,"B.Tech. 1st Year, Sem 1 — Section A.csv",8
+B.Tech 1st Year,1,A,Tuesday,10:00–10:50,Basic Mechanical Engineering (ME24101),VKS,CR-6,"B.Tech. 1st Year, Sem 1 — Section A.csv",9
+B.Tech 1st Year,1,A,Tuesday,11:00–11:50,Basic Electronics & Communication Engineering (EC24101),JYS,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",10
+B.Tech 1st Year,1,A,Tuesday,1:00–4:50,Engineering Graphics Lab (ME24102),VKS,ED Hall,"B.Tech. 1st Year, Sem 1 — Section A.csv",11
+B.Tech 1st Year,1,A,Wednesday,9:00–9:50,Mathematics-I (MA24101),IKD,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",12
+B.Tech 1st Year,1,A,Wednesday,10:00–10:50,Basic Mechanical Engineering (ME24101),VKS,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",13
+B.Tech 1st Year,1,A,Wednesday,11:00–11:50,Chemistry (CH24101),RNA,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",14
+B.Tech 1st Year,1,A,Wednesday,1:00–2:50,Basic Electronics Lab / Chemistry Lab,PRY / RNA / DDG,EL-2 / Chem Lab,"B.Tech. 1st Year, Sem 1 — Section A.csv",15
+B.Tech 1st Year,1,A,Thursday,10:00–10:50,Basic Electronics & Communication Engineering (EC24101),JYS,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",16
+B.Tech 1st Year,1,A,Thursday,11:00–11:50,Chemistry (CH24101),RNA,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",17
+B.Tech 1st Year,1,A,Thursday,12:00–12:50,Mathematics-I (MA24101),IKD,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",18
+B.Tech 1st Year,1,A,Friday,9:00–10:50,Basic Electronics Lab / Workshop Practice,PRY / ABP / DDG,EL-2 / Mech. Ws,"B.Tech. 1st Year, Sem 1 — Section A.csv",19
+B.Tech 1st Year,1,A,Friday,12:00–12:50,Chemistry (CH24101),RNA,CR-6,"B.Tech. 1st Year, Sem 1 — Section A.csv",20
+B.Tech 1st Year,1,A,Friday,1:00–1:50,Mathematics-I (MA24101),IKD,CR-6,"B.Tech. 1st Year, Sem 1 — Section A.csv",21
+B.Tech 1st Year,1,A,Friday,2:00–2:50,Basic Electronics & Communication Engineering (EC24101),JYS,CR-06,"B.Tech. 1st Year, Sem 1 — Section A.csv",22
+B.Tech 1st Year,1,A,Friday,3:00–4:50,NSS / PT & Games / Creative Arts / Entrepreneurship,RJA / DHB,GYM / OD1 / OD2 / CR 01,"B.Tech. 1st Year, Sem 1 — Section A.csv",23
+B.Tech 1st Year,1,B,Monday,11:00–11:50,Basics Electronics and Communication Engineering (EC24101),AKA,C7,"B.Tech. 1st Year, Sem 1 — Section B.csv",2
+B.Tech 1st Year,1,B,Monday,12:00–12:50,Basics of Mechanical Engineering (ME24101),VKS,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",3
+B.Tech 1st Year,1,B,Monday,1:00–1:50,Mathematics-I (MA24101),IKD,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",4
+B.Tech 1st Year,1,B,Monday,3:00–4:50,"Workshop Practice (PE24102 Lab, B1) / Chemistry Lab (CH24102 Lab, B2)",ABP / RNA,MWS / CH LAB,"B.Tech. 1st Year, Sem 1 — Section B.csv",5
+B.Tech 1st Year,1,B,Tuesday,9:00–9:50,Chemistry (CH24101),RNA,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",6
+B.Tech 1st Year,1,B,Tuesday,10:00–10:50,Mathematics-I (MA24101),IKD,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",7
+B.Tech 1st Year,1,B,Tuesday,11:00–11:50,Basics Electronics and Communication Engineering (EC24101),AKA,C7,"B.Tech. 1st Year, Sem 1 — Section B.csv",8
+B.Tech 1st Year,1,B,Tuesday,12:00–12:50,Basics of Mechanical Engineering (ME24101),VKS,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",9
+B.Tech 1st Year,1,B,Wednesday,10:00–10:50,Chemistry (CH24101),RNA,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",10
+B.Tech 1st Year,1,B,Wednesday,11:00–11:50,Basics Electronics and Communication Engineering (EC24101),AKA,C7,"B.Tech. 1st Year, Sem 1 — Section B.csv",11
+B.Tech 1st Year,1,B,Wednesday,12:00–12:50,Mathematics-I (MA24101),IKD,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",12
+B.Tech 1st Year,1,B,Wednesday,2:00–5:50,Engineering Graphics Lab (ME24102 Lab),BKS,ED HALL,"B.Tech. 1st Year, Sem 1 — Section B.csv",13
+B.Tech 1st Year,1,B,Thursday,11:00–11:50,Environmental Science (CE24101),NIS,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",14
+B.Tech 1st Year,1,B,Thursday,12:00–12:50,Chemistry (CH24101),RNA,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",15
+B.Tech 1st Year,1,B,Thursday,1:00–1:50,Mathematics-I (MA24101),IKD,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",16
+B.Tech 1st Year,1,B,Thursday,3:00–4:50,"Basic Electronics Lab (EC24102 Lab, B1) / Workshop Practice (PE24102 Lab, B2)",PRY / ABP,EL2 / MWS,"B.Tech. 1st Year, Sem 1 — Section B.csv",17
+B.Tech 1st Year,1,B,Friday,9:00–9:50,Environmental Science (CE24101),NIS,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",18
+B.Tech 1st Year,1,B,Friday,10:00–10:50,Basics of Mechanical Engineering (ME24101),VKS,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",19
+B.Tech 1st Year,1,B,Friday,11:00–11:50,Chemistry (CH24101),RNA,CR-07,"B.Tech. 1st Year, Sem 1 — Section B.csv",20
+B.Tech 1st Year,1,B,Friday,1:00–2:50,"Basic Electronics Lab (EC24102 Lab, B2) / Chemistry Lab (CH24102 Lab, B1)",PRY / RNA,EL2 / CH LAB,"B.Tech. 1st Year, Sem 1 — Section B.csv",21
+B.Tech 1st Year,1,B,Friday,3:00–4:50,NSS / PT & Games / Creative Arts / Entrepreneurship,RJA / DHB,GYM / OD1 / OD2 / CR 01,"B.Tech. 1st Year, Sem 1 — Section B.csv",22
+B.Tech 1st Year,1,C,Monday,9:00–9:50,Basics of Mechanical Engineering (ME24101),VKS,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",2
+B.Tech 1st Year,1,C,Monday,10:00–10:50,Chemistry (CH24101),RJA,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",3
+B.Tech 1st Year,1,C,Monday,11:00–11:50,Mathematics-I (MA24101),GMS,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",4
+B.Tech 1st Year,1,C,Monday,12:00–12:50,Basics Electronics and Communication Engineering (EC24101),AKA,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",5
+B.Tech 1st Year,1,C,Monday,3:00–4:50,NSS / PT & Games / Creative Arts / Entrepreneurship,RVK / DHB,GYM / Outdoor / OD2 / CR 05,"B.Tech. 1st Year, Sem 1 — Section C.csv",6
+B.Tech 1st Year,1,C,Tuesday,9:00–9:50,Mathematics-I (MA24101),GMS,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",7
+B.Tech 1st Year,1,C,Tuesday,10:00–10:50,Chemistry (CH24101),RJA,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",8
+B.Tech 1st Year,1,C,Tuesday,11:00–11:50,Environmental Sciences (CE24101),NIS,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",9
+B.Tech 1st Year,1,C,Tuesday,12:00–12:50,Basics Electronics and Communication Engineering (EC24101),AKA,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",10
+B.Tech 1st Year,1,C,Tuesday,3:00–4:50,"Chemistry Lab (CH24102 Lab, C1) / Workshop Practice (PE24102 Lab, C2)",RJA / ABP,CH LAB / MWS,"B.Tech. 1st Year, Sem 1 — Section C.csv",11
+B.Tech 1st Year,1,C,Wednesday,9:00–10:50,"Basic Electronics Lab (EC24102 Lab, C2) / Workshop Practice (PE24102 Lab, C1)",ABTh / ABP,EL2 / MWS,"B.Tech. 1st Year, Sem 1 — Section C.csv",12
+B.Tech 1st Year,1,C,Wednesday,11:00–11:50,Chemistry (CH24101),RJA,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",13
+B.Tech 1st Year,1,C,Wednesday,12:00–12:50,Basics Electronics and Communication Engineering (EC24101),AKA,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",14
+B.Tech 1st Year,1,C,Thursday,9:00–10:50,"Basic Electronics Lab (EC24102 Lab, C1) / Chemistry Lab (CH24102 Lab, C2)",ABTh / RJA,EL2 / CH LAB,"B.Tech. 1st Year, Sem 1 — Section C.csv",15
+B.Tech 1st Year,1,C,Thursday,11:00–11:50,Basics of Mechanical Engineering (ME24101),VKS,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",16
+B.Tech 1st Year,1,C,Thursday,1:00–1:50,Mathematics-I (MA24101),GMS,CR-06,"B.Tech. 1st Year, Sem 1 — Section C.csv",17
+B.Tech 1st Year,1,C,Friday,9:00–9:50,Chemistry (CH24101),RJA,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",18
+B.Tech 1st Year,1,C,Friday,10:00–10:50,Mathematics-I (MA24101),GMS,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",19
+B.Tech 1st Year,1,C,Friday,11:00–11:50,Environmental Sciences (CE24101),NIS,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",20
+B.Tech 1st Year,1,C,Friday,12:00–12:50,Basics of Mechanical Engineering (ME24101),VKS,CR-08,"B.Tech. 1st Year, Sem 1 — Section C.csv",21
+B.Tech 1st Year,1,C,Friday,2:00–5:50,Engineering Graphics Lab (ME24102 Lab),BKS,ED HALL,"B.Tech. 1st Year, Sem 1 — Section C.csv",22
+B.Tech 1st Year,1,D,Monday,10:00–10:50,Basics of Mechanical Engineering (ME24101),VKS,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",2
+B.Tech 1st Year,1,D,Monday,11:00–11:50,Chemistry (CH24101),RJA,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",3
+B.Tech 1st Year,1,D,Monday,1:00–1:50,Basics Electronics and Communication Engineering (EC24101),JYS,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",4
+B.Tech 1st Year,1,D,Monday,2:00–2:50,Mathematics-I (MA24101),IKD,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",5
+B.Tech 1st Year,1,D,Monday,3:00–4:50,NSS / PT & Games / Creative Arts / Entrepreneurship,RVK / DHB,GYM / Outdoor / OD2 / CR 05,"B.Tech. 1st Year, Sem 1 — Section D.csv",6
+B.Tech 1st Year,1,D,Tuesday,9:00–9:50,Mathematics-I (MA24101),IKD,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",7
+B.Tech 1st Year,1,D,Tuesday,12:00–12:50,Chemistry (CH24101),RJA,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",8
+B.Tech 1st Year,1,D,Tuesday,1:00–1:50,Environmental Sciences (CE24101),NIS,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",9
+B.Tech 1st Year,1,D,Tuesday,2:00–2:50,Basics Electronics and Communication Engineering (EC24101),JYS,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",10
+B.Tech 1st Year,1,D,Wednesday,9:00–9:50,Chemistry (CH24101),RJA,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",11
+B.Tech 1st Year,1,D,Wednesday,10:00–10:50,Mathematics-I (MA24101),IKD,CR-5,"B.Tech. 1st Year, Sem 1 — Section D.csv",12
+B.Tech 1st Year,1,D,Wednesday,12:00–1:50,"Chemistry Lab (CH24102 Lab, D1) / Workshop Practice (PE24102 Lab, D2)",RJA / ABP,CH LAB / MWS,"B.Tech. 1st Year, Sem 1 — Section D.csv",13
+B.Tech 1st Year,1,D,Wednesday,2:00–2:50,Basics Electronics and Communication Engineering (EC24101),JYS,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",14
+B.Tech 1st Year,1,D,Wednesday,3:00–3:50,Basics of Mechanical Engineering (ME24101),VKS,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",15
+B.Tech 1st Year,1,D,Thursday,11:00–11:50,Chemistry (CH24101),RJA,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",16
+B.Tech 1st Year,1,D,Thursday,12:00–12:50,Environmental Sciences (CE24101),NIS,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",17
+B.Tech 1st Year,1,D,Thursday,1:00–2:50,"Basic Electronics Lab (EC24102 Lab, D2) / Workshop Practice (PE24102 Lab, D1)",ABTh / ABP,EL2 / MWS,"B.Tech. 1st Year, Sem 1 — Section D.csv",18
+B.Tech 1st Year,1,D,Thursday,3:00–3:50,Mathematics-I (MA24101),IKD,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",19
+B.Tech 1st Year,1,D,Friday,9:00–9:50,Basics of Mechanical Engineering (ME24101),VKS,CR-05,"B.Tech. 1st Year, Sem 1 — Section D.csv",20
+B.Tech 1st Year,1,D,Friday,11:00–12:50,"Basic Electronics Lab (EC24102 Lab, D1) / Chemistry Lab (CH24102 Lab, D2)",ABTh / RJA,EL2 / CH LAB,"B.Tech. 1st Year, Sem 1 — Section D.csv",21
+B.Tech 1st Year,1,D,Friday,1:00–4:50,Engineering Graphics Lab (ME24102 Lab),ABP,ED Hall,"B.Tech. 1st Year, Sem 1 — Section D.csv",22
+BBA,5,,Monday,10:00–10:50,Introduction to Materials Management & Production Management,RPS,C 2,BBA Sem 5.csv,2
+BBA,5,,Monday,11:00–11:50,Equity & Debt Market,PKM,C13,BBA Sem 5.csv,3
+BBA,5,,Monday,12:00–12:50,International Finance,RPS,C2,BBA Sem 5.csv,4
+BBA,5,,Monday,1:00–1:50,BBA5: MN436 / BSC3: SC25203: DBMS,PKS,C10,BBA Sem 5.csv,5
+BBA,5,,Tuesday,9:00–9:50,Introduction to Materials Management & Production Management,RPS,C 2,BBA Sem 5.csv,6
+BBA,5,,Tuesday,10:00–11:50,BBA5: MN436 / BSC3: SC25203: DBMS Lab,PKS,Language Lab,BBA Sem 5.csv,7
+BBA,5,,Tuesday,12:00–12:50,Entrepreneurship and Small Business,PVM,CR-1,BBA Sem 5.csv,8
+BBA,5,,Tuesday,1:00–1:50,Mobile & Email Marketing,PVM,C4,BBA Sem 5.csv,9
+BBA,5,,Tuesday,2:00–2:50,Equity & Debt Market,PKM,C8,BBA Sem 5.csv,10
+BBA,5,,Wednesday,9:00–9:50,Introduction to Materials Management & Production Management,RPS,C2,BBA Sem 5.csv,11
+BBA,5,,Wednesday,10:00–10:50,Mobile & Email Marketing,PVM,C1,BBA Sem 5.csv,12
+BBA,5,,Wednesday,11:00–11:50,Social Media Marketing,JKC,C2,BBA Sem 5.csv,13
+BBA,5,,Wednesday,1:00–1:50,Data Visualisation For Managers Th,PKM,C11,BBA Sem 5.csv,14
+BBA,5,,Thursday,10:00–10:50,Social Media Marketing,JKC,C4,BBA Sem 5.csv,15
+BBA,5,,Thursday,11:00–11:50,Entrepreneurship and Small Business,PVM,CR-02,BBA Sem 5.csv,16
+BBA,5,,Thursday,12:00–12:50,International Finance,RPS,C4,BBA Sem 5.csv,17
+BBA,5,,Thursday,2:00–3:50,Data Visualisation For Managers,PKM,Language Lab,BBA Sem 5.csv,18
+BBA,5,,Friday,9:00–9:50,Social Media Marketing,JKC,C2,BBA Sem 5.csv,19
+BBA,5,,Friday,10:00–10:50,Equity & Debt Market,PKM,C3,BBA Sem 5.csv,20
+BBA,5,,Friday,11:00–11:50,Mobile & Email Marketing,PVM,C-3,BBA Sem 5.csv,21
+BBA,5,,Friday,12:00–12:50,Data Visualisation For Managers Th,PKM,C3,BBA Sem 5.csv,22
+BBA,5,,Friday,1:00–1:50,International Finance,RPS,CR3,BBA Sem 5.csv,23
+BBA,5,,Friday,2:00–2:50,BBA5: MN436 / BSC3: SC25203: DBMS,PKS,C3,BBA Sem 5.csv,24
+BBA,1,,Monday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01,BBA sem 1.csv,3
+BBA,1,,Monday,10:00–10:50,Statistics for Managers,PRS,CR-01,BBA sem 1.csv,4
+BBA,1,,Monday,11:00–11:50,Principles of Management,JKC,CR-01,BBA sem 1.csv,5
+BBA,1,,Monday,12:00–12:50,Office Automation Tools,JKC,CL-3,BBA sem 1.csv,6
+BBA,1,,Monday,1:00–1:50,Office Automation Tools,JKC,CL-3,BBA sem 1.csv,7
+BBA,1,,Tuesday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01,BBA sem 1.csv,8
+BBA,1,,Tuesday,10:00–10:50,Introduction to Business Accounting,PVM,CR-01,BBA sem 1.csv,9
+BBA,1,,Tuesday,11:00–11:50,Statistics for Managers,PRS,CR-01,BBA sem 1.csv,10
+BBA,1,,Tuesday,1:00–1:50,Introduction to Computing,RKS,CR-01,BBA sem 1.csv,11
+BBA,1,,Wednesday,9:00–9:50,Office Automation Tools,JKC,CR-01,BBA sem 1.csv,12
+BBA,1,,Wednesday,11:00–11:50,Statistics for Managers,PRS,CR-01,BBA sem 1.csv,13
+BBA,1,,Wednesday,12:00–12:50,Introduction to Business Accounting,PVM,CR-01,BBA sem 1.csv,14
+BBA,1,,Wednesday,1:00–1:50,Principles of Management,JKC,CR-07,BBA sem 1.csv,15
+BBA,1,,Wednesday,2:00–2:50,Digital Empowerment,RKS,CR-07,BBA sem 1.csv,16
+BBA,1,,Thursday,9:00–9:50,Introduction to Computing,RKS,CR-01,BBA sem 1.csv,17
+BBA,1,,Thursday,10:00–10:50,Communication Skills-I,RTP,CR-01,BBA sem 1.csv,18
+BBA,1,,Thursday,12:00–12:50,Office Automation Tools,JKC,CL-2,BBA sem 1.csv,19
+BBA,1,,Thursday,1:00–1:50,Office Automation Tools,JKC,CL-2,BBA sem 1.csv,20
+BBA,1,,Thursday,2:00–2:50,Digital Empowerment,RKS,CR-01,BBA sem 1.csv,21
+BBA,1,,Thursday,3:00–3:50,Principles of Management,JKC,CR-5,BBA sem 1.csv,22
+BBA,1,,Friday,9:00–9:50,Introduction to Computing,RKS,CR-01,BBA sem 1.csv,23
+BBA,1,,Friday,11:00–11:50,Communication Skills-I,RTP,CR-01,BBA sem 1.csv,24
+BBA,1,,Friday,12:00–12:50,Introduction to Business Accounting,PVM,CR-01,BBA sem 1.csv,25
+BBA,1,,Friday,1:00–1:50,Communication Skills-I,RTP,CR-01,BBA sem 1.csv,26
+BBA,3,,Monday,9:00–10:50,Personality Development,PKM,CR-06,BBA sem 3.csv,3
+BBA,3,,Monday,11:00–11:50,Introduction to Financial Systems,RPS,CR-02,BBA sem 3.csv,4
+BBA,3,,Monday,1:00–1:50,Quantitative Techniques in Management,PRS,CR-02,BBA sem 3.csv,5
+BBA,3,,Monday,4:00–6:50,Indian Knowledge System,PVM,Online,BBA sem 3.csv,6
+BBA,3,,Tuesday,12:00–12:50,Introduction to Business Analytics,PRS,CR-02,BBA sem 3.csv,7
+BBA,3,,Tuesday,1:00–1:50,Research Methodology,RPS,CR-02,BBA sem 3.csv,8
+BBA,3,,Tuesday,2:00–2:50,Quantitative Techniques in Management,PRS,CR-02,BBA sem 3.csv,9
+BBA,3,,Tuesday,3:00–3:50,Environment Science,NIS,CR-02,BBA sem 3.csv,10
+BBA,3,,Tuesday,5:00–5:50,Personality Development,PKM,CR-06,BBA sem 3.csv,11
+BBA,3,,Wednesday,10:00–10:50,Research Methodology,RPS,CR-02,BBA sem 3.csv,12
+BBA,3,,Wednesday,12:00–12:50,Quantitative Techniques in Management,PRS,CR-02,BBA sem 3.csv,13
+BBA,3,,Wednesday,1:00–1:50,Introduction to Financial Systems,RPS,CR-02,BBA sem 3.csv,14
+BBA,3,,Thursday,9:00–9:50,Personality Development,PKM,CR-07,BBA sem 3.csv,15
+BBA,3,,Thursday,10:00–10:50,Research Methodology,RPS,CR-02,BBA sem 3.csv,16
+BBA,3,,Thursday,12:00–12:50,Computerized Accounting Th,PRS,CR-01,BBA sem 3.csv,17
+BBA,3,,Thursday,1:00–1:50,Computerized Accounting Th,PRS,CR-02,BBA sem 3.csv,18
+BBA,3,,Thursday,3:00–3:50,Introduction to Business Analytics,PRS,CR-02,BBA sem 3.csv,19
+BBA,3,,Friday,10:00–10:50,Environment Science,NIS,CR-02,BBA sem 3.csv,20
+BBA,3,,Friday,11:00–11:50,Introduction to Financial Systems,RPS,CR-02,BBA sem 3.csv,21
+BBA,3,,Friday,12:00–12:50,Quantitative Techniques in Management,PRS,CR-02,BBA sem 3.csv,22
+BBA,3,,Friday,2:00–2:50,Introduction to Business Analytics,PRS,CR-02,BBA sem 3.csv,23
+BBA,3,,Friday,3:00–4:50,Computerized Accounting,PRS,CL-3,BBA sem 3.csv,24
+BCA,5,,Monday,1:00–1:50,Tutorial: Fundamentals of Computer Algorithm,AML,LAB 2,BCA SEM 5.csv,2
+BCA,5,,Monday,2:00–2:50,Web Programming,SKS,CR 07,BCA SEM 5.csv,3
+BCA,5,,Monday,3:00–3:50,Software Testing,RKS,CR 07,BCA SEM 5.csv,4
+BCA,5,,Monday,4:00–4:50,Introduction to Machine Learning,ABT,CR 07,BCA SEM 5.csv,5
+BCA,5,,Tuesday,11:00–12:50,Machine Learning Lab,ABT,LAB 3,BCA SEM 5.csv,6
+BCA,5,,Tuesday,1:00–1:50,Fundamentals of Computer Algorithm,AML,CR 13,BCA SEM 5.csv,7
+BCA,5,,Tuesday,3:00–3:50,Web Programming,SKS,CR 07,BCA SEM 5.csv,8
+BCA,5,,Tuesday,4:00–4:50,Software Testing,RKS,CR 07,BCA SEM 5.csv,9
+BCA,5,,Wednesday,12:00–1:50,Web Programming Lab,SKS,LAB 3,BCA SEM 5.csv,10
+BCA,5,,Wednesday,3:00–3:50,Introduction to Machine Learning,ABT,CR 01,BCA SEM 5.csv,11
+BCA,5,,Wednesday,4:00–4:50,Software Testing,RKS,CR 01,BCA SEM 5.csv,12
+BCA,5,,Thursday,11:00–11:50,Fundamentals of Computer Algorithm,AML,CR 04,BCA SEM 5.csv,13
+BCA,5,,Thursday,12:00–1:50,Machine Learning Lab,ABT,LAB 3,BCA SEM 5.csv,14
+BCA,5,,Thursday,2:00–2:50,Web Programming,SKS,CR 04,BCA SEM 5.csv,15
+BCA,5,,Friday,9:00–10:50,Web Programming Lab,SKS,LAB 3,BCA SEM 5.csv,16
+BCA,5,,Friday,12:00–12:50,Tutorial: Software Testing,RKS,CR 04,BCA SEM 5.csv,17
+BCA,5,,Friday,1:00–1:50,Introduction to Machine Learning,ABT,CR 04,BCA SEM 5.csv,18
+BCA,5,,Friday,2:00–2:50,Fundamentals of Computer Algorithm,AML,CR 04,BCA SEM 5.csv,19
+BCA,3,,Monday,9:00–10:50,Computer Oriented Numerical Methods (CA25215),IKD,LAB 3,BCA Sem 3.csv,3
+BCA,3,,Monday,11:00–11:50,Computer Organization & Architecture,PKS,CR6,BCA Sem 3.csv,4
+BCA,3,,Monday,12:00–12:50,Database Management System,BIP,CR1,BCA Sem 3.csv,5
+BCA,3,,Monday,1:00–1:50,Java Programming,ABM,CR-01,BCA Sem 3.csv,6
+BCA,3,,Monday,2:00–2:50,Public Speaking and Creative Writing (MN25109),RTP,CR-02,BCA Sem 3.csv,7
+BCA,3,,Tuesday,1:00–1:50,Mathematics for Computing II,BHA,CR-7,BCA Sem 3.csv,8
+BCA,3,,Tuesday,2:00–2:50,Database Management System,BIP,CR10,BCA Sem 3.csv,9
+BCA,3,,Tuesday,3:00–3:50,Java Programming,ABM,CR10,BCA Sem 3.csv,10
+BCA,3,,Tuesday,4:00–4:50,Computer Organization & Architecture,PKS,CR-10,BCA Sem 3.csv,11
+BCA,3,,Wednesday,11:00–11:50,Computer Oriented Numerical Methods,IKD,CR05,BCA Sem 3.csv,12
+BCA,3,,Wednesday,12:00–12:50,Mathematics for Computing II,BHA,CR06,BCA Sem 3.csv,13
+BCA,3,,Wednesday,1:00–1:50,Java Programming,ABM,CR-13,BCA Sem 3.csv,14
+BCA,3,,Thursday,12:00–12:50,Public Speaking and Creative Writing (MN25109),RTP,CR-02,BCA Sem 3.csv,15
+BCA,3,,Thursday,1:00–1:50,Database Management System,BIP,CR08,BCA Sem 3.csv,16
+BCA,3,,Thursday,2:00–4:50,Java Lab,ABM,LAB3,BCA Sem 3.csv,17
+BCA,3,,Friday,9:00–9:50,Computer Organization & Architecture,PKS,CR-13,BCA Sem 3.csv,18
+BCA,3,,Friday,11:00–11:50,Computer Oriented Numerical Methods,IKD,CR13,BCA Sem 3.csv,19
+BCA,3,,Friday,12:00–2:50,DBMS Lab,BIP,LAB3,BCA Sem 3.csv,20
+BCA,3,,Friday,3:00–3:50,Mathematics for Computing II,BHA,CR10,BCA Sem 3.csv,21
+BCA,1,,Monday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01,BCA sem 1.csv,2
+BCA,1,,Monday,10:00–10:50,Programming and Problem-Solving using C / Programming with C,ABM,CR13,BCA sem 1.csv,3
+BCA,1,,Monday,11:00–11:50,Principles of Management,JKC,CR-01,BCA sem 1.csv,4
+BCA,1,,Monday,12:00–12:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CR13,BCA sem 1.csv,5
+BCA,1,,Monday,2:00–4:50,C Lab,PTK,LAB 1,BCA sem 1.csv,6
+BCA,1,,Tuesday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01,BCA sem 1.csv,7
+BCA,1,,Tuesday,10:00–10:50,Programming and Problem-Solving using C / Programming with C,ABM,CR13,BCA sem 1.csv,8
+BCA,1,,Tuesday,11:00–11:50,Fundamentals of Computer Science,RKS,CR13,BCA sem 1.csv,9
+BCA,1,,Tuesday,12:00–12:50,Basics of Operating Systems,BIP,CR13,BCA sem 1.csv,10
+BCA,1,,Tuesday,2:00–2:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CR-13,BCA sem 1.csv,11
+BCA,1,,Tuesday,4:00–4:50,Communications Skill-I,RTP,CR-01,BCA sem 1.csv,12
+BCA,1,,Wednesday,9:00–10:50,Linux Administration,BKS,LAB 1,BCA sem 1.csv,13
+BCA,1,,Wednesday,12:00–12:50,Programming and Problem-Solving using C / Programming with C,ABM,CR13,BCA sem 1.csv,14
+BCA,1,,Wednesday,1:00–1:50,Principles of Management,JKC,CR-07,BCA sem 1.csv,15
+BCA,1,,Wednesday,2:00–2:50,Basics of Operating Systems,BIP,CR13,BCA sem 1.csv,16
+BCA,1,,Wednesday,3:00–3:50,Digital Empowerment,AML,CR13,BCA sem 1.csv,17
+BCA,1,,Wednesday,4:00–4:50,Communications Skill-I,RTP,CR-04,BCA sem 1.csv,18
+BCA,1,,Thursday,11:00–11:50,Linux Administration Tutorial,BKS,LAB 02,BCA sem 1.csv,19
+BCA,1,,Thursday,1:00–1:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CR13,BCA sem 1.csv,20
+BCA,1,,Thursday,2:00–2:50,Basics of Operating Systems,BIP,CR13,BCA sem 1.csv,21
+BCA,1,,Thursday,3:00–3:50,Principles of Management,JKC,CR-5,BCA sem 1.csv,22
+BCA,1,,Friday,9:00–10:50,Linux Administration,BKS,LAB 1,BCA sem 1.csv,23
+BCA,1,,Friday,12:00–12:50,Digital Empowerment,AML,CR13,BCA sem 1.csv,24
+BCA,1,,Friday,2:00–2:50,Fundamentals of Computer Science,RKS,CR13,BCA sem 1.csv,25
+BCA,1,,Friday,3:00–3:50,Communications Skill-I,RTP,CR-13,BCA sem 1.csv,26
+BSc AI&DS,1,,Monday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01,BSc AI&DS sem 1.csv,3
+BSc AI&DS,1,,Monday,10:00–10:50,Programming and Problem-Solving using C / Programming with C,ABM,CL13,BSc AI&DS sem 1.csv,4
+BSc AI&DS,1,,Monday,12:00–12:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CL13,BSc AI&DS sem 1.csv,5
+BSc AI&DS,1,,Monday,2:00–4:50,C Lab (SC25102),PTK,CLab1,BSc AI&DS sem 1.csv,6
+BSc AI&DS,1,,Tuesday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01,BSc AI&DS sem 1.csv,7
+BSc AI&DS,1,,Tuesday,10:00–10:50,Programming and Problem-Solving using C / Programming with C,ABM,CL13,BSc AI&DS sem 1.csv,8
+BSc AI&DS,1,,Tuesday,11:00–11:50,Fundamentals of Computing,RKS,CL13,BSc AI&DS sem 1.csv,9
+BSc AI&DS,1,,Tuesday,12:00–12:50,Basics of Operating Systems,BIP,CL13,BSc AI&DS sem 1.csv,10
+BSc AI&DS,1,,Tuesday,2:00–2:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CR13,BSc AI&DS sem 1.csv,11
+BSc AI&DS,1,,Tuesday,4:00–4:50,Communications Skill-I,RTP,CR1,BSc AI&DS sem 1.csv,12
+BSc AI&DS,1,,Wednesday,9:00–10:50,Linux Administration,BKS,LAB 1,BSc AI&DS sem 1.csv,13
+BSc AI&DS,1,,Wednesday,12:00–12:50,Programming and Problem-Solving using C / Programming with C,ABM,CL13,BSc AI&DS sem 1.csv,14
+BSc AI&DS,1,,Wednesday,2:00–2:50,Basics of Operating Systems,BIP,CR13,BSc AI&DS sem 1.csv,15
+BSc AI&DS,1,,Wednesday,3:00–3:50,Digital Empowerment,AML,CL13,BSc AI&DS sem 1.csv,16
+BSc AI&DS,1,,Wednesday,4:00–4:50,Communications Skill-I,RTP,CR-04,BSc AI&DS sem 1.csv,17
+BSc AI&DS,1,,Thursday,11:00–11:50,Tutorial: Linux Administration,BKS,LAB 02,BSc AI&DS sem 1.csv,18
+BSc AI&DS,1,,Thursday,1:00–1:50,Fundamentals of Mathematics/Elementary Mathematics,BHA,CR13,BSc AI&DS sem 1.csv,19
+BSc AI&DS,1,,Thursday,2:00–2:50,Basics of Operating Systems,BIP,CL13,BSc AI&DS sem 1.csv,20
+BSc AI&DS,1,,Friday,9:00–10:50,Linux Administration,BKS,LAB 1,BSc AI&DS sem 1.csv,21
+BSc AI&DS,1,,Friday,12:00–12:50,Digital Empowerment,AML,CL13,BSc AI&DS sem 1.csv,22
+BSc AI&DS,1,,Friday,2:00–2:50,Fundamentals of Computing,RKS,CL13,BSc AI&DS sem 1.csv,23
+BSc AI&DS,1,,Friday,3:00–3:50,Communications Skill-I,RTP,CR-13,BSc AI&DS sem 1.csv,24
+BSc AI&DS,3,,Monday,9:00–10:50,Computer Oriented Numerical Methods Lab (CA25215),IKD,LAB 3,BSc AI&DS sem 3.csv,3
+BSc AI&DS,3,,Monday,11:00–11:50,Principles of Management,JKC,CR-01,BSc AI&DS sem 3.csv,4
+BSc AI&DS,3,,Monday,1:00–1:50,DBMS (MN436 / SC25203),PKS,CR 10,BSc AI&DS sem 3.csv,5
+BSc AI&DS,3,,Monday,2:00–2:50,Public Speaking and Creative Writing (MN25109),RTP,CR-02,BSc AI&DS sem 3.csv,6
+BSc AI&DS,3,,Tuesday,9:00–9:50,Data Analytics (SC25201),SEG,CR13,BSc AI&DS sem 3.csv,7
+BSc AI&DS,3,,Tuesday,10:00–12:50,Database Design Lab,PKS,LL,BSc AI&DS sem 3.csv,8
+BSc AI&DS,3,,Tuesday,2:00–2:50,Maths for AI (SC25205),GMS,C-1,BSc AI&DS sem 3.csv,9
+BSc AI&DS,3,,Wednesday,10:00–10:50,Maths for AI (SC25205),GMS,CR13,BSc AI&DS sem 3.csv,10
+BSc AI&DS,3,,Wednesday,11:00–11:50,Computer Oriented Numerical Methods (CA25215),IKD,CR5,BSc AI&DS sem 3.csv,11
+BSc AI&DS,3,,Wednesday,1:00–1:50,Principles of Management,JKC,CR-07,BSc AI&DS sem 3.csv,12
+BSc AI&DS,3,,Wednesday,2:00–4:50,Data Analytics Lab,SEG / LL,LL,BSc AI&DS sem 3.csv,13
+BSc AI&DS,3,,Thursday,12:00–12:50,Public Speaking and Creative Writing (MN25109),RTP,CR-02,BSc AI&DS sem 3.csv,14
+BSc AI&DS,3,,Thursday,1:00–1:50,DBMS (SC25203),PKS,CR 01,BSc AI&DS sem 3.csv,15
+BSc AI&DS,3,,Thursday,2:00–2:50,Data Analytics (SC25201),SEG,CR08,BSc AI&DS sem 3.csv,16
+BSc AI&DS,3,,Thursday,3:00–3:50,Principles of Management,JKC,CR-5,BSc AI&DS sem 3.csv,17
+BSc AI&DS,3,,Friday,11:00–11:50,Computer Oriented Numerical Methods (CA25215),IKD,CR13,BSc AI&DS sem 3.csv,18
+BSc AI&DS,3,,Friday,12:00–12:50,Data Analytics (SC25201),SEG,CR10,BSc AI&DS sem 3.csv,19
+BSc AI&DS,3,,Friday,2:00–2:50,DBMS (MN436 / SC25203),PKS,C 3,BSc AI&DS sem 3.csv,20
+BSc AI&DS,3,,Friday,3:00–3:50,Maths for AI (SC25205),GMS,C-1,BSc AI&DS sem 3.csv,21
+BSc. Visual Communications,1,,Monday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01,BSc. Visual Communications sem 1.csv,2
+BSc. Visual Communications,1,,Monday,10:00–10:50,Fundamentals of Visual Art,RIS,A&M 2D Lab,BSc. Visual Communications sem 1.csv,3
+BSc. Visual Communications,1,,Monday,12:00–1:50,Office Automation Tools,JKC,CL-3,BSc. Visual Communications sem 1.csv,4
+BSc. Visual Communications,1,,Monday,2:00–4:50,Fundamentals of 3D,MCH,A&M BCL,BSc. Visual Communications sem 1.csv,5
+BSc. Visual Communications,1,,Tuesday,9:00–9:50,Human Values & Professional Ethics,PVM,CR-01,BSc. Visual Communications sem 1.csv,6
+BSc. Visual Communications,1,,Tuesday,10:00–10:50,Introduction to Visual Communication,GKG,A&M 2D Lab,BSc. Visual Communications sem 1.csv,7
+BSc. Visual Communications,1,,Tuesday,11:00–11:50,Fundamentals of Visual Art,RIS,A&M 2D Lab,BSc. Visual Communications sem 1.csv,8
+BSc. Visual Communications,1,,Tuesday,12:00–12:50,Experimental Animation Workshop,VPN,A&M 2D Lab,BSc. Visual Communications sem 1.csv,9
+BSc. Visual Communications,1,,Tuesday,2:00–3:50,Experimental Animation Workshop,VPN,A&M 2D Lab,BSc. Visual Communications sem 1.csv,10
+BSc. Visual Communications,1,,Wednesday,9:00–9:50,Office Automation Tools,JKC,CR-01,BSc. Visual Communications sem 1.csv,11
+BSc. Visual Communications,1,,Wednesday,11:00–1:50,Photography,OBD,VFX Lab,BSc. Visual Communications sem 1.csv,12
+BSc. Visual Communications,1,,Wednesday,2:00–2:50,Digital Empowerment,RKS,CR-07,BSc. Visual Communications sem 1.csv,13
+BSc. Visual Communications,1,,Thursday,10:00–10:50,Communication Skills-I,RTP,CR-01,BSc. Visual Communications sem 1.csv,14
+BSc. Visual Communications,1,,Thursday,11:00–11:50,Introduction to Visual Communication,GKG,A&M 2D Lab,BSc. Visual Communications sem 1.csv,15
+BSc. Visual Communications,1,,Thursday,12:00–1:50,Office Automation Tools,JKC,CL-2,BSc. Visual Communications sem 1.csv,16
+BSc. Visual Communications,1,,Thursday,2:00–2:50,Digital Empowerment,RKS,CR-01,BSc. Visual Communications sem 1.csv,17
+BSc. Visual Communications,1,,Friday,9:00–9:50,Introduction to Visual Communication,GKG,A&M 2D Lab,BSc. Visual Communications sem 1.csv,18
+BSc. Visual Communications,1,,Friday,11:00–11:50,Communication Skills-I,RTP,CR-01,BSc. Visual Communications sem 1.csv,19
+BSc. Visual Communications,1,,Friday,1:00–1:50,Communication Skills-I,RTP,CR-01,BSc. Visual Communications sem 1.csv,20
+BSc. Visual Communications,1,,Friday,2:00–2:50,Fundamentals of Visual Art,RIS,A&M 2D Lab,BSc. Visual Communications sem 1.csv,21
+BSc. Visual Communications,1,,Friday,3:00–3:50,Photography,OBD,VFX Lab,BSc. Visual Communications sem 1.csv,22
+BSc. Visual Communications,1,,Friday,4:00–4:50,Photography,OBD,VFX Lab,BSc. Visual Communications sem 1.csv,23
+BSc. Visual Communications,3,,Monday,9:00–10:50,Personality Development,PKM,CR-06,BSc. Visual Communications sem 3.csv,2
+BSc. Visual Communications,3,,Monday,11:00–12:50,AN25206 3D Modeling Techniques II,MCH,A&M BCL,BSc. Visual Communications sem 3.csv,3
+BSc. Visual Communications,3,,Monday,1:00–1:50,VC25201 Design Methodology and Process,RIS,A&M BCL,BSc. Visual Communications sem 3.csv,4
+BSc. Visual Communications,3,,Tuesday,12:00–1:50,AN25210 Architectural Modeling,MCH,BAM CL,BSc. Visual Communications sem 3.csv,5
+BSc. Visual Communications,3,,Tuesday,5:00–5:50,Personality Development,PKM,CR-06,BSc. Visual Communications sem 3.csv,6
+BSc. Visual Communications,3,,Wednesday,9:00–10:50,VC25203 Visual Development & Field Study,GKG,A&M CR,BSc. Visual Communications sem 3.csv,7
+BSc. Visual Communications,3,,Wednesday,11:00–11:50,Social Media Marketing,JKC,C2,BSc. Visual Communications sem 3.csv,8
+BSc. Visual Communications,3,,Wednesday,12:00–12:50,VC25202 Graphic Design Tools & Techniques-II,RIS,A&M BCL,BSc. Visual Communications sem 3.csv,9
+BSc. Visual Communications,3,,Wednesday,1:00–1:50,AN25203 Animation Techniques,VPN,A&M CR,BSc. Visual Communications sem 3.csv,10
+BSc. Visual Communications,3,,Wednesday,2:00–2:50,VC25201 Design Methodology and Process,RIS,VFX Lab,BSc. Visual Communications sem 3.csv,11
+BSc. Visual Communications,3,,Wednesday,4:00–4:50,AN25206 3D Modeling Techniques II,MCH,BAM CL,BSc. Visual Communications sem 3.csv,12
+BSc. Visual Communications,3,,Wednesday,5:00–5:50,AN25210 Architectural Modeling,MCH,BAM CL,BSc. Visual Communications sem 3.csv,13
+BSc. Visual Communications,3,,Thursday,9:00–9:50,Personality Development,PKM,CR-07,BSc. Visual Communications sem 3.csv,14
+BSc. Visual Communications,3,,Thursday,10:00–10:50,Social Media Marketing,JKC,C4,BSc. Visual Communications sem 3.csv,15
+BSc. Visual Communications,3,,Thursday,12:00–12:50,AN25203 Animation Techniques,VPN,A&M CR,BSc. Visual Communications sem 3.csv,16
+BSc. Visual Communications,3,,Thursday,1:00–2:50,VC25202 Graphic Design Tools & Techniques-II,RIS,A&M BCL,BSc. Visual Communications sem 3.csv,17
+BSc. Visual Communications,3,,Friday,9:00–9:50,Social Media Marketing,JKC,C2,BSc. Visual Communications sem 3.csv,18
+BSc. Visual Communications,3,,Friday,10:00–10:50,VC25203 Visual Development & Field Study,GKG,A&M CR,BSc. Visual Communications sem 3.csv,19
+BSc. Visual Communications,3,,Friday,12:00–1:50,AN25210 Architectural Modeling,MCH,BAM CL,BSc. Visual Communications sem 3.csv,20
+MCA,1,,Monday,11:00 AM–1:50 PM,Database Management System Lab / Database Design Lab,PYG,LAB 1,"MCA1 — Master of Computer Applications, Semester 1.csv",2
+MCA,1,,Monday,3:00–3:50 PM,DSA,MMA,CR13,"MCA1 — Master of Computer Applications, Semester 1.csv",3
+MCA,1,,Monday,4:00–4:50 PM,Mathematics for Computing,KTM,CR 08,"MCA1 — Master of Computer Applications, Semester 1.csv",4
+MCA,1,,Tuesday,2:00–2:50 PM,Concepts of Database Management System,PYG,CR04,"MCA1 — Master of Computer Applications, Semester 1.csv",5
+MCA,1,,Tuesday,3:00–3:50 PM,DSA,MMA,CR13,"MCA1 — Master of Computer Applications, Semester 1.csv",6
+MCA,1,,Tuesday,4:00–4:50 PM,FLAT,JIG,CR 05,"MCA1 — Master of Computer Applications, Semester 1.csv",7
+MCA,1,,Wednesday,10:00–11:50 AM,Web Application Development Skills using HTML and CSS,ABM,LAB 3,"MCA1 — Master of Computer Applications, Semester 1.csv",8
+MCA,1,,Wednesday,12:00–12:50 PM,FLAT,JIG,CR 05,"MCA1 — Master of Computer Applications, Semester 1.csv",9
+MCA,1,,Wednesday,2:00–2:50 PM,Understanding OOP using Java,SKS,CR 04,"MCA1 — Master of Computer Applications, Semester 1.csv",10
+MCA,1,,Wednesday,3:00–3:50 PM,Concepts of Database Management System,PYG,CR04,"MCA1 — Master of Computer Applications, Semester 1.csv",11
+MCA,1,,Wednesday,4:00–4:50 PM,Mathematics for Computing,KTM,CR 08,"MCA1 — Master of Computer Applications, Semester 1.csv",12
+MCA,1,,Thursday,12:00–12:50 PM,Understanding OOP using Java,SKS,CR 13,"MCA1 — Master of Computer Applications, Semester 1.csv",13
+MCA,1,,Thursday,2:00–2:50 PM,DSA,MMA,CR09,"MCA1 — Master of Computer Applications, Semester 1.csv",14
+MCA,1,,Thursday,3:00–3:50 PM,Concepts of Database Management System,PYG,CR-10,"MCA1 — Master of Computer Applications, Semester 1.csv",15
+MCA,1,,Friday,11:00 AM–1:50 PM,Data Structures using Java / Data Structures and Algorithms Lab,MMA,LAB 1,"MCA1 — Master of Computer Applications, Semester 1.csv",16
+MCA,1,,Friday,3:00–3:50 PM,Understanding OOP using Java,SKS,CR 8,"MCA1 — Master of Computer Applications, Semester 1.csv",17
+MCA,1,,Friday,4:00–4:50 PM,Mathematics for Computing,KTM,CR 08,"MCA1 — Master of Computer Applications, Semester 1.csv",18
+MCA,3,,Monday,9:00–11:50 AM,Basics of Machine Learning Lab,SPV,LL,"MCA3 — Master of Computer Applications, Semester 3.csv",2
+MCA,3,,Monday,12:00–12:50 PM,Compiler Design,MAS,CR 03,"MCA3 — Master of Computer Applications, Semester 3.csv",3
+MCA,3,,Monday,1:00–1:50 PM,Cloud Computing,VIG,CR 13,"MCA3 — Master of Computer Applications, Semester 3.csv",4
+MCA,3,,Monday,2:00–2:50 PM,Soft Computing,KTM,CR 13,"MCA3 — Master of Computer Applications, Semester 3.csv",5
+MCA,3,,Monday,3:00–3:50 PM,Internet of Things (IoT),AJS,CR 01,"MCA3 — Master of Computer Applications, Semester 3.csv",6
+MCA,3,,Tuesday,10:00–10:50 AM,Soft Computing,KTM,CR 02,"MCA3 — Master of Computer Applications, Semester 3.csv",7
+MCA,3,,Tuesday,11:00–11:50 AM,Basics of Machine Learning,SPV,CR 2,"MCA3 — Master of Computer Applications, Semester 3.csv",8
+MCA,3,,Tuesday,12:00–12:50 PM,Compiler Design,MAS,CR 04,"MCA3 — Master of Computer Applications, Semester 3.csv",9
+MCA,3,,Tuesday,1:00–1:50 PM,Internet of Things (IoT),AJS,CR 06,"MCA3 — Master of Computer Applications, Semester 3.csv",10
+MCA,3,,Wednesday,1:00–1:50 PM,Cloud Computing,VIG,CR 01,"MCA3 — Master of Computer Applications, Semester 3.csv",11
+MCA,3,,Wednesday,2:00–2:50 PM,Soft Computing,KTM,CR 1,"MCA3 — Master of Computer Applications, Semester 3.csv",12
+MCA,3,,Wednesday,3:00–3:50 PM,Basics of Machine Learning,SPV,CR 02,"MCA3 — Master of Computer Applications, Semester 3.csv",13
+MCA,3,,Wednesday,4:00–4:50 PM,Compiler Design,MAS,CR 02,"MCA3 — Master of Computer Applications, Semester 3.csv",14
+MCA,3,,Thursday,9:00–11:50 AM,Compiler Design Lab,MAS,LAB 1,"MCA3 — Master of Computer Applications, Semester 3.csv",15
+MCA,3,,Thursday,1:00–1:50 PM,Basics of Machine Learning,SPV,CR 05,"MCA3 — Master of Computer Applications, Semester 3.csv",16
+MCA,3,,Thursday,2:00–2:50 PM,Cloud Computing,VIG,CR 05,"MCA3 — Master of Computer Applications, Semester 3.csv",17
+MCA,3,,Thursday,3:00–3:50 PM,Compiler Design,MAS,CR 13,"MCA3 — Master of Computer Applications, Semester 3.csv",18
+MCA,3,,Thursday,4:00–4:50 PM,Internet of Things (IoT),AJS,CR 13,"MCA3 — Master of Computer Applications, Semester 3.csv",19
+MSc (AI & DS),1,,Monday,11:00 AM–1:50 PM,"Database Management System Lab / Database Design Lab (MCA 1, MSc 1)",PYG,LAB 1,MSc (AI & DS) Semester 1.csv,2
+MSc (AI & DS),1,,Monday,3:00–3:50 PM,Data Structures and Algorithms (DSA),MMA,CR13,MSc (AI & DS) Semester 1.csv,3
+MSc (AI & DS),1,,Monday,4:00–4:50 PM,Programming for AI and DS,SKA,CR 13,MSc (AI & DS) Semester 1.csv,4
+MSc (AI & DS),1,,Tuesday,10:00–10:50 AM,Programming for AI and DS,SKA,CR 14,MSc (AI & DS) Semester 1.csv,5
+MSc (AI & DS),1,,Tuesday,11:00–11:50 AM,Operating Systems Concepts,VIG,CR04,MSc (AI & DS) Semester 1.csv,6
+MSc (AI & DS),1,,Tuesday,1:00–1:50 PM,Mathematics for AI & Data Science,VBP,CR14,MSc (AI & DS) Semester 1.csv,7
+MSc (AI & DS),1,,Tuesday,2:00–2:50 PM,Concepts of Database Management System,PYG,CR04,MSc (AI & DS) Semester 1.csv,8
+MSc (AI & DS),1,,Tuesday,3:00–3:50 PM,Data Structures and Algorithms (DSA),MMA,CR13,MSc (AI & DS) Semester 1.csv,9
+MSc (AI & DS),1,,Tuesday,4:00–4:50 PM,Communication Skills-I,RTP,C1,MSc (AI & DS) Semester 1.csv,10
+MSc (AI & DS),1,,Wednesday,11:00–11:50 AM,Operating Systems Concepts,VIG,CR14,MSc (AI & DS) Semester 1.csv,11
+MSc (AI & DS),1,,Wednesday,1:00–1:50 PM,Programming for AI and DS,SKA,CR14,MSc (AI & DS) Semester 1.csv,12
+MSc (AI & DS),1,,Wednesday,2:00–2:50 PM,Mathematics for AI & Data Science,VBP,CR14,MSc (AI & DS) Semester 1.csv,13
+MSc (AI & DS),1,,Wednesday,3:00–3:50 PM,Concepts of Database Management System,PYG,CR04,MSc (AI & DS) Semester 1.csv,14
+MSc (AI & DS),1,,Wednesday,4:00–4:50 PM,Communication Skills-I,RTP,CR-04,MSc (AI & DS) Semester 1.csv,15
+MSc (AI & DS),1,,Thursday,10:00–10:50 AM,Operating Systems Concepts,VIG,CR14,MSc (AI & DS) Semester 1.csv,16
+MSc (AI & DS),1,,Thursday,11:00 AM–1:50 PM,AI and DS Programming Lab (MSc 1),SKA / LL Lab,LL Lab,MSc (AI & DS) Semester 1.csv,17
+MSc (AI & DS),1,,Thursday,2:00–2:50 PM,Data Structures and Algorithms (DSA),MMA,CR09,MSc (AI & DS) Semester 1.csv,18
+MSc (AI & DS),1,,Thursday,3:00–3:50 PM,Concepts of Database Management System,PYG,CR-10,MSc (AI & DS) Semester 1.csv,19
+MSc (AI & DS),1,,Friday,10:00–10:50 AM,Mathematics for AI & Data Science,VBP,CR14,MSc (AI & DS) Semester 1.csv,20
+MSc (AI & DS),1,,Friday,11:00 AM–1:50 PM,"Data Structures using Java / Data Structures and Algorithms Lab (MCA 1, MSc 1)",MMA,LAB 1,MSc (AI & DS) Semester 1.csv,21
+MSc (AI & DS),1,,Friday,3:00–3:50 PM,Communication Skills-I,RTP,CR-13,MSc (AI & DS) Semester 1.csv,22
+MSc (AI & DS),3,,Monday,10:00–10:50 AM,Computer Vision and Applications,SCG,CR 14,MSc (AI & DS) Semester 3.csv,2
+MSc (AI & DS),3,,Monday,1:00–2:50 PM,Data Mining Techniques Lab,PNG,LL,MSc (AI & DS) Semester 3.csv,3
+MSc (AI & DS),3,,Monday,3:00–3:50 PM,Deep Learning and Applications,VBP,CR 14,MSc (AI & DS) Semester 3.csv,4
+MSc (AI & DS),3,,Monday,4:00–4:50 PM,Data Mining Techniques,PNG,CR 14,MSc (AI & DS) Semester 3.csv,5
+MSc (AI & DS),3,,Wednesday,9:00–11:50 AM,Deep Learning Applications Lab,VBP,LL,MSc (AI & DS) Semester 3.csv,6
+MSc (AI & DS),3,,Wednesday,12:00–12:50 PM,Computer Vision and Applications,SCG,CR 14,MSc (AI & DS) Semester 3.csv,7
+MSc (AI & DS),3,,Wednesday,1:00–1:50 PM,TUT: Deep Learning and Applications,VBP,CR 04,MSc (AI & DS) Semester 3.csv,8
+MSc (AI & DS),3,,Wednesday,3:00–3:50 PM,Natural Language Processing and Applications,GTP,CR 14,MSc (AI & DS) Semester 3.csv,9
+MSc (AI & DS),3,,Thursday,1:00–1:50 PM,Natural Language Processing and Applications,GTP,CR 14,MSc (AI & DS) Semester 3.csv,10
+MSc (AI & DS),3,,Thursday,2:00–2:50 PM,Deep Learning and Applications,VBP,CR 14,MSc (AI & DS) Semester 3.csv,11
+MSc (AI & DS),3,,Thursday,3:00–3:50 PM,Data Mining Techniques,PNG,CR 14,MSc (AI & DS) Semester 3.csv,12
+MSc (AI & DS),3,,Friday,9:00–11:50 AM,Computer Vision Lab,SCG,LL,MSc (AI & DS) Semester 3.csv,13
+MSc (AI & DS),3,,Friday,12:00–12:50 PM,Natural Language Processing and Applications,GTP,CR 14,MSc (AI & DS) Semester 3.csv,14
+MSc (AI & DS),3,,Friday,1:00–1:50 PM,Computer Vision and Applications,SCG,CR 14,MSc (AI & DS) Semester 3.csv,15
+MSc (AI & DS),3,,Friday,2:00–2:50 PM,Data Mining Techniques,PNG,CR 14,MSc (AI & DS) Semester 3.csv,16
+MSc (AI & DS),3,,Friday,3:00–3:50 PM,Deep Learning and Applications,VBP,CR 14,MSc (AI & DS) Semester 3.csv,17
+Master of Animation Design,1,,Monday,10:00–10:50 AM,AM402 - Writing & Storyboarding,OBD,VFX Lab,"Master of Animation Design, Semester 1.csv",2
+Master of Animation Design,1,,Monday,11:00–11:50 AM,AM401 - Traditional Animation,VPN,A&M CR,"Master of Animation Design, Semester 1.csv",3
+Master of Animation Design,1,,Monday,1:00–3:50 PM,AM406 - Life Study,GKG,A&M CR,"Master of Animation Design, Semester 1.csv",4
+Master of Animation Design,1,,Tuesday,10:00–10:50 AM,AM402 - Writing & Storyboarding,OBD,VFX Lab,"Master of Animation Design, Semester 1.csv",5
+Master of Animation Design,1,,Tuesday,11:00–11:50 AM,AM401 - Traditional Animation,VPN,A&M CR,"Master of Animation Design, Semester 1.csv",6
+Master of Animation Design,1,,Tuesday,1:00–3:50 PM,AM407 - Mix-Media Animation,GKG,A&M CR,"Master of Animation Design, Semester 1.csv",7
+Master of Animation Design,1,,Wednesday,9:00–9:50 AM,AM403 - Character Design,VPN,A&M 2D Lab,"Master of Animation Design, Semester 1.csv",8
+Master of Animation Design,1,,Wednesday,10:00–10:50 AM,AM402 - Writing & Storyboarding,OBD,VFX Lab,"Master of Animation Design, Semester 1.csv",9
+Master of Animation Design,1,,Wednesday,11:00–11:50 AM,AM401 - Traditional Animation,VPN,A&M CR,"Master of Animation Design, Semester 1.csv",10
+Master of Animation Design,1,,Wednesday,2:00–2:50 PM,AM403 - Character Design,VPN,A&M 2D Lab,"Master of Animation Design, Semester 1.csv",11
+Master of Animation Design,1,,Thursday,10:00–10:50 AM,BBA1 + BSc.Vi1 + M.ScAI & DS1 + MAD1 Communication Skills-I,RTP,CR-01,"Master of Animation Design, Semester 1.csv",12
+Master of Animation Design,1,,Thursday,11:00–11:50 AM,AM401 - Traditional Animation,VPN,A&M CR,"Master of Animation Design, Semester 1.csv",13
+Master of Animation Design,1,,Thursday,1:00–4:50 PM,AM405-R1D Studies,MCH,MAD CL,"Master of Animation Design, Semester 1.csv",14
+Master of Animation Design,1,,Friday,9:00–9:50 AM,AM403 - Character Design,VPN,A&M CR,"Master of Animation Design, Semester 1.csv",15
+Master of Animation Design,1,,Friday,10:00–10:50 AM,AM402 - Writing & Storyboarding,OBD,A&M CR,"Master of Animation Design, Semester 1.csv",16
+Master of Animation Design,1,,Friday,11:00–11:50 AM,BBA1 + BSc.Vi1 + M.ScAI & DS1 + MAD1 Communication Skills-I,RTP,CR-01,"Master of Animation Design, Semester 1.csv",17
+Master of Animation Design,1,,Friday,1:00–1:50 PM,BBA1 + BSc.Vi1 + M.ScAI & DS1 + MAD1 Communication Skills-I,RTP,CR-01,"Master of Animation Design, Semester 1.csv",18
+Master of Animation Design,1,,Friday,2:00–2:50 PM,AM403 - Character Design,VPN,A&M 2D Lab,"Master of Animation Design, Semester 1.csv",19
+Master of Animation Design,3,,Monday,11:00–11:50 AM,AM501 - Indian Art & Animation,RIS,VFX Lab,"Master of Animation Design, Semester 3.csv",2
+Master of Animation Design,3,,Monday,2:00–3:50 PM,AM503 - Compositing & Editing Techniques,OBD,MADCL,"Master of Animation Design, Semester 3.csv",3
+Master of Animation Design,3,,Monday,4:00–5:50 PM,AM506 - Narrative Animation-II,VPN,A&M 2D Lab,"Master of Animation Design, Semester 3.csv",4
+Master of Animation Design,3,,Tuesday,10:00–11:50 AM,AM512 - 3D Dynamics & Rendering,MCH,MAD CL,"Master of Animation Design, Semester 3.csv",5
+Master of Animation Design,3,,Tuesday,12:00–12:50 PM,AM513 - Entrepreneurship,OBD,VFX Lab,"Master of Animation Design, Semester 3.csv",6
+Master of Animation Design,3,,Tuesday,2:00–3:50 PM,AM505 - Documentary Animation-II,OBD,VFX Lab,"Master of Animation Design, Semester 3.csv",7
+Master of Animation Design,3,,Tuesday,4:00–5:50 PM,AM504 - Graphics,RIS,MADCL,"Master of Animation Design, Semester 3.csv",8
+Master of Animation Design,3,,Wednesday,10:00–10:50 AM,AM501 - Indian Art & Animation,RIS,VFX Lab,"Master of Animation Design, Semester 3.csv",9
+Master of Animation Design,3,,Wednesday,11:00 AM–12:50 PM,AM502 - Digital Painting,GKG,MAD CL,"Master of Animation Design, Semester 3.csv",10
+Master of Animation Design,3,,Wednesday,2:00–5:50 PM,AM511 - 3D Sculpting & Texturing-II,GKG,MAD CL,"Master of Animation Design, Semester 3.csv",11
+Master of Animation Design,3,,Thursday,10:00–10:50 AM,AM513 - Entrepreneurship,OBD,VFX Lab,"Master of Animation Design, Semester 3.csv",12
+Master of Animation Design,3,,Thursday,11:00 AM–12:50 PM,AM503 - Compositing & Editing Techniques,OBD,MADCL,"Master of Animation Design, Semester 3.csv",13
+Master of Animation Design,3,,Thursday,2:00–3:50 PM,AM505 - Documentary Animation-II,OBD,VFX Lab,"Master of Animation Design, Semester 3.csv",14
+Master of Animation Design,3,,Thursday,4:00–4:50 PM,AM506 - Narrative Animation-II,VPN,A&M 2D Lab,"Master of Animation Design, Semester 3.csv",15
+Master of Animation Design,3,,Friday,10:00–10:50 AM,AM501 - Indian Art & Animation,RIS,VFX Lab,"Master of Animation Design, Semester 3.csv",16
+Master of Animation Design,3,,Friday,11:00–11:50 AM,AM513 - Entrepreneurship,OBD,VFX Lab,"Master of Animation Design, Semester 3.csv",17
+Master of Animation Design,3,,Friday,12:00–1:50 PM,AM502 - Digital Painting,GKG,MAD CL,"Master of Animation Design, Semester 3.csv",18
+Master of Animation Design,3,,Friday,2:00–3:50 PM,AM512 - 3D Dynamics & Rendering,MCH,MADCL,"Master of Animation Design, Semester 3.csv",19
+Master of Animation Design,3,,Friday,4:00–5:50 PM,AM504 - Graphics,RIS,MADCL,"Master of Animation Design, Semester 3.csv",20

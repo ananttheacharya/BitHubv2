@@ -1,0 +1,2 @@
+source_file,source_row,warning_type,detail
+"B.Tech CSE, Sem 3 - Section B.csv",6,MISSING_FACULTY,Faculty code is empty for subject 'Lock' at venue 'Campus'

@@ -1,0 +1,15 @@
+Day,Time,Subject,Faculty,Venue
+Monday,11:00–11:50 AM,EC409 - Wireless Communication,SNE,C4
+Monday,12:00–12:50 PM,EC401 - Microwave Theory and Techniques,DCS,CR4
+Monday,3:00–4:50 PM,EC402 Lab - Microwave Lab,DCS,EL1
+Monday,5:00–5:50 PM,EC423 - Biomedical Electronics & Signal Processing,GAJ,C10
+Tuesday,1:00–1:50 PM,EC427 - ASIC Design,JYS,CR-8
+Tuesday,2:00–3:50 PM,EC404 Lab - Advanced Communication Lab,AKA,EL1
+Tuesday,5:00–5:50 PM,EC423 - Biomedical Electronics & Signal Processing,GAJ,C10
+Wednesday,11:00–11:50 AM,EC409 - Wireless Communication,SNE,C4
+Wednesday,12:00–12:50 PM,EC427 - ASIC Design,JYS,C-11
+Wednesday,1:00–1:50 PM,EC401 - Microwave Theory and Techniques,DCS,C10
+Thursday,9:00–9:50 AM,EC409 - Wireless Communication,SNE,C3
+Thursday,10:00–10:50 AM,EC401 - Microwave Theory and Techniques,DCS,C3
+Thursday,11:00–11:50 AM,EC423 - Biomedical Electronics & Signal Processing,GAJ,C3
+Thursday,1:00–1:50 PM,EC427 - ASIC Design,JYS,C10

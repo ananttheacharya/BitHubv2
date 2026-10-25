@@ -1,0 +1,24 @@
+Day,Time,Subject,Faculty,Venue
+Monday,10:00–10:50 AM,EE24201 - Electrical Measurement and Instrumentation,ABTh,TPX
+Monday,11:00–11:50 AM,EE24205 - Engineering Electromagnetics,DCS,C10
+Monday,12:00–12:50 PM,EE24207 - Introduction to System Theory,ABTh,TPX
+Monday,2:00–2:50 PM,EE24203 - Analog and Digital Circuits,PUS,TPX
+Monday,3:00–3:50 PM,EE24209 - Circuit Theory,PRY,TPX
+Tuesday,9:00–10:50 AM,EE24204 Lab - Analog and Digital Circuits Laboratory,PUS,EL2
+Tuesday,11:00–11:50 AM,EE24205 - Engineering Electromagnetics,DCS,C10
+Tuesday,12:00–12:50 PM,EE24207 - Introduction to System Theory,ABTh,TPX
+Tuesday,2:00–2:50 PM,EE24203 - Analog and Digital Circuits,PUS,TPX
+Tuesday,3:00–3:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,CR 03
+Tuesday,4:00–4:50 PM,EE24201 - Electrical Measurement and Instrumentation,ABTh,TPX
+Wednesday,11:00–11:50 AM,EE24205 - Engineering Electromagnetics,DCS,C10
+Wednesday,12:00–1:50 PM,EE24202 Lab - Electrical Measurement and Instrumentation Laboratory,ABTh,EL3
+Wednesday,2:00–2:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C3
+Wednesday,3:00–3:50 PM,EE24209 - Circuit Theory,PRY,TPX
+Thursday,10:00–10:50 AM,EE24209 - Circuit Theory,PRY,TPX
+Thursday,11:00–11:50 AM,EE24205 - Engineering Electromagnetics,DCS,C10
+Thursday,12:00–12:50 PM,EE24203 - Analog and Digital Circuits,PUS,TPX
+Thursday,4:00–5:50 PM,Creative Arts / NSS,NIS/DHB,OD/C10
+Friday,9:00–9:50 AM,EE24207 - Introduction to System Theory,ABTh,TPX
+Friday,11:00–11:50 AM,MT24131 - UHV-II Understanding Harmony,ANS,C10
+Friday,12:00–12:50 PM,EE24209 - Circuit Theory,PRY,TPX
+Friday,1:00–1:50 PM,EE24201 - Electrical Measurement and Instrumentation,ABTh,TPX

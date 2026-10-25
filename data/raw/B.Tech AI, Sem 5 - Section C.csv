@@ -1,0 +1,24 @@
+Day,Time,Subject,Faculty,Venue
+Monday,9:00–9:50 AM,Communication Skill-II,RTP,CR7
+Monday,10:00–10:50 AM,Communication Skill-II,RTP,CR7
+Monday,12:00–12:50 PM,Machine Learning Techniques,SPV,CR 12
+Monday,1:00–1:50 PM,Data Mining Concepts and Techniques,BIP,CR 12
+Monday,2:00–4:50 PM,Natural Language Processing Lab,MAS,LAB 3
+Tuesday,1:00–1:50 PM,Natural Language Processing,MAS,CR 9
+Tuesday,2:00–4:50 PM,Machine Learning Techniques Lab,SPV,LAB 3
+Tuesday,5:00–5:50 PM,Personality Development,PKM,CR-06
+Wednesday,9:00–9:50 AM,Data Communication & Computer Networks,RVK,CR 09
+Wednesday,10:00–10:50 AM,Software Engineering,PKS,CR 9
+Wednesday,11:00–11:50 AM,Data Mining Concepts and Techniques,BIP,CR 9
+Wednesday,12:00–12:50 PM,Natural Language Processing,MAS,CR 9
+Wednesday,2:00–4:50 PM,Data Communication & Computer Networks Lab,AJS,LAB 3
+Thursday,9:00–9:50 AM,Machine Learning Techniques,SPV,CR 09
+Thursday,10:00–10:50 AM,Data Mining Concepts and Techniques,BIP,CR 9
+Thursday,11:00–11:50 AM,Software Engineering,PKS,CR 9
+Thursday,12:00–12:50 PM,Data Communication & Computer Networks,RVK,CR 09
+Thursday,1:00–1:50 PM,Communication Skill-II,RTP,CR4
+Friday,9:00–9:50 AM,Natural Language Processing,MAS,CR 09
+Friday,10:00–10:50 AM,Software Engineering,PKS,CR 9
+Friday,11:00–11:50 AM,Machine Learning Techniques,SPV,CR 9
+Friday,12:00–12:50 PM,Data Communication & Computer Networks,RVK,CR 09
+Friday,4:00–4:50 PM,Personality Development,PKM,CR-07

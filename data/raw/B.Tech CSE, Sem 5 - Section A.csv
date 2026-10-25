@@ -1,0 +1,25 @@
+Day,Time,Subject,Faculty,Venue
+Monday,9:00–10:50 AM,Personality Development,PKM,CR-06
+Monday,1:00–1:50 PM,Compiler Design,MMA,CR 11
+Monday,2:00–2:50 PM,Data Mining Concepts and Techniques,SEG,CR 11
+Monday,3:00–3:50 PM,Data Communication & Computer Networks,NJS,CR 11
+Monday,4:00–4:50 PM,Software Engineering,PYG,CR 11
+Tuesday,11:00–11:50 AM,Software Engineering,PYG,CR 12
+Tuesday,12:00–12:50 PM,Communication Skill-II,RTP,CR-12
+Tuesday,1:00–1:50 PM,Compiler Design,MMA,CR 12
+Tuesday,2:00–2:50 PM,Artificial Intelligence,GTP,CR 12
+Tuesday,5:00–5:50 PM,Personality Development,PKM,CR-06
+Wednesday,10:00–10:50 AM,Artificial Intelligence,GTP,CR 12
+Wednesday,11:00–11:50 AM,Data Communication & Computer Networks,NJS,CR 12
+Wednesday,12:00–12:50 PM,Communication Skill-II,RTP,CR-12
+Wednesday,1:00–1:50 PM,Data Mining Concepts and Techniques,SEG,CR 12
+Wednesday,3:00–4:50 PM,Compiler Design Lab,MMA,LAB 2
+Thursday,9:00–9:50 AM,Personality Development,PKM,CR-07
+Thursday,10:00–10:50 AM,Compiler Design,MMA,CR 12
+Thursday,11:00–11:50 AM,Artificial Intelligence,GTP,CR 12
+Thursday,12:00–12:50 PM,Data Communication & Computer Networks,NJS,CR 12
+Thursday,1:00–3:50 PM,Data Communication & Computer Networks Lab,NJS,LAB 2
+Friday,10:00–10:50 AM,Communication Skill-II,RTP,CR-06
+Friday,11:00–11:50 AM,Data Mining Concepts and Techniques,SEG,CR 06
+Friday,12:00–12:50 PM,Software Engineering,PYG,CR 7
+Friday,2:00–4:50 PM,Artificial Intelligence Lab,GTP,LAB 2

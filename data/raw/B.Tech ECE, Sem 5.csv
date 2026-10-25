@@ -1,0 +1,19 @@
+Day,Time,Subject,Faculty,Venue
+Monday,11:00–11:50 AM,ECE5: EC24301 / EEE3: EE24205 - Electromagnetic Fields and Waves,DCS,C10
+Monday,12:00–12:50 PM,EC24305 - Microprocessors,PUS,C10
+Monday,2:00–2:50 PM,EC24303 - Digital Communication,AKA,C10
+Monday,3:00–3:50 PM,EC24307 - Data Communication and Computer Networking,SNE,C10
+Tuesday,11:00–11:50 AM,ECE5: EC24301 / EEE3: EE24205 - Electromagnetic Fields and Waves,DCS,C10
+Tuesday,12:00–12:50 PM,EC24305 - Microprocessors,PUS,C10
+Tuesday,1:00–1:50 PM,EC24307 - Data Communication and Computer Networking,SNE,C10
+Wednesday,10:00–10:50 AM,EC24311 - ASIC Design,JYS,C10
+Wednesday,11:00–11:50 AM,ECE5: EC24301 / EEE3: EE24205 - Electromagnetic Fields and Waves,DCS,C10
+Wednesday,12:00–12:50 PM,EC24305 - Microprocessors,PUS,C10
+Wednesday,2:00–2:50 PM,EC24303 - Digital Communication,AKA,C10
+Thursday,11:00–11:50 AM,ECE5: EC24301 / EEE3: EE24205 - Electromagnetic Fields and Waves,DCS,C10
+Thursday,12:00–12:50 PM,EC24311 - ASIC Design,JYS,C10
+Thursday,1:00–2:50 PM,EC24306 - Microprocessors Lab,PUS,EL4
+Friday,10:00–10:50 AM,EC24311 - ASIC Design,JYS,C10
+Friday,11:00 AM–12:50 PM,EC24304 - Communication System Lab,AKA,EL3
+Friday,1:00–1:50 PM,EC24307 - Data Communication and Computer Networking,SNE,C10
+Friday,2:00–2:50 PM,EC24303 - Digital Communication,AKA,C8

@@ -1,0 +1,19 @@
+Day,Time,Subject / Activity,Faculty,Venue
+Monday,1:00–1:50,Tutorial: Fundamentals of Computer Algorithm,AML,LAB 2
+Monday,2:00–2:50,Web Programming,SKS,CR 07
+Monday,3:00–3:50,Software Testing,RKS,CR 07
+Monday,4:00–4:50,Introduction to Machine Learning,ABT,CR 07
+Tuesday,11:00–12:50,Machine Learning Lab,ABT,LAB 3
+Tuesday,1:00–1:50,Fundamentals of Computer Algorithm,AML,CR 13
+Tuesday,3:00–3:50,Web Programming,SKS,CR 07
+Tuesday,4:00–4:50,Software Testing,RKS,CR 07
+Wednesday,12:00–1:50,Web Programming Lab,SKS,LAB 3
+Wednesday,3:00–3:50,Introduction to Machine Learning,ABT,CR 01
+Wednesday,4:00–4:50,Software Testing,RKS,CR 01
+Thursday,11:00–11:50,Fundamentals of Computer Algorithm,AML,CR 04
+Thursday,12:00–1:50,Machine Learning Lab,ABT,LAB 3
+Thursday,2:00–2:50,Web Programming,SKS,CR 04
+Friday,9:00–10:50,Web Programming Lab,SKS,LAB 3
+Friday,12:00–12:50,Tutorial: Software Testing,RKS,CR 04
+Friday,1:00–1:50,Introduction to Machine Learning,ABT,CR 04
+Friday,2:00–2:50,Fundamentals of Computer Algorithm,AML,CR 04

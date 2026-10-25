@@ -1,0 +1,19 @@
+Day,Time,Subject,Faculty,Venue
+Monday,9:00–11:50 AM,Basics of Machine Learning Lab,SPV,LL
+Monday,12:00–12:50 PM,Compiler Design,MAS,CR 03
+Monday,1:00–1:50 PM,Cloud Computing,VIG,CR 13
+Monday,2:00–2:50 PM,Soft Computing,KTM,CR 13
+Monday,3:00–3:50 PM,Internet of Things (IoT),AJS,CR 01
+Tuesday,10:00–10:50 AM,Soft Computing,KTM,CR 02
+Tuesday,11:00–11:50 AM,Basics of Machine Learning,SPV,CR 2
+Tuesday,12:00–12:50 PM,Compiler Design,MAS,CR 04
+Tuesday,1:00–1:50 PM,Internet of Things (IoT),AJS,CR 06
+Wednesday,1:00–1:50 PM,Cloud Computing,VIG,CR 01
+Wednesday,2:00–2:50 PM,Soft Computing,KTM,CR 1
+Wednesday,3:00–3:50 PM,Basics of Machine Learning,SPV,CR 02
+Wednesday,4:00–4:50 PM,Compiler Design,MAS,CR 02
+Thursday,9:00–11:50 AM,Compiler Design Lab,MAS,LAB 1
+Thursday,1:00–1:50 PM,Basics of Machine Learning,SPV,CR 05
+Thursday,2:00–2:50 PM,Cloud Computing,VIG,CR 05
+Thursday,3:00–3:50 PM,Compiler Design,MAS,CR 13
+Thursday,4:00–4:50 PM,Internet of Things (IoT),AJS,CR 13

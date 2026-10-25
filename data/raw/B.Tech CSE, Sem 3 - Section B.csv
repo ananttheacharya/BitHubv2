@@ -1,0 +1,26 @@
+Day,Time,Subject,Faculty,Venue
+Monday,9:00–9:50 AM,Discrete Mathematics,BHA,C12
+Monday,10:00–10:50 AM,EC24203 - Digital System Design,SNE,C12
+Monday,11:00–11:50 AM,Data Structures and Algorithms,SKS,CR 12
+Monday,12:00–12:50 PM,TUT: IT Workshop,SEG,CR06
+Monday,2:00–2:50 PM,Lock,,Campus
+Monday,3:00–4:50 PM,Choice of NSS/PT & Games/Creative Arts/Entrepreneurship,NIS/RJA,OD/CR 04
+Tuesday,10:00–10:50 AM,EC24203 - Digital System Design,SNE,C11
+Tuesday,11:00–11:50 AM,Data Structures and Algorithms,SKS,CR 11
+Tuesday,12:00–12:50 PM,Computer Organization and Architecture,DHB,CR 11
+Tuesday,2:00–4:50 PM,IT Workshop,SEG,LAB 1
+Wednesday,9:00–9:50 AM,Computer Organization and Architecture,DHB,CR 12
+Wednesday,11:00 AM–1:50 PM,Data Structures and Algorithms Lab,PTK,LAB 1
+Wednesday,3:00–3:50 PM,Mathematics for Computer Science,GSM,CR 11
+Wednesday,4:00–4:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,CR-11
+Thursday,9:00–9:50 AM,Computer Organization and Architecture,DHB,CR 11
+Thursday,10:00–10:50 AM,Data Structures and Algorithms,SKS,CR 11
+Thursday,11:00–11:50 AM,Mathematics for Computer Science,GSM,CR 11
+Thursday,12:00–12:50 PM,Discrete Mathematics,BHA,CR 11
+Thursday,2:00–2:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C6
+Thursday,3:00–4:50 PM,EC24204 - Digital System Design Lab (B2),DCS,EL3
+Friday,9:00–10:50 AM,EC24204 - Digital System Design Lab (B1),PUS,EL3
+Friday,1:00–1:50 PM,Mathematics for Computer Science,GSM,CR 11
+Friday,2:00–2:50 PM,Discrete Mathematics,BHA,CR 11
+Friday,3:00–3:50 PM,MT24131 - UHV-II Understanding Harmony,ANS,C11
+Friday,4:00–4:50 PM,EC24203 - Digital System Design,SNE,CR11

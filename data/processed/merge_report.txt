@@ -1,0 +1,72 @@
+==============================================================================
+CLASSROOM FINDER — MASTER TIMETABLE MERGE REPORT
+==============================================================================
+
+1. EXECUTION SUMMARY
+  - Total Input CSV Files Discovered:  36
+  - Successfully Parsed Files:         36
+  - Failed Files:                      0
+  - Total Timetable Records Processed: 711
+  - Rows With Validation Warnings:     1
+  - Exact Duplicate Records Detected:  0
+
+2. WARNING COUNTS BY CATEGORY
+  - MISSING_FACULTY             : 1
+
+3. PER-FILE PROCESSING DETAILS
+  #   Filename                                           Rows   Header   Status
+  --------------------------------------------------------------------------
+  1   B.Sc. Animation and Multimedia Sem 5.csv           20     Row 1    SUCCESS
+  2   B.Tech AI, Sem 3 - Section C.csv                   24     Row 1    SUCCESS
+  3   B.Tech AI, Sem 5 - Section C.csv                   23     Row 1    SUCCESS
+  4   B.Tech AI, Sem 7  - Section C.csv                  13     Row 1    SUCCESS
+  5   B.Tech CSE, Sem 3 - Section A.csv                  24     Row 2    SUCCESS
+  6   B.Tech CSE, Sem 3 - Section B.csv                  25     Row 1    SUCCESS
+  7   B.Tech CSE, Sem 5 - Section A.csv                  24     Row 1    SUCCESS
+  8   B.Tech CSE, Sem 5 - Section B.csv                  24     Row 1    SUCCESS
+  9   B.Tech CSE, Sem 7 - Section A.csv                  11     Row 1    SUCCESS
+  10  B.Tech CSE, Sem 7 - Section B.csv                  11     Row 1    SUCCESS
+  11  B.Tech ECE, Sem 3 .csv                             23     Row 1    SUCCESS
+  12  B.Tech ECE, Sem 5.csv                              18     Row 1    SUCCESS
+  13  B.Tech ECE, Sem 7.csv                              14     Row 1    SUCCESS
+  14  B.Tech EEE, Sem 3.csv                              23     Row 1    SUCCESS
+  15  B.Tech EEE, Sem 5.csv                              19     Row 1    SUCCESS
+  16  B.Tech EEE, Sem 7.csv                              8      Row 1    SUCCESS
+  17  B.Tech. 1st Year, Sem 1 — Section A.csv            22     Row 1    SUCCESS
+  18  B.Tech. 1st Year, Sem 1 — Section B.csv            21     Row 1    SUCCESS
+  19  B.Tech. 1st Year, Sem 1 — Section C.csv            21     Row 1    SUCCESS
+  20  B.Tech. 1st Year, Sem 1 — Section D.csv            21     Row 1    SUCCESS
+  21  BBA Sem 5.csv                                      23     Row 1    SUCCESS
+  22  BBA sem 1.csv                                      24     Row 2    SUCCESS
+  23  BBA sem 3.csv                                      22     Row 2    SUCCESS
+  24  BCA SEM 5.csv                                      18     Row 1    SUCCESS
+  25  BCA Sem 3.csv                                      19     Row 2    SUCCESS
+  26  BCA sem 1.csv                                      25     Row 1    SUCCESS
+  27  BSc AI&DS sem 1.csv                                22     Row 2    SUCCESS
+  28  BSc AI&DS sem 3.csv                                19     Row 2    SUCCESS
+  29  BSc. Visual Communications sem 1.csv               22     Row 1    SUCCESS
+  30  BSc. Visual Communications sem 3.csv               19     Row 1    SUCCESS
+  31  MCA1 — Master of Computer Applications, Semester 1.csv 17     Row 1    SUCCESS
+  32  MCA3 — Master of Computer Applications, Semester 3.csv 18     Row 1    SUCCESS
+  33  MSc (AI & DS) Semester 1.csv                       21     Row 1    SUCCESS
+  34  MSc (AI & DS) Semester 3.csv                       16     Row 1    SUCCESS
+  35  Master of Animation Design, Semester 1.csv         18     Row 1    SUCCESS
+  36  Master of Animation Design, Semester 3.csv         19     Row 1    SUCCESS
+
+4. DETAILED VALIDATION WARNINGS & DIAGNOSTICS
+  [01] B.Tech CSE, Sem 3 - Section B.csv (Row 6)
+       Type:   MISSING_FACULTY
+       Detail: Faculty code is empty for subject 'Lock' at venue 'Campus'
+
+5. RECORDS REQUIRING MANUAL REVIEW
+  - File: B.Tech CSE, Sem 3 - Section B.csv, Row: 6
+    Issue: Faculty code is empty for subject 'Lock' at venue 'Campus'
+
+6. GENERATED OUTPUT ARTIFACTS
+  - Master Timetable CSV:   /Users/vidhipatidar/Documents/Classroom-Finder-Data/data/processed/master_timetable.csv
+  - Validation Warnings CSV:/Users/vidhipatidar/Documents/Classroom-Finder-Data/data/processed/validation_warnings.csv
+  - Merge Report Text:      /Users/vidhipatidar/Documents/Classroom-Finder-Data/data/processed/merge_report.txt
+
+==============================================================================
+END OF REPORT
+==============================================================================

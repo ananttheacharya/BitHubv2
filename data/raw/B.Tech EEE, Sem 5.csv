@@ -1,0 +1,20 @@
+Day,Time,Subject,Faculty,Venue
+Monday,11:00 AM–12:50 PM,EE24304 - Control System Laboratory,PSR,EL2
+Monday,1:00–1:50 PM,EE24303 - Control Theory,PSR,C4
+Monday,3:00–3:50 PM,EE24305 - Power Electronics,PSR,C3
+Monday,4:00–4:50 PM,EE24307 - Electrical Power Transmission and Distribution,PRY,C3
+Tuesday,10:00–10:50 AM,EE24303 - Control Theory,PSR,C4
+Tuesday,11:00–11:50 AM,EE24307 - Electrical Power Transmission and Distribution,PRY,C14
+Tuesday,12:00–12:50 PM,EE24305 - Power Electronics,PSR,C14
+Tuesday,1:00–1:50 PM,EE24301 - AC Rotating Machines,DPV,C3
+Wednesday,11:00 AM–12:50 PM,EE24302 - Electrical Machine Laboratory-II,DPV,M/C Lab
+Wednesday,1:00–1:50 PM,EE24301 - AC Rotating Machines,DPV,C3
+Wednesday,3:00–3:50 PM,EE24305 - Power Electronics,PSR,C3
+Wednesday,4:00–4:50 PM,EE24331/EE573 - Embedded Systems and Applications,PUS,C3
+Thursday,12:00–12:50 PM,EE24303 - Control Theory,PSR,C10
+Thursday,1:00–1:50 PM,EE24307 - Electrical Power Transmission and Distribution,PRY,C3
+Thursday,3:00–3:50 PM,EE24305 - Power Electronics,PSR,C3
+Thursday,4:00–4:50 PM,EE24331/EE573 - Embedded Systems and Applications,PUS,C3
+Friday,1:00–1:50 PM,EE24301 - AC Rotating Machines,DPV,C13
+Friday,3:00–3:50 PM,EE24303 - Control Theory,PSR,C03
+Friday,4:00–4:50 PM,EE24331/EE573 - Embedded Systems and Applications,PUS,C3

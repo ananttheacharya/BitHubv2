@@ -1,0 +1,22 @@
+Day,Time,Subject / Activity,Faculty,Venue
+Monday,10:00–10:50,Basics of Mechanical Engineering (ME24101),VKS,CR-05
+Monday,11:00–11:50,Chemistry (CH24101),RJA,CR-05
+Monday,1:00–1:50,Basics Electronics and Communication Engineering (EC24101),JYS,CR-05
+Monday,2:00–2:50,Mathematics-I (MA24101),IKD,CR-05
+Monday,3:00–4:50,NSS / PT & Games / Creative Arts / Entrepreneurship,RVK / DHB,GYM / Outdoor / OD2 / CR 05
+Tuesday,9:00–9:50,Mathematics-I (MA24101),IKD,CR-05
+Tuesday,12:00–12:50,Chemistry (CH24101),RJA,CR-05
+Tuesday,1:00–1:50,Environmental Sciences (CE24101),NIS,CR-05
+Tuesday,2:00–2:50,Basics Electronics and Communication Engineering (EC24101),JYS,CR-05
+Wednesday,9:00–9:50,Chemistry (CH24101),RJA,CR-05
+Wednesday,10:00–10:50,Mathematics-I (MA24101),IKD,CR-5
+Wednesday,12:00–1:50,"Chemistry Lab (CH24102 Lab, D1) / Workshop Practice (PE24102 Lab, D2)",RJA / ABP,CH LAB / MWS
+Wednesday,2:00–2:50,Basics Electronics and Communication Engineering (EC24101),JYS,CR-05
+Wednesday,3:00–3:50,Basics of Mechanical Engineering (ME24101),VKS,CR-05
+Thursday,11:00–11:50,Chemistry (CH24101),RJA,CR-05
+Thursday,12:00–12:50,Environmental Sciences (CE24101),NIS,CR-05
+Thursday,1:00–2:50,"Basic Electronics Lab (EC24102 Lab, D2) / Workshop Practice (PE24102 Lab, D1)",ABTh / ABP,EL2 / MWS
+Thursday,3:00–3:50,Mathematics-I (MA24101),IKD,CR-05
+Friday,9:00–9:50,Basics of Mechanical Engineering (ME24101),VKS,CR-05
+Friday,11:00–12:50,"Basic Electronics Lab (EC24102 Lab, D1) / Chemistry Lab (CH24102 Lab, D2)",ABTh / RJA,EL2 / CH LAB
+Friday,1:00–4:50,Engineering Graphics Lab (ME24102 Lab),ABP,ED Hall
